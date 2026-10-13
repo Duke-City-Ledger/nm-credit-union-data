@@ -138,3 +138,20 @@ This is the one figure in the draft dictionary's scope that needed **both** 2025
 recoveries specifically to isolate the trailing 12 months from two overlapping YTD figures. I downloaded
 2025-06 from the same `call-report-data-YYYY-MM.zip` naming pattern used for 2025-12 (confirmed working,
 HTTP 200, 8.2MB) at https://ncua.gov/files/publications/analysis/call-report-data-2025-06.zip.
+
+## Matched against NCUA's own published ratios, 2026-10-13
+
+fpr.ncua.gov's "view an FPR Summary for one credit union online" option (no email) gives the Key Ratios page. Saved
+for the five charters, 2026-06 cycle, as text and screenshots in `fpr-2026-06/`. Our calculations from the raw call
+report zips against NCUA's published figures:
+
+| Charter | Net worth ratio (ours / NCUA) | Delinquent ÷ total loans | Rolling 12-month net charge-offs ÷ average loans |
+|---|---|---|---|
+| 808 U.S. Eagle | 7.80 / 7.80 | 6.91 / 6.91 | 0.96 / 0.96 |
+| 61559 Deming Schools Employees | 24.76 / 24.76 | 0.11 / 0.11 | 0.70 / 0.70 |
+| 66143 Chaves County School Employees | 20.88 / 20.88 | 0.00 / 0.00 | 0.00 / 0.00 |
+| 9566 Eddy | 18.34 / 18.34 | 0.00 / 0.00 | 0.92 / 0.92 |
+| 62783 Artesia | 16.12 / 16.12 | 1.08 / 1.08 | 0.27 / 0.27 |
+
+All 15 match to NCUA's two decimals. The net worth ratio is `ACCT_998` ÷ 100; delinquency `041B ÷ 025B`; charge-offs
+use 2026-06, 2025-12 and 2025-06.

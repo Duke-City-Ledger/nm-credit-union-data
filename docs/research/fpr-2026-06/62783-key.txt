@@ -1,0 +1,53 @@
+National Credit Union Administration
+Financial Performance Report - Key Ratios 5
+
+ 
+
+ 
+
+ 
+
+ 
+
+Quarterly, Ending Jun 2026
+Charter	Name	Street	City	State	ZipCode	Region
+62783	ARTESIA	PO Box 406	Artesia	NM	88210	3
+
+
+Line Item	Jun-2025	Sep-2025	Dec-2025	Mar-2026	Jun-2026	Peer Avg.
+CAPITAL ADEQUACY RATIOS
+Net Worth/Total Assets for Prompt Corrective Action6	16.02	16.65	16.20	16.12	16.12	12.37
+Net Worth + ALLL or ACL / Total Assets + ALLL or ACL	16.67	17.33	16.86	16.76	16.75	12.84
+Risk-Based Capital Ratio	N/A	N/A	N/A	N/A	N/A	N/A
+GAAP Equity / Total Assets	16.02	16.65	16.20	16.12	16.12	11.66
+Loss Coverage	5.24	5.45	5.44	6.23	7.70	11.04
+ASSET QUALITY RATIOS
+Delinquent Loans / Total Loans	0.51	0.58	0.39	0.82	1.08	0.88
+Delinquent Loans / Net Worth	2.35	2.57	1.68	3.47	4.46	4.85
+Rolling 12 Month Net Charge Offs / Average Loans2	0.19	0.20	0.23	0.23	0.27	0.48
+Delinquent Loans + Net Charge-Offs / Average Loans	0.71	0.78	0.62	1.05	1.35	1.37
+Other Non-Performing Assets / Total Assets	0.00	0.04	0.04	0.06	0.07	0.04
+MANAGEMENT RATIOS
+Net Worth Growth1	12.32	13.29	12.40	9.91	10.21	6.76
+Share Growth1	-3.13	-3.35	2.98	10.43	10.85	5.13
+Loan Growth1	2.55	0.54	0.51	0.48	0.18	3.38
+Asset Growth1	-0.91	-1.03	4.21	12.05	11.27	5.21
+Investment Growth1	534.81	366.83	369.26	42.77	45.37	10.15
+Membership Growth1	3.51	2.73	2.22	2.70	2.72	0.65
+EARNINGS RATIOS
+Net Income / Average Assets (ROAA)1	1.86	2.00	1.60	1.26	1.36	0.81
+Net Income - Extraordinary Gains(Losses) / Average Assets1	1.31	1.64	1.32	-0.39	0.65	0.78
+Non-Interest Expense / Average Assets1	2.77	2.74	2.71	4.07	3.15	3.75
+PLLL or Credit Loss Expense / Average Assets1	0.24	0.22	0.47	0.65	0.50	0.31
+LIQUIDITY
+Total Loans / Total Assets	74.21	73.81	70.35	68.38	66.66	61.82
+Cash + Short-Term Investments / Assets3	19.00	19.60	23.69	24.68	23.84	16.63
+SENSITIVITY TO MARKET RISK
+Est. NEV Tool Post Shock Ratio4	14.64	15.26	14.98	14.61	14.52	9.60
+Est. NEV Tool Post Shock Sensitivity4	-16.49	-16.08	-15.31	-16.95	-17.48	-28.35
+1 Exam date ratios are annualized.
+2 Exam Date Ratio is based on Net Charge Offs over the last 12 months.
+3 This ratio relies on maturity distribution of investments reported per 5300 instructions. Thus, the maturity distribution could be based on the repricing interval and not the actual maturity of the investment.
+4 Applicable for credit unions under $500 million.
+5 The FPR was recently reorganized resulting in some ratios being relocated but not deleted. The ratio you are looking for may be on the Historical Ratios tab.
+6 The net worth ratio is calculated according to NCUA regulations part 702. This ratio considers optional assets elections, SBA PPP loans pledged as collateral to the FRB PPP Lending Facility, and the CECL Transition Provision, as applicable. The calculation may be found on Schedule G of the Call Report, see Account 998.
