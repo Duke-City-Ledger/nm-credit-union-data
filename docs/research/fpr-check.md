@@ -161,5 +161,5 @@ use 2026-06, 2025-12 and 2025-06.
 ### Correction, 2026-10-13
 
 The 0.01-point gaps above for 66143 and 9566 were our rounding, not NCUA's. 997 ÷ 010 × 100 is 20.8753 and 18.3386,
-which round to 20.88 and 18.34, equal to `ACCT_998`. `NW0010` equals `010` for both in 2026-06 (`LC0047` is 0), so the
+which round to 20.88 and 18.34, equal to `ACCT_998` ÷ 100 (2088 and 1834). `NW0010` equals `010` for both in 2026-06 (`LC0047` is 0), so the
 denominator isn't the reason. 997 ÷ 010 × 100, rounded to two decimals, equals 998 ÷ 100 for all five.
