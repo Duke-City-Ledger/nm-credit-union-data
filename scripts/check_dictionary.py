@@ -44,7 +44,7 @@ def main() -> int:
             errors.append(f"{measure}: {code} quarters differ from the history")
         recorded = [(w["from"], w["to"], w["text"]) for w in a.get("wording_history", [])]
         actual = [(w["from"], w["to"], w["text"]) for w in h["descriptions"]]
-        if len(actual) > 1 and recorded != actual:
+        if (len(actual) > 1 or recorded) and recorded != actual:
             errors.append(f"{measure}: {code} wording history differs from the account history")
 
     for m in dictionary["measures"]:

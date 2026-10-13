@@ -112,9 +112,11 @@ Raw inputs pulled (dollars):
 |---|---|---|---|---|---|
 | 808 (U.S. Eagle) | 7.80% | 7.80% | Yes | 6.910% | 0.965% |
 | 61559 (Deming Schools) | 24.76% | 24.76% | Yes | 0.109% | 0.697% |
-| 66143 (Chaves County Schools) | 20.87% | 20.88% | Yes (0.01pt rounding, see note) | 0.000% | 0.002% |
-| 9566 (Eddy) | 18.33% | 18.34% | Yes (0.01pt rounding, see note) | 0.004% | 0.920% |
+| 66143 (Chaves County Schools) | 20.88% | 20.88% | Yes | 0.000% | 0.002% |
+| 9566 (Eddy) | 18.34% | 18.34% | Yes | 0.004% | 0.920% |
 | 62783 (Artesia) | 16.12% | 16.12% | Yes | 1.079% | 0.271% |
+
+**Superseded 2026-10-13: the 0.01-point gaps in this paragraph were our rounding (see the correction at the end).**
 
 **997/010×100 vs. the stored 998 field match to NCUA's stated 2-decimal rounding for three of five charters
 exactly, and are off by 0.01 percentage point for the other two** (66143: 20.87 vs 20.88; 9566: 18.33 vs 18.34).
@@ -160,4 +162,4 @@ use 2026-06, 2025-12 and 2025-06.
 
 The 0.01-point gaps above for 66143 and 9566 were our rounding, not NCUA's. 997 ÷ 010 × 100 is 20.8753 and 18.3386,
 which round to 20.88 and 18.34, equal to `ACCT_998`. `NW0010` equals `010` for both in 2026-06 (`LC0047` is 0), so the
-denominator isn't the reason. 997 ÷ 010, rounded to two decimals, equals 998 for all five.
+denominator isn't the reason. 997 ÷ 010 × 100, rounded to two decimals, equals 998 ÷ 100 for all five.

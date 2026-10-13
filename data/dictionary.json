@@ -166,7 +166,7 @@
         "guide": "FPR Ratio and Formula Guide v3.3, June 30, 2023 (https://ncua.gov/files/publications/analysis/fpr-ratio-formula-guide.pdf), pp. 4-5",
         "result": "Matched to two decimals for charters 808, 61559, 66143, 9566 and 62783, 2026-06 (docs/research/fpr-check.md, saved pages in docs/research/fpr-2026-06/)."
       },
-      "note": "Printed as filed. For the five hand-check charters NW0010 equals 010 in 2026-06, and 997 / 010, rounded to two decimals, equals 998 for all five. (An early note had 66143 and 9566 off by 0.01 point; that was our rounding, not NCUA's.)"
+      "note": "Printed as filed. For the five hand-check charters NW0010 equals 010 in 2026-06, and 997 / 010 x 100, rounded to two decimals, equals 998 / 100 for all five. (An early note had 66143 and 9566 off by 0.01 point; that was our rounding, not NCUA's.)"
     },
     {
       "id": "delinquency",

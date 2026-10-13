@@ -50,11 +50,11 @@ Page numbers below are the printed page numbers in the PDF (footer), not PDF-rea
   |---|---|---|---|---|---|
   | 808 (U.S. Eagle) | 113,766,182 | 1,458,642,449 | 7.80% | 780 | 7.80% |
   | 61559 (Deming Schools) | 1,333,530 | 5,385,932 | 24.76% | 2476 | 24.76% |
-  | 66143 (Chaves County Schools) | 8,368,107 | 40,086,174 | 20.87% | 2088 | 20.88% |
-  | 9566 (Eddy) | 11,328,479 | 61,773,891 | 18.33% | 1834 | 18.34% |
+  | 66143 (Chaves County Schools) | 8,368,107 | 40,086,174 | 20.88% | 2088 | 20.88% |
+  | 9566 (Eddy) | 11,328,479 | 61,773,891 | 18.34% | 1834 | 18.34% |
   | 62783 (Artesia) | 27,847,486 | 172,724,377 | 16.12% | 1612 | 16.12% |
 
-  **The draft dictionary's assumption is confirmed: Account 998 is stored in the FS220A.txt extract as the percentage × 100 (i.e., basis points of a percent — 780 = 7.80%, not 7.80% as a literal percent, and not a 0–1 fraction).** The small (0.01 pt) differences for 66143 and 9566 are consistent with NCUA's own 2-decimal rounding of the published ratio versus a from-scratch recomputation off 997/010 — 998 is apparently rounded off NW0010 (which can differ slightly from 010 if the credit union made an asset election), not always 010 itself. This is a minor, immaterial discrepancy, not a sign the scaling assumption is wrong.
+  **The draft dictionary's assumption is confirmed: Account 998 is stored in the FS220A.txt extract as the percentage × 100 (i.e., basis points of a percent — 780 = 7.80%, not 7.80% as a literal percent, and not a 0–1 fraction).** (Superseded 2026-10-13: an earlier version reported 0.01-point gaps for 66143 and 9566. They were our rounding; 997/010×100 rounds to 998÷100 for all five. See fpr-check.md.)
 - **Draft dictionary check:** Confirmed correct.
 
 ## ACCT_041B — Delinquent Loans & Leases, two months or more
@@ -68,7 +68,7 @@ Page numbers below are the printed page numbers in the PDF (footer), not PDF-rea
 
 ## ACCT_550 / ACCT_551 — YTD Charge-offs / YTD Recoveries
 
-- **Schedule:** Schedule A, Section 3 — Loan Charge Offs & Recoveries, Item 21, p.66.
+- **Schedule:** Schedule A, Section 3 — Loan Charge Offs & Recoveries, Item 21, p.67.
 - **Definition:** "This line does not require input ... will automatically populate ... with the sum of items 1 through 20," each of which is a loan-category row reporting charge-offs (left column) and recoveries (right column) "year-to-date."
 - **Sign convention — can recoveries (551) exceed charge-offs (550) in a given quarter?** The Instructions do not explicitly address this, but it follows from the definition: 551 is YTD **recoveries on loans previously charged off**, not recoveries limited to loans charged off in the current YTD period. A credit union can recover more in a given calendar year than it charges off in that same year (e.g., a large prior-year repossession resolves this year). **UNVERIFIED as an explicit instruction statement — inferred from the account definitions; I found no sentence in the Instructions that states the sign relationship directly.** This matters for the net charge-off ratio (see fpr-check.md), where (550−551) can in principle go negative for a given cycle.
 - **Units:** Dollars, year-to-date (resets each calendar year — i.e., March, June, September cycles are not comparable to December without the "rolling 12-month" adjustment the FPR formula guide uses; see fpr-check.md).
@@ -76,14 +76,14 @@ Page numbers below are the printed page numbers in the PDF (footer), not PDF-rea
 
 ## ACCT_400T1 — Total Commercial Loans (member + nonmember)
 
-- **Schedule:** Schedule A, Section 8 — Commercial Lending, p.89.
+- **Schedule:** Schedule A, Section 8 — Commercial Lending, p.90 (total).
 - **Definition:** "Total Commercial Loans (Accounts 900T1 and 400T1) — This item does not require input and will automatically populate ... with the sum of Accounts 900A1 and 900B1 and Accounts 400A1 and 400B1," where 900A1/400A1 = Total Commercial Loans **to Members** (count/balance) and 900B1/400B1 = Total Commercial Loans **to Nonmembers** (count/balance).
 - **Units:** Dollars (400T1); 900T1 is the parallel loan-count total.
 - **Draft dictionary check:** Correct — "outstanding member+nonmember commercial loans."
 
 ## ACCT_718A3 / ACCT_718A4 — Real-estate-secured commercial loans, member / nonmember
 
-- **Schedule:** Schedule A, Section 8, Items 1f and 2f, p.85 and p.89.
+- **Schedule:** Schedule A, Section 8, Items 1f and 2f, p.86 and p.89.
 - **718A3 — "Total Real Estate Secured" (member), Accounts 900K2, 718A3, 090K2, 475K2:** auto-populated as the sum of items 1a–1e (construction & development, farmland, multifamily, owner-occupied non-farm non-residential, non-owner-occupied non-farm non-residential), all **to members**.
 - **718A4 — same, Accounts 900K3, 718A4, 090K3, 475K3, items 2a–2e, to nonmembers.**
 - **Units:** Dollars (outstanding balance, excluding unfunded commitments per the general Section 8 instructions).
@@ -97,13 +97,13 @@ Page numbers below are the printed page numbers in the PDF (footer), not PDF-rea
 
 ## ACCT_RL0047 — 1-4 family residential + other consumer RE loans outstanding
 
-- **Schedule:** Schedule A, Section 1, Item 11, p.72 (the **FS220R** data table).
+- **Schedule:** Schedule A, Section 7, Item 11, p.79 (the **FS220R** data table).
 - **Definition:** "Total 1- to 4-Family Residential Property and All Other Non-Commercial Real Estate Loans/Lines of Credit (Accounts RL0046, RL0047, and RL0048)" — auto-populated as a sum across the detailed 1-4 family and "all other (non-commercial)" real estate rows.
 - **Draft dictionary check:** Correct.
 
 ## ACCT_RL0050 — Portion of RL0047 repricing/refinancing/maturing within 5 years
 
-- **Schedule:** Schedule A, Section 1, Item 13, p.72/73.
+- **Schedule:** Schedule A, Section 7, Item 13, p.79.
 - **Definition:** "Report the outstanding balance of real estate loans reported in Account RL0047 that, according to contractual agreements, will refinance, reprice, or mature within the next 5 years **and that are not reported as Commercial Loans.**"
 - **Draft dictionary check:** Correct.
 
@@ -122,7 +122,7 @@ Page numbers below are the printed page numbers in the PDF (footer), not PDF-rea
 ## ACCT_712 — "catch-all"? **WRONG in the draft dictionary; this account is a dead/legacy field as of the current form.**
 
 - **Current status:** Account 712 is **not documented anywhere in the September 2025 Instructions** — no section references "Account 712" or "(ACCOUNT 712)." It survives only in the Account Descriptions reference file (`/tmp/cuv/AcctDesc.txt`), which still carries its **pre-2022 definition**: "Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f." That description describes a field that predates the 2022 restructuring (it refers to the old Section 4 line numbering, not the current Schedule A Section 8 numbering).
-- **Confirmed retired, not a catch-all, by the official change log:** The March 31, 2022 Call Report Changes document (p.96) lists Account 712 explicitly: "Action: Retire & Replaced. Action Description: Contents of account code changed slightly so a new account code is needed – new account ARL0050. Revised Decision for Action: Account currently has both member business and consumer real estate loans. New account (ARL0050) will only have 1-4 family residential real estate non-commercial loans/lines of credit." The same document's full account-by-account table (p.141) separately shows a **new** account "ACM0099 ... New – Replacement" explicitly noted as "Account 712 used in prior Call Reports to collect similar information, this account does not include consumer real estate."
+- **Confirmed retired, not a catch-all, by the official change log:** The March 31, 2022 Call Report Changes document (p.96) lists Account 712 explicitly: "Action: Retire & Replaced. Action Description: Contents of account code changed slightly so a new account code is needed – new account ARL0050. Revised Decision for Action: Account currently has both member business and consumer real estate loans. New account (ARL0050) will only have 1-4 family residential real estate non-commercial loans/lines of credit." The same document's full account-by-account table (p.142) separately shows a **new** account "ACM0099 ... New – Replacement" explicitly noted as "Account 712 used in prior Call Reports to collect similar information, this account does not include consumer real estate."
 - **In plain terms:** at the March 2022 revision, the old single Account 712 (real estate repricing/maturity bucket spanning both commercial and consumer loans) was split into two: **RL0050** (the non-commercial/1-4-family piece) and **CM0099** (the commercial piece, scoped to 718A3+718A4). Account 712 itself was retired.
 - **Confirmed empirically:** I pulled Account 712 from the live 2026-06 `/tmp/cuv/FS220.txt` extract for all five test charters — **every one reports 0** (U.S. Eagle, Deming, Chaves County, Eddy, and Artesia all show `ACCT_712 = 0`). This is consistent with a retired field kept in the schema for backward file-format compatibility but no longer populated.
 - **Draft dictionary check: WRONG.** 712 is not a current "catch-all" account; it is retired/legacy and currently always zero. Its former function has been split between RL0050 and CM0099.
