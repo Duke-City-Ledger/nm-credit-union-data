@@ -35,14 +35,14 @@ Page numbers below are the printed page numbers in the PDF (footer), not PDF-rea
 
 ## ACCT_997 — Total Net Worth
 
-- **Schedule:** Schedule H, Section 2, Item 8. (p.126 of Sept 2025 Instructions, per TOC; account dictionary description at `/tmp/cuv/AcctDesc.txt`.)
+- **Schedule:** Schedule G (Capital Adequacy Worksheet), Section 2, Item 8. (p.126 of Sept 2025 Instructions, per TOC; account dictionary description at `/tmp/cuv/AcctDesc.txt`.)
 - **Definition:** "This item does not require input ... will automatically populate ... with the sum of Accounts 940, 668, 658, 602, NW0004, 925A, and 1004." AcctDesc.txt: "Sum of Undivided Earnings, Regular Reserves, Appropriation for Non-Conforming Investments, Other Reserves, Uninsured Secondary Capital, Net Income."
 - **Units:** Dollars.
 - **Draft dictionary check:** "ACCT_997 is net worth" — correct.
 
 ## ACCT_998 — Net Worth Ratio
 
-- **Schedule:** Schedule H, Section 4, Item 1 (p.127 per TOC; full text p.5662–5665 of extracted instructions text).
+- **Schedule:** Schedule G (Capital Adequacy Worksheet), Section 4, Item 1 (p.127 per TOC; full text p.5662–5665 of extracted instructions text).
 - **Definition (Instructions, Sept 2025):** "This item does not require input ... will automatically populate ... with the result of Account 997 divided by Account NW0010, 010A minus LC0047 plus NW0004, 010B minus LC0047 plus NW0004, or 010C minus LC0047 plus NW0004." The FPR Ratio and Formula Guide (v3.3, p.4) gives the same formula explicitly as **997 ÷ NW0010 (or elected alternative) × 100**, and states: "The ratio is rounded to two decimal places (for example, 6.997 would be rounded to 7.00%)."
 - **Units/scaling — VERIFIED against raw data:** The formula produces a percentage (e.g. 7.80 for 7.80%). I pulled Account 998's raw stored value from the 2026-06 call report extract (`/tmp/cuv/FS220A.txt`) for all five test charters and recomputed 997/010×100 independently:
 
@@ -143,3 +143,13 @@ Page numbers below are the printed page numbers in the PDF (footer), not PDF-rea
 - Whether recoveries (551) can exceed charge-offs (550) in the Instructions' own words — not found explicitly stated; treated as inferred, not confirmed (see ACCT_550/551 above).
 - The 691C2/691P2 "guaranteed portion only" labels for the *commercial* SBA/other-government-guaranteed accounts are confirmed by structural analogy to the parallel non-commercial accounts and by the account index, not by a sentence naming 691C2/691P2 individually. Flagging as high-confidence, not word-for-word-quoted.
 - I did not reconstruct the full pre-2022 Section 4 form layout (no Section-4-era form PDF was fetched) to independently double check the exact old line numbers "1.f" / "2.f" referenced in Account 712's legacy description — that detail is quoted from AcctDesc.txt and the 2022 change log, not cross-checked against an actual pre-2022 form PDF.
+
+## Corrections, 2026-10-13
+
+- `ACCT_997` and `ACCT_998` are on **Schedule G** (Capital Adequacy Worksheet, Sections 2 and 4), not Schedule H as first
+  written. The instructions' table of contents puts Sections 1 to 4 under Schedule G (p. 123); Schedule H starts on
+  p. 128. The FPR's own footnote agrees ("see Account 998" on Schedule G).
+- `ACCT_083` is Schedule D, Section 1, Item 1 (p. 111). `ACCT_718A5` is Schedule A, Section 1, Item 12 (p. 54).
+- `718A5` against `718A3 + 718A4`, and `025B1` against `025B`, every quarter: equal for every credit union from
+  2018-03 through 2023-09, then off by rounding only from 2023-12 (at most $10 and $13 nationally). In 2017-12, `718A5`
+  differed from the sum by up to $19 million for 355 credit unions. No figure uses 2017-12.

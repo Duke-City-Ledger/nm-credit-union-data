@@ -34,6 +34,8 @@ export const ACCOUNTS = [
   'ACCT_010', 'ACCT_025B', 'ACCT_997', 'ACCT_998', 'ACCT_041B', 'ACCT_550', 'ACCT_551',
   'ACCT_400T1', 'ACCT_718A3', 'ACCT_718A4', 'ACCT_CM0099', 'ACCT_RL0047', 'ACCT_RL0050',
   'ACCT_691P1', 'ACCT_691P2', 'ACCT_691C1', 'ACCT_691C2', 'ACCT_712', 'ACCT_083',
+  // Read only as checks: 025B1 must equal 025B, 718A5 must equal 718A3 + 718A4.
+  'ACCT_025B1', 'ACCT_718A5',
 ];
 
 function arg(name, fallback) {

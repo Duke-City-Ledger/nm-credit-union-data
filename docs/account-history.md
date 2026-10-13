@@ -157,3 +157,19 @@ meaning changed (a break in the series) or only the wording.
 - One description throughout:
   - 2017-12 to 2026-06: Number of current members (not number of accounts) | Report the number of credit union members. Report the actual number of members, not the number of accounts.
 
+## ACCT_025B1
+
+- In 35 of 35 quarters.
+- Carried in `fs220L.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220L.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- One description throughout:
+  - 2017-12 to 2026-06: Total Amount of Loans & Leases on Loan Schedule | Total Amount of Loans & Leases on Loan Schedule
+
+## ACCT_718A5
+
+- In 35 of 35 quarters.
+- Carried in `fs220L.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220L.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- One description throughout:
+  - 2017-12 to 2026-06: Amount of Commercial Loans/Lines of Credit Real Estate Secured | Amount of Commercial Loans/Lines of Credit Real Estate Secured
+
