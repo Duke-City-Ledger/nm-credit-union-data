@@ -163,10 +163,10 @@
       ],
       "fpr": {
         "ratio": "Net Worth/Total Assets for Prompt Corrective Action",
-        "guide": "FPR Ratio and Formula Guide v3.3, June 30, 2023 (https://ncua.gov/files/publications/analysis/fpr-ratio-formula-guide.pdf), p. 4",
+        "guide": "FPR Ratio and Formula Guide v3.3, June 30, 2023 (https://ncua.gov/files/publications/analysis/fpr-ratio-formula-guide.pdf), pp. 4-5",
         "result": "Matched to two decimals for charters 808, 61559, 66143, 9566 and 62783, 2026-06 (docs/research/fpr-check.md, saved pages in docs/research/fpr-2026-06/)."
       },
-      "note": "Printed as filed. 997 / 010 can differ by 0.01 point (66143, 9566 in 2026-06) because NCUA divides by NW0010, not 010."
+      "note": "Printed as filed. For the five hand-check charters NW0010 equals 010 in 2026-06, and 997 / 010, rounded to two decimals, equals 998 for all five. (An early note had 66143 and 9566 off by 0.01 point; that was our rounding, not NCUA's.)"
     },
     {
       "id": "delinquency",
@@ -227,7 +227,7 @@
           "ncua_name": "Total Amount of All Loans Charged Off Year-to-Date",
           "ncua_description": "Report the dollar amount of loans charged off year-to-date.",
           "form": "Schedule A, Section 3, Item 21",
-          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 66",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 67",
           "units": "whole dollars, year to date"
         },
         {
@@ -244,7 +244,7 @@
           "ncua_name": "Total Amount of All Year-to-Date Recoveries on Charged-Off Loans",
           "ncua_description": "Report the dollar amount of loan recoveries made year-to-date.",
           "form": "Schedule A, Section 3, Item 21",
-          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 66",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 67",
           "units": "whole dollars, year to date",
           "note": "Recoveries on loans charged off in any year, so net charge-offs can be negative. Inferred from the definition; the instructions don't say it outright."
         },
@@ -282,7 +282,7 @@
           "ncua_name": "Outstanding balance of all member and non-member commercial loans",
           "ncua_description": "Outstanding balance of all member and non-member commercial loans",
           "form": "Schedule A, Section 8, total of member (400A1) and nonmember (400B1) commercial loans",
-          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 89",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 90",
           "units": "whole dollars"
         },
         {
@@ -320,7 +320,7 @@
           "ncua_name": "Amount of real estate loans included in Accounts 718A3 and 718A4 above that contractually refinance, reprice, or mature within the next 5 years.",
           "ncua_description": "Amount of real estate loans included in Accounts 718A3 and 718A4 above that contractually refinance, reprice, or mature within the next 5 years.",
           "form": "Schedule A, Section 8, Item 4",
-          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 90; created as a replacement for 712 in Call Report Changes, March 31, 2022 (https://ncua.gov/files/publications/regulations/call-report-changes-march-2022.pdf), p. 141",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 90; created as a replacement for 712 in Call Report Changes, March 31, 2022 (https://ncua.gov/files/publications/regulations/call-report-changes-march-2022.pdf), p. 142",
           "units": "whole dollars",
           "note": "Excludes loans reported as 1- to 4-family residential."
         },
@@ -338,7 +338,7 @@
           "ncua_name": "Total Outstanding Balance of real estate secured member commercial loans",
           "ncua_description": "Total Outstanding Balance of real estate secured member commercial loans",
           "form": "Schedule A, Section 8, Item 1f (members)",
-          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 85",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 86",
           "units": "whole dollars"
         },
         {
@@ -389,7 +389,7 @@
       ],
       "fpr": {
         "equivalent": null,
-        "checked_instead": "No FPR ratio uses CM0099. Worked from the raw zip: 808 U.S. Eagle 207,585,146 / 216,546,996 = 95.86% (2026-06); the other four have no commercial real estate. The layer-3 second calculation has to agree."
+        "checked_instead": "No FPR ratio is this share. CM0099 enters the FPR only inside Net Long-Term Assets / Total Assets (FPR guide p. 31), as one part of a larger sum, so it can't be compared directly. Worked from the raw zip: 808 U.S. Eagle 207,585,146 / 216,546,996 = 95.86% (2026-06); the other four have no commercial real estate. The layer-3 second calculation has to agree."
       }
     },
     {
@@ -414,8 +414,8 @@
           },
           "ncua_name": "Real Estate Loans reported in Account RL0047 that contractually refinance, reprice or mature within the next 5 years",
           "ncua_description": "Real Estate Loans reported in Account RL0047 that contractually refinance, reprice or mature within the next 5 years",
-          "form": "Schedule A, Section 1, Item 13",
-          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), pp. 72-73; created in Call Report Changes, March 31, 2022 (https://ncua.gov/files/publications/regulations/call-report-changes-march-2022.pdf), p. 96",
+          "form": "Schedule A, Section 7, Item 13",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 79; created in Call Report Changes, March 31, 2022 (https://ncua.gov/files/publications/regulations/call-report-changes-march-2022.pdf), p. 96",
           "units": "whole dollars",
           "note": "Excludes loans reported as commercial."
         },
@@ -432,8 +432,8 @@
           },
           "ncua_name": "Total 1- to 4-Family Residential Property and All Other Consumer Real Estate Loans/Lines of Credit - Amount of Loans Outstanding",
           "ncua_description": "Total 1- to 4-Family Residential Property and All Other Consumer Real Estate Loans/Lines of Credit - Amount of Loans Outstanding",
-          "form": "Schedule A, Section 1, Item 11",
-          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 72",
+          "form": "Schedule A, Section 7, Item 11",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 79",
           "units": "whole dollars"
         }
       ],
@@ -445,13 +445,13 @@
       ],
       "fpr": {
         "equivalent": null,
-        "checked_instead": "No FPR ratio uses RL0050. Worked from the raw zip (2026-06): 808 U.S. Eagle 38,854,674 / 193,845,966 = 20.04%; 62783 Artesia 0 / 36,520,418 = 0.00%; the other three have no real estate loans. The layer-3 second calculation has to agree."
+        "checked_instead": "No FPR ratio is this share. RL0050 enters the FPR only inside Net Long-Term Assets / Total Assets (FPR guide p. 31), as one part of a larger sum, so it can't be compared directly. Worked from the raw zip (2026-06): 808 U.S. Eagle 38,854,674 / 193,845,966 = 20.04%; 62783 Artesia 0 / 36,520,418 = 0.00%; the other three have no real estate loans. The layer-3 second calculation has to agree."
       }
     },
     {
       "id": "other_gov_guaranteed",
       "label": "Other government-guaranteed commercial loans",
-      "plain_words": "Business loans backed by a federal guarantee other than SBA, USDA among them.",
+      "plain_words": "Business loans made under a federal guarantee program other than SBA, USDA among them.",
       "formula": "ACCT_691P1 (balance), ACCT_691P2 (guaranteed part)",
       "units": "dollars",
       "accounts": [
@@ -483,7 +483,7 @@
               "text": "Outstanding Balance of Commercial Other Government Guaranteed Loans | Outstanding Balance of Commercial Other Government Guaranteed Loans"
             }
           ],
-          "note": "Total balance including the guaranteed part."
+          "note": "Total balance including the guaranteed part. Includes program loans supported by a favorable junior lien with no guarantee (guaranteed part reported as 0), as for SBA (instructions p. 57)."
         },
         {
           "account": "ACCT_691P2",
@@ -532,7 +532,7 @@
     {
       "id": "sba",
       "label": "SBA loans",
-      "plain_words": "Business loans backed by the SBA.",
+      "plain_words": "Business loans made under SBA programs.",
       "formula": "ACCT_691C1 (balance), ACCT_691C2 (guaranteed part)",
       "units": "dollars",
       "accounts": [
@@ -655,7 +655,7 @@
       "ncua_name": "Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f.",
       "ncua_description": "Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f.",
       "form": "Formerly Section 4 (pre-2022 numbering)",
-      "instructions": "Call Report Changes, March 31, 2022 (https://ncua.gov/files/publications/regulations/call-report-changes-march-2022.pdf), pp. 96, 141",
+      "instructions": "Call Report Changes, March 31, 2022 (https://ncua.gov/files/publications/regulations/call-report-changes-march-2022.pdf), pp. 96, 142",
       "units": "dollars",
       "note": "Retired in March 2022 and split into CM0099 (commercial) and RL0050 (home and consumer). Still in the files, zero for all 4,299 credit unions in 2026-06. Never read."
     }

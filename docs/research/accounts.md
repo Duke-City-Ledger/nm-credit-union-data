@@ -153,3 +153,7 @@ Page numbers below are the printed page numbers in the PDF (footer), not PDF-rea
 - `718A5` against `718A3 + 718A4`, and `025B1` against `025B`, every quarter: equal for every credit union from
   2018-03 through 2023-09, then off by rounding only from 2023-12 (at most $10 and $13 nationally). In 2017-12, `718A5`
   differed from the sum by up to $19 million for 355 credit unions. No figure uses 2017-12.
+- `RL0047` and `RL0050` are on Schedule A, **Section 7** (1- to 4-family residential and other non-commercial real
+  estate), Items 11 and 13, p. 79, not Section 1. Other page fixes, from the Codex review of `dictionary.json`: 550/551
+  total p. 67; 400T1 total p. 90; 718A3 p. 86; the CM0099 replacement entry in the March 2022 changes p. 142.
+- The 0.01-point net worth gaps for 66143 and 9566 were a rounding slip; see `fpr-check.md`.

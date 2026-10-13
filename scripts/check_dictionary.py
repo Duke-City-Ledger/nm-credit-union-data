@@ -19,11 +19,18 @@ def main() -> int:
     errors = []
     entries = [(m["id"], a) for m in dictionary["measures"] for a in m["accounts"]]
     entries += [("not_used", a) for a in dictionary["not_used"]]
-    listed = {a["account"] for _, a in entries}
+    by_id = {m["id"]: m for m in dictionary["measures"]}
+    defined = {a["account"] for _, a in entries if "see" not in a}
+    listed = set(defined)
 
     for measure, a in entries:
         code = a["account"]
         if "see" in a:
+            target = by_id.get(a["see"])
+            if target is None or code not in {x["account"] for x in target["accounts"] if "see" not in x}:
+                errors.append(f"{measure}: {code} points to {a['see']}, which doesn't define it")
+            else:
+                listed.add(code)
             continue
         h = history.get(code)
         if h is None:
@@ -35,8 +42,10 @@ def main() -> int:
         q = a["quarters"]
         if (q["from"], q["to"], q["count"]) != (h["quarters"][0], h["quarters"][-1], len(h["quarters"])):
             errors.append(f"{measure}: {code} quarters differ from the history")
-        if len(h["descriptions"]) > 1 and len(a.get("wording_history", [])) != len(h["descriptions"]):
-            errors.append(f"{measure}: {code} has {len(h['descriptions'])} wordings; the dictionary records fewer")
+        recorded = [(w["from"], w["to"], w["text"]) for w in a.get("wording_history", [])]
+        actual = [(w["from"], w["to"], w["text"]) for w in h["descriptions"]]
+        if len(actual) > 1 and recorded != actual:
+            errors.append(f"{measure}: {code} wording history differs from the account history")
 
     for m in dictionary["measures"]:
         texts = [m["formula"]] + [c["rule"] for c in m.get("checks", [])]
