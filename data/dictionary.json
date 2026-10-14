@@ -759,7 +759,7 @@
       "plain_words": "What it charges on a credit card.",
       "formula": "ACCT_521 / 100",
       "units": "percent",
-      "scaling": "Stored as the percent times 100. A 0 means the product isn't offered or wasn't reported: null, printed \"Not offered or not reported,\" never 0%.",
+      "scaling": "Stored as the percent times 100. A 0 comes with no loans of that kind on its books (the instructions ask for loans that have a balance): null, with \"No rate reported: none of these loans on its books\" in notes, never 0%. Outside 1% to 30%, tested before rounding: null and withheld.",
       "accounts": [
         {
           "account": "ACCT_521",
@@ -777,10 +777,10 @@
           "form": "Schedule A, Section 1, Item 1, interest rate column",
           "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), pp. 50, 51",
           "units": "percent x 100",
-          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
+          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If a loan type only includes purchased loans, report the most common yield on the loans purchased (yield should include the impact of any premiums or discounts). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
         }
       ],
-      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
+      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it; for a kind of loan it only buys from other lenders, the most common yield instead. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
       "fpr": {
         "equivalent": null,
         "checked_instead": "No FPR equivalent. One day's most common offered rate, self-reported. Checked by reading the raw zip for the hand-check credit unions and comparing with each credit union's own posted rates (a later date, so a plausibility check, not a match)."
@@ -793,7 +793,7 @@
       "plain_words": "What it charges on a new car loan.",
       "formula": "ACCT_523 / 100",
       "units": "percent",
-      "scaling": "Stored as the percent times 100. A 0 means the product isn't offered or wasn't reported: null, printed \"Not offered or not reported,\" never 0%.",
+      "scaling": "Stored as the percent times 100. A 0 comes with no loans of that kind on its books (the instructions ask for loans that have a balance): null, with \"No rate reported: none of these loans on its books\" in notes, never 0%. Outside 1% to 30%, tested before rounding: null and withheld.",
       "accounts": [
         {
           "account": "ACCT_523",
@@ -811,10 +811,10 @@
           "form": "Schedule A, Section 1, Item 5, interest rate column",
           "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), pp. 50, 52",
           "units": "percent x 100",
-          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
+          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If a loan type only includes purchased loans, report the most common yield on the loans purchased (yield should include the impact of any premiums or discounts). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
         }
       ],
-      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
+      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it; for a kind of loan it only buys from other lenders, the most common yield instead. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
       "fpr": {
         "equivalent": null,
         "checked_instead": "No FPR equivalent. One day's most common offered rate, self-reported. Checked by reading the raw zip for the hand-check credit unions and comparing with each credit union's own posted rates (a later date, so a plausibility check, not a match)."
@@ -826,7 +826,7 @@
       "plain_words": "What it charges on a used car loan.",
       "formula": "ACCT_524 / 100",
       "units": "percent",
-      "scaling": "Stored as the percent times 100. A 0 means the product isn't offered or wasn't reported: null, printed \"Not offered or not reported,\" never 0%.",
+      "scaling": "Stored as the percent times 100. A 0 comes with no loans of that kind on its books (the instructions ask for loans that have a balance): null, with \"No rate reported: none of these loans on its books\" in notes, never 0%. Outside 1% to 30%, tested before rounding: null and withheld.",
       "accounts": [
         {
           "account": "ACCT_524",
@@ -844,10 +844,10 @@
           "form": "Schedule A, Section 1, Item 6, interest rate column",
           "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), pp. 50, 53",
           "units": "percent x 100",
-          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
+          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If a loan type only includes purchased loans, report the most common yield on the loans purchased (yield should include the impact of any premiums or discounts). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
         }
       ],
-      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
+      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it; for a kind of loan it only buys from other lenders, the most common yield instead. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
       "fpr": {
         "equivalent": null,
         "checked_instead": "No FPR equivalent. One day's most common offered rate, self-reported. Checked by reading the raw zip for the hand-check credit unions and comparing with each credit union's own posted rates (a later date, so a plausibility check, not a match)."
@@ -856,10 +856,10 @@
     {
       "id": "rate_mortgage",
       "label": "Mortgage rate",
-      "plain_words": "What it charges on a first mortgage on a home.",
+      "plain_words": "What it charges on a first mortgage or first-lien home line of credit.",
       "formula": "ACCT_563A / 100",
       "units": "percent",
-      "scaling": "Stored as the percent times 100. A 0 means the product isn't offered or wasn't reported: null, printed \"Not offered or not reported,\" never 0%.",
+      "scaling": "Stored as the percent times 100. A 0 comes with no loans of that kind on its books (the instructions ask for loans that have a balance): null, with \"No rate reported: none of these loans on its books\" in notes, never 0%. Outside 1% to 30%, tested before rounding: null and withheld.",
       "accounts": [
         {
           "account": "ACCT_563A",
@@ -877,10 +877,10 @@
           "form": "Schedule A, Section 1, Item 9 (first lien, 1- to 4-family), interest rate column",
           "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), pp. 50, 53",
           "units": "percent x 100",
-          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
+          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If a loan type only includes purchased loans, report the most common yield on the loans purchased (yield should include the impact of any premiums or discounts). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
         }
       ],
-      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
+      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it; for a kind of loan it only buys from other lenders, the most common yield instead. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
       "fpr": {
         "equivalent": null,
         "checked_instead": "No FPR equivalent. One day's most common offered rate, self-reported. Checked by reading the raw zip for the hand-check credit unions and comparing with each credit union's own posted rates (a later date, so a plausibility check, not a match)."
@@ -893,7 +893,7 @@
       "plain_words": "What it charges on an unsecured personal loan.",
       "formula": "ACCT_522 / 100",
       "units": "percent",
-      "scaling": "Stored as the percent times 100. A 0 means the product isn't offered or wasn't reported: null, printed \"Not offered or not reported,\" never 0%.",
+      "scaling": "Stored as the percent times 100. A 0 comes with no loans of that kind on its books (the instructions ask for loans that have a balance): null, with \"No rate reported: none of these loans on its books\" in notes, never 0%. Outside 1% to 30%, tested before rounding: null and withheld.",
       "accounts": [
         {
           "account": "ACCT_522",
@@ -911,10 +911,10 @@
           "form": "Schedule A, Section 1, Item 4 (all other unsecured), interest rate column",
           "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), pp. 50, 52",
           "units": "percent x 100",
-          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
+          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If a loan type only includes purchased loans, report the most common yield on the loans purchased (yield should include the impact of any premiums or discounts). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
         }
       ],
-      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
+      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it; for a kind of loan it only buys from other lenders, the most common yield instead. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
       "fpr": {
         "equivalent": null,
         "checked_instead": "No FPR equivalent. One day's most common offered rate, self-reported. Checked by reading the raw zip for the hand-check credit unions and comparing with each credit union's own posted rates (a later date, so a plausibility check, not a match)."
@@ -926,7 +926,7 @@
       "plain_words": "Offers a checking account with no monthly maintenance fee.",
       "formula": "ACCT_879A4 == 1",
       "units": "yes/no",
-      "scaling": "1 is yes, 0 is no, blank is not reported (null).",
+      "scaling": "1 is yes, 0 is no, anything else or blank is not reported (null).",
       "accounts": [
         {
           "account": "ACCT_879A4",
@@ -959,7 +959,7 @@
       "plain_words": "Offers disclosures, information or service in a language other than English.",
       "formula": "ACCT_879C1 == 1",
       "units": "yes/no",
-      "scaling": "1 is yes, 0 is no, blank is not reported (null).",
+      "scaling": "1 is yes, 0 is no, anything else or blank is not reported (null).",
       "accounts": [
         {
           "account": "ACCT_879C1",
@@ -992,7 +992,7 @@
       "plain_words": "Offers a loan meant to build credit.",
       "formula": "ACCT_879D1 == 1",
       "units": "yes/no",
-      "scaling": "1 is yes, 0 is no, blank is not reported (null).",
+      "scaling": "1 is yes, 0 is no, anything else or blank is not reported (null).",
       "accounts": [
         {
           "account": "ACCT_879D1",
@@ -1023,9 +1023,9 @@
       "id": "payday_alternative",
       "label": "Payday alternative loans",
       "plain_words": "Offers NCUA's small-dollar payday alternative loans (federal credit unions only).",
-      "formula": "ACCT_879D9 == 1",
+      "formula": "ACCT_879D9 == 1 or ACCT_879D10 == 1",
       "units": "yes/no",
-      "scaling": "1 is yes, 0 is no, blank is not reported (null).",
+      "scaling": "1 is yes, 0 is no, anything else or blank is not reported (null). Yes if either answer is yes; no only if every answer given is no.",
       "accounts": [
         {
           "account": "ACCT_879D9",
@@ -1055,6 +1055,24 @@
               "text": "Payday Alternative Loans (PAL loans) (FCU Only) | Payday Alternative Loans (PALs I) (FCU Only)"
             }
           ]
+        },
+        {
+          "account": "ACCT_879D10",
+          "role": "value",
+          "table": [
+            "FS220D.TXT"
+          ],
+          "quarters": {
+            "from": "2021-12",
+            "to": "2026-06",
+            "count": 19
+          },
+          "ncua_name": "PALs II (FCU Only)",
+          "ncua_description": "PALs II (FCU Only)",
+          "form": "Form 4501A (Profile), Credit Union Programs and Member Services, payday alternative loans (PALs II)",
+          "instructions": "Credit Union Profile Form 4501A Instructions, December 2024 (https://ncua.gov/files/publications/regulations/credit-union-profile-form-instructions-4501A-december-2024.pdf), p. 45",
+          "units": "1 or 0",
+          "note": "PALs II, in the data from 2021-12 (NCUA's dictionary lists it from 2020-03). Yes if either PALs I or PALs II is yes."
         }
       ],
       "caveat": "The credit union's own answer on its NCUA profile, as of the quarter. It says the service exists, not its terms.",
@@ -1070,7 +1088,7 @@
       "plain_words": "Belongs to an ATM network members can use without a surcharge.",
       "formula": "ACCT_PP0034 == 1",
       "units": "yes/no",
-      "scaling": "1 is yes, 0 is no, blank is not reported (null).",
+      "scaling": "1 is yes, 0 is no, anything else or blank is not reported (null).",
       "accounts": [
         {
           "account": "ACCT_PP0034",

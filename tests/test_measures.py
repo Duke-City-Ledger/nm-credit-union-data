@@ -113,14 +113,22 @@ class Peers(unittest.TestCase):
 
 class Checks(unittest.TestCase):
     def test_rate_zero_is_none_and_yes_no(self):
-        from nmcu.measures import _rate, _yes
+        from nmcu.measures import _either, _rate, _yes
         self.assertIsNone(_rate(0.0))
         self.assertIsNone(_rate(None))
         self.assertEqual(_rate(664.0), 6.64)
-        self.assertEqual((_yes(1.0), _yes(0.0), _yes(None)), (True, False, None))
+        self.assertEqual((_yes(1.0), _yes(0.0), _yes(None), _yes(2.0)), (True, False, None, None))
+        self.assertEqual((_either(0, 1), _either(0, None), _either(None, None), _either(0, 2)), (True, False, None, None))
+
+    def test_rate_boundaries_are_tested_before_rounding(self):
+        from nmcu.measures import _rate
+        self.assertEqual((_rate(100.0), _rate(3000.0)), (1.0, 30.0))
+        self.assertIsNone(_rate(99.6))  # would round to 1.00%
+        self.assertIsNone(_rate(3000.4))
 
     def test_implausible_rate_is_withheld(self):
-        c = cu("1", rate_unsecured=999.0, rate_new_auto=0.09, rate_used_auto=6.5)
+        c = cu("1", rate_unsecured=None, rate_new_auto=None, rate_used_auto=6.5)
+        c.accounts = {"ACCT_522": 99900.0, "ACCT_523": 9.0, "ACCT_524": 650.0}
         checks.withhold(c)
         self.assertIsNone(c.measures["rate_unsecured"])
         self.assertIsNone(c.measures["rate_new_auto"])
@@ -240,6 +248,13 @@ class Real2026(unittest.TestCase):
         for n, expected in hand.items():
             with self.subTest(charter=n):
                 self.assertEqual(tuple(self.m(n, i) for i in ids), expected)
+
+    def test_sites_before_the_columns_existed(self):
+        accounts = all_accounts(load_dictionary())
+        old = read_quarter(CACHE / "call-report-data-2018-03.zip", "2018-03", accounts)
+        nm = [s for c in old.credit_unions.values() for s in c.sites if s["state"] == "NM"]
+        self.assertTrue(nm and all(s["county"] for s in nm), "a county is blank in 2018-03")
+        self.assertTrue(all(s["atm"] is None and s["hours"] is None for s in nm), "a missing column reads as no")
 
     def test_sites(self):
         sites = self.quarter.credit_unions["948"].sites

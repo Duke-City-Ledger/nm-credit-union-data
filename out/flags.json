@@ -11,21 +11,21 @@
   "cu_number": "8475",
   "name": "OTERO",
   "check": "rate",
-  "detail": "ACCT_522 is 999.00%, outside 1% to 30%"
+  "detail": "ACCT_522 is stored as 99900 (999%), outside 1% to 30%; withheld"
  },
  {
   "quarter": "2019-12",
   "cu_number": "964",
   "name": "SOUTHWEST",
   "check": "rate",
-  "detail": "ACCT_524 is 553.00%, outside 1% to 30%"
+  "detail": "ACCT_524 is stored as 55300 (553%), outside 1% to 30%; withheld"
  },
  {
   "quarter": "2019-12",
   "cu_number": "10580",
   "name": "U-1ST COMMUNITY",
   "check": "rate",
-  "detail": "ACCT_524 is 478.00%, outside 1% to 30%"
+  "detail": "ACCT_524 is stored as 47800 (478%), outside 1% to 30%; withheld"
  },
  {
   "quarter": "2020-03",
@@ -67,28 +67,28 @@
   "cu_number": "66097",
   "name": "CUBA",
   "check": "rate",
-  "detail": "ACCT_522 is 0.14%, outside 1% to 30%"
+  "detail": "ACCT_522 is stored as 14 (0.14%), outside 1% to 30%; withheld"
  },
  {
   "quarter": "2021-06",
   "cu_number": "66097",
   "name": "CUBA",
   "check": "rate",
-  "detail": "ACCT_523 is 0.09%, outside 1% to 30%"
+  "detail": "ACCT_523 is stored as 8.5 (0.085%), outside 1% to 30%; withheld"
  },
  {
   "quarter": "2021-06",
   "cu_number": "66097",
   "name": "CUBA",
   "check": "rate",
-  "detail": "ACCT_524 is 0.18%, outside 1% to 30%"
+  "detail": "ACCT_524 is stored as 18 (0.18%), outside 1% to 30%; withheld"
  },
  {
   "quarter": "2021-06",
   "cu_number": "66097",
   "name": "CUBA",
   "check": "rate",
-  "detail": "ACCT_563A is 0.05%, outside 1% to 30%"
+  "detail": "ACCT_563A is stored as 5 (0.05%), outside 1% to 30%; withheld"
  },
  {
   "quarter": "2021-09",
@@ -263,7 +263,7 @@
   "cu_number": "16754",
   "name": "FOUR CORNERS",
   "check": "rate",
-  "detail": "ACCT_522 is 41.08%, outside 1% to 30%"
+  "detail": "ACCT_522 is stored as 4108 (41.08%), outside 1% to 30%; withheld"
  },
  {
   "quarter": "2024-06",

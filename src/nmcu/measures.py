@@ -45,17 +45,34 @@ def _sum(*xs: float | None) -> float | None:
     return None if any(x is None for x in xs) else sum(xs)
 
 
+RATE_RANGE = (1, 30)
+
+
+def plausible_rate(x: float | None) -> bool:
+    """A stored rate (times 100) within 1% to 30%, tested before rounding, so the engine,
+    its flags and the second calculation all draw the line in the same place."""
+    return x is not None and RATE_RANGE[0] * 100 <= x <= RATE_RANGE[1] * 100
+
+
 def _rate(x: float | None) -> float | None:
-    """A rate stored times 100. 0 means not offered or not reported, so it's None."""
-    if x is None or x == 0:
+    """A rate stored times 100. 0 means none reported, so it's None; so is one outside 1% to
+    30% (the build records why in `withheld`)."""
+    if x is None or x == 0 or not plausible_rate(x):
         return None
     return round2(x / 100)
 
 
 def _yes(x: float | None) -> bool | None:
-    if x is None:
-        return None
-    return x == 1
+    """1 is yes, 0 is no; anything else, or nothing, is not reported."""
+    return {1: True, 0: False}.get(x)
+
+
+def _either(*xs: float | None) -> bool | None:
+    """Yes if any answer is yes; no only if every answer that exists is no."""
+    answers = [_yes(x) for x in xs if x is not None]
+    if any(answers):
+        return True
+    return False if answers and all(a is False for a in answers) else None
 
 
 def _dollars(x: float | None) -> int | None:
@@ -97,7 +114,8 @@ SIMPLE: dict[str, tuple[tuple[str, ...], Callable[[Accounts], object]]] = {
     "free_checking": (("ACCT_879A4",), lambda a: _yes(a["ACCT_879A4"])),
     "bilingual": (("ACCT_879C1",), lambda a: _yes(a["ACCT_879C1"])),
     "credit_builder": (("ACCT_879D1",), lambda a: _yes(a["ACCT_879D1"])),
-    "payday_alternative": (("ACCT_879D9",), lambda a: _yes(a["ACCT_879D9"])),
+    # PALs I (879D9) or PALs II (879D10, in the data from 2021-12).
+    "payday_alternative": (("ACCT_879D9", "ACCT_879D10"), lambda a: _either(a["ACCT_879D9"], a["ACCT_879D10"])),
     "surcharge_free_atm": (("ACCT_PP0034",), lambda a: _yes(a["ACCT_PP0034"])),
 }
 RATES = ("rate_credit_card", "rate_new_auto", "rate_used_auto", "rate_mortgage", "rate_unsecured")

@@ -61,6 +61,10 @@ def _rows(z: zipfile.ZipFile, name: str):
         yield {k.strip().upper(): (v if v is None else v.strip()) for k, v in row.items() if k}
 
 
+def _flag(text: str | None) -> bool | None:
+    return {"1": True, "0": False}.get(text)
+
+
 def _number(text: str | None) -> float | None:
     if text is None or text == "":
         return None
@@ -129,15 +133,18 @@ def read_quarter(zip_path: Path, quarter: str, accounts: set[str]) -> Quarter:
                     "city": r.get("PHYSICALADDRESSCITY", ""),
                     "state": r.get("PHYSICALADDRESSSTATECODE", ""),
                     "zip": r.get("PHYSICALADDRESSPOSTALCODE", ""),
-                    "county": r.get("PHYSICALADDRESSCOUNTYNAME2", ""),
-                    "phone": r.get("PHONENUMBER", ""),
-                    "hours": r.get("HOURSOFOPERATION", ""),
-                    "member_services": r.get("MEMBERSERVICES") == "1",
-                    "atm": r.get("ATM") == "1",
-                    "drive_through": r.get("DRIVETHRU") == "1",
+                    # NCUA renamed the column in 2025-03.
+                    "county": r.get("PHYSICALADDRESSCOUNTYNAME2") or r.get("PHYSICALADDRESSCOUNTYNAME") or None,
+                    "phone": r.get("PHONENUMBER") or None,
+                    # Hours and the three services are in the file from 2020-12 only. A column the
+                    # file lacks, or a value other than 0 or 1, is None (not reported), never "no".
+                    "hours": r.get("HOURSOFOPERATION") or None,
+                    "member_services": _flag(r.get("MEMBERSERVICES")),
+                    "atm": _flag(r.get("ATM")),
+                    "drive_through": _flag(r.get("DRIVETHRU")),
                 })
         for cu in roster.values():
-            cu.sites.sort(key=lambda x: (not x["main_office"], x["state"] != STATE, x["county"], x["city"], x["name"]))
+            cu.sites.sort(key=lambda x: (not x["main_office"], x["state"] != STATE, x["county"] or "", x["city"], x["name"]))
 
     for cu in roster.values():
         for a in accounts:

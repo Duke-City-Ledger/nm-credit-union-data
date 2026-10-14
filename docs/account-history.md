@@ -210,14 +210,6 @@ meaning changed (a break in the series) or only the wording.
 - One description throughout:
   - 2017-12 to 2026-06: Number of current members (not number of accounts) | Report the number of credit union members. Report the actual number of members, not the number of accounts.
 
-## ACCT_712
-
-- In 35 of 35 quarters.
-- Carried in `fs220.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
-- Carried in `FS220.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
-- One description throughout:
-  - 2017-12 to 2026-06: Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f. | Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f.
-
 ## ACCT_521
 
 - In 35 of 35 quarters.
@@ -225,14 +217,6 @@ meaning changed (a break in the series) or only the wording.
 - Carried in `FS220.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
 - One description throughout:
   - 2017-12 to 2026-06: Interest Rate of Unsecured Credit Card Loans | Rate of Unsecured Credit Card Loans amount.
-
-## ACCT_522
-
-- In 35 of 35 quarters.
-- Carried in `fs220.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
-- Carried in `FS220.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
-- One description throughout:
-  - 2017-12 to 2026-06: Interest Rate of All Other Unsecured Loans/Lines of Credit | Rate of All Other Unsecured Loans (other than credit cards) amount.
 
 ## ACCT_523
 
@@ -257,6 +241,14 @@ meaning changed (a break in the series) or only the wording.
 - Carried in `FS220L.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
 - One description throughout:
   - 2017-12 to 2026-06: Interest Rate of Total Loans/Lines of Credit Secured by 1st Lien 1-4 Family Residential Properties | Interest Rate of Total Loans/Lines of Credit Secured by 1st Lien 1-4 Family Residential Properties
+
+## ACCT_522
+
+- In 35 of 35 quarters.
+- Carried in `fs220.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- One description throughout:
+  - 2017-12 to 2026-06: Interest Rate of All Other Unsecured Loans/Lines of Credit | Rate of All Other Unsecured Loans (other than credit cards) amount.
 
 ## ACCT_879A4
 
@@ -298,11 +290,18 @@ meaning changed (a break in the series) or only the wording.
 - One description throughout:
   - 2023-12 to 2026-06: Does the CU offer an ATM Network that is surcharge free? | Does the CU offer an ATM Network that is surcharge free?
 
-## ACCT_566
+## ACCT_712
 
 - In 35 of 35 quarters.
-- Carried in `fs220C.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
-- Carried in `FS220C.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- Carried in `fs220.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
 - One description throughout:
-  - 2017-12 to 2026-06: Number of credit union branches (include the main office if member services are conducted at that location) | Number of credit union branches (include the main office if member services are conducted at that location)
+  - 2017-12 to 2026-06: Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f. | Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f.
+
+## ACCT_879D10
+
+- In 26 of 35 quarters; missing 2017-12 to 2019-12.
+- Carried in `FS220D.txt`: 2021-12 to 2026-06.
+- One description throughout:
+  - 2020-03 to 2026-06: PALs II (FCU Only) | PALs II (FCU Only)
 

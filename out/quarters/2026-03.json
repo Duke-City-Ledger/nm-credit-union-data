@@ -30,6 +30,7 @@
   "ACCT_879A4": "FS220D.TXT",
   "ACCT_879C1": "FS220D.TXT",
   "ACCT_879D1": "FS220D.TXT",
+  "ACCT_879D10": "FS220D.TXT",
   "ACCT_879D9": "FS220D.TXT",
   "ACCT_997": "FS220A.TXT",
   "ACCT_998": "FS220A.TXT",
@@ -115,7 +116,9 @@
      "p75": 24.25
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -627,6 +630,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 438632684,
     "ACCT_998": 901,
@@ -712,7 +716,9 @@
      "p75": 24.25
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -969,6 +975,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 404296747,
     "ACCT_998": 889,
@@ -1054,7 +1061,9 @@
      "p75": 33.93
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -1251,6 +1260,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 120441025,
     "ACCT_998": 811,
@@ -1336,7 +1346,9 @@
      "p75": 33.93
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -1518,6 +1530,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 139619272,
     "ACCT_998": 950,
@@ -1603,7 +1616,9 @@
      "p75": 33.93
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -1755,6 +1770,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 158755840,
     "ACCT_998": 1123,
@@ -1840,7 +1856,9 @@
      "p75": 24.25
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -1914,7 +1932,7 @@
      "zip": "87505-7641",
      "county": "Santa Fe",
      "phone": "8009837328",
-     "hours": "",
+     "hours": null,
      "member_services": false,
      "atm": false,
      "drive_through": false
@@ -2007,6 +2025,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 142887481,
     "ACCT_998": 1093,
@@ -2092,7 +2111,9 @@
      "p75": 33.93
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -2424,6 +2445,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 89871155,
     "ACCT_998": 833,
@@ -2509,7 +2531,9 @@
      "p75": 33.93
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -2691,6 +2715,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 134953715,
     "ACCT_998": 1218,
@@ -2776,7 +2801,9 @@
      "p75": 33.93
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -2928,6 +2955,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 59295275,
     "ACCT_998": 890,
@@ -3013,7 +3041,9 @@
      "p75": 33.93
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -3150,6 +3180,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 81002981,
     "ACCT_998": 1521,
@@ -3235,10 +3266,12 @@
      "p75": 2.24
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -3329,6 +3362,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 53421630,
     "ACCT_998": 1289,
@@ -3414,7 +3448,9 @@
      "p75": 3.02
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -3566,6 +3602,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 42420004,
     "ACCT_998": 1217,
@@ -3651,7 +3688,9 @@
      "p75": 2.24
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -3728,6 +3767,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 31595515,
     "ACCT_998": 1155,
@@ -3813,7 +3853,9 @@
      "p75": 3.02
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -3875,6 +3917,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 27150942,
     "ACCT_998": 1612,
@@ -3960,7 +4003,9 @@
      "p75": 3.02
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -4052,6 +4097,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 16312432,
     "ACCT_998": 1368,
@@ -4137,7 +4183,9 @@
      "p75": 3.02
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -4199,6 +4247,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 13651896,
     "ACCT_998": 1323,
@@ -4284,10 +4333,12 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -4333,6 +4384,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 8441128,
     "ACCT_998": 1062,
@@ -4418,10 +4470,12 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_mortgage": "Not offered or not reported"
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -4482,6 +4536,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 10433314,
     "ACCT_998": 1634,
@@ -4567,10 +4622,12 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_mortgage": "Not offered or not reported"
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -4631,6 +4688,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 11239548,
     "ACCT_998": 1811,
@@ -4716,10 +4774,12 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_mortgage": "Not offered or not reported"
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -4765,6 +4825,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 8108965,
     "ACCT_998": 1302,
@@ -4850,7 +4911,9 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -4912,6 +4975,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 8146976,
     "ACCT_998": 1618,
@@ -4997,10 +5061,12 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_mortgage": "Not offered or not reported"
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5076,6 +5142,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 6523531,
     "ACCT_998": 1340,
@@ -5161,10 +5228,12 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5225,6 +5294,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 5439276,
     "ACCT_998": 1204,
@@ -5310,11 +5380,13 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5360,6 +5432,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 8142027,
     "ACCT_998": 2055,
@@ -5445,7 +5518,9 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -5507,6 +5582,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 3740922,
     "ACCT_998": 1162,
@@ -5592,10 +5668,12 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5623,7 +5701,7 @@
      "zip": "87556",
      "county": "Taos",
      "phone": "5757797003",
-     "hours": "",
+     "hours": null,
      "member_services": false,
      "atm": false,
      "drive_through": false
@@ -5671,6 +5749,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 7197855,
     "ACCT_998": 2246,
@@ -5756,10 +5835,12 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5820,6 +5901,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 3496287,
     "ACCT_998": 1234,
@@ -5905,10 +5987,12 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5954,6 +6038,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 4258951,
     "ACCT_998": 1803,
@@ -6039,10 +6124,12 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6088,6 +6175,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 2431735,
     "ACCT_998": 1333,
@@ -6173,11 +6261,13 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6223,6 +6313,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 3099982,
     "ACCT_998": 2056,
@@ -6308,11 +6399,13 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6358,6 +6451,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 2019985,
     "ACCT_998": 1777,
@@ -6446,7 +6540,7 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_mortgage": "Not offered or not reported"
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6507,6 +6601,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 1,
+    "ACCT_879D10": 1,
     "ACCT_879D9": 1,
     "ACCT_997": 1427739,
     "ACCT_998": 1497,
@@ -6592,11 +6687,13 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6642,6 +6739,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 1653418,
     "ACCT_998": 1960,
@@ -6727,7 +6825,9 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -6774,6 +6874,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 1080619,
     "ACCT_998": 1467,
@@ -6859,11 +6960,13 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6939,6 +7042,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 628732,
     "ACCT_998": 1015,
@@ -7024,11 +7128,13 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -7074,6 +7180,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 1330961,
     "ACCT_998": 2450,
@@ -7159,11 +7266,13 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -7191,7 +7300,7 @@
      "zip": "87020-2807",
      "county": "Cibola",
      "phone": "5052877551",
-     "hours": "",
+     "hours": null,
      "member_services": false,
      "atm": false,
      "drive_through": false
@@ -7224,6 +7333,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 398883,
     "ACCT_998": 1903,

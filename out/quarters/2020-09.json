@@ -122,12 +122,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87107",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "98th Street",
@@ -137,12 +137,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87121-9021",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Cottonwood",
@@ -152,12 +152,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87114",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Juan Tabo",
@@ -167,12 +167,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87112-1825",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Kirtland",
@@ -182,12 +182,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87116",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Ladera",
@@ -197,12 +197,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87120",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Lobo Landing",
@@ -212,12 +212,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87131-0001",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Montgomery",
@@ -227,12 +227,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87109",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "North Valley",
@@ -242,12 +242,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87107",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Paseo Del Norte",
@@ -257,12 +257,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87109-5203",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "South Eubank",
@@ -272,12 +272,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87123-3931",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "South Valley",
@@ -287,12 +287,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87121",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "University",
@@ -302,12 +302,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87106-3808",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Uptown",
@@ -317,27 +317,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87110",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Valencia",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "320 Main St NW",
-     "city": "Los Lunas",
-     "state": "NM",
-     "zip": "87031",
-     "county": "",
-     "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Enchanted Hills",
@@ -347,12 +332,12 @@
      "city": "Rio Rancho",
      "state": "NM",
      "zip": "87144",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Unser",
@@ -362,12 +347,12 @@
      "city": "Rio Rancho",
      "state": "NM",
      "zip": "87124",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "St Michaels",
@@ -377,12 +362,12 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505-7617",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Socorro",
@@ -392,12 +377,12 @@
      "city": "Socorro",
      "state": "NM",
      "zip": "87801-4267",
-     "county": "",
+     "county": "Socorro",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Taos",
@@ -407,12 +392,27 @@
      "city": "Taos",
      "state": "NM",
      "zip": "87571",
-     "county": "",
+     "county": "Taos",
      "phone": "5058897755",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Valencia",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "320 Main St NW",
+     "city": "Los Lunas",
+     "state": "NM",
+     "zip": "87031",
+     "county": "Valencia",
+     "phone": "5058897755",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -442,6 +442,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 303026976,
     "ACCT_998": 1109,
@@ -539,12 +540,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87111",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052930500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Cottonwood Branch",
@@ -554,12 +555,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87114",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052377477",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Kirtland Branch",
@@ -569,12 +570,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87117-0001",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052930500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Paseo del Norte Branch",
@@ -584,12 +585,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87122",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052373999",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Tech Park Branch",
@@ -599,42 +600,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87123-4054",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052377490",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Edgewood Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "1 Liberty Square Cir",
-     "city": "Edgewood",
-     "state": "NM",
-     "zip": "87015-7187",
-     "county": "",
-     "phone": "5052373966",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Los Lunas",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "2700 Palmilla Rd",
-     "city": "Los Lunas",
-     "state": "NM",
-     "zip": "87031",
-     "county": "",
-     "phone": "5052930500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Rio Rancho Branch",
@@ -644,12 +615,42 @@
      "city": "Rio Rancho",
      "state": "NM",
      "zip": "87124-4791",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5052930500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Edgewood Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "1 Liberty Square Cir",
+     "city": "Edgewood",
+     "state": "NM",
+     "zip": "87015-7187",
+     "county": "Santa Fe",
+     "phone": "5052373966",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Los Lunas",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "2700 Palmilla Rd",
+     "city": "Los Lunas",
+     "state": "NM",
+     "zip": "87031",
+     "county": "Valencia",
+     "phone": "5052930500",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Downtown Livermore",
@@ -659,12 +660,12 @@
      "city": "Livermore",
      "state": "CA",
      "zip": "94550-3119",
-     "county": "",
+     "county": "Alameda",
      "phone": "9252451645",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Livermore East Branch",
@@ -674,12 +675,12 @@
      "city": "Livermore",
      "state": "CA",
      "zip": "94550-9610",
-     "county": "",
+     "county": "Alameda",
      "phone": "9252451645",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -709,6 +710,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 319862683,
     "ACCT_998": 1070,
@@ -806,12 +808,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87109-4431",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "3rd Street Branch",
@@ -821,12 +823,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87102-3370",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Irving Branch",
@@ -836,12 +838,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87114",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Learning Road",
@@ -851,12 +853,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87120",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Motor Branch",
@@ -866,12 +868,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87110",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Thompson Tennessee Branch",
@@ -881,27 +883,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87110",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Santa Ana Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "53 Jemez Dam Rd",
-     "city": "Bernalillo",
-     "state": "NM",
-     "zip": "87004",
-     "county": "",
-     "phone": "5053428888",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Farmington Branch",
@@ -911,12 +898,27 @@
      "city": "Farmington",
      "state": "NM",
      "zip": "87402",
-     "county": "",
+     "county": "San Juan",
      "phone": "5055993610",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Santa Ana Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "53 Jemez Dam Rd",
+     "city": "Bernalillo",
+     "state": "NM",
+     "zip": "87004",
+     "county": "Sandoval",
+     "phone": "5053428888",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Santa Fe Branch",
@@ -926,12 +928,12 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5053980370",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -961,6 +963,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 125492606,
     "ACCT_998": 1046,
@@ -1058,12 +1061,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87108",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052544369",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Kirtland Federal Credit Union Montgomery Branch",
@@ -1073,12 +1076,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87111",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052544369",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Kirtland Federal Credit Union West Alameda Branch",
@@ -1088,12 +1091,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87114",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052544369",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Louisanna Plaza",
@@ -1103,12 +1106,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87110-7015",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052544311",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -1138,6 +1141,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 118341016,
     "ACCT_998": 1375,
@@ -1235,12 +1239,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87109",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052926343",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Candelaria",
@@ -1250,12 +1254,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87112",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052926343",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Kirtland",
@@ -1265,12 +1269,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87117",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052926343",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Montgomery",
@@ -1280,12 +1284,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87111",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052566343",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Westside",
@@ -1295,12 +1299,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87120",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052926343",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Rio Rancho",
@@ -1310,12 +1314,12 @@
      "city": "Rio Rancho",
      "state": "NM",
      "zip": "87124",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5052926343",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Santa Fe",
@@ -1325,12 +1329,12 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5052926343",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -1360,6 +1364,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 95298781,
     "ACCT_998": 1144,
@@ -1457,27 +1462,12 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5054555228",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Espanola Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "1216 N Paseo de Onate",
-     "city": "Espanola",
-     "state": "NM",
-     "zip": "87532",
-     "county": "",
-     "phone": "5054555228",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Los Alamos Branch",
@@ -1487,57 +1477,12 @@
      "city": "Los Alamos",
      "state": "NM",
      "zip": "87544",
-     "county": "",
+     "county": "Los Alamos",
      "phone": "5054555228",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Cerrillos Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "3286 Cerrillos Rd",
-     "city": "Santa Fe",
-     "state": "NM",
-     "zip": "87507",
-     "county": "",
-     "phone": "5054555228",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "DeVargas Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "510 N Guadalupe St Ste A",
-     "city": "Santa Fe",
-     "state": "NM",
-     "zip": "87501-6510",
-     "county": "",
-     "phone": "5054555228",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Midtown Financial Center @ San Mateo",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "604 W San Mateo Rd",
-     "city": "Santa Fe",
-     "state": "NM",
-     "zip": "87505",
-     "county": "",
-     "phone": "5054555228",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "White Rock Branch",
@@ -1547,12 +1492,72 @@
      "city": "White Rock",
      "state": "NM",
      "zip": "87547",
-     "county": "",
+     "county": "Los Alamos",
      "phone": "5054555228",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Espanola Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "1216 N Paseo de Onate",
+     "city": "Espanola",
+     "state": "NM",
+     "zip": "87532",
+     "county": "Rio Arriba",
+     "phone": "5054555228",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Cerrillos Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "3286 Cerrillos Rd",
+     "city": "Santa Fe",
+     "state": "NM",
+     "zip": "87507",
+     "county": "Santa Fe",
+     "phone": "5054555228",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "DeVargas Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "510 N Guadalupe St Ste A",
+     "city": "Santa Fe",
+     "state": "NM",
+     "zip": "87501-6510",
+     "county": "Santa Fe",
+     "phone": "5054555228",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Midtown Financial Center @ San Mateo",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "604 W San Mateo Rd",
+     "city": "Santa Fe",
+     "state": "NM",
+     "zip": "87505",
+     "county": "Santa Fe",
+     "phone": "5054555228",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -1582,6 +1587,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 85911165,
     "ACCT_998": 1043,
@@ -1679,12 +1685,12 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505-7607",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5059837328",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "State Employees CU Albuquerque",
@@ -1694,27 +1700,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87107",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058840128",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "State Employees Credit Union Belen",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "19390 Highway 314",
-     "city": "Belen",
-     "state": "NM",
-     "zip": "87002-6377",
-     "county": "",
-     "phone": "5058640335",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "State Employees Credit Union Las Vegas",
@@ -1724,27 +1715,12 @@
      "city": "Las Vegas",
      "state": "NM",
      "zip": "87701",
-     "county": "",
+     "county": "San Miguel",
      "phone": "5054541111",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "State Employees CU Los Lunas Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "280 Emilio Lopez Rd NW",
-     "city": "Los Lunas",
-     "state": "NM",
-     "zip": "87031-6818",
-     "county": "",
-     "phone": "5055658400",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "State Employees CU Rio Rancho",
@@ -1754,12 +1730,12 @@
      "city": "Rio Rancho",
      "state": "NM",
      "zip": "87144-8735",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5058840128",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Back Office",
@@ -1769,12 +1745,12 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505-7641",
-     "county": "",
-     "phone": "",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "county": "Santa Fe",
+     "phone": null,
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "State Employees CU Cerrillos Road",
@@ -1784,12 +1760,42 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5054732019",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "State Employees Credit Union Belen",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "19390 Highway 314",
+     "city": "Belen",
+     "state": "NM",
+     "zip": "87002-6377",
+     "county": "Valencia",
+     "phone": "5058640335",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "State Employees CU Los Lunas Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "280 Emilio Lopez Rd NW",
+     "city": "Los Lunas",
+     "state": "NM",
+     "zip": "87031-6818",
+     "county": "Valencia",
+     "phone": "5055658400",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -1819,6 +1825,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 82700275,
     "ACCT_998": 1074,
@@ -1916,12 +1923,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87102-3198",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Academy",
@@ -1931,12 +1938,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87111-7363",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Coors Branch",
@@ -1946,12 +1953,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87120-2788",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Juan Tabo",
@@ -1961,12 +1968,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87123-1426",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "San Mateo Branch",
@@ -1976,12 +1983,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87110-3160",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "South Valley Branch",
@@ -1991,87 +1998,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87105-6058",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Deming Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "801 E CEDAR ST",
-     "city": "DEMING",
-     "state": "NM",
-     "zip": "88030-3811",
-     "county": "",
-     "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Farmington Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "4919 E Main St",
-     "city": "Farmington",
-     "state": "NM",
-     "zip": "87402-8657",
-     "county": "",
-     "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Gallup Downtown",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "307 W AZTEC AVE",
-     "city": "GALLUP",
-     "state": "NM",
-     "zip": "87301-6303",
-     "county": "",
-     "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Gallup Mesa View",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "1383 US Highway 491",
-     "city": "Gallup",
-     "state": "NM",
-     "zip": "87301-5428",
-     "county": "",
-     "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "University Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "901 E UNIVERSITY AVE STE Q",
-     "city": "LAS CRUCES",
-     "state": "NM",
-     "zip": "88001-5710",
-     "county": "",
-     "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Pinehill",
@@ -2081,42 +2013,27 @@
      "city": "PINEHILL",
      "state": "NM",
      "zip": "87357",
-     "county": "",
+     "county": "Cibola",
      "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
-     "name": "Portales Branch",
+     "name": "University Branch",
      "type": "Branch Office",
      "main_office": false,
-     "address": "700 W 2nd St",
-     "city": "Portales",
+     "address": "901 E UNIVERSITY AVE STE Q",
+     "city": "LAS CRUCES",
      "state": "NM",
-     "zip": "88130-6242",
-     "county": "",
+     "zip": "88001-5710",
+     "county": "Dona Ana",
      "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Rio Rancho Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "2201 Rio Rancho Dr SE",
-     "city": "Rio Rancho",
-     "state": "NM",
-     "zip": "87124-6603",
-     "county": "",
-     "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Silver City Branch",
@@ -2126,12 +2043,57 @@
      "city": "SILVER CITY",
      "state": "NM",
      "zip": "88061-7729",
-     "county": "",
+     "county": "Grant",
      "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Deming Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "801 E CEDAR ST",
+     "city": "DEMING",
+     "state": "NM",
+     "zip": "88030-3811",
+     "county": "Luna",
+     "phone": "5057665600",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Gallup Downtown",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "307 W AZTEC AVE",
+     "city": "GALLUP",
+     "state": "NM",
+     "zip": "87301-6303",
+     "county": "McKinley",
+     "phone": "5057665600",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Gallup Mesa View",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "1383 US Highway 491",
+     "city": "Gallup",
+     "state": "NM",
+     "zip": "87301-5428",
+     "county": "McKinley",
+     "phone": "5057665600",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Zuni Branch",
@@ -2141,12 +2103,57 @@
      "city": "Zuni",
      "state": "NM",
      "zip": "87327",
-     "county": "",
+     "county": "McKinley",
      "phone": "5057665600",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Portales Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "700 W 2nd St",
+     "city": "Portales",
+     "state": "NM",
+     "zip": "88130-6242",
+     "county": "Roosevelt",
+     "phone": "5057665600",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Farmington Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "4919 E Main St",
+     "city": "Farmington",
+     "state": "NM",
+     "zip": "87402-8657",
+     "county": "San Juan",
+     "phone": "5057665600",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Rio Rancho Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "2201 Rio Rancho Dr SE",
+     "city": "Rio Rancho",
+     "state": "NM",
+     "zip": "87124-6603",
+     "county": "Sandoval",
+     "phone": "5057665600",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -2176,6 +2183,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 49051398,
     "ACCT_998": 733,
@@ -2273,12 +2281,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87105",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052621401",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Downtown",
@@ -2288,12 +2296,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87102-1414",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052621401",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Lomas",
@@ -2303,12 +2311,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87112",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052621401",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "San Pedro",
@@ -2318,12 +2326,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87110",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052621401",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Westside",
@@ -2333,12 +2341,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87121",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052621401",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Cabezon",
@@ -2348,12 +2356,12 @@
      "city": "Rio Rancho",
      "state": "NM",
      "zip": "87124",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5052621401",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -2383,6 +2391,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 55764136,
     "ACCT_998": 1331,
@@ -2480,57 +2489,12 @@
      "city": "Alamogordo",
      "state": "NM",
      "zip": "88310",
-     "county": "",
+     "county": "Otero",
      "phone": "5754348500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Main Office",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "1200 10th St",
-     "city": "Alamogordo",
-     "state": "NM",
-     "zip": "88310",
-     "county": "",
-     "phone": "5754348500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Northside Office",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "3300 N White Sands Blvd Unit A",
-     "city": "Alamogordo",
-     "state": "NM",
-     "zip": "88310",
-     "county": "",
-     "phone": "5754348500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Holloman Office",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "PO BOX 1058 Bldg 786",
-     "city": "Holloman AFB",
-     "state": "NM",
-     "zip": "88330",
-     "county": "",
-     "phone": "5754348500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "North Main Office",
@@ -2540,12 +2504,12 @@
      "city": "Roswell",
      "state": "NM",
      "zip": "88201-6458",
-     "county": "",
+     "county": "Chaves",
      "phone": "5754348500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "South Main Office",
@@ -2555,12 +2519,12 @@
      "city": "Roswell",
      "state": "NM",
      "zip": "88203-1837",
-     "county": "",
+     "county": "Chaves",
      "phone": "5754348500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Ruidoso Office",
@@ -2570,12 +2534,57 @@
      "city": "Ruidoso",
      "state": "NM",
      "zip": "88345-6178",
-     "county": "",
+     "county": "Lincoln",
      "phone": "5754348500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Main Office",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "1200 10th St",
+     "city": "Alamogordo",
+     "state": "NM",
+     "zip": "88310",
+     "county": "Otero",
+     "phone": "5754348500",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Northside Office",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "3300 N White Sands Blvd Unit A",
+     "city": "Alamogordo",
+     "state": "NM",
+     "zip": "88310",
+     "county": "Otero",
+     "phone": "5754348500",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Holloman Office",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "PO BOX 1058 Bldg 786",
+     "city": "Holloman AFB",
+     "state": "NM",
+     "zip": "88330",
+     "county": "Otero",
+     "phone": "5754348500",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -2605,6 +2614,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 52587425,
     "ACCT_998": 1392,
@@ -2693,7 +2703,7 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -2704,12 +2714,12 @@
      "city": "Las Cruces",
      "state": "NM",
      "zip": "88001-1149",
-     "county": "",
+     "county": "Dona Ana",
      "phone": "5756474500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Lohman",
@@ -2719,12 +2729,12 @@
      "city": "Las Cruces",
      "state": "NM",
      "zip": "88001-8452",
-     "county": "",
+     "county": "Dona Ana",
      "phone": "5756474500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "T or C",
@@ -2734,12 +2744,12 @@
      "city": "Truth or Consequences",
      "state": "NM",
      "zip": "87901",
-     "county": "",
+     "county": "Sierra",
      "phone": "5758941411",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "El Paso",
@@ -2749,12 +2759,12 @@
      "city": "El Paso",
      "state": "TX",
      "zip": "79904-1303",
-     "county": "",
+     "county": "El Paso",
      "phone": "9157519933",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -2784,6 +2794,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 32274235,
     "ACCT_998": 969,
@@ -2881,42 +2892,12 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505-2143",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5059828942",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Espanola Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "460 N Riverside Dr Ste G",
-     "city": "Espanola",
-     "state": "NM",
-     "zip": "87532",
-     "county": "",
-     "phone": "5059828942",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Mora Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "#508 NM 518",
-     "city": "Mora",
-     "state": "NM",
-     "zip": "87732",
-     "county": "",
-     "phone": "5753872644",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Raton Branch",
@@ -2926,12 +2907,42 @@
      "city": "Raton",
      "state": "NM",
      "zip": "87740-3835",
-     "county": "",
+     "county": "Colfax",
      "phone": "5754452520",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Mora Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "#508 NM 518",
+     "city": "Mora",
+     "state": "NM",
+     "zip": "87732",
+     "county": "Mora",
+     "phone": "5753872644",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Espanola Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "460 N Riverside Dr Ste G",
+     "city": "Espanola",
+     "state": "NM",
+     "zip": "87532",
+     "county": "Rio Arriba",
+     "phone": "5059828942",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Airport Branch",
@@ -2941,12 +2952,12 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5059828942",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Don Diego Branch",
@@ -2956,12 +2967,12 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5059828942",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Rodeo Branch",
@@ -2971,12 +2982,12 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507-2891",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5059828942",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Taos Branch",
@@ -2986,12 +2997,12 @@
      "city": "Taos",
      "state": "NM",
      "zip": "87571-7002",
-     "county": "",
+     "county": "Taos",
      "phone": "5757583899",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -3021,6 +3032,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 24512599,
     "ACCT_998": 1134,
@@ -3118,12 +3130,12 @@
      "city": "Los Alamos",
      "state": "NM",
      "zip": "87544",
-     "county": "",
+     "county": "Los Alamos",
      "phone": "5056624671",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Espanola Branch",
@@ -3133,12 +3145,12 @@
      "city": "Espanola",
      "state": "NM",
      "zip": "87532",
-     "county": "",
+     "county": "Rio Arriba",
      "phone": "5053671500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Santa Fe Office",
@@ -3148,12 +3160,12 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87501-1441",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5053724938",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -3183,6 +3195,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 13460754,
     "ACCT_998": 795,
@@ -3280,12 +3293,12 @@
      "city": "Farmington",
      "state": "NM",
      "zip": "87401-8901",
-     "county": "",
+     "county": "San Juan",
      "phone": "5053267701",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Bloomfield Branch",
@@ -3295,12 +3308,12 @@
      "city": "Bloomfield",
      "state": "NM",
      "zip": "87413",
-     "county": "",
+     "county": "San Juan",
      "phone": "5053267701",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Animas Credit Union",
@@ -3310,12 +3323,12 @@
      "city": "Farmington",
      "state": "NM",
      "zip": "87402-8726",
-     "county": "",
+     "county": "San Juan",
      "phone": "5053267701",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -3345,6 +3358,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 14766638,
     "ACCT_998": 1003,
@@ -3442,12 +3456,12 @@
      "city": "Artesia",
      "state": "NM",
      "zip": "88210-2000",
-     "county": "",
+     "county": "Eddy",
      "phone": "5757489779",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -3477,6 +3491,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 16915980,
     "ACCT_998": 1433,
@@ -3574,12 +3589,12 @@
      "city": "Clovis",
      "state": "NM",
      "zip": "88101",
-     "county": "",
+     "county": "Curry",
      "phone": "5757913353",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "CAFB",
@@ -3589,12 +3604,12 @@
      "city": "Cannon AFB",
      "state": "NM",
      "zip": "88103",
-     "county": "",
+     "county": "Curry",
      "phone": "5757845500",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -3624,6 +3639,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 6295181,
     "ACCT_998": 794,
@@ -3721,12 +3737,12 @@
      "city": "HOBBS",
      "state": "NM",
      "zip": "88240-3048",
-     "county": "",
+     "county": "Lea",
      "phone": "5753931596",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "BRANCH OFFICE",
@@ -3736,12 +3752,12 @@
      "city": "LOVINGTON",
      "state": "NM",
      "zip": "88260-4013",
-     "county": "",
+     "county": "Lea",
      "phone": "5753967727",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "BRANCH OFFICE",
@@ -3751,12 +3767,12 @@
      "city": "DENVER CITY",
      "state": "TX",
      "zip": "79323-3242",
-     "county": "",
+     "county": "Yoakum",
      "phone": "5753931596",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -3786,6 +3802,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 8729202,
     "ACCT_998": 1143,
@@ -3883,27 +3900,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87111-1046",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052436751",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Farmington",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "111 S Miller Ave",
-     "city": "Farmington",
-     "state": "NM",
-     "zip": "87401",
-     "county": "",
-     "phone": "5053271603",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "North Valley",
@@ -3913,12 +3915,27 @@
      "city": "Los Ranchos",
      "state": "NM",
      "zip": "87107-6632",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052436751",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
+    },
+    {
+     "name": "Farmington",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "111 S Miller Ave",
+     "city": "Farmington",
+     "state": "NM",
+     "zip": "87401",
+     "county": "San Juan",
+     "phone": "5053271603",
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -3948,6 +3965,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 5447878,
     "ACCT_998": 754,
@@ -4036,7 +4054,7 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_mortgage": "Not offered or not reported"
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -4047,12 +4065,12 @@
      "city": "Carlsbad",
      "state": "NM",
      "zip": "88220-5268",
-     "county": "",
+     "county": "Eddy",
      "phone": "5758871784",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Eddy Federal CU South",
@@ -4062,12 +4080,12 @@
      "city": "Carlsbad",
      "state": "NM",
      "zip": "88220",
-     "county": "",
+     "county": "Eddy",
      "phone": "5758871784",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -4097,6 +4115,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 8763890,
     "ACCT_998": 1569,
@@ -4194,12 +4213,12 @@
      "city": "Alamogordo",
      "state": "NM",
      "zip": "88310-5166",
-     "county": "",
+     "county": "Otero",
      "phone": "5754373110",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -4229,6 +4248,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 8855745,
     "ACCT_998": 1605,
@@ -4317,7 +4337,7 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_mortgage": "Not offered or not reported"
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -4328,12 +4348,12 @@
      "city": "Carlsbad",
      "state": "NM",
      "zip": "88220-4014",
-     "county": "",
+     "county": "Eddy",
      "phone": "5758876030",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Financial Security Credit Union South Branch",
@@ -4343,12 +4363,12 @@
      "city": "Carlsbad",
      "state": "NM",
      "zip": "88220",
-     "county": "",
+     "county": "Eddy",
      "phone": "5756280304",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -4378,6 +4398,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 6562745,
     "ACCT_998": 1221,
@@ -4466,7 +4487,7 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -4477,12 +4498,12 @@
      "city": "Belen",
      "state": "NM",
      "zip": "87002",
-     "county": "",
+     "county": "Valencia",
      "phone": "5058644740",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -4512,6 +4533,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 5449522,
     "ACCT_998": 1275,
@@ -4600,7 +4622,7 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_mortgage": "Not offered or not reported"
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -4611,12 +4633,12 @@
      "city": "Tucumcari",
      "state": "NM",
      "zip": "88401-3137",
-     "county": "",
+     "county": "Quay",
      "phone": "5754610433",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Santa Rosa Branch",
@@ -4626,12 +4648,12 @@
      "city": "Santa Rosa",
      "state": "NM",
      "zip": "88435",
-     "county": "",
+     "county": "Guadalupe",
      "phone": "5754721231",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Vaughn Branch",
@@ -4641,12 +4663,12 @@
      "city": "Vaughn",
      "state": "NM",
      "zip": "88353",
-     "county": "",
+     "county": "Guadalupe",
      "phone": "5755840433",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -4676,6 +4698,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 5004276,
     "ACCT_998": 1414,
@@ -4773,12 +4796,12 @@
      "city": "Roswell",
      "state": "NM",
      "zip": "88201",
-     "county": "",
+     "county": "Chaves",
      "phone": "5756237788",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -4808,6 +4831,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 4410489,
     "ACCT_998": 1382,
@@ -4896,8 +4920,8 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -4908,12 +4932,12 @@
      "city": "Roswell",
      "state": "NM",
      "zip": "88201",
-     "county": "",
+     "county": "Chaves",
      "phone": "5756235444",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -4943,6 +4967,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 5156716,
     "ACCT_998": 1709,
@@ -5031,7 +5056,7 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5042,12 +5067,12 @@
      "city": "JEMEZ SPRINGS",
      "state": "NM",
      "zip": "87025-0120",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5758293366",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Jemez Valley San Ysidro Branch",
@@ -5057,12 +5082,12 @@
      "city": "San Ysidro",
      "state": "NM",
      "zip": "87053",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5758340019",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -5092,6 +5117,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 3572567,
     "ACCT_998": 1300,
@@ -5180,7 +5206,7 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5191,12 +5217,12 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5059823802",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -5226,6 +5252,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 2095163,
     "ACCT_998": 799,
@@ -5323,12 +5350,12 @@
      "city": "Los Alamos",
      "state": "NM",
      "zip": "87544",
-     "county": "",
+     "county": "Los Alamos",
      "phone": "5056623421",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "Del Norte Credit Union",
@@ -5338,12 +5365,12 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5059883628",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -5373,6 +5400,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 2684234,
     "ACCT_998": 1180,
@@ -5461,8 +5489,8 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5473,12 +5501,12 @@
      "city": "Kirtland",
      "state": "NM",
      "zip": "87417",
-     "county": "",
+     "county": "San Juan",
      "phone": "5055986623",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -5508,6 +5536,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 3597461,
     "ACCT_998": 1750,
@@ -5596,7 +5625,7 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5607,12 +5636,12 @@
      "city": "Aztec",
      "state": "NM",
      "zip": "87410-2124",
-     "county": "",
+     "county": "San Juan",
      "phone": "5053343047",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -5642,6 +5671,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 1919976,
     "ACCT_998": 986,
@@ -5730,7 +5760,7 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5741,12 +5771,12 @@
      "city": "CUBA",
      "state": "NM",
      "zip": "87013-1660",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5752893763",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -5776,6 +5806,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 2802721,
     "ACCT_998": 1476,
@@ -5864,7 +5895,7 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5875,12 +5906,12 @@
      "city": "Questa",
      "state": "NM",
      "zip": "87556",
-     "county": "",
+     "county": "Taos",
      "phone": "5755860423",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -5910,6 +5941,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 2926311,
     "ACCT_998": 2253,
@@ -5998,8 +6030,8 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6010,12 +6042,12 @@
      "city": "Carlsbad",
      "state": "NM",
      "zip": "88220-5109",
-     "county": "",
+     "county": "Eddy",
      "phone": "5758854027",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -6045,6 +6077,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 1916168,
     "ACCT_998": 1605,
@@ -6133,7 +6166,7 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_mortgage": "Not offered or not reported"
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6144,12 +6177,12 @@
      "city": "Carlsbad",
      "state": "NM",
      "zip": "88220-5805",
-     "county": "",
+     "county": "Eddy",
      "phone": "5758871785",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     },
     {
      "name": "MAIN OFFICE",
@@ -6159,12 +6192,12 @@
      "city": "CARLSBAD",
      "state": "NM",
      "zip": "88220-5805",
-     "county": "",
+     "county": "Eddy",
      "phone": "5758871785",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -6194,6 +6227,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 1190642,
     "ACCT_998": 1163,
@@ -6291,12 +6325,12 @@
      "city": "ROSWELL",
      "state": "NM",
      "zip": "88201-4719",
-     "county": "",
+     "county": "Chaves",
      "phone": "5756220560",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -6326,6 +6360,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 1067239,
     "ACCT_998": 1101,
@@ -6414,8 +6449,8 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6426,12 +6461,12 @@
      "city": "Tucumcari",
      "state": "NM",
      "zip": "88401-2861",
-     "county": "",
+     "county": "Quay",
      "phone": "5754613638",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -6461,6 +6496,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 1355305,
     "ACCT_998": 1974,
@@ -6549,8 +6585,8 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6561,12 +6597,12 @@
      "city": "Roswell",
      "state": "NM",
      "zip": "88203",
-     "county": "",
+     "county": "Chaves",
      "phone": "5756224444",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -6596,6 +6632,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 1796187,
     "ACCT_998": 2651,
@@ -6684,8 +6721,8 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6696,12 +6733,12 @@
      "city": "Deming",
      "state": "NM",
      "zip": "88030",
-     "county": "",
+     "county": "Luna",
      "phone": "5755468310",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -6731,6 +6768,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 1105945,
     "ACCT_998": 1904,
@@ -6819,8 +6857,8 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6831,12 +6869,12 @@
      "city": "SILVER CITY",
      "state": "NM",
      "zip": "88022",
-     "county": "",
+     "county": "Grant",
      "phone": "5755348888",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -6866,6 +6904,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 794750,
     "ACCT_998": 1438,
@@ -6954,8 +6993,8 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6966,12 +7005,12 @@
      "city": "Chacon",
      "state": "NM",
      "zip": "87713",
-     "county": "",
+     "county": "Mora",
      "phone": "5753876339",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -7001,6 +7040,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 506638,
     "ACCT_998": 1047,
@@ -7089,8 +7129,8 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -7101,12 +7141,12 @@
      "city": "GRANTS",
      "state": "NM",
      "zip": "87020-2807",
-     "county": "",
+     "county": "Cibola",
      "phone": "5052877551",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
+     "hours": null,
+     "member_services": null,
+     "atm": null,
+     "drive_through": null
     }
    ],
    "accounts": {
@@ -7136,6 +7176,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 369642,
     "ACCT_998": 1650,

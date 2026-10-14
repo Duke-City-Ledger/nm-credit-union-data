@@ -2155,95 +2155,6 @@
         }
       ]
     },
-    "ACCT_712": {
-      "quarters": [
-        "2017-12",
-        "2018-03",
-        "2018-06",
-        "2018-09",
-        "2018-12",
-        "2019-03",
-        "2019-06",
-        "2019-09",
-        "2019-12",
-        "2020-03",
-        "2020-06",
-        "2020-09",
-        "2020-12",
-        "2021-03",
-        "2021-06",
-        "2021-09",
-        "2021-12",
-        "2022-03",
-        "2022-06",
-        "2022-09",
-        "2022-12",
-        "2023-03",
-        "2023-06",
-        "2023-09",
-        "2023-12",
-        "2024-03",
-        "2024-06",
-        "2024-09",
-        "2024-12",
-        "2025-03",
-        "2025-06",
-        "2025-09",
-        "2025-12",
-        "2026-03",
-        "2026-06"
-      ],
-      "tables": {
-        "fs220.txt": [
-          "2017-12",
-          "2018-03",
-          "2018-12",
-          "2019-03",
-          "2019-06",
-          "2019-09"
-        ],
-        "FS220.txt": [
-          "2018-06",
-          "2018-09",
-          "2019-12",
-          "2020-03",
-          "2020-06",
-          "2020-09",
-          "2020-12",
-          "2021-03",
-          "2021-06",
-          "2021-09",
-          "2021-12",
-          "2022-03",
-          "2022-06",
-          "2022-09",
-          "2022-12",
-          "2023-03",
-          "2023-06",
-          "2023-09",
-          "2023-12",
-          "2024-03",
-          "2024-06",
-          "2024-09",
-          "2024-12",
-          "2025-03",
-          "2025-06",
-          "2025-09",
-          "2025-12",
-          "2026-03",
-          "2026-06"
-        ]
-      },
-      "descriptions": [
-        {
-          "text": "Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f. | Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f.",
-          "from": "2017-12",
-          "to": "2026-06",
-          "inDictionary": true,
-          "inData": true
-        }
-      ]
-    },
     "ACCT_521": {
       "quarters": [
         "2017-12",
@@ -2326,95 +2237,6 @@
       "descriptions": [
         {
           "text": "Interest Rate of Unsecured Credit Card Loans | Rate of Unsecured Credit Card Loans amount.",
-          "from": "2017-12",
-          "to": "2026-06",
-          "inDictionary": true,
-          "inData": true
-        }
-      ]
-    },
-    "ACCT_522": {
-      "quarters": [
-        "2017-12",
-        "2018-03",
-        "2018-06",
-        "2018-09",
-        "2018-12",
-        "2019-03",
-        "2019-06",
-        "2019-09",
-        "2019-12",
-        "2020-03",
-        "2020-06",
-        "2020-09",
-        "2020-12",
-        "2021-03",
-        "2021-06",
-        "2021-09",
-        "2021-12",
-        "2022-03",
-        "2022-06",
-        "2022-09",
-        "2022-12",
-        "2023-03",
-        "2023-06",
-        "2023-09",
-        "2023-12",
-        "2024-03",
-        "2024-06",
-        "2024-09",
-        "2024-12",
-        "2025-03",
-        "2025-06",
-        "2025-09",
-        "2025-12",
-        "2026-03",
-        "2026-06"
-      ],
-      "tables": {
-        "fs220.txt": [
-          "2017-12",
-          "2018-03",
-          "2018-12",
-          "2019-03",
-          "2019-06",
-          "2019-09"
-        ],
-        "FS220.txt": [
-          "2018-06",
-          "2018-09",
-          "2019-12",
-          "2020-03",
-          "2020-06",
-          "2020-09",
-          "2020-12",
-          "2021-03",
-          "2021-06",
-          "2021-09",
-          "2021-12",
-          "2022-03",
-          "2022-06",
-          "2022-09",
-          "2022-12",
-          "2023-03",
-          "2023-06",
-          "2023-09",
-          "2023-12",
-          "2024-03",
-          "2024-06",
-          "2024-09",
-          "2024-12",
-          "2025-03",
-          "2025-06",
-          "2025-09",
-          "2025-12",
-          "2026-03",
-          "2026-06"
-        ]
-      },
-      "descriptions": [
-        {
-          "text": "Interest Rate of All Other Unsecured Loans/Lines of Credit | Rate of All Other Unsecured Loans (other than credit cards) amount.",
           "from": "2017-12",
           "to": "2026-06",
           "inDictionary": true,
@@ -2682,6 +2504,95 @@
       "descriptions": [
         {
           "text": "Interest Rate of Total Loans/Lines of Credit Secured by 1st Lien 1-4 Family Residential Properties | Interest Rate of Total Loans/Lines of Credit Secured by 1st Lien 1-4 Family Residential Properties",
+          "from": "2017-12",
+          "to": "2026-06",
+          "inDictionary": true,
+          "inData": true
+        }
+      ]
+    },
+    "ACCT_522": {
+      "quarters": [
+        "2017-12",
+        "2018-03",
+        "2018-06",
+        "2018-09",
+        "2018-12",
+        "2019-03",
+        "2019-06",
+        "2019-09",
+        "2019-12",
+        "2020-03",
+        "2020-06",
+        "2020-09",
+        "2020-12",
+        "2021-03",
+        "2021-06",
+        "2021-09",
+        "2021-12",
+        "2022-03",
+        "2022-06",
+        "2022-09",
+        "2022-12",
+        "2023-03",
+        "2023-06",
+        "2023-09",
+        "2023-12",
+        "2024-03",
+        "2024-06",
+        "2024-09",
+        "2024-12",
+        "2025-03",
+        "2025-06",
+        "2025-09",
+        "2025-12",
+        "2026-03",
+        "2026-06"
+      ],
+      "tables": {
+        "fs220.txt": [
+          "2017-12",
+          "2018-03",
+          "2018-12",
+          "2019-03",
+          "2019-06",
+          "2019-09"
+        ],
+        "FS220.txt": [
+          "2018-06",
+          "2018-09",
+          "2019-12",
+          "2020-03",
+          "2020-06",
+          "2020-09",
+          "2020-12",
+          "2021-03",
+          "2021-06",
+          "2021-09",
+          "2021-12",
+          "2022-03",
+          "2022-06",
+          "2022-09",
+          "2022-12",
+          "2023-03",
+          "2023-06",
+          "2023-09",
+          "2023-12",
+          "2024-03",
+          "2024-06",
+          "2024-09",
+          "2024-12",
+          "2025-03",
+          "2025-06",
+          "2025-09",
+          "2025-12",
+          "2026-03",
+          "2026-06"
+        ]
+      },
+      "descriptions": [
+        {
+          "text": "Interest Rate of All Other Unsecured Loans/Lines of Credit | Rate of All Other Unsecured Loans (other than credit cards) amount.",
           "from": "2017-12",
           "to": "2026-06",
           "inDictionary": true,
@@ -3091,7 +3002,7 @@
         }
       ]
     },
-    "ACCT_566": {
+    "ACCT_712": {
       "quarters": [
         "2017-12",
         "2018-03",
@@ -3130,7 +3041,7 @@
         "2026-06"
       ],
       "tables": {
-        "fs220C.txt": [
+        "fs220.txt": [
           "2017-12",
           "2018-03",
           "2018-12",
@@ -3138,7 +3049,7 @@
           "2019-06",
           "2019-09"
         ],
-        "FS220C.txt": [
+        "FS220.txt": [
           "2018-06",
           "2018-09",
           "2019-12",
@@ -3172,11 +3083,73 @@
       },
       "descriptions": [
         {
-          "text": "Number of credit union branches (include the main office if member services are conducted at that location) | Number of credit union branches (include the main office if member services are conducted at that location)",
+          "text": "Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f. | Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f.",
           "from": "2017-12",
           "to": "2026-06",
           "inDictionary": true,
           "inData": true
+        }
+      ]
+    },
+    "ACCT_879D10": {
+      "quarters": [
+        "2020-03",
+        "2020-06",
+        "2020-09",
+        "2020-12",
+        "2021-03",
+        "2021-06",
+        "2021-09",
+        "2021-12",
+        "2022-03",
+        "2022-06",
+        "2022-09",
+        "2022-12",
+        "2023-03",
+        "2023-06",
+        "2023-09",
+        "2023-12",
+        "2024-03",
+        "2024-06",
+        "2024-09",
+        "2024-12",
+        "2025-03",
+        "2025-06",
+        "2025-09",
+        "2025-12",
+        "2026-03",
+        "2026-06"
+      ],
+      "tables": {
+        "FS220D.txt": [
+          "2021-12",
+          "2022-03",
+          "2022-06",
+          "2022-09",
+          "2022-12",
+          "2023-03",
+          "2023-06",
+          "2023-09",
+          "2023-12",
+          "2024-03",
+          "2024-06",
+          "2024-09",
+          "2024-12",
+          "2025-03",
+          "2025-06",
+          "2025-09",
+          "2025-12",
+          "2026-03",
+          "2026-06"
+        ]
+      },
+      "descriptions": [
+        {
+          "text": "PALs II (FCU Only) | PALs II (FCU Only)",
+          "from": "2020-03",
+          "to": "2026-06",
+          "inDictionary": true,
+          "inData": false
         }
       ]
     }

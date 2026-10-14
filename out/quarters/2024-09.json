@@ -30,6 +30,7 @@
   "ACCT_879A4": "FS220D.TXT",
   "ACCT_879C1": "FS220D.TXT",
   "ACCT_879D1": "FS220D.TXT",
+  "ACCT_879D10": "FS220D.TXT",
   "ACCT_879D9": "FS220D.TXT",
   "ACCT_997": "FS220A.TXT",
   "ACCT_998": "FS220A.TXT",
@@ -115,7 +116,9 @@
      "p75": 21.67
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -127,7 +130,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87107",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "M-F 8-5",
      "member_services": false,
@@ -142,7 +145,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87121-9021",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "M - Thurs 9 - 5Fri  9 - 6Sat 9 - 1",
      "member_services": true,
@@ -157,7 +160,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87114",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "M-Th 9 - 5 Fri 9 - 6  Sat 9 - 1",
      "member_services": true,
@@ -172,7 +175,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87109",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "M - TH 9:00 - 5:00 Fri  9:00 - 6:00",
      "member_services": true,
@@ -187,7 +190,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87112-1825",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "M-Th 9 -5 Fri 9 - 6",
      "member_services": true,
@@ -202,7 +205,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87120",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "M-Th 9 -5 Fri 9 - 6  Sat 9 - 1",
      "member_services": true,
@@ -217,7 +220,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87131-0001",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "M-Th 9 -5 Fri 9 - 6  -",
      "member_services": true,
@@ -232,7 +235,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87109",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "9-5 M-Th  9 - 6 Fri",
      "member_services": true,
@@ -247,7 +250,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87107",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "M-Th 9 -5 Fri 9 - 6 Sat 9 - 1",
      "member_services": true,
@@ -262,7 +265,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87109-5203",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "M-Thurs  9:00 - 5:00Fri           9:00 - 6:00Sat          9:00 - 1:00",
      "member_services": true,
@@ -277,7 +280,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87123-3931",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "9:00 - 5:00 M - F",
      "member_services": true,
@@ -292,7 +295,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87121",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "M-Th 9 -5 Fri 9 - 6 Sat 9 - 1",
      "member_services": true,
@@ -307,7 +310,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87106-3808",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "M-Th 9 -5 Fri 9 - 6",
      "member_services": true,
@@ -322,27 +325,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87110",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058897755",
      "hours": "M-Th 9 -5 Fri 9 - 6 Sat 9 - 1",
      "member_services": true,
      "atm": true,
      "drive_through": true
-    },
-    {
-     "name": "Deming",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "108 W Maple ST",
-     "city": "Deming",
-     "state": "NM",
-     "zip": "88030",
-     "county": "",
-     "phone": "5755447754",
-     "hours": "M - F 9 -3",
-     "member_services": true,
-     "atm": false,
-     "drive_through": false
     },
     {
      "name": "Las Cruces",
@@ -352,7 +340,7 @@
      "city": "Las Cruces",
      "state": "NM",
      "zip": "88001",
-     "county": "",
+     "county": "Dona Ana",
      "phone": "5058897755",
      "hours": "9 am - 5 pm",
      "member_services": true,
@@ -367,7 +355,7 @@
      "city": "Las Cruces",
      "state": "NM",
      "zip": "88005",
-     "county": "",
+     "county": "Dona Ana",
      "phone": "5755410058",
      "hours": "M - F 9 - 3",
      "member_services": true,
@@ -375,19 +363,19 @@
      "drive_through": false
     },
     {
-     "name": "Valencia",
+     "name": "Deming",
      "type": "Branch Office",
      "main_office": false,
-     "address": "320 Main St NW",
-     "city": "Los Lunas",
+     "address": "108 W Maple ST",
+     "city": "Deming",
      "state": "NM",
-     "zip": "87031",
-     "county": "",
-     "phone": "5058897755",
-     "hours": "M - Th 9 - 5 Fri 9 - 6 Sat 9 - 1",
+     "zip": "88030",
+     "county": "Luna",
+     "phone": "5755447754",
+     "hours": "M - F 9 -3",
      "member_services": true,
-     "atm": true,
-     "drive_through": true
+     "atm": false,
+     "drive_through": false
     },
     {
      "name": "Enchanted Hills",
@@ -397,7 +385,7 @@
      "city": "Rio Rancho",
      "state": "NM",
      "zip": "87144",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5058897755",
      "hours": "M-Th 9 -5 Fri 9 - 6 Sat 9 - 1",
      "member_services": true,
@@ -412,7 +400,7 @@
      "city": "Rio Rancho",
      "state": "NM",
      "zip": "87124",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5058897755",
      "hours": "9 - 5 Mon - Thurs9 - 6 Fri9 - 1 Sat",
      "member_services": true,
@@ -427,7 +415,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87501-1454",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5058897755",
      "hours": "M - Thr - 9:00 AM to 5:00 PM Fri - 9:00 AM to 6:00 PM Sat -",
      "member_services": true,
@@ -442,7 +430,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5058897755",
      "hours": "M-F 9 - 5 Sat 9-1",
      "member_services": true,
@@ -457,7 +445,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505-7617",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5058897755",
      "hours": "M-Th 9 -5 Fri 9 - 6",
      "member_services": true,
@@ -472,7 +460,7 @@
      "city": "Socorro",
      "state": "NM",
      "zip": "87801-4267",
-     "county": "",
+     "county": "Socorro",
      "phone": "5058897755",
      "hours": "M-Th 9 -5 Fri 9 - 6",
      "member_services": true,
@@ -487,12 +475,27 @@
      "city": "Taos",
      "state": "NM",
      "zip": "87571",
-     "county": "",
+     "county": "Taos",
      "phone": "5058897755",
      "hours": "M-Th 9 -5 Fri 9 - 6",
      "member_services": true,
      "atm": true,
      "drive_through": false
+    },
+    {
+     "name": "Valencia",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "320 Main St NW",
+     "city": "Los Lunas",
+     "state": "NM",
+     "zip": "87031",
+     "county": "Valencia",
+     "phone": "5058897755",
+     "hours": "M - Th 9 - 5 Fri 9 - 6 Sat 9 - 1",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
     },
     {
      "name": "Castellano Branch",
@@ -502,7 +505,7 @@
      "city": "El Paso",
      "state": "TX",
      "zip": "79912",
-     "county": "",
+     "county": "El Paso",
      "phone": "5058897755",
      "hours": "M - F 8-3",
      "member_services": true,
@@ -517,7 +520,7 @@
      "city": "El Paso",
      "state": "TX",
      "zip": "79905-2025",
-     "county": "",
+     "county": "El Paso",
      "phone": "9157822400",
      "hours": "M-F 9:00 - 3:00",
      "member_services": true,
@@ -532,7 +535,7 @@
      "city": "El Paso",
      "state": "TX",
      "zip": "79912",
-     "county": "",
+     "county": "El Paso",
      "phone": "5058897755",
      "hours": "M-F 9 - 3:00",
      "member_services": true,
@@ -547,7 +550,7 @@
      "city": "El Paso",
      "state": "TX",
      "zip": "79935",
-     "county": "",
+     "county": "El Paso",
      "phone": "5058897755",
      "hours": "M - F 8-3",
      "member_services": true,
@@ -582,6 +585,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 420567157,
     "ACCT_998": 869,
@@ -667,7 +671,9 @@
      "p75": 19.05
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -679,7 +685,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87111",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052930500",
      "hours": "Credit Union Center/Juan Tabo  Lobby Mon - Fri 8:30 a.m. - 4:30 p.m.  Sat, 8:30 a.m. - 2 p.m.   Drive-Up  Mon - Thu 7:30 a.",
      "member_services": true,
@@ -694,7 +700,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87114",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052377477",
      "hours": "Lobby Mon - Fri, 8:30 a.m. - 4:30 p.m.  Sat, 8:30 a.m. - 2 p.m.   Drive-up  Mon - Thu 7:30 a.m. - 5 p.m.  Fri - 7:30 a.m. -",
      "member_services": true,
@@ -709,7 +715,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87117-0001",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052930500",
      "hours": "Kirtland Lobby Mon. - Wed., Fri - 7:30 a.m. - 3:30 p.m.  Thurs. 7:30 a.m. - 5:00 p.m.  Walk-Up Mon. - Wed., Fri - 3:30 p.m.",
      "member_services": true,
@@ -724,7 +730,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87122",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052373999",
      "hours": "Paseo del Norte  Lobby Mon - Fri, 8:30 a.m. - 4:30 p.m.  Sat, 8:30 a.m. - 2 p.m.  Drive-Up  Mon - Thu 7:30 a.m. - 5 p.m.  Fr",
      "member_services": true,
@@ -739,7 +745,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87104",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "8009475328",
      "hours": "M-F 8:30 am - 4:30pm Sat 8:30am - 2pm",
      "member_services": true,
@@ -754,27 +760,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87123-4054",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052377490",
      "hours": "Technology Park Lobby Mon - Fri, 8:30 a.m. - 4:30 p.m. Technology Park Drive-Up  Mon- Fri 7:30 a.m. - 5 p.m.  Sat 8:30 a.m. -",
      "member_services": true,
      "atm": true,
      "drive_through": true
-    },
-    {
-     "name": "Edgewood Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "1 Liberty Square Cir",
-     "city": "Edgewood",
-     "state": "NM",
-     "zip": "87015-7187",
-     "county": "",
-     "phone": "5052373966",
-     "hours": "Mon - Thurs, 8:30 a.m - 5:00 p.m. Fri 8:30 - 5:30, Sat 8:30 a.m.-2 p.m.",
-     "member_services": true,
-     "atm": false,
-     "drive_through": false
     },
     {
      "name": "Animas Central",
@@ -784,7 +775,7 @@
      "city": "Farmington",
      "state": "NM",
      "zip": "87401-8901",
-     "county": "",
+     "county": "San Juan",
      "phone": "5053267701",
      "hours": "Lobby M-F 9:00am-5:45pm Drive-Up M-F 8:00am-5:45pm",
      "member_services": true,
@@ -799,11 +790,41 @@
      "city": "Farmington",
      "state": "NM",
      "zip": "87402-8726",
-     "county": "",
+     "county": "San Juan",
      "phone": "5053267701",
      "hours": "Lobby M-F 9:00am - 5:45pm Drive -Up M-F 8:00am - 5:45pm Saturday 9:00am - 1:00pm",
      "member_services": true,
      "atm": true,
+     "drive_through": false
+    },
+    {
+     "name": "Rio Rancho Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "1900 Wellspring Ave SE",
+     "city": "Rio Rancho",
+     "state": "NM",
+     "zip": "87124-4791",
+     "county": "Sandoval",
+     "phone": "5052930500",
+     "hours": "LobbyMon - Fri: 8:30 am - 4:30 pm  Sat: 8:30 am - 2:00 pm Drive-Up Mon - Thu: 7:30 am - 5:00 pm Fri: 7:30 am - 6:00 pm Sat: 8:30 am - 2:00 pm",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
+    },
+    {
+     "name": "Edgewood Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "1 Liberty Square Cir",
+     "city": "Edgewood",
+     "state": "NM",
+     "zip": "87015-7187",
+     "county": "Santa Fe",
+     "phone": "5052373966",
+     "hours": "Mon - Thurs, 8:30 a.m - 5:00 p.m. Fri 8:30 - 5:30, Sat 8:30 a.m.-2 p.m.",
+     "member_services": true,
+     "atm": false,
      "drive_through": false
     },
     {
@@ -814,24 +835,9 @@
      "city": "Los Lunas",
      "state": "NM",
      "zip": "87031",
-     "county": "",
+     "county": "Valencia",
      "phone": "5052930500",
      "hours": "Monday - Thursday 8:30 a.m. - 4:30 p.m.  Friday 8:30 a.m. - 6:00 p.m. Saturday 8:30 a.m. - 2:00 p.m.",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
-    },
-    {
-     "name": "Rio Rancho Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "1900 Wellspring Ave SE",
-     "city": "Rio Rancho",
-     "state": "NM",
-     "zip": "87124-4791",
-     "county": "",
-     "phone": "5052930500",
-     "hours": "LobbyMon - Fri: 8:30 am - 4:30 pm  Sat: 8:30 am - 2:00 pm Drive-Up Mon - Thu: 7:30 am - 5:00 pm Fri: 7:30 am - 6:00 pm Sat: 8:30 am - 2:00 pm",
      "member_services": true,
      "atm": true,
      "drive_through": true
@@ -844,7 +850,7 @@
      "city": "Livermore",
      "state": "CA",
      "zip": "94550-3119",
-     "county": "",
+     "county": "Alameda",
      "phone": "9252451645",
      "hours": "Mon - Fri, 8:30 a.m. - 5 p.m.  Sat 8:30 a.m. - 1 p.m.",
      "member_services": true,
@@ -879,6 +885,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 402329380,
     "ACCT_998": 966,
@@ -964,7 +971,9 @@
      "p75": 21.67
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -976,7 +985,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87109-4431",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
      "hours": "M-F - 8am - 5pm",
      "member_services": false,
@@ -991,7 +1000,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87109-3346",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
      "hours": "LOBBY - Monday thru Thursday - 9:00am to 5:00pm, Friday - 8:30am to 5:30pm, Saturday - 9:00am to 1:00pm. DRIVE-THRU - Monday thru Thursday - 9:00am to 5:00pm, Friday - 8:30am to 5:30pm, Saturday - 9:00am to 1:00pm.",
      "member_services": true,
@@ -1006,7 +1015,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87104",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
      "hours": "Lobby - Monday thru Thursday 9:00 a.m. - 5:00 p.m. Friday - 8:30 a.m. - 5:30 p.m. Saturday - 9:00 a.m. - 1:00 p.m.",
      "member_services": true,
@@ -1021,7 +1030,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87120",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
      "hours": "LOBBY - Monday thru Thursday - 9:00am to 5:00pm,Friday - 8:30am to 5:30pm, Saturday - 9:00am to 1:00pm  DRIVE-THRU - Monday thru Thursday - 9:00am to 5:00pm,Friday - 8:30am to 5:30 pm, Saturday - 9:00am to 1:00pm",
      "member_services": true,
@@ -1036,7 +1045,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87105",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
      "hours": "LOBBY - Monday thru Thursday - 9:00am to 5:00pm, Friday - 8:30am to 5:30pm, Saturday - 9:00am - 1:00pm. DRIVE-THRU - Monday thru Thursday - 9:00am - 5:00pm, Friday - 8:30am to 5:30pm, Saturday - 9:00am to 1:00pm.",
      "member_services": true,
@@ -1051,7 +1060,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87114",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
      "hours": "LOBBY - Monday thru Thursday - 9:00am to 5:00pm,Friday - 8:30am to 5:30pm, Saturday - 9:00am to 5:00pm  DRIVE-THRU - Monday thru Thursday - 9:00am to 5:00pm,Friday - 8:30am to 5:30 pm, Saturday - 9:00am to 1:00pm",
      "member_services": true,
@@ -1066,7 +1075,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87112-3303",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
      "hours": "LOBBY - Monday thru Thursday - 9:00am to 5:00pm, Friday - 8:30am to 5:30pm, Saturday - 9:00am to 1:00pmDRIVE-THRU - Monday thru Thursday - 9:00am - 5:00pm, Friday - 8:30am to 5:30pm, Saturday - 9:00am to 1:00pm",
      "member_services": true,
@@ -1081,24 +1090,9 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87110",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5053428888",
      "hours": "LOBBY - Monday thru Thursday - 9:00am to 5:00pm, Friday - 8:30am to 5:30pm, Saturday - 9:00am to 1:00pm  DRIVE THRU - Monday thru Thursday - 9:00am to 5:00pm, Friday - 8:30am to 5:30 pm, Saturday - 9:00am to 1:00pm",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
-    },
-    {
-     "name": "Santa Ana Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "53 Jemez Canyon Dam Rd",
-     "city": "Bernalillo",
-     "state": "NM",
-     "zip": "87004",
-     "county": "",
-     "phone": "5053428888",
-     "hours": "LOBBY - Monday thru Thursday - 9:00am to 5:00pm,Friday - 8:30am to 5:30pm  DRIVE-THRU - Monday thru Thursday - 9:00am to 5:00pm,Friday - 8:30am to 5:30 pm, Saturday - 9:00am to 1:00pm",
      "member_services": true,
      "atm": true,
      "drive_through": true
@@ -1111,9 +1105,24 @@
      "city": "Farmington",
      "state": "NM",
      "zip": "87402",
-     "county": "",
+     "county": "San Juan",
      "phone": "5055993610",
      "hours": "LOBBY - Monday thru Thursday - 9:00am to 5:00pm,Friday - 8:30am to 5:30pm, Saturday - 9:00am to 5:00pm  DRIVE-THRU - Monday thru Thursday - 9:00am to 5:00pm,Friday - 8:30am to 5:30 pm, Saturday - 9:00am to 1:00pm",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
+    },
+    {
+     "name": "Santa Ana Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "53 Jemez Canyon Dam Rd",
+     "city": "Bernalillo",
+     "state": "NM",
+     "zip": "87004",
+     "county": "Sandoval",
+     "phone": "5053428888",
+     "hours": "LOBBY - Monday thru Thursday - 9:00am to 5:00pm,Friday - 8:30am to 5:30pm  DRIVE-THRU - Monday thru Thursday - 9:00am to 5:00pm,Friday - 8:30am to 5:30 pm, Saturday - 9:00am to 1:00pm",
      "member_services": true,
      "atm": true,
      "drive_through": true
@@ -1126,7 +1135,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5053980370",
      "hours": "LOBBY - Monday thru Thursday - 9:00am to 5:00pm,Friday - 8:30am to 5:30pm,",
      "member_services": true,
@@ -1161,6 +1170,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 161298228,
     "ACCT_998": 1071,
@@ -1246,7 +1256,9 @@
      "p75": 21.67
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -1258,12 +1270,42 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5054555228",
      "hours": "Hours: Monday - Friday 8:30 a.m. to 5:30 p.m.",
      "member_services": false,
      "atm": false,
      "drive_through": false
+    },
+    {
+     "name": "Los Alamos Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "1000 Trinity Dr",
+     "city": "Los Alamos",
+     "state": "NM",
+     "zip": "87544",
+     "county": "Los Alamos",
+     "phone": "5054555228",
+     "hours": "Lobby Hours: Monday - Thursday 9:00 a.m. to 5:00 p.m. Friday 9:00 a.m. to 6:00 p.m.  Drive-up Hours: Monday - Thursday 8:00 a.m. to 5:30 p.m.Friday 8:00 a.m. to 6:00 p.m.",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
+    },
+    {
+     "name": "White Rock Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "40 Rover Blvd",
+     "city": "White Rock",
+     "state": "NM",
+     "zip": "87547",
+     "county": "Los Alamos",
+     "phone": "5054555228",
+     "hours": "Lobby Hours: Monday - Thursday 9:00 a.m. to 5:00 p.m. Friday 9:00 a.m. to 6:00 p.m.  Drive-up Hours: Monday - Thursday 9:00 a.m. to 5:30 p.m.Friday 9:00 a.m. to 6:00 p.m.",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
     },
     {
      "name": "Espanola Branch",
@@ -1273,7 +1315,7 @@
      "city": "Espanola",
      "state": "NM",
      "zip": "87532",
-     "county": "",
+     "county": "Rio Arriba",
      "phone": "5054555228",
      "hours": "Lobby Hours: Monday - Thursday 9:00 a.m. to 5:00 p.m. Friday 9:00 a.m. to 6:00 p.m. Saturday 9:00 a.m. to 1:00 p.m. Drive-up Hours: Monday - Thursday 8:00 a.m. to 5:30 p.m.Friday 8:00 a.m. to 6:00 p.m.Saturday 9:00 a.m. to 1:00 p.m.",
      "member_services": true,
@@ -1288,24 +1330,9 @@
      "city": "Espanola",
      "state": "NM",
      "zip": "87532",
-     "county": "",
+     "county": "Rio Arriba",
      "phone": "5054555228",
      "hours": "Lobby Hours: Monday - Thursday 9:00 a.m. to 5:00 p.m. Friday 9:00 a.m. to 6:00 p.m. Saturday 9:00 a.m. to 1:00 p.m.  Drive-up Hours: Monday - Thursday 8:00 a.m. to 5:30 p.m. Friday 8:00 a.m. to 6:00 p.m. Saturday 9:00 a.m. to 1:00 p.m.",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
-    },
-    {
-     "name": "Los Alamos Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "1000 Trinity Dr",
-     "city": "Los Alamos",
-     "state": "NM",
-     "zip": "87544",
-     "county": "",
-     "phone": "5054555228",
-     "hours": "Lobby Hours: Monday - Thursday 9:00 a.m. to 5:00 p.m. Friday 9:00 a.m. to 6:00 p.m.  Drive-up Hours: Monday - Thursday 8:00 a.m. to 5:30 p.m.Friday 8:00 a.m. to 6:00 p.m.",
      "member_services": true,
      "atm": true,
      "drive_through": true
@@ -1318,7 +1345,7 @@
      "city": "Rio Rancho",
      "state": "NM",
      "zip": "87144",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5054555228",
      "hours": "Lobby Hours: Monday - Thursday 9:00 a.m. to 5:00 p.m. Friday 9:00 a.m. to 6:00 p.m. Saturday 9:00 a.m. to 1:00 p.m.  Drive-up Hours: Monday - Thursday 8:00 a.m. to 5:30 p.m. Friday 8:00 a.m. to 6:00 p.m. Saturday 9:00 a.m. to 1:00 p.m.",
      "member_services": true,
@@ -1333,7 +1360,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5054555228",
      "hours": "Lobby Hours: Monday - Thursday 9:00 a.m. to 5:00 p.m. Friday 9:00 a.m. to 6:00 p.m. Saturday 9:00 a.m. to 1:00 p.m. Drive-up Hours: Monday - Thursday 8:00 to 5:30 p.m.Friday 8:00 a.m. to 6:00 p.m.Saturday 9:00 a.m. to 1:00 p.m.",
      "member_services": true,
@@ -1348,7 +1375,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87501-6510",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5054555228",
      "hours": "Lobby Hours: Monday - Thursday 9:00 a.m. to 5:00 p.m. Friday 9:00 a.m. to 6:00 p.m.  Drive-up Hours: Monday - Thursday 8:00 to 5:30 p.m.Friday 8:00 a.m. to 6:00 p.m.",
      "member_services": true,
@@ -1363,24 +1390,9 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5054555228",
      "hours": "Lobby Hours:Monday - Thursday 9:00 a.m. to 5:00 p.m.Friday 9:00 a.m. to 6:00 p.m.Drive-up Hours:Monday - Thursday 8:00 to 5:30 p.m.Friday 8:00 a.m. to 6:00 p.m.",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
-    },
-    {
-     "name": "White Rock Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "40 Rover Blvd",
-     "city": "White Rock",
-     "state": "NM",
-     "zip": "87547",
-     "county": "",
-     "phone": "5054555228",
-     "hours": "Lobby Hours: Monday - Thursday 9:00 a.m. to 5:00 p.m. Friday 9:00 a.m. to 6:00 p.m.  Drive-up Hours: Monday - Thursday 9:00 a.m. to 5:30 p.m.Friday 9:00 a.m. to 6:00 p.m.",
      "member_services": true,
      "atm": true,
      "drive_through": true
@@ -1413,6 +1425,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 120368831,
     "ACCT_998": 956,
@@ -1498,7 +1511,9 @@
      "p75": 19.05
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -1510,7 +1525,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "8009837328",
      "hours": "Monday - Friday 9:00am - 5:00pm",
      "member_services": true,
@@ -1525,27 +1540,12 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87107",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5058840128",
      "hours": "M-W: 9:00 am to 5:00 pm (MT)Th-Fri: 9:00 am to 5:30 pm (MT)Drive Up: 8:30 am to 5:30 pm (MT)",
      "member_services": true,
      "atm": true,
      "drive_through": false
-    },
-    {
-     "name": "State Employees Credit Union Belen",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "19390 Highway 314",
-     "city": "Belen",
-     "state": "NM",
-     "zip": "87002-6377",
-     "county": "",
-     "phone": "5058640335",
-     "hours": "M-W: 9:00 am to 5:00 pm (MT)Th-Fri: 9:00 am to 5:30 pm (MT)Drive Up: 8:30 am to 5:30 pm (MT)",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
     },
     {
      "name": "State Employees Credit Union Las Vegas",
@@ -1555,23 +1555,8 @@
      "city": "Las Vegas",
      "state": "NM",
      "zip": "87701",
-     "county": "",
+     "county": "San Miguel",
      "phone": "5054541111",
-     "hours": "M-W: 9:00 am to 5:00 pm (MT)Th-Fri: 9:00 am to 5:30 pm (MT)Drive Up: 8:30 am to 5:30 pm (MT)",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
-    },
-    {
-     "name": "State Employees CU Los Lunas Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "280 Emilio Lopez Rd NW",
-     "city": "Los Lunas",
-     "state": "NM",
-     "zip": "87031",
-     "county": "",
-     "phone": "5055658400",
      "hours": "M-W: 9:00 am to 5:00 pm (MT)Th-Fri: 9:00 am to 5:30 pm (MT)Drive Up: 8:30 am to 5:30 pm (MT)",
      "member_services": true,
      "atm": true,
@@ -1585,7 +1570,7 @@
      "city": "Rio Rancho",
      "state": "NM",
      "zip": "87144-8735",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5058840128",
      "hours": "M-W: 9:00 am to 5:00 pm (MT)Th-Fri: 9:00 am to 5:30 pm (MT)Drive Up: 8:30 am to 5:30 pm (MT)",
      "member_services": true,
@@ -1600,9 +1585,9 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505-7641",
-     "county": "",
-     "phone": "",
-     "hours": "",
+     "county": "Santa Fe",
+     "phone": null,
+     "hours": null,
      "member_services": false,
      "atm": false,
      "drive_through": false
@@ -1615,7 +1600,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5054732019",
      "hours": "M-W: 9:00 am to 5:00 pm (MT)Th-Fri: 9:00 am to 5:30 pm (MT)Drive Up: 7:30 am to 5:30 pm (MT)",
      "member_services": true,
@@ -1630,9 +1615,39 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505-7607",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5059837328",
      "hours": "9:00 - 5:00 M-W 9:00 - 5:30 Th-Fr",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
+    },
+    {
+     "name": "State Employees Credit Union Belen",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "19390 Highway 314",
+     "city": "Belen",
+     "state": "NM",
+     "zip": "87002-6377",
+     "county": "Valencia",
+     "phone": "5058640335",
+     "hours": "M-W: 9:00 am to 5:00 pm (MT)Th-Fri: 9:00 am to 5:30 pm (MT)Drive Up: 8:30 am to 5:30 pm (MT)",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
+    },
+    {
+     "name": "State Employees CU Los Lunas Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "280 Emilio Lopez Rd NW",
+     "city": "Los Lunas",
+     "state": "NM",
+     "zip": "87031",
+     "county": "Valencia",
+     "phone": "5055658400",
+     "hours": "M-W: 9:00 am to 5:00 pm (MT)Th-Fri: 9:00 am to 5:30 pm (MT)Drive Up: 8:30 am to 5:30 pm (MT)",
      "member_services": true,
      "atm": true,
      "drive_through": true
@@ -1665,6 +1680,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 123827523,
     "ACCT_998": 999,
@@ -1750,7 +1766,9 @@
      "p75": 21.07
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -1762,7 +1780,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87109",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052926343",
      "hours": "Mon - Thu:  9:00 AM - 5:00 PM Fri:  9:00 AM - 6:00 PM Sat:  9:00 AM - 1:00 PM",
      "member_services": true,
@@ -1777,7 +1795,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87112",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052926343",
      "hours": "Mon - Thu:  9:00 AM - 5:00 PM Fri:  9:00 AM - 6:00 PM Sat:  9:00 AM - 1:00 PM",
      "member_services": true,
@@ -1792,7 +1810,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87117",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052926343",
      "hours": "Mon - Fri:  9:00 AM - 5:00 PM",
      "member_services": true,
@@ -1807,7 +1825,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87111",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052566343",
      "hours": "Monday - Friday: 9 am to 5 pmSaturday: 9 am to 1 pmSunday: Closed",
      "member_services": true,
@@ -1822,7 +1840,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87109-5566",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052566343",
      "hours": "9:00 am - 5:00 PM",
      "member_services": false,
@@ -1837,7 +1855,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87120",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052926343",
      "hours": "Mon - Thu:  9:00 AM - 5:00 PM Fri:  9:00 AM - 6:00 PM Sat:  9:00 AM - 1:00 PM",
      "member_services": true,
@@ -1852,7 +1870,7 @@
      "city": "Rio Rancho",
      "state": "NM",
      "zip": "87124-1093",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5052926343",
      "hours": "Mon - Thu:  9:00 AM - 5:00 PM Fri:  9:00 AM - 6:00 PM Sat:  9:00 AM - 1:00 PM",
      "member_services": true,
@@ -1867,7 +1885,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5052926343",
      "hours": "M-F 9:00 - 5:00",
      "member_services": true,
@@ -1902,6 +1920,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 134192014,
     "ACCT_998": 1110,
@@ -1987,7 +2006,9 @@
      "p75": 21.67
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -1999,7 +2020,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87108",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052544369",
      "hours": "9-5",
      "member_services": true,
@@ -2014,7 +2035,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87120-3682",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052544369",
      "hours": "Mon-Thurs 9:00am - 5:pmFriday 9:00am to 6:00pmSat 9:00am - 3:00pm",
      "member_services": true,
@@ -2029,7 +2050,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87109",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052544367",
      "hours": "9-5 Mon-Fri",
      "member_services": true,
@@ -2044,7 +2065,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87117",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052544367",
      "hours": "9-5 Mon-Thurs9-6 Friday9-1 Saturday",
      "member_services": true,
@@ -2059,7 +2080,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87111",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052544369",
      "hours": "9-5",
      "member_services": true,
@@ -2074,7 +2095,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87114",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052544369",
      "hours": "9-5",
      "member_services": true,
@@ -2089,9 +2110,9 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87110-7015",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052544311",
-     "hours": "",
+     "hours": null,
      "member_services": false,
      "atm": false,
      "drive_through": false
@@ -2104,24 +2125,9 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87113",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052547082",
      "hours": "standard",
-     "member_services": true,
-     "atm": false,
-     "drive_through": false
-    },
-    {
-     "name": "Los Lunas",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "2270 Main St NW",
-     "city": "Los Lunas",
-     "state": "NM",
-     "zip": "87031",
-     "county": "",
-     "phone": "5052544399",
-     "hours": "standard hours",
      "member_services": true,
      "atm": false,
      "drive_through": false
@@ -2134,7 +2140,22 @@
      "city": "Rio Rancho",
      "state": "NM",
      "zip": "87124-7020",
-     "county": "",
+     "county": "Sandoval",
+     "phone": "5052544399",
+     "hours": "standard hours",
+     "member_services": true,
+     "atm": false,
+     "drive_through": false
+    },
+    {
+     "name": "Los Lunas",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "2270 Main St NW",
+     "city": "Los Lunas",
+     "state": "NM",
+     "zip": "87031",
+     "county": "Valencia",
      "phone": "5052544399",
      "hours": "standard hours",
      "member_services": true,
@@ -2169,6 +2190,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 130504234,
     "ACCT_998": 1255,
@@ -2254,7 +2276,9 @@
      "p75": 21.67
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -2266,12 +2290,27 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87107",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5057665600",
      "hours": "M-F 7:00-6:00 PM",
      "member_services": false,
      "atm": false,
      "drive_through": false
+    },
+    {
+     "name": "South Valley Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "3115 Avanzando Rd SW",
+     "city": "Albuquerque",
+     "state": "NM",
+     "zip": "87105",
+     "county": null,
+     "phone": "5057665600",
+     "hours": "Mon-Tues - 8:50am-5:30pm Weds - 10:00am-5:30pm Thurs - 8:50am-5:30pm Fri - 8:50am-6:00pm Sat - 9:00am-2:00pm Drive-Up - M/Tu/Thur Opens at 8:30am Drive-Up - Weds Opens at 10:00am Drive-Up - Fri Opens at 8:30am Drive-Up - Sat Opens at 9:00am",
+     "member_services": false,
+     "atm": true,
+     "drive_through": true
     },
     {
      "name": "Academy",
@@ -2281,7 +2320,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87111-7363",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5057665600",
      "hours": "Mon-Tues - 8:50am-5:30pmWeds - 10:00am-5:30pmThurs - 8:50am-5:30pmFri - 8:50am-6:00pmSat - ClosedDrive-Up - M/Tu/Thur Opens at 8:30amDrive-Up - Weds Opens at 10:00amDrive-Up - Fri Opens at 8:30amDrive-Up - Sat Closed",
      "member_services": true,
@@ -2296,7 +2335,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87120-2788",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5057665600",
      "hours": "Mon-Tues - 8:50am-5:30pmWeds - 10:00am-5:30pmThurs - 8:50am-5:30pmFri - 8:50am-6:00pmSat - 9:00am-2:00pmDrive-Up - M/Tu/Thur Opens at 8:30amDrive-Up - Weds Opens at 10:00amDrive-Up - Fri Opens at 8:30amDrive-Up - Sat Opens at 9:00am",
      "member_services": true,
@@ -2311,7 +2350,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87123-1426",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5057665600",
      "hours": "Mon-Tues - 8:50am-5:30pmWeds - 10:00am-5:30pmThurs - 8:50am-5:30pmFri - 8:50am-6:00pmSat - ClosedDrive-Up - N/A",
      "member_services": true,
@@ -2326,7 +2365,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87110-3160",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5057665600",
      "hours": "Mon-Tues - 8:50am-5:30pmWeds - 10:00am-5:30pmThurs - 8:50am-5:30pmFri - 8:50am-6:00pmSat - 9:00am-2:00pmDrive-Up - M/Tu/Thur Opens at 8:30amDrive-Up - Weds Opens at 10:00amDrive-Up - Fri Opens at 8:30amDrive-Up - Sat Opens at 9:00am",
      "member_services": true,
@@ -2334,31 +2373,46 @@
      "drive_through": true
     },
     {
-     "name": "South Valley Branch",
+     "name": "Pinehill",
      "type": "Branch Office",
      "main_office": false,
-     "address": "3115 Avanzando Rd SW",
-     "city": "Albuquerque",
+     "address": "12 miles S of Hwy 53",
+     "city": "PINEHILL",
      "state": "NM",
-     "zip": "87105",
-     "county": "",
+     "zip": "87357",
+     "county": "Cibola",
      "phone": "5057665600",
-     "hours": "Mon-Tues - 8:50am-5:30pm Weds - 10:00am-5:30pm Thurs - 8:50am-5:30pm Fri - 8:50am-6:00pm Sat - 9:00am-2:00pm Drive-Up - M/Tu/Thur Opens at 8:30am Drive-Up - Weds Opens at 10:00am Drive-Up - Fri Opens at 8:30am Drive-Up - Sat Opens at 9:00am",
-     "member_services": false,
+     "hours": "Mon - 8:50am-5:00pm Closed for Lunch from 1-2pmCLOSED Tuesday & WednesdayThurs - 8:50am-5:00pm Closed for Lunch from 1-2pmFri - 8:50am-6:00pm Closed for Lunch from 1-2pmSat - ClosedDrive-Up - N/A",
+     "member_services": true,
+     "atm": true,
+     "drive_through": false
+    },
+    {
+     "name": "University Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "901 E UNIVERSITY AVE STE Q",
+     "city": "LAS CRUCES",
+     "state": "NM",
+     "zip": "88001-5710",
+     "county": "Dona Ana",
+     "phone": "5057665600",
+     "hours": "LobbyMon - Tues - 8:50am-5:00pmWeds - 10:00am-5:00pmThurs - 8:50am-5:00pmFri - 8:50am-5:00pmSat - Sun - ClosedDrive ThroughMon - Tues - 8:30am-5:30pmWeds - 10:00am-5:30pmThurs - 8:30am-5:30pmFri - 8:30am-6:00pmSat - Sun - Closed",
+     "member_services": true,
      "atm": true,
      "drive_through": true
     },
     {
-     "name": "Bernalillo Branch",
+     "name": "Silver City Branch",
      "type": "Branch Office",
      "main_office": false,
-     "address": "165 E Highway 550",
-     "city": "Bernalillo",
+     "address": "2290 E SUPERIOR ST",
+     "city": "SILVER CITY",
      "state": "NM",
-     "zip": "87004-5964",
-     "county": "",
-     "phone": "8003428298",
-     "hours": "M-Th 8:30AM to 5:30PM F 8:30AM to 6:00PM Sat 9:00AM to 2:00PM",
+     "zip": "88061-7729",
+     "county": "Grant",
+     "phone": "5057665600",
+     "hours": "Mon-Tues - 8:50am-5:00pmWeds - 10:00am-5:00pmThurs - 8:50am-5:00pmFri - 8:50am-5:00pmSat - Lobby ClosedDrive-Up - M/Tu/Thur Opens at 8:30amDrive-Up - Weds Opens at 10:00amDrive-Up - Friday Opens at 8:30amDrive-Up -Saturday 9am to 1pm",
      "member_services": true,
      "atm": true,
      "drive_through": true
@@ -2371,24 +2425,9 @@
      "city": "DEMING",
      "state": "NM",
      "zip": "88030-3811",
-     "county": "",
+     "county": "Luna",
      "phone": "5057665600",
      "hours": "Mon-Tues - 8:50am-5:00pmWeds - 10:00am-5:00pmThurs - 8:50am-5:00pmFri - 8:50am-5:00pmSat - Lobby ClosedDrive-Up - M/Tu/Thur Opens at 8:30amDrive-Up - Weds Opens at 10:00amDrive-Up - Fri Opens at 8:30amDrive-Up - Sat 9am to 1pm",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
-    },
-    {
-     "name": "Farmington Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "4919 E Main St",
-     "city": "Farmington",
-     "state": "NM",
-     "zip": "87402-8657",
-     "county": "",
-     "phone": "5057665600",
-     "hours": "Mon-Tues - 8:50am-5:00pmWeds - 10:00am-5:00pmThurs - 8:50am-5:00pmFri - 8:50am-6:00pmSat - 9:00am-2:00pmDrive-Up - M/Tu/Thur Opens at 8:30amDrive-Up - Weds Opens at 10:00amDrive-Up - Fri Opens at 8:30amDrive-Up - Sat Opens at 9:00am",
      "member_services": true,
      "atm": true,
      "drive_through": true
@@ -2401,7 +2440,7 @@
      "city": "GALLUP",
      "state": "NM",
      "zip": "87301-6303",
-     "county": "",
+     "county": "McKinley",
      "phone": "5057665600",
      "hours": "Lobby Closed Until Further Notice",
      "member_services": true,
@@ -2416,84 +2455,9 @@
      "city": "Gallup",
      "state": "NM",
      "zip": "87301-5428",
-     "county": "",
+     "county": "McKinley",
      "phone": "5057665600",
      "hours": "Lobby Hours Closed Until Further Notice",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
-    },
-    {
-     "name": "University Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "901 E UNIVERSITY AVE STE Q",
-     "city": "LAS CRUCES",
-     "state": "NM",
-     "zip": "88001-5710",
-     "county": "",
-     "phone": "5057665600",
-     "hours": "LobbyMon - Tues - 8:50am-5:00pmWeds - 10:00am-5:00pmThurs - 8:50am-5:00pmFri - 8:50am-5:00pmSat - Sun - ClosedDrive ThroughMon - Tues - 8:30am-5:30pmWeds - 10:00am-5:30pmThurs - 8:30am-5:30pmFri - 8:30am-6:00pmSat - Sun - Closed",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
-    },
-    {
-     "name": "Pinehill",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "12 miles S of Hwy 53",
-     "city": "PINEHILL",
-     "state": "NM",
-     "zip": "87357",
-     "county": "",
-     "phone": "5057665600",
-     "hours": "Mon - 8:50am-5:00pm Closed for Lunch from 1-2pmCLOSED Tuesday & WednesdayThurs - 8:50am-5:00pm Closed for Lunch from 1-2pmFri - 8:50am-6:00pm Closed for Lunch from 1-2pmSat - ClosedDrive-Up - N/A",
-     "member_services": true,
-     "atm": true,
-     "drive_through": false
-    },
-    {
-     "name": "Portales Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "700 W 2nd St",
-     "city": "Portales",
-     "state": "NM",
-     "zip": "88130-6242",
-     "county": "",
-     "phone": "5057665600",
-     "hours": "Mon-Tues - 8:50am-5:00pmWeds - 10:00am-5:00pmThurs - 8:50am-5:00pmFri - 8:50am-5:00pmSat - ClosedDrive-Up - M/Tu/Thur Opens at 8:30amDrive-Up - Weds Opens at 10:00amDrive-Up - Fri Opens at 8:30amDrive-Up - Sat Closed",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
-    },
-    {
-     "name": "Rio Rancho Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "2201 Rio Rancho Blvd SE",
-     "city": "Rio Rancho",
-     "state": "NM",
-     "zip": "87124",
-     "county": "",
-     "phone": "5057665600",
-     "hours": "Mon-Tues - 8:50am-5:30pmWeds - 10:00am-5:30pmThurs - 8:50am-5:30pmFri - 8:50am-6:00pmSat - 9:00am-2:00pmDrive-Up - M/Tu/Thur Opens at 8:30amDrive-Up - Weds Opens at 10:00amDrive-Up - Fri Opens at 8:30amDrive-Up - Sat Opens at 9:00am",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
-    },
-    {
-     "name": "Silver City Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "2290 E SUPERIOR ST",
-     "city": "SILVER CITY",
-     "state": "NM",
-     "zip": "88061-7729",
-     "county": "",
-     "phone": "5057665600",
-     "hours": "Mon-Tues - 8:50am-5:00pmWeds - 10:00am-5:00pmThurs - 8:50am-5:00pmFri - 8:50am-5:00pmSat - Lobby ClosedDrive-Up - M/Tu/Thur Opens at 8:30amDrive-Up - Weds Opens at 10:00amDrive-Up - Friday Opens at 8:30amDrive-Up -Saturday 9am to 1pm",
      "member_services": true,
      "atm": true,
      "drive_through": true
@@ -2506,9 +2470,69 @@
      "city": "Zuni",
      "state": "NM",
      "zip": "87327",
-     "county": "",
+     "county": "McKinley",
      "phone": "5057665600",
      "hours": "Lobby Closed Until Further Notice",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
+    },
+    {
+     "name": "Portales Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "700 W 2nd St",
+     "city": "Portales",
+     "state": "NM",
+     "zip": "88130-6242",
+     "county": "Roosevelt",
+     "phone": "5057665600",
+     "hours": "Mon-Tues - 8:50am-5:00pmWeds - 10:00am-5:00pmThurs - 8:50am-5:00pmFri - 8:50am-5:00pmSat - ClosedDrive-Up - M/Tu/Thur Opens at 8:30amDrive-Up - Weds Opens at 10:00amDrive-Up - Fri Opens at 8:30amDrive-Up - Sat Closed",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
+    },
+    {
+     "name": "Farmington Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "4919 E Main St",
+     "city": "Farmington",
+     "state": "NM",
+     "zip": "87402-8657",
+     "county": "San Juan",
+     "phone": "5057665600",
+     "hours": "Mon-Tues - 8:50am-5:00pmWeds - 10:00am-5:00pmThurs - 8:50am-5:00pmFri - 8:50am-6:00pmSat - 9:00am-2:00pmDrive-Up - M/Tu/Thur Opens at 8:30amDrive-Up - Weds Opens at 10:00amDrive-Up - Fri Opens at 8:30amDrive-Up - Sat Opens at 9:00am",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
+    },
+    {
+     "name": "Bernalillo Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "165 E Highway 550",
+     "city": "Bernalillo",
+     "state": "NM",
+     "zip": "87004-5964",
+     "county": "Sandoval",
+     "phone": "8003428298",
+     "hours": "M-Th 8:30AM to 5:30PM F 8:30AM to 6:00PM Sat 9:00AM to 2:00PM",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
+    },
+    {
+     "name": "Rio Rancho Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "2201 Rio Rancho Blvd SE",
+     "city": "Rio Rancho",
+     "state": "NM",
+     "zip": "87124",
+     "county": "Sandoval",
+     "phone": "5057665600",
+     "hours": "Mon-Tues - 8:50am-5:30pmWeds - 10:00am-5:30pmThurs - 8:50am-5:30pmFri - 8:50am-6:00pmSat - 9:00am-2:00pmDrive-Up - M/Tu/Thur Opens at 8:30amDrive-Up - Weds Opens at 10:00amDrive-Up - Fri Opens at 8:30amDrive-Up - Sat Opens at 9:00am",
      "member_services": true,
      "atm": true,
      "drive_through": true
@@ -2541,6 +2565,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 81542101,
     "ACCT_998": 914,
@@ -2626,7 +2651,9 @@
      "p75": 21.67
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -2638,7 +2665,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87102",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052621401",
      "hours": "M - F 9:00 - 5:00",
      "member_services": false,
@@ -2653,7 +2680,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87102-1414",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052621401",
      "hours": "M-Th 9:00 - 5:00 F 9:00 - 5:30 S 9;00 - 1:00",
      "member_services": true,
@@ -2668,7 +2695,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87112",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052621401",
      "hours": "9:00 - 5:00 M-Th; 9:00 - 5:30 F; 9:00-1:00 S",
      "member_services": true,
@@ -2683,7 +2710,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87110",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052621401",
      "hours": "M-Th 9:00 - 5:00 F 9:00 - 5:30 S 9:00 - 1:00",
      "member_services": true,
@@ -2698,7 +2725,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87109",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052621401",
      "hours": "M-TH 9-5 Fri 9-5:30 Sat 9-1",
      "member_services": true,
@@ -2713,7 +2740,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87105",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052621401",
      "hours": "M-Th 9:00 -5:00  F 9:00 - 5:30  S 9:00 -1:00",
      "member_services": true,
@@ -2728,7 +2755,7 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87121",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052621401",
      "hours": "M-Th 9:00 - 5:00 F 9:00 - 5:30 S 9:00 - 1:00",
      "member_services": true,
@@ -2743,7 +2770,7 @@
      "city": "Rio Rancho",
      "state": "NM",
      "zip": "87124",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5052621401",
      "hours": "Monday through Thursday 9-5Friday 9-5:30Saturday 9-1",
      "member_services": true,
@@ -2778,6 +2805,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 53108005,
     "ACCT_998": 801,
@@ -2863,7 +2891,9 @@
      "p75": 1.54
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -2875,57 +2905,12 @@
      "city": "Alamogordo",
      "state": "NM",
      "zip": "88310",
-     "county": "",
+     "county": "Otero",
      "phone": "5754348500",
      "hours": "M-F 8:30am - 5:30pm",
      "member_services": false,
      "atm": false,
      "drive_through": false
-    },
-    {
-     "name": "Main Office",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "1200 10th St",
-     "city": "Alamogordo",
-     "state": "NM",
-     "zip": "88310",
-     "county": "",
-     "phone": "5754348500",
-     "hours": "M-F 8:00 am - 6:00 pm Sat 9:00 am - 1:00 pm",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
-    },
-    {
-     "name": "Northside Office",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "3300 N White Sands Blvd Unit A",
-     "city": "Alamogordo",
-     "state": "NM",
-     "zip": "88310",
-     "county": "",
-     "phone": "5754348500",
-     "hours": "M-F 8:00 am - 6:00 pm Sat 9:00 am - 1:00 pm",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
-    },
-    {
-     "name": "Holloman Office",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "PO BOX 1058 Bldg 786",
-     "city": "Holloman AFB",
-     "state": "NM",
-     "zip": "88330",
-     "county": "",
-     "phone": "5754348500",
-     "hours": "M-F 8:00 am - 6:00 pm Sat 9:00 am - 1:00 pm",
-     "member_services": true,
-     "atm": true,
-     "drive_through": true
     },
     {
      "name": "North Main Office",
@@ -2935,7 +2920,7 @@
      "city": "Roswell",
      "state": "NM",
      "zip": "88201-6458",
-     "county": "",
+     "county": "Chaves",
      "phone": "5754348500",
      "hours": "M-F 8:00 am - 6:00 pm Sat 9:00 am - 1:00 pm",
      "member_services": true,
@@ -2950,7 +2935,7 @@
      "city": "Roswell",
      "state": "NM",
      "zip": "88203-1837",
-     "county": "",
+     "county": "Chaves",
      "phone": "5754348500",
      "hours": "M-F 8:0 am - 6:00 pm",
      "member_services": true,
@@ -2965,9 +2950,54 @@
      "city": "Ruidoso",
      "state": "NM",
      "zip": "88345-6178",
-     "county": "",
+     "county": "Lincoln",
      "phone": "5754348500",
      "hours": "M-F 8:30 am - 5:30 pm Sat 9:00 am - 12:00 pm",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
+    },
+    {
+     "name": "Main Office",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "1200 10th St",
+     "city": "Alamogordo",
+     "state": "NM",
+     "zip": "88310",
+     "county": "Otero",
+     "phone": "5754348500",
+     "hours": "M-F 8:00 am - 6:00 pm Sat 9:00 am - 1:00 pm",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
+    },
+    {
+     "name": "Northside Office",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "3300 N White Sands Blvd Unit A",
+     "city": "Alamogordo",
+     "state": "NM",
+     "zip": "88310",
+     "county": "Otero",
+     "phone": "5754348500",
+     "hours": "M-F 8:00 am - 6:00 pm Sat 9:00 am - 1:00 pm",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
+    },
+    {
+     "name": "Holloman Office",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "PO BOX 1058 Bldg 786",
+     "city": "Holloman AFB",
+     "state": "NM",
+     "zip": "88330",
+     "county": "Otero",
+     "phone": "5754348500",
+     "hours": "M-F 8:00 am - 6:00 pm Sat 9:00 am - 1:00 pm",
      "member_services": true,
      "atm": true,
      "drive_through": true
@@ -3000,6 +3030,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 69262886,
     "ACCT_998": 1437,
@@ -3085,10 +3116,12 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -3099,7 +3132,7 @@
      "city": "Las Cruces",
      "state": "NM",
      "zip": "88001-1149",
-     "county": "",
+     "county": "Dona Ana",
      "phone": "5756474500",
      "hours": "Lobby Hours: Monday through Friday, 9-5, Saturday, 9-12:30; Drive Thru Hours: Monday though Thursday, 8-5:30, Friday, 8-6, Satu",
      "member_services": true,
@@ -3114,7 +3147,7 @@
      "city": "Las Cruces",
      "state": "NM",
      "zip": "88001-8452",
-     "county": "",
+     "county": "Dona Ana",
      "phone": "5756474500",
      "hours": "Lobby Hours: Monday through Friday, 9-5, Saturday, 9-12:30 Drive Thru Hours: Monday through Thursday, 8-5:30, Friday, 8-6, Satu",
      "member_services": true,
@@ -3129,7 +3162,7 @@
      "city": "Truth or Consequences",
      "state": "NM",
      "zip": "87901",
-     "county": "",
+     "county": "Sierra",
      "phone": "5758941411",
      "hours": "Lobby Hours: Monday through Friday, 9-5",
      "member_services": true,
@@ -3144,7 +3177,7 @@
      "city": "El Paso",
      "state": "TX",
      "zip": "79904-1303",
-     "county": "",
+     "county": "El Paso",
      "phone": "9157519933",
      "hours": "Lobby Hours: Monday - Friday 9-5 Drive Thru:    Monday-Thursday 8-5:30  Friday  8-6   Saturday 9-12:30",
      "member_services": true,
@@ -3179,6 +3212,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 46757061,
     "ACCT_998": 1183,
@@ -3264,7 +3298,9 @@
      "p75": 1.54
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -3276,7 +3312,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505-2159",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5059828942",
      "hours": "Monday - Friday 8:30 am to 5:30 pm",
      "member_services": false,
@@ -3284,19 +3320,19 @@
      "drive_through": false
     },
     {
-     "name": "Taos Branch",
+     "name": "Mora Branch",
      "type": "Branch Office",
      "main_office": false,
-     "address": "1520 Paseo del Pueblo Norte",
-     "city": "El Prado",
+     "address": "#508 NM 518",
+     "city": "Mora",
      "state": "NM",
-     "zip": "87529",
-     "county": "",
-     "phone": "5757583899",
-     "hours": "9:00a - 5:00p M-Thur9:00a - 6:00p Fri",
+     "zip": "87732",
+     "county": "Mora",
+     "phone": "5753872644",
+     "hours": "9:00 am - 5:00 pm M-Thur9:00 am - 6:00 pm Fri",
      "member_services": true,
      "atm": true,
-     "drive_through": true
+     "drive_through": false
     },
     {
      "name": "Espanola Branch",
@@ -3306,7 +3342,7 @@
      "city": "Espanola",
      "state": "NM",
      "zip": "87532",
-     "county": "",
+     "county": "Rio Arriba",
      "phone": "5059828942",
      "hours": "Mon, Tues, Thurs, & Fri 9-5Wed 10-5Fri Drive-up until 5:30Sat 9-1",
      "member_services": true,
@@ -3321,27 +3357,12 @@
      "city": "Las Vegas",
      "state": "NM",
      "zip": "87701-4969",
-     "county": "",
+     "county": "San Miguel",
      "phone": "5054347100",
      "hours": "9:00AM - 5:00 PM",
      "member_services": true,
      "atm": true,
      "drive_through": true
-    },
-    {
-     "name": "Mora Branch",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "#508 NM 518",
-     "city": "Mora",
-     "state": "NM",
-     "zip": "87732",
-     "county": "",
-     "phone": "5753872644",
-     "hours": "9:00 am - 5:00 pm M-Thur9:00 am - 6:00 pm Fri",
-     "member_services": true,
-     "atm": true,
-     "drive_through": false
     },
     {
      "name": "Airport Branch",
@@ -3351,7 +3372,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5059828942",
      "hours": "Mon-Fri 9-7 Sat 9-1:00 d Drive up",
      "member_services": true,
@@ -3366,7 +3387,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5059828942",
      "hours": "Mon, Tues, Thurs & Fri 9-5 Wed 10-5 Fri drive up until 5:30 Sat 9-1",
      "member_services": true,
@@ -3381,9 +3402,24 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507-2891",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5059828942",
      "hours": "9:00-5:00 Mon-Fri 5:00-5:30 Fri drive thru only 9:00-1:00 Sat drive thru only",
+     "member_services": true,
+     "atm": true,
+     "drive_through": true
+    },
+    {
+     "name": "Taos Branch",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "1520 Paseo del Pueblo Norte",
+     "city": "El Prado",
+     "state": "NM",
+     "zip": "87529",
+     "county": "Taos",
+     "phone": "5757583899",
+     "hours": "9:00a - 5:00p M-Thur9:00a - 6:00p Fri",
      "member_services": true,
      "atm": true,
      "drive_through": true
@@ -3416,6 +3452,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 36102437,
     "ACCT_998": 1201,
@@ -3501,7 +3538,9 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -3513,7 +3552,7 @@
      "city": "Los Alamos",
      "state": "NM",
      "zip": "87544",
-     "county": "",
+     "county": "Los Alamos",
      "phone": "5056624671",
      "hours": "Lobby Hours are as follows;Monday 8:30am - 5pmTuesday 10:00am - 5pmWednesday 8:30am - 5pmThursday 8:30am - 5pmFriday 8:00am - 6pm",
      "member_services": true,
@@ -3528,7 +3567,7 @@
      "city": "Espanola",
      "state": "NM",
      "zip": "87532",
-     "county": "",
+     "county": "Rio Arriba",
      "phone": "5053671500",
      "hours": "Lobby Hours are as follows;Monday 8:30am - 5pmTuesday 10:00am - 5pmWednesday 8:30am - 5pmThursday 8:30am - 5pmFriday 8:00am - 6pm",
      "member_services": true,
@@ -3543,7 +3582,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87501-1441",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5053724938",
      "hours": "Monday 8:30am - 5:00pm Tuesday 10:00am - 5:00pm  Wednesday 8:30am - 5:00pm Thursday 8:30am - 5:00pm Friday 8:00am - 6:00pm 1st Tuesday of month branch opens at 8:30am and drive thru closes at 5:30pm",
      "member_services": true,
@@ -3578,6 +3617,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 18810737,
     "ACCT_998": 812,
@@ -3663,7 +3703,9 @@
      "p75": 1.54
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -3675,7 +3717,7 @@
      "city": "Artesia",
      "state": "NM",
      "zip": "88210-2000",
-     "county": "",
+     "county": "Eddy",
      "phone": "5757489779",
      "hours": "Monday - Thursday 9:00 a.m. - 4:30 p.m. Drive Thru- 9:00 A.M. -5:00 p.m. Friday 9:00 a.m.-5:00p.m.  Drive Thru 5:30 Saturday",
      "member_services": true,
@@ -3710,6 +3752,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 22930904,
     "ACCT_998": 1526,
@@ -3795,7 +3838,9 @@
      "p75": 1.54
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -3807,7 +3852,7 @@
      "city": "HOBBS",
      "state": "NM",
      "zip": "88240-3048",
-     "county": "",
+     "county": "Lea",
      "phone": "5753931596",
      "hours": "MONDAY THRU FRIDAY 7:30 AM TO 5:30 PM",
      "member_services": true,
@@ -3822,7 +3867,7 @@
      "city": "EUNICE",
      "state": "NM",
      "zip": "88231",
-     "county": "",
+     "county": "Lea",
      "phone": "5753931596",
      "hours": "9:00AM - 5:00PM MONDAY - FRIDAY",
      "member_services": true,
@@ -3837,7 +3882,7 @@
      "city": "LOVINGTON",
      "state": "NM",
      "zip": "88260-4013",
-     "county": "",
+     "county": "Lea",
      "phone": "5753967727",
      "hours": "9:00 - 5:00 MONDAY-FRIDAY",
      "member_services": true,
@@ -3852,7 +3897,7 @@
      "city": "DENVER CITY",
      "state": "TX",
      "zip": "79323-3242",
-     "county": "",
+     "county": "Yoakum",
      "phone": "5753931596",
      "hours": "9:00 - 5:00 MONDAY - FRIDAY",
      "member_services": true,
@@ -3887,6 +3932,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 13340554,
     "ACCT_998": 1277,
@@ -3972,7 +4018,9 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -3984,7 +4032,7 @@
      "city": "Clovis",
      "state": "NM",
      "zip": "88101",
-     "county": "",
+     "county": "Curry",
      "phone": "5757913353",
      "hours": "Monday-Friday 9:00a-5:00p (Lobby & Drive-up) Saturday 9:00a-1:00p (Drive-up Only)",
      "member_services": true,
@@ -3999,7 +4047,7 @@
      "city": "Cannon AFB",
      "state": "NM",
      "zip": "88103",
-     "county": "",
+     "county": "Curry",
      "phone": "5757845500",
      "hours": "M-F 9:00-5:00 (Lobby & Drive UP), Sat (Drive up only 9:00am-1:00pm)",
      "member_services": true,
@@ -4034,6 +4082,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 11462535,
     "ACCT_998": 1163,
@@ -4119,7 +4168,9 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -4131,25 +4182,10 @@
      "city": "Albuquerque",
      "state": "NM",
      "zip": "87111-1046",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052436751",
      "hours": "8:30 to 4:30",
      "member_services": false,
-     "atm": true,
-     "drive_through": true
-    },
-    {
-     "name": "Farmington",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "111 S Miller Ave",
-     "city": "Farmington",
-     "state": "NM",
-     "zip": "87401",
-     "county": "",
-     "phone": "5053271603",
-     "hours": "Monday Tuesday Thursday 9am to 5pm Wednesday 9am to 3;30 pm Friday 9 am to 5:30 pm Saturday 9am to 12pm",
-     "member_services": true,
      "atm": true,
      "drive_through": true
     },
@@ -4161,11 +4197,26 @@
      "city": "Los Ranchos",
      "state": "NM",
      "zip": "87107-6632",
-     "county": "",
+     "county": "Bernalillo",
      "phone": "5052436751",
      "hours": "This  is a new location.  We opened on 10/11/16.  We have closed our Coors location.",
      "member_services": true,
      "atm": false,
+     "drive_through": true
+    },
+    {
+     "name": "Farmington",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "111 S Miller Ave",
+     "city": "Farmington",
+     "state": "NM",
+     "zip": "87401",
+     "county": "San Juan",
+     "phone": "5053271603",
+     "hours": "Monday Tuesday Thursday 9am to 5pm Wednesday 9am to 3;30 pm Friday 9 am to 5:30 pm Saturday 9am to 12pm",
+     "member_services": true,
+     "atm": true,
      "drive_through": true
     }
    ],
@@ -4196,6 +4247,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 5290312,
     "ACCT_998": 697,
@@ -4281,10 +4333,12 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -4295,7 +4349,7 @@
      "city": "Belen",
      "state": "NM",
      "zip": "87002",
-     "county": "",
+     "county": "Valencia",
      "phone": "5058644740",
      "hours": "Monday - Friday 9:00 am - 5:00 pm",
      "member_services": true,
@@ -4330,6 +4384,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 7121120,
     "ACCT_998": 1078,
@@ -4415,7 +4470,9 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -4427,7 +4484,7 @@
      "city": "Alamogordo",
      "state": "NM",
      "zip": "88310-5166",
-     "county": "",
+     "county": "Otero",
      "phone": "5754373110",
      "hours": "Lobby 9:00 a.m. to 5:00 p.m. Monday through Friday; Drive thru 8:00 a.m. to 5:00 p.m. Monday through Thursday, 8:00 a.m. to 6:0",
      "member_services": true,
@@ -4462,6 +4519,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 8999234,
     "ACCT_998": 1431,
@@ -4547,10 +4605,12 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_mortgage": "Not offered or not reported"
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -4561,7 +4621,7 @@
      "city": "Carlsbad",
      "state": "NM",
      "zip": "88220-4014",
-     "county": "",
+     "county": "Eddy",
      "phone": "5758876030",
      "hours": "8:30am-5:30pm",
      "member_services": true,
@@ -4576,7 +4636,7 @@
      "city": "Carlsbad",
      "state": "NM",
      "zip": "88220",
-     "county": "",
+     "county": "Eddy",
      "phone": "5756280304",
      "hours": "Lobby Monday-Friday 9am-5pmDrive Thru Monday-Friday 8:30am-5:30pmLobby Saturday 9am-12pmDrive Thru Saturday 9am-12pm",
      "member_services": true,
@@ -4611,6 +4671,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 9169691,
     "ACCT_998": 1525,
@@ -4696,10 +4757,12 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_mortgage": "Not offered or not reported"
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -4710,7 +4773,7 @@
      "city": "Carlsbad",
      "state": "NM",
      "zip": "88220-5268",
-     "county": "",
+     "county": "Eddy",
      "phone": "5758871784",
      "hours": "8:30-5:30 Monday through friday",
      "member_services": true,
@@ -4725,7 +4788,7 @@
      "city": "Carlsbad",
      "state": "NM",
      "zip": "88220",
-     "county": "",
+     "county": "Eddy",
      "phone": "5758871784",
      "hours": "8:30-5:30 Monday thru Friday",
      "member_services": false,
@@ -4760,6 +4823,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 1,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 10690703,
     "ACCT_998": 1892,
@@ -4845,7 +4909,9 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -4857,7 +4923,7 @@
      "city": "Roswell",
      "state": "NM",
      "zip": "88201",
-     "county": "",
+     "county": "Chaves",
      "phone": "5756237788",
      "hours": "Mon-Thur 8:30 am - 5:30 pm Friday 8:30 am - 6:00 pm Saturday 9:00 am - 1:00 pm",
      "member_services": true,
@@ -4892,6 +4958,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 6594159,
     "ACCT_998": 1415,
@@ -4977,7 +5044,9 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -4989,7 +5058,7 @@
      "city": "Tucumcari",
      "state": "NM",
      "zip": "88401-3137",
-     "county": "",
+     "county": "Quay",
      "phone": "5754610433",
      "hours": "Drive-up: 8 am-5pm MST (M-F) Lobby: 9 am-4 pm (M-F) Drive-up: 9 am-12pm (Saturday)",
      "member_services": true,
@@ -5004,7 +5073,7 @@
      "city": "Santa Rosa",
      "state": "NM",
      "zip": "88435",
-     "county": "",
+     "county": "Guadalupe",
      "phone": "5754721231",
      "hours": "Lobby:  9 am-4 pm MST (M-F)",
      "member_services": true,
@@ -5019,7 +5088,7 @@
      "city": "Vaughn",
      "state": "NM",
      "zip": "88353",
-     "county": "",
+     "county": "Guadalupe",
      "phone": "5755840433",
      "hours": "M-F (9:00am - 4:00pm MST)",
      "member_services": true,
@@ -5054,6 +5123,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 6079324,
     "ACCT_998": 1362,
@@ -5139,10 +5209,12 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5153,7 +5225,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87505",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5059823802",
      "hours": "Monday through Friday 9:00am - 4:30pm",
      "member_services": true,
@@ -5188,6 +5260,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 4475472,
     "ACCT_998": 1125,
@@ -5273,11 +5346,13 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5288,7 +5363,7 @@
      "city": "Roswell",
      "state": "NM",
      "zip": "88201",
-     "county": "",
+     "county": "Chaves",
      "phone": "5756235444",
      "hours": "9:00am - 4:30pm",
      "member_services": true,
@@ -5323,6 +5398,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 6834125,
     "ACCT_998": 1880,
@@ -5408,7 +5484,9 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -5420,7 +5498,7 @@
      "city": "Los Alamos",
      "state": "NM",
      "zip": "87544",
-     "county": "",
+     "county": "Los Alamos",
      "phone": "5056623421",
      "hours": "M-F 9:00-5:00",
      "member_services": true,
@@ -5435,7 +5513,7 @@
      "city": "Santa Fe",
      "state": "NM",
      "zip": "87507-2925",
-     "county": "",
+     "county": "Santa Fe",
      "phone": "5054555228",
      "hours": "M-F 9:00- 5:00",
      "member_services": false,
@@ -5470,6 +5548,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 3442420,
     "ACCT_998": 1056,
@@ -5555,10 +5634,12 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5569,7 +5650,7 @@
      "city": "JEMEZ SPRINGS",
      "state": "NM",
      "zip": "87025-0120",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5758293366",
      "hours": "M, T, THURS, FRI 9AM TO 4PM WED & SAT 9AM TO 1 PM",
      "member_services": true,
@@ -5584,7 +5665,7 @@
      "city": "San Ysidro",
      "state": "NM",
      "zip": "87053",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5758340019",
      "hours": "Mon, Tue, Thurs, & Fri 9-4Wed and Sat 9-1",
      "member_services": true,
@@ -5619,6 +5700,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 3746391,
     "ACCT_998": 1306,
@@ -5704,10 +5786,12 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5718,27 +5802,12 @@
      "city": "Questa",
      "state": "NM",
      "zip": "87556",
-     "county": "",
+     "county": "Taos",
      "phone": "5755860423",
      "hours": "9:00 AM - 5:00 PM  Mon - Fri",
      "member_services": true,
      "atm": false,
      "drive_through": true
-    },
-    {
-     "name": "Off Site Backup",
-     "type": "Branch Office",
-     "main_office": false,
-     "address": "2431 NM 522, Questa, NM 87556",
-     "city": "Questa",
-     "state": "NM",
-     "zip": "87556",
-     "county": "",
-     "phone": "5757797003",
-     "hours": "",
-     "member_services": false,
-     "atm": false,
-     "drive_through": false
     },
     {
      "name": "loan office",
@@ -5748,10 +5817,25 @@
      "city": "Questa",
      "state": "NM",
      "zip": "87556",
-     "county": "",
+     "county": null,
      "phone": "5755860423",
      "hours": "by apt only",
      "member_services": true,
+     "atm": false,
+     "drive_through": false
+    },
+    {
+     "name": "Off Site Backup",
+     "type": "Branch Office",
+     "main_office": false,
+     "address": "2431 NM 522, Questa, NM 87556",
+     "city": "Questa",
+     "state": "NM",
+     "zip": "87556",
+     "county": "Taos",
+     "phone": "5757797003",
+     "hours": null,
+     "member_services": false,
      "atm": false,
      "drive_through": false
     }
@@ -5783,6 +5867,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 5304002,
     "ACCT_998": 2068,
@@ -5868,10 +5953,12 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -5882,7 +5969,7 @@
      "city": "CUBA",
      "state": "NM",
      "zip": "87013-1660",
-     "county": "",
+     "county": "Sandoval",
      "phone": "5752893763",
      "hours": "M -F 9-5",
      "member_services": true,
@@ -5917,6 +6004,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 3773387,
     "ACCT_998": 1747,
@@ -6002,10 +6090,12 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6016,7 +6106,7 @@
      "city": "Aztec",
      "state": "NM",
      "zip": "87410-2124",
-     "county": "",
+     "county": "San Juan",
      "phone": "5053343047",
      "hours": "Monday through Friday  9:00 AM to 4:00 PM",
      "member_services": true,
@@ -6051,6 +6141,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 2527353,
     "ACCT_998": 1457,
@@ -6136,11 +6227,13 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6151,7 +6244,7 @@
      "city": "Kirtland",
      "state": "NM",
      "zip": "87417",
-     "county": "",
+     "county": "San Juan",
      "phone": "5055986623",
      "hours": "Monday 9:00 a.m. - 5:00 p.m. Tuesday 9:00 a.m. - 5:00 p.m. Wednesday - Friday 9:00 a.m. - 6:00 p.m. Saturday 9:00 a.m. - 12:00",
      "member_services": true,
@@ -6186,6 +6279,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 3025976,
     "ACCT_998": 2167,
@@ -6271,11 +6365,13 @@
      "p75": 0.0
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6286,7 +6382,7 @@
      "city": "Carlsbad",
      "state": "NM",
      "zip": "88220-5109",
-     "county": "",
+     "county": "Eddy",
      "phone": "5758854027",
      "hours": "10:00 am to 5:00 pm Monday thru Friday",
      "member_services": true,
@@ -6321,6 +6417,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 1,
     "ACCT_997": 2004100,
     "ACCT_998": 1529,
@@ -6409,7 +6506,7 @@
    "not_reported": [],
    "withheld": {},
    "notes": {
-    "rate_mortgage": "Not offered or not reported"
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6420,7 +6517,7 @@
      "city": "Carlsbad",
      "state": "NM",
      "zip": "88220-5805",
-     "county": "",
+     "county": "Eddy",
      "phone": "5758871785",
      "hours": "Lobby:  Monday-Friday 9:00 AM to 5:30 PM Drive-thru: Saturday 9:00 AM to Noon",
      "member_services": true,
@@ -6435,7 +6532,7 @@
      "city": "CARLSBAD",
      "state": "NM",
      "zip": "88220-5805",
-     "county": "",
+     "county": "Eddy",
      "phone": "5758871785",
      "hours": "M - F / 9:00 AM TO 5:30 PM",
      "member_services": false,
@@ -6470,6 +6567,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": 1,
     "ACCT_879D9": 1,
     "ACCT_997": 1345619,
     "ACCT_998": 1452,
@@ -6555,11 +6653,13 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6570,7 +6670,7 @@
      "city": "Tucumcari",
      "state": "NM",
      "zip": "88401-2861",
-     "county": "",
+     "county": "Quay",
      "phone": "5754613638",
      "hours": "9:00 to 5:00 Monday / Friday",
      "member_services": true,
@@ -6605,6 +6705,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 1559308,
     "ACCT_998": 1949,
@@ -6690,7 +6791,9 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {},
    "sites": [
@@ -6702,7 +6805,7 @@
      "city": "ROSWELL",
      "state": "NM",
      "zip": "88201-5804",
-     "county": "",
+     "county": "Chaves",
      "phone": "5756220560",
      "hours": "8:30 a.m. - 4 p.m.",
      "member_services": true,
@@ -6737,6 +6840,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 1144365,
     "ACCT_998": 1564,
@@ -6822,11 +6926,13 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6837,7 +6943,7 @@
      "city": "Roswell",
      "state": "NM",
      "zip": "88203",
-     "county": "",
+     "county": "Chaves",
      "phone": "5756224444",
      "hours": "9:00 A.M. to 5:00 P.M.",
      "member_services": true,
@@ -6872,6 +6978,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 1756189,
     "ACCT_998": 3081,
@@ -6957,11 +7064,13 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -6972,7 +7081,7 @@
      "city": "Deming",
      "state": "NM",
      "zip": "88030",
-     "county": "",
+     "county": "Luna",
      "phone": "5755468310",
      "hours": "1:00 to 4:30 p.m.",
      "member_services": true,
@@ -7007,6 +7116,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 1249020,
     "ACCT_998": 2281,
@@ -7092,11 +7202,13 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -7107,7 +7219,7 @@
      "city": "SILVER CITY",
      "state": "NM",
      "zip": "88022",
-     "county": "",
+     "county": "Grant",
      "phone": "5755348888",
      "hours": "8:30 TO 5:00 MONDAY TO THURSDAY 9:00 TO 5:00 FRIDAY",
      "member_services": true,
@@ -7142,6 +7254,7 @@
     "ACCT_879A4": 1,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 437482,
     "ACCT_998": 837,
@@ -7227,11 +7340,13 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -7242,7 +7357,7 @@
      "city": "Chacon",
      "state": "NM",
      "zip": "87713",
-     "county": "",
+     "county": "Mora",
      "phone": "5753876339",
      "hours": "Monday thru Thursday 8:00 to 4:30 pm Friday 8:00 thru 12:00",
      "member_services": true,
@@ -7257,7 +7372,7 @@
      "city": "Buena Vista",
      "state": "NM",
      "zip": "87712",
-     "county": "",
+     "county": "Mora",
      "phone": "5059189999",
      "hours": "on Call",
      "member_services": false,
@@ -7292,6 +7407,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 1,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 573170,
     "ACCT_998": 1176,
@@ -7377,11 +7493,13 @@
      "p75": null
     }
    },
-   "not_reported": [],
+   "not_reported": [
+    "ACCT_879D10"
+   ],
    "withheld": {},
    "notes": {
-    "rate_credit_card": "Not offered or not reported",
-    "rate_mortgage": "Not offered or not reported"
+    "rate_credit_card": "No rate reported: none of these loans on its books",
+    "rate_mortgage": "No rate reported: none of these loans on its books"
    },
    "sites": [
     {
@@ -7392,7 +7510,7 @@
      "city": "GRANTS",
      "state": "NM",
      "zip": "87020-2807",
-     "county": "",
+     "county": "Cibola",
      "phone": "5052877551",
      "hours": "1:30 TO 4:30 PM",
      "member_services": true,
@@ -7407,9 +7525,9 @@
      "city": "GRANTS",
      "state": "NM",
      "zip": "87020-2807",
-     "county": "",
+     "county": "Cibola",
      "phone": "5052877551",
-     "hours": "",
+     "hours": null,
      "member_services": false,
      "atm": false,
      "drive_through": false
@@ -7442,6 +7560,7 @@
     "ACCT_879A4": 0,
     "ACCT_879C1": 0,
     "ACCT_879D1": 0,
+    "ACCT_879D10": null,
     "ACCT_879D9": 0,
     "ACCT_997": 373671,
     "ACCT_998": 1751,
