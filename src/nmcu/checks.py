@@ -19,7 +19,7 @@ Flags (each says why in its `detail`):
   is over $1 million. It can be true (all long fixed-rate loans), and many small credit
   unions report it every quarter, so it's raised once, for the quarter the page shows.
 - assets moved more than 25% in a quarter (often a merger).
-- rate: an offered loan rate under 1% or over 30% (not 0, which means not offered). The
+- rate: an offered loan rate under 1% or over 30% (not 0, which means none of those loans on its books). The
   federal credit union usury ceiling is 18%, so a value past 30% is almost surely a typo.
 - yes/no: a profile answer that is neither 0 nor 1.
 - no sites: a credit union with no office in NCUA's branch file.

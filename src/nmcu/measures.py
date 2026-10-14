@@ -104,7 +104,7 @@ SIMPLE: dict[str, tuple[tuple[str, ...], Callable[[Accounts], object]]] = {
         lambda a: {"balance": _dollars(a["ACCT_691C1"]), "guaranteed": _dollars(a["ACCT_691C2"])},
     ),
     "members": (("ACCT_083",), lambda a: _dollars(a["ACCT_083"])),
-    # Offered loan rates, stored times 100. 0 is "not offered or not reported", never 0%.
+    # Offered loan rates, stored times 100. 0 means none of those loans on its books: None, never 0%.
     "rate_credit_card": (("ACCT_521",), lambda a: _rate(a["ACCT_521"])),
     "rate_new_auto": (("ACCT_523",), lambda a: _rate(a["ACCT_523"])),
     "rate_used_auto": (("ACCT_524",), lambda a: _rate(a["ACCT_524"])),

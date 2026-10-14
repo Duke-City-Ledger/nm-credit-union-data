@@ -785,7 +785,7 @@
         "equivalent": null,
         "checked_instead": "No FPR equivalent. One day's most common offered rate, self-reported. Checked by reading the raw zip for the hand-check credit unions and comparing with each credit union's own posted rates (a later date, so a plausibility check, not a match)."
       },
-      "note": "0 for 14 of 37 in 2026-06: most of them don't offer cards."
+      "note": "0 for 14 of 37 in 2026-06: none of those 14 had credit card loans on their books."
     },
     {
       "id": "rate_new_auto",
@@ -1070,7 +1070,7 @@
           "ncua_name": "PALs II (FCU Only)",
           "ncua_description": "PALs II (FCU Only)",
           "form": "Form 4501A (Profile), Credit Union Programs and Member Services, payday alternative loans (PALs II)",
-          "instructions": "Credit Union Profile Form 4501A Instructions, December 2024 (https://ncua.gov/files/publications/regulations/credit-union-profile-form-instructions-4501A-december-2024.pdf), p. 45",
+          "instructions": "Credit Union Profile Form 4501A Instructions, December 2024 (https://ncua.gov/files/publications/regulations/credit-union-profile-form-instructions-4501A-december-2024.pdf), p. 46",
           "units": "1 or 0",
           "note": "PALs II, in the data from 2021-12 (NCUA's dictionary lists it from 2020-03). Yes if either PALs I or PALs II is yes."
         }
