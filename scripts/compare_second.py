@@ -37,7 +37,7 @@ def keyed(rows, key, value) -> dict:
 
 
 def read_csv(path: Path) -> list[dict]:
-    with open(path, newline="") as fh:
+    with open(path, newline="", encoding="utf-8") as fh:
         return list(csv.DictReader(fh))
 
 
@@ -56,6 +56,8 @@ def main() -> int:
         doc = json.loads(f.read_text())
         for c in doc["credit_unions"]:
             for m, p in c["peers"].items():
+                if (doc["quarter"], c["cu_number"], m) in engine_peers:
+                    raise SystemExit(f"duplicate engine row {doc['quarter']} {c['cu_number']}")
                 engine_peers[(doc["quarter"], c["cu_number"], m)] = (
                     p["n_others"], num(p["median"]), num(p["p25"]), num(p["p75"]))
             for m in c["withheld"]:
