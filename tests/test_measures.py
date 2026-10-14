@@ -37,6 +37,7 @@ class Formulas(unittest.TestCase):
         self.assertEqual(round2(2.675), 2.68)
         self.assertEqual(round2(20.875), 20.88)
         self.assertEqual(round2(-0.125), -0.13)
+        self.assertEqual(str(round2(-0.001)), "0.0")  # never "-0.0"
 
     def test_zero_denominator_is_none_not_zero(self):
         a = {"ACCT_041B": 5.0, "ACCT_025B": 0.0}

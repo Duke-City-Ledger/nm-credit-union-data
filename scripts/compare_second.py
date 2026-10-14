@@ -12,34 +12,62 @@ from __future__ import annotations
 import csv
 import json
 import sys
+from decimal import Decimal
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SECOND = ROOT / "second" / "out"
 
 
-def num(text: str):
-    return None if text in ("", None) else float(text)
+def num(value):
+    """Exact, sign-keeping form: 2.50 and 2.5 agree; -0.0 and 0.00 don't."""
+    if value in ("", None):
+        return None
+    return str(Decimal(str(value)).normalize())
+
+
+def keyed(rows, key, value) -> dict:
+    out = {}
+    for r in rows:
+        k = key(r)
+        if k in out:
+            raise SystemExit(f"duplicate row {k}")
+        out[k] = value(r)
+    return out
+
+
+def read_csv(path: Path) -> list[dict]:
+    with open(path, newline="") as fh:
+        return list(csv.DictReader(fh))
 
 
 def main() -> int:
-    engine = {(r["quarter"], r["cu_number"], r["measure"], r["part"]): num(r["value"])
-              for r in csv.DictReader(open(ROOT / "out" / "credit-unions.csv"))}
-    second = {(r["quarter"], r["cu_number"], r["measure"], r["part"] or ""): num(r["value"])
-              for r in csv.DictReader(open(SECOND / "measures.csv"))}
+    engine = keyed(read_csv(ROOT / "out" / "credit-unions.csv"),
+                   lambda r: (r["quarter"], r["cu_number"], r["measure"], r["part"]), lambda r: num(r["value"]))
+    second = keyed(read_csv(SECOND / "measures.csv"),
+                   lambda r: (r["quarter"], r["cu_number"], r["measure"], r["part"] or ""), lambda r: num(r["value"]))
+    measures = {m["id"] for m in json.loads((ROOT / "data" / "dictionary.json").read_text())["measures"]}
+    for name, rows in (("engine", engine), ("second", second)):
+        if not rows or {k[2] for k in rows} != measures:
+            raise SystemExit(f"{name}: empty, or its measures differ from the dictionary's")
 
-    engine_peers = {}
+    engine_peers, engine_withheld = {}, set()
     for f in sorted((ROOT / "out" / "quarters").glob("*.json")):
         doc = json.loads(f.read_text())
         for c in doc["credit_unions"]:
             for m, p in c["peers"].items():
-                engine_peers[(doc["quarter"], c["cu_number"], m)] = (p["n_others"], p["median"], p["p25"], p["p75"])
-    second_peers = {(r["quarter"], r["cu_number"], r["measure"]):
-                    (int(r["n_others"]), num(r["median"]), num(r["p25"]), num(r["p75"]))
-                    for r in csv.DictReader(open(SECOND / "peers.csv"))}
+                engine_peers[(doc["quarter"], c["cu_number"], m)] = (
+                    p["n_others"], num(p["median"]), num(p["p25"]), num(p["p75"]))
+            for m in c["withheld"]:
+                engine_withheld.add((doc["quarter"], c["cu_number"], m))
+    second_peers = keyed(read_csv(SECOND / "peers.csv"), lambda r: (r["quarter"], r["cu_number"], r["measure"]),
+                         lambda r: (int(r["n_others"]), num(r["median"]), num(r["p25"]), num(r["p75"])))
+    second_withheld = {(r["quarter"], r["cu_number"], r["measure"]) for r in read_csv(SECOND / "withheld.csv")}
 
     lines = []
-    for name, a, b in (("figure", engine, second), ("peer comparison", engine_peers, second_peers)):
+    withheld = {k: True for k in engine_withheld}, {k: True for k in second_withheld}
+    for name, a, b in (("figure", engine, second), ("peer comparison", engine_peers, second_peers),
+                       ("withheld", *withheld)):
         for k in sorted(set(a) - set(b)):
             lines.append(f"- {name} only in the engine: {' '.join(k)}")
         for k in sorted(set(b) - set(a)):
@@ -54,7 +82,8 @@ def main() -> int:
         "different model, from the spec, the dictionary and NCUA's documents only.",
         "",
         f"{len(engine):,} figures and {len(engine_peers):,} peer comparisons in the engine; "
-        f"{len(second):,} and {len(second_peers):,} in the second calculation; {len(lines)} differences.",
+        f"{len(second):,} and {len(second_peers):,} in the second calculation; {len(engine_withheld)} and "
+        f"{len(second_withheld)} withheld; {len(lines)} differences. Values are compared exactly, sign included.",
         "",
         *(lines[:500] or ["No differences."]),
     ]

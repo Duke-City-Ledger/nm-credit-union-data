@@ -2683,7 +2683,7 @@
      "guaranteed": 0
     },
     "members": 1688,
-    "net_charge_offs_12m": -0.0
+    "net_charge_offs_12m": 0.0
    },
    "peers": {
     "net_worth_ratio": {
