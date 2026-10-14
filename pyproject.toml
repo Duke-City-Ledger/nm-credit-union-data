@@ -1,0 +1,22 @@
+[project]
+name = "nm-credit-union-data"
+version = "0.1.0"
+description = "New Mexico credit union figures from NCUA call reports, for Duke City Ledger's credit union tracker"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "ncua-data-analysis @ git+https://github.com/bnovarini/ncua-data-analysis@a9fcbe50a8e4f6c7cc7599dd74c42b7fa205473d",
+]
+
+[project.scripts]
+nmcu = "nmcu.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nmcu"]

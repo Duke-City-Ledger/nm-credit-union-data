@@ -1,0 +1,3608 @@
+{
+ "quarter": "2025-06",
+ "source": "https://ncua.gov/files/publications/analysis/call-report-data-2025-06.zip",
+ "credit": "Duke City Ledger, from NCUA call reports",
+ "count": 38,
+ "accounts_available": {
+  "ACCT_010": "FS220.TXT",
+  "ACCT_010A": "FS220A.TXT",
+  "ACCT_010B": "FS220A.TXT",
+  "ACCT_010C": "FS220A.TXT",
+  "ACCT_025B": "FS220.TXT",
+  "ACCT_025B1": "FS220L.TXT",
+  "ACCT_041B": "FS220.TXT",
+  "ACCT_083": "FS220.TXT",
+  "ACCT_400T1": "FS220L.TXT",
+  "ACCT_550": "FS220.TXT",
+  "ACCT_551": "FS220.TXT",
+  "ACCT_691C1": "FS220L.TXT",
+  "ACCT_691C2": "FS220L.TXT",
+  "ACCT_691P1": "FS220L.TXT",
+  "ACCT_691P2": "FS220L.TXT",
+  "ACCT_718A3": "FS220L.TXT",
+  "ACCT_718A4": "FS220L.TXT",
+  "ACCT_718A5": "FS220L.TXT",
+  "ACCT_997": "FS220A.TXT",
+  "ACCT_998": "FS220A.TXT",
+  "ACCT_CM0099": "FS220P.TXT",
+  "ACCT_LC0047": "FS220N.TXT",
+  "ACCT_NW0004": "FS220R.TXT",
+  "ACCT_NW0010": "FS220N.TXT",
+  "ACCT_RL0047": "FS220R.TXT",
+  "ACCT_RL0050": "FS220R.TXT"
+ },
+ "credit_unions": [
+  {
+   "cu_number": "948",
+   "name": "NUSENDA",
+   "city": "ALBUQUERQUE",
+   "peer_group": 6,
+   "peer_group_label": "$500 million or more",
+   "measures": {
+    "total_assets": 4791411846,
+    "total_loans": 3379231198,
+    "net_worth_ratio": 8.97,
+    "delinquency": 0.87,
+    "commercial_share": 25.34,
+    "cre_reset_5y": 93.0,
+    "home_reset_5y": 30.78,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 285768,
+    "net_charge_offs_12m": 0.45
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 10.27,
+     "p25": 9.21,
+     "p75": 10.93
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.98,
+     "p25": 0.49,
+     "p75": 1.45
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.64,
+     "p25": 0.6,
+     "p75": 0.93
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 6.43,
+     "p25": 1.1,
+     "p75": 15.41
+    },
+    "cre_reset_5y": {
+     "n_others": 7,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 68.58
+    },
+    "home_reset_5y": {
+     "n_others": 9,
+     "median": 16.82,
+     "p25": 4.73,
+     "p75": 21.94
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 4791411846,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 4779487296,
+    "ACCT_025B": 3379231198,
+    "ACCT_025B1": 3379231198,
+    "ACCT_041B": 29372349,
+    "ACCT_083": 285768,
+    "ACCT_400T1": 1214262052,
+    "ACCT_550": 9374453,
+    "ACCT_551": 1763087,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 1119961544,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 1119961544,
+    "ACCT_997": 428870665,
+    "ACCT_998": 897,
+    "ACCT_CM0099": 1041597221,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 3090187,
+    "ACCT_NW0010": 4794502033,
+    "ACCT_RL0047": 728125164,
+    "ACCT_RL0050": 224098881
+   }
+  },
+  {
+   "cu_number": "5851",
+   "name": "SUNWARD",
+   "city": "Albuquerque",
+   "peer_group": 6,
+   "peer_group_label": "$500 million or more",
+   "measures": {
+    "total_assets": 4332110339,
+    "total_loans": 2694986540,
+    "net_worth_ratio": 9.21,
+    "delinquency": 0.51,
+    "commercial_share": 15.41,
+    "cre_reset_5y": 0.0,
+    "home_reset_5y": 45.37,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 169578,
+    "net_charge_offs_12m": 0.61
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 10.27,
+     "p25": 9.09,
+     "p75": 10.93
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.98,
+     "p25": 0.49,
+     "p75": 1.45
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.64,
+     "p25": 0.45,
+     "p75": 0.93
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 6.43,
+     "p25": 1.1,
+     "p75": 18.14
+    },
+    "cre_reset_5y": {
+     "n_others": 7,
+     "median": 47.9,
+     "p25": 0.0,
+     "p75": 91.13
+    },
+    "home_reset_5y": {
+     "n_others": 9,
+     "median": 16.82,
+     "p25": 4.73,
+     "p75": 21.94
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 4332110339,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 2694986540,
+    "ACCT_025B1": 2694986539,
+    "ACCT_041B": 13871369,
+    "ACCT_083": 169578,
+    "ACCT_400T1": 667659892,
+    "ACCT_550": 9650602,
+    "ACCT_551": 1370245,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 657164199,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 657164198,
+    "ACCT_997": 399117367,
+    "ACCT_998": 921,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 2790953,
+    "ACCT_NW0010": 4334901292,
+    "ACCT_RL0047": 1183561283,
+    "ACCT_RL0050": 537037893
+   }
+  },
+  {
+   "cu_number": "808",
+   "name": "U.S. EAGLE",
+   "city": "Albuquerque",
+   "peer_group": 6,
+   "peer_group_label": "$500 million or more",
+   "measures": {
+    "total_assets": 1476556190,
+    "total_loans": 1048359851,
+    "net_worth_ratio": 9.09,
+    "delinquency": 6.64,
+    "commercial_share": 18.14,
+    "cre_reset_5y": 89.25,
+    "home_reset_5y": 19.28,
+    "other_gov_guaranteed": {
+     "balance": 120026425,
+     "guaranteed": 43536352
+    },
+    "sba": {
+     "balance": 16045742,
+     "guaranteed": 3186104
+    },
+    "members": 96315,
+    "net_charge_offs_12m": 0.93
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 10.27,
+     "p25": 9.21,
+     "p75": 10.93
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.87,
+     "p25": 0.49,
+     "p75": 1.02
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.61,
+     "p25": 0.45,
+     "p75": 0.86
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 6.43,
+     "p25": 1.1,
+     "p75": 15.41
+    },
+    "cre_reset_5y": {
+     "n_others": 7,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 70.45
+    },
+    "home_reset_5y": {
+     "n_others": 9,
+     "median": 16.82,
+     "p25": 4.73,
+     "p75": 23.82
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 1476556190,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 1048359851,
+    "ACCT_025B1": 1048359851,
+    "ACCT_041B": 69580330,
+    "ACCT_083": 96315,
+    "ACCT_400T1": 267902366,
+    "ACCT_550": 6843858,
+    "ACCT_551": 742900,
+    "ACCT_691C1": 16045742,
+    "ACCT_691C2": 3186104,
+    "ACCT_691P1": 120026425,
+    "ACCT_691P2": 43536352,
+    "ACCT_718A3": 172318312,
+    "ACCT_718A4": 55475849,
+    "ACCT_718A5": 227794161,
+    "ACCT_997": 134356354,
+    "ACCT_998": 909,
+    "ACCT_CM0099": 203309456,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 872306,
+    "ACCT_NW0010": 1477428496,
+    "ACCT_RL0047": 186689876,
+    "ACCT_RL0050": 35991888
+   }
+  },
+  {
+   "cu_number": "64759",
+   "name": "DEL NORTE",
+   "city": "Los Alamos",
+   "peer_group": 6,
+   "peer_group_label": "$500 million or more",
+   "measures": {
+    "total_assets": 1392829690,
+    "total_loans": 953838647,
+    "net_worth_ratio": 9.27,
+    "delinquency": 0.49,
+    "commercial_share": 1.1,
+    "cre_reset_5y": 0.0,
+    "home_reset_5y": 4.73,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 66564,
+    "net_charge_offs_12m": 0.86
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 10.27,
+     "p25": 9.09,
+     "p75": 10.93
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.98,
+     "p25": 0.51,
+     "p75": 1.45
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.61,
+     "p25": 0.45,
+     "p75": 0.93
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 13.09,
+     "p25": 3.61,
+     "p75": 18.14
+    },
+    "cre_reset_5y": {
+     "n_others": 7,
+     "median": 47.9,
+     "p25": 0.0,
+     "p75": 91.13
+    },
+    "home_reset_5y": {
+     "n_others": 9,
+     "median": 19.28,
+     "p25": 6.8,
+     "p75": 23.82
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 1392829690,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 953838647,
+    "ACCT_025B1": 953838647,
+    "ACCT_041B": 4633584,
+    "ACCT_083": 66564,
+    "ACCT_400T1": 15338819,
+    "ACCT_550": 5183929,
+    "ACCT_551": 675965,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 11005873,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 11005873,
+    "ACCT_997": 129172283,
+    "ACCT_998": 927,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 1068097,
+    "ACCT_NW0010": 1393897787,
+    "ACCT_RL0047": 348660591,
+    "ACCT_RL0050": 16494598
+   }
+  },
+  {
+   "cu_number": "11316",
+   "name": "SANDIA AREA",
+   "city": "Albuquerque",
+   "peer_group": 6,
+   "peer_group_label": "$500 million or more",
+   "measures": {
+    "total_assets": 1329678177,
+    "total_loans": 1158180315,
+    "net_worth_ratio": 10.93,
+    "delinquency": 0.14,
+    "commercial_share": 13.09,
+    "cre_reset_5y": 47.9,
+    "home_reset_5y": 21.94,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 97558,
+    "net_charge_offs_12m": 0.16
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 9.27,
+     "p25": 9.09,
+     "p75": 10.51
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.98,
+     "p25": 0.51,
+     "p75": 1.45
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.64,
+     "p25": 0.6,
+     "p75": 0.93
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 6.43,
+     "p25": 1.1,
+     "p75": 18.14
+    },
+    "cre_reset_5y": {
+     "n_others": 7,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 91.13
+    },
+    "home_reset_5y": {
+     "n_others": 9,
+     "median": 16.82,
+     "p25": 4.73,
+     "p75": 23.82
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 1329678177,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 1158180315,
+    "ACCT_025B1": 1158180315,
+    "ACCT_041B": 1623903,
+    "ACCT_083": 97558,
+    "ACCT_400T1": 174065812,
+    "ACCT_550": 1272049,
+    "ACCT_551": 291919,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 162911068,
+    "ACCT_718A4": 10324427,
+    "ACCT_718A5": 173235494,
+    "ACCT_997": 145351926,
+    "ACCT_998": 1093,
+    "ACCT_CM0099": 82979843,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 214500,
+    "ACCT_NW0010": 1329892677,
+    "ACCT_RL0047": 175395853,
+    "ACCT_RL0050": 38479002
+   }
+  },
+  {
+   "cu_number": "65513",
+   "name": "STATE EMPLOYEES",
+   "city": "Santa Fe",
+   "peer_group": 6,
+   "peer_group_label": "$500 million or more",
+   "measures": {
+    "total_assets": 1302250006,
+    "total_loans": 884955833,
+    "net_worth_ratio": 10.27,
+    "delinquency": 3.66,
+    "commercial_share": 19.63,
+    "cre_reset_5y": 96.57,
+    "home_reset_5y": 23.82,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 12794714,
+     "guaranteed": 9596035
+    },
+    "members": 53543,
+    "net_charge_offs_12m": 0.28
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 9.27,
+     "p25": 9.09,
+     "p75": 10.93
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.87,
+     "p25": 0.49,
+     "p75": 1.02
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.64,
+     "p25": 0.6,
+     "p75": 0.93
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 6.43,
+     "p25": 1.1,
+     "p75": 15.41
+    },
+    "cre_reset_5y": {
+     "n_others": 7,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 68.58
+    },
+    "home_reset_5y": {
+     "n_others": 9,
+     "median": 16.82,
+     "p25": 4.73,
+     "p75": 21.94
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 1302250006,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 884955833,
+    "ACCT_025B1": 884955833,
+    "ACCT_041B": 32383585,
+    "ACCT_083": 53543,
+    "ACCT_400T1": 255570383,
+    "ACCT_550": 2006366,
+    "ACCT_551": 544323,
+    "ACCT_691C1": 12794714,
+    "ACCT_691C2": 9596035,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 230203217,
+    "ACCT_718A4": 8180269,
+    "ACCT_718A5": 238383485,
+    "ACCT_997": 133851200,
+    "ACCT_998": 1027,
+    "ACCT_CM0099": 230203216,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 1067880,
+    "ACCT_NW0010": 1303317886,
+    "ACCT_RL0047": 194874426,
+    "ACCT_RL0050": 46426714
+   }
+  },
+  {
+   "cu_number": "12199",
+   "name": "KIRTLAND",
+   "city": "ALBUQUERQUE",
+   "peer_group": 6,
+   "peer_group_label": "$500 million or more",
+   "measures": {
+    "total_assets": 1084872142,
+    "total_loans": 705877770,
+    "net_worth_ratio": 11.88,
+    "delinquency": 1.02,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 16.82,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 52038,
+    "net_charge_offs_12m": 1.55
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 9.27,
+     "p25": 9.09,
+     "p75": 10.51
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.87,
+     "p25": 0.49,
+     "p75": 1.45
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.61,
+     "p25": 0.45,
+     "p75": 0.86
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 13.09,
+     "p25": 3.61,
+     "p75": 18.14
+    },
+    "cre_reset_5y": {
+     "n_others": 8,
+     "median": 23.95,
+     "p25": 0.0,
+     "p75": 90.19
+    },
+    "home_reset_5y": {
+     "n_others": 9,
+     "median": 19.28,
+     "p25": 4.73,
+     "p75": 23.82
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 1084872142,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 705877770,
+    "ACCT_025B1": 705877770,
+    "ACCT_041B": 7209321,
+    "ACCT_083": 52038,
+    "ACCT_400T1": 0,
+    "ACCT_550": 6856923,
+    "ACCT_551": 2670605,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 128915184,
+    "ACCT_998": 1188,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 1084872142,
+    "ACCT_RL0047": 365766178,
+    "ACCT_RL0050": 61519749
+   }
+  },
+  {
+   "cu_number": "68244",
+   "name": "FIRST FINANCIAL",
+   "city": "Albuquerque",
+   "peer_group": 6,
+   "peer_group_label": "$500 million or more",
+   "measures": {
+    "total_assets": 988676597,
+    "total_loans": 663234379,
+    "net_worth_ratio": 10.51,
+    "delinquency": 0.98,
+    "commercial_share": 6.43,
+    "cre_reset_5y": 0.0,
+    "home_reset_5y": 1.2,
+    "other_gov_guaranteed": {
+     "balance": 21108716,
+     "guaranteed": 21108716
+    },
+    "sba": {
+     "balance": 5675112,
+     "guaranteed": 5675112
+    },
+    "members": 95061,
+    "net_charge_offs_12m": 0.6
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 9.27,
+     "p25": 9.09,
+     "p75": 10.93
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.87,
+     "p25": 0.49,
+     "p75": 1.45
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.64,
+     "p25": 0.45,
+     "p75": 0.93
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 13.09,
+     "p25": 1.1,
+     "p75": 18.14
+    },
+    "cre_reset_5y": {
+     "n_others": 7,
+     "median": 47.9,
+     "p25": 0.0,
+     "p75": 91.13
+    },
+    "home_reset_5y": {
+     "n_others": 9,
+     "median": 19.28,
+     "p25": 6.8,
+     "p75": 23.82
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 988676597,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 944055168,
+    "ACCT_025B": 663234379,
+    "ACCT_025B1": 663234379,
+    "ACCT_041B": 6482976,
+    "ACCT_083": 95061,
+    "ACCT_400T1": 63586059,
+    "ACCT_550": 4652201,
+    "ACCT_551": 1747616,
+    "ACCT_691C1": 5675112,
+    "ACCT_691C2": 5675112,
+    "ACCT_691P1": 21108716,
+    "ACCT_691P2": 21108716,
+    "ACCT_718A3": 17478695,
+    "ACCT_718A4": 14379518,
+    "ACCT_718A5": 31858212,
+    "ACCT_997": 99533923,
+    "ACCT_998": 1051,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 2955370,
+    "ACCT_NW0010": 991631967,
+    "ACCT_RL0047": 123656059,
+    "ACCT_RL0050": 1487470
+   }
+  },
+  {
+   "cu_number": "62573",
+   "name": "RIO GRANDE",
+   "city": "Albuquerque",
+   "peer_group": 6,
+   "peer_group_label": "$500 million or more",
+   "measures": {
+    "total_assets": 662870752,
+    "total_loans": 407046353,
+    "net_worth_ratio": 8.7,
+    "delinquency": 1.45,
+    "commercial_share": 3.61,
+    "cre_reset_5y": 0.0,
+    "home_reset_5y": 6.8,
+    "other_gov_guaranteed": {
+     "balance": 5722817,
+     "guaranteed": 5722817
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 49628,
+    "net_charge_offs_12m": 1.39
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 10.27,
+     "p25": 9.21,
+     "p75": 10.93
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.87,
+     "p25": 0.49,
+     "p75": 1.02
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.61,
+     "p25": 0.45,
+     "p75": 0.86
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 13.09,
+     "p25": 1.1,
+     "p75": 18.14
+    },
+    "cre_reset_5y": {
+     "n_others": 7,
+     "median": 47.9,
+     "p25": 0.0,
+     "p75": 91.13
+    },
+    "home_reset_5y": {
+     "n_others": 9,
+     "median": 19.28,
+     "p25": 4.73,
+     "p75": 23.82
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 662870752,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 407046353,
+    "ACCT_025B1": 407046353,
+    "ACCT_041B": 5903907,
+    "ACCT_083": 49628,
+    "ACCT_400T1": 23921000,
+    "ACCT_550": 2804392,
+    "ACCT_551": 326033,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 5722817,
+    "ACCT_691P2": 5722817,
+    "ACCT_718A3": 16676161,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 16676161,
+    "ACCT_997": 57679166,
+    "ACCT_998": 870,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 662870752,
+    "ACCT_RL0047": 110532774,
+    "ACCT_RL0050": 7519641
+   }
+  },
+  {
+   "cu_number": "8475",
+   "name": "OTERO",
+   "city": "Alamogordo",
+   "peer_group": 6,
+   "peer_group_label": "$500 million or more",
+   "measures": {
+    "total_assets": 505388171,
+    "total_loans": 244501088,
+    "net_worth_ratio": 14.75,
+    "delinquency": 0.28,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 0.57,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 33947,
+    "net_charge_offs_12m": 0.64
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 9.27,
+     "p25": 9.09,
+     "p75": 10.51
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.98,
+     "p25": 0.51,
+     "p75": 1.45
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.61,
+     "p25": 0.45,
+     "p75": 0.93
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 13.09,
+     "p25": 3.61,
+     "p75": 18.14
+    },
+    "cre_reset_5y": {
+     "n_others": 8,
+     "median": 23.95,
+     "p25": 0.0,
+     "p75": 90.19
+    },
+    "home_reset_5y": {
+     "n_others": 9,
+     "median": 19.28,
+     "p25": 6.8,
+     "p75": 23.82
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 505388171,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 244501088,
+    "ACCT_025B1": 244501088,
+    "ACCT_041B": 685284,
+    "ACCT_083": 33947,
+    "ACCT_400T1": 0,
+    "ACCT_550": 899302,
+    "ACCT_551": 110827,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 74589442,
+    "ACCT_998": 1475,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 209846,
+    "ACCT_NW0010": 505598017,
+    "ACCT_RL0047": 59174572,
+    "ACCT_RL0050": 335132
+   }
+  },
+  {
+   "cu_number": "7960",
+   "name": "WHITE SANDS",
+   "city": "LAS CRUCES",
+   "peer_group": 5,
+   "peer_group_label": "$100 million to $500 million",
+   "measures": {
+    "total_assets": 400144547,
+    "total_loans": 206944900,
+    "net_worth_ratio": 12.6,
+    "delinquency": 0.08,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 2.4,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 24277,
+    "net_charge_offs_12m": 0.23
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "delinquency": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "net_charge_offs_12m": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "commercial_share": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "cre_reset_5y": {
+     "n_others": 0,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 400144547,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 206944900,
+    "ACCT_025B1": 206944901,
+    "ACCT_041B": 165829,
+    "ACCT_083": 24277,
+    "ACCT_400T1": 0,
+    "ACCT_550": 349651,
+    "ACCT_551": 67350,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 50436994,
+    "ACCT_998": 1260,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 400144547,
+    "ACCT_RL0047": 64917212,
+    "ACCT_RL0050": 1557085
+   }
+  },
+  {
+   "cu_number": "66149",
+   "name": "GUADALUPE",
+   "city": "Santa Fe",
+   "peer_group": 5,
+   "peer_group_label": "$100 million to $500 million",
+   "measures": {
+    "total_assets": 331806374,
+    "total_loans": 191860584,
+    "net_worth_ratio": 11.68,
+    "delinquency": 1.05,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 4.67,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 500,
+     "guaranteed": 500
+    },
+    "members": 30538,
+    "net_charge_offs_12m": 0.68
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "delinquency": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "net_charge_offs_12m": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "commercial_share": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "cre_reset_5y": {
+     "n_others": 0,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 331806374,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 191860584,
+    "ACCT_025B1": 191860583,
+    "ACCT_041B": 2017278,
+    "ACCT_083": 30538,
+    "ACCT_400T1": 500,
+    "ACCT_550": 602369,
+    "ACCT_551": 143726,
+    "ACCT_691C1": 500,
+    "ACCT_691C2": 500,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 38764693,
+    "ACCT_998": 1168,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 71069,
+    "ACCT_NW0010": 331877443,
+    "ACCT_RL0047": 77274355,
+    "ACCT_RL0050": 3605834
+   }
+  },
+  {
+   "cu_number": "60467",
+   "name": "ZIA",
+   "city": "Los Alamos",
+   "peer_group": 5,
+   "peer_group_label": "$100 million to $500 million",
+   "measures": {
+    "total_assets": 253199457,
+    "total_loans": 188094247,
+    "net_worth_ratio": 7.98,
+    "delinquency": 0.45,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 15.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 13523,
+    "net_charge_offs_12m": 0.31
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "delinquency": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "net_charge_offs_12m": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "commercial_share": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "cre_reset_5y": {
+     "n_others": 0,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 253199457,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 188094247,
+    "ACCT_025B1": 188094245,
+    "ACCT_041B": 844689,
+    "ACCT_083": 13523,
+    "ACCT_400T1": 0,
+    "ACCT_550": 327616,
+    "ACCT_551": 17445,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 20198431,
+    "ACCT_998": 798,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 253199457,
+    "ACCT_RL0047": 47293184,
+    "ACCT_RL0050": 7095884
+   }
+  },
+  {
+   "cu_number": "62783",
+   "name": "ARTESIA",
+   "city": "Artesia",
+   "peer_group": 5,
+   "peer_group_label": "$100 million to $500 million",
+   "measures": {
+    "total_assets": 156177674,
+    "total_loans": 115906334,
+    "net_worth_ratio": 16.02,
+    "delinquency": 0.51,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 9734,
+    "net_charge_offs_12m": 0.19
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "delinquency": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "net_charge_offs_12m": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "commercial_share": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "cre_reset_5y": {
+     "n_others": 0,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 156177674,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 115906334,
+    "ACCT_025B1": 115906334,
+    "ACCT_041B": 587317,
+    "ACCT_083": 9734,
+    "ACCT_400T1": 0,
+    "ACCT_550": 250227,
+    "ACCT_551": 94330,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 25024744,
+    "ACCT_998": 1602,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 156177674,
+    "ACCT_RL0047": 31186536,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "8299",
+   "name": "ESTACADO",
+   "city": "HOBBS",
+   "peer_group": 5,
+   "peer_group_label": "$100 million to $500 million",
+   "measures": {
+    "total_assets": 113351883,
+    "total_loans": 67444513,
+    "net_worth_ratio": 13.07,
+    "delinquency": 0.58,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 8598,
+    "net_charge_offs_12m": 0.52
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "delinquency": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "net_charge_offs_12m": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "commercial_share": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "cre_reset_5y": {
+     "n_others": 0,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 113351883,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 67444513,
+    "ACCT_025B1": 67444514,
+    "ACCT_041B": 391300,
+    "ACCT_083": 8598,
+    "ACCT_400T1": 0,
+    "ACCT_550": 209609,
+    "ACCT_551": 20559,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 14820562,
+    "ACCT_998": 1307,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 113351883,
+    "ACCT_RL0047": 1264025,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "7822",
+   "name": "CANNON",
+   "city": "CLOVIS",
+   "peer_group": 4,
+   "peer_group_label": "$50 million to $100 million",
+   "measures": {
+    "total_assets": 99341569,
+    "total_loans": 52245067,
+    "net_worth_ratio": 12.77,
+    "delinquency": 0.37,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 9246,
+    "net_charge_offs_12m": 0.28
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 6,
+     "median": 14.57,
+     "p25": 11.04,
+     "p75": 17.18
+    },
+    "delinquency": {
+     "n_others": 6,
+     "median": 0.47,
+     "p25": 0.1,
+     "p75": 1.01
+    },
+    "net_charge_offs_12m": {
+     "n_others": 6,
+     "median": 0.42,
+     "p25": 0.31,
+     "p75": 0.54
+    },
+    "commercial_share": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.17
+    },
+    "cre_reset_5y": {
+     "n_others": 1,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 99341569,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 52245067,
+    "ACCT_025B1": 52245068,
+    "ACCT_041B": 194873,
+    "ACCT_083": 9246,
+    "ACCT_400T1": 0,
+    "ACCT_550": 118959,
+    "ACCT_551": 34506,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 12688145,
+    "ACCT_998": 1277,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 99341569,
+    "ACCT_RL0047": 374520,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "964",
+   "name": "SOUTHWEST",
+   "city": "Albuquerque",
+   "peer_group": 4,
+   "peer_group_label": "$50 million to $100 million",
+   "measures": {
+    "total_assets": 78079812,
+    "total_loans": 32178955,
+    "net_worth_ratio": 6.06,
+    "delinquency": 0.03,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 4274,
+    "net_charge_offs_12m": 0.24
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 6,
+     "median": 14.57,
+     "p25": 12.87,
+     "p75": 17.18
+    },
+    "delinquency": {
+     "n_others": 6,
+     "median": 0.49,
+     "p25": 0.33,
+     "p75": 1.01
+    },
+    "net_charge_offs_12m": {
+     "n_others": 6,
+     "median": 0.42,
+     "p25": 0.31,
+     "p75": 0.54
+    },
+    "commercial_share": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.17
+    },
+    "cre_reset_5y": {
+     "n_others": 1,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 78079812,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 32178955,
+    "ACCT_025B1": 32178955,
+    "ACCT_041B": 10746,
+    "ACCT_083": 4274,
+    "ACCT_400T1": 0,
+    "ACCT_550": 56839,
+    "ACCT_551": 2899,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 4729017,
+    "ACCT_998": 606,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 17641,
+    "ACCT_NW0010": 78097453,
+    "ACCT_RL0047": 10178749,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "62841",
+   "name": "RAILROAD EMPLOYEES",
+   "city": "Belen",
+   "peer_group": 4,
+   "peer_group_label": "$50 million to $100 million",
+   "measures": {
+    "total_assets": 74577990,
+    "total_loans": 48210023,
+    "net_worth_ratio": 10.33,
+    "delinquency": 0.32,
+    "commercial_share": 0.22,
+    "cre_reset_5y": 100.0,
+    "home_reset_5y": 2.85,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 3622,
+    "net_charge_offs_12m": 0.34
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 6,
+     "median": 14.57,
+     "p25": 12.87,
+     "p75": 17.18
+    },
+    "delinquency": {
+     "n_others": 6,
+     "median": 0.49,
+     "p25": 0.12,
+     "p75": 1.01
+    },
+    "net_charge_offs_12m": {
+     "n_others": 6,
+     "median": 0.4,
+     "p25": 0.29,
+     "p75": 0.54
+    },
+    "commercial_share": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    },
+    "cre_reset_5y": {
+     "n_others": 0,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 74577990,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 48210023,
+    "ACCT_025B1": 48210022,
+    "ACCT_041B": 152187,
+    "ACCT_083": 3622,
+    "ACCT_400T1": 164350,
+    "ACCT_550": 86855,
+    "ACCT_551": 3484,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 164350,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 164350,
+    "ACCT_997": 7704554,
+    "ACCT_998": 1033,
+    "ACCT_CM0099": 164350,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 74577990,
+    "ACCT_RL0047": 5485447,
+    "ACCT_RL0050": 156071
+   }
+  },
+  {
+   "cu_number": "66117",
+   "name": "LOCO",
+   "city": "ALAMOGORDO",
+   "peer_group": 4,
+   "peer_group_label": "$50 million to $100 million",
+   "measures": {
+    "total_assets": 64249499,
+    "total_loans": 26501540,
+    "net_worth_ratio": 13.17,
+    "delinquency": 2.12,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 4434,
+    "net_charge_offs_12m": 3.24
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 6,
+     "median": 14.37,
+     "p25": 10.94,
+     "p75": 17.18
+    },
+    "delinquency": {
+     "n_others": 6,
+     "median": 0.35,
+     "p25": 0.1,
+     "p75": 0.55
+    },
+    "net_charge_offs_12m": {
+     "n_others": 6,
+     "median": 0.32,
+     "p25": 0.29,
+     "p75": 0.46
+    },
+    "commercial_share": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.17
+    },
+    "cre_reset_5y": {
+     "n_others": 1,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 64249499,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 26501540,
+    "ACCT_025B1": 26501540,
+    "ACCT_041B": 562396,
+    "ACCT_083": 4434,
+    "ACCT_400T1": 0,
+    "ACCT_550": 388093,
+    "ACCT_551": 100747,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 8498344,
+    "ACCT_998": 1317,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 258865,
+    "ACCT_NW0010": 64508364,
+    "ACCT_RL0047": 25897,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "62452",
+   "name": "FINANCIAL SECURITY",
+   "city": "CARLSBAD",
+   "peer_group": 4,
+   "peer_group_label": "$50 million to $100 million",
+   "measures": {
+    "total_assets": 62292879,
+    "total_loans": 45005458,
+    "net_worth_ratio": 15.97,
+    "delinquency": 1.14,
+    "commercial_share": 1.74,
+    "cre_reset_5y": null,
+    "home_reset_5y": null,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 5133,
+    "net_charge_offs_12m": 0.5
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 6,
+     "median": 12.97,
+     "p25": 10.94,
+     "p75": 16.48
+    },
+    "delinquency": {
+     "n_others": 6,
+     "median": 0.35,
+     "p25": 0.1,
+     "p75": 0.55
+    },
+    "net_charge_offs_12m": {
+     "n_others": 6,
+     "median": 0.32,
+     "p25": 0.29,
+     "p75": 0.5
+    },
+    "commercial_share": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    },
+    "cre_reset_5y": {
+     "n_others": 1,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 5,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 1.63
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 62292879,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 45005458,
+    "ACCT_025B1": 45005458,
+    "ACCT_041B": 513266,
+    "ACCT_083": 5133,
+    "ACCT_400T1": 1081002,
+    "ACCT_550": 159877,
+    "ACCT_551": 46064,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 9949266,
+    "ACCT_998": 1597,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 62292879,
+    "ACCT_RL0047": 0,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "9566",
+   "name": "EDDY",
+   "city": "CARLSBAD",
+   "peer_group": 4,
+   "peer_group_label": "$50 million to $100 million",
+   "measures": {
+    "total_assets": 60275527,
+    "total_loans": 42806807,
+    "net_worth_ratio": 18.12,
+    "delinquency": 0.0,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": null,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 4838,
+    "net_charge_offs_12m": 0.55
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 6,
+     "median": 12.97,
+     "p25": 10.94,
+     "p75": 15.27
+    },
+    "delinquency": {
+     "n_others": 6,
+     "median": 0.49,
+     "p25": 0.33,
+     "p75": 1.01
+    },
+    "net_charge_offs_12m": {
+     "n_others": 6,
+     "median": 0.32,
+     "p25": 0.29,
+     "p75": 0.46
+    },
+    "commercial_share": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.17
+    },
+    "cre_reset_5y": {
+     "n_others": 1,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 5,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 1.63
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 60275527,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 42806807,
+    "ACCT_025B1": 42806807,
+    "ACCT_041B": 0,
+    "ACCT_083": 4838,
+    "ACCT_400T1": 0,
+    "ACCT_550": 138660,
+    "ACCT_551": 215064,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 10933753,
+    "ACCT_998": 1812,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 65770,
+    "ACCT_NW0010": 60341297,
+    "ACCT_RL0047": 0,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "9093",
+   "name": "ROSWELL COMMUNITY",
+   "city": "Roswell",
+   "peer_group": 4,
+   "peer_group_label": "$50 million to $100 million",
+   "measures": {
+    "total_assets": 50122833,
+    "total_loans": 36610582,
+    "net_worth_ratio": 17.58,
+    "delinquency": 0.61,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 1.63,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 3719,
+    "net_charge_offs_12m": 0.3
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 6,
+     "median": 12.97,
+     "p25": 10.94,
+     "p75": 15.27
+    },
+    "delinquency": {
+     "n_others": 6,
+     "median": 0.35,
+     "p25": 0.1,
+     "p75": 0.95
+    },
+    "net_charge_offs_12m": {
+     "n_others": 6,
+     "median": 0.42,
+     "p25": 0.3,
+     "p75": 0.54
+    },
+    "commercial_share": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.17
+    },
+    "cre_reset_5y": {
+     "n_others": 1,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 50122833,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 36610582,
+    "ACCT_025B1": 36610582,
+    "ACCT_041B": 224905,
+    "ACCT_083": 3719,
+    "ACCT_400T1": 0,
+    "ACCT_550": 109853,
+    "ACCT_551": 27594,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 8811694,
+    "ACCT_998": 1758,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 50122833,
+    "ACCT_RL0047": 8054873,
+    "ACCT_RL0050": 131430
+   }
+  },
+  {
+   "cu_number": "9370",
+   "name": "EVERYONE'S",
+   "city": "Tucumcari",
+   "peer_group": 3,
+   "peer_group_label": "$10 million to $50 million",
+   "measures": {
+    "total_assets": 45854169,
+    "total_loans": 28403906,
+    "net_worth_ratio": 13.71,
+    "delinquency": 0.1,
+    "commercial_share": 12.94,
+    "cre_reset_5y": 0.0,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 4556,
+    "net_charge_offs_12m": 0.16
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 16.86,
+     "p25": 12.3,
+     "p75": 19.92
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.78,
+     "p25": 0.42,
+     "p75": 1.63
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.33,
+     "p25": 0.09,
+     "p75": 0.47
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.51
+    },
+    "cre_reset_5y": {
+     "n_others": 3,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 45854169,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 28403906,
+    "ACCT_025B1": 28403906,
+    "ACCT_041B": 29010,
+    "ACCT_083": 4556,
+    "ACCT_400T1": 5931998,
+    "ACCT_550": 44009,
+    "ACCT_551": 36183,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 4436849,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 4436849,
+    "ACCT_997": 6300509,
+    "ACCT_998": 1371,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 99000,
+    "ACCT_NW0010": 45953169,
+    "ACCT_RL0047": 9323,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "4805",
+   "name": "NORTHERN NEW MEXICO SCHOOL EMPLOYEE",
+   "city": "SANTA FE",
+   "peer_group": 3,
+   "peer_group_label": "$10 million to $50 million",
+   "measures": {
+    "total_assets": 43401334,
+    "total_loans": 10274420,
+    "net_worth_ratio": 11.48,
+    "delinquency": 0.8,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 1606,
+    "net_charge_offs_12m": 0.47
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 16.86,
+     "p25": 13.64,
+     "p75": 19.92
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.53,
+     "p25": 0.13,
+     "p75": 1.63
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.26,
+     "p25": 0.09,
+     "p75": 0.33
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.88
+    },
+    "cre_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 43401334,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 10274420,
+    "ACCT_025B1": 10274420,
+    "ACCT_041B": 81804,
+    "ACCT_083": 1606,
+    "ACCT_400T1": 0,
+    "ACCT_550": 12150,
+    "ACCT_551": 2638,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 4984160,
+    "ACCT_998": 1148,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 43401334,
+    "ACCT_RL0047": 3148091,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "66143",
+   "name": "CHAVES COUNTY SCHOOL EMPLOYEES",
+   "city": "Roswell",
+   "peer_group": 3,
+   "peer_group_label": "$10 million to $50 million",
+   "measures": {
+    "total_assets": 37544955,
+    "total_loans": 11030433,
+    "net_worth_ratio": 19.92,
+    "delinquency": 0.0,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": null,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 2414,
+    "net_charge_offs_12m": 0.09
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 13.71,
+     "p25": 12.3,
+     "p75": 17.16
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.78,
+     "p25": 0.42,
+     "p75": 1.63
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.33,
+     "p25": 0.16,
+     "p75": 0.47
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.88
+    },
+    "cre_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 7,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 37544955,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 11030433,
+    "ACCT_025B1": 11030433,
+    "ACCT_041B": 224,
+    "ACCT_083": 2414,
+    "ACCT_400T1": 0,
+    "ACCT_550": 8742,
+    "ACCT_551": 287,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 7479808,
+    "ACCT_998": 1992,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 37544955,
+    "ACCT_RL0047": 0,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "61165",
+   "name": "LOS ALAMOS SCHOOLS",
+   "city": "Los Alamos",
+   "peer_group": 3,
+   "peer_group_label": "$10 million to $50 million",
+   "measures": {
+    "total_assets": 33388536,
+    "total_loans": 20782137,
+    "net_worth_ratio": 10.71,
+    "delinquency": 0.42,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 2246,
+    "net_charge_offs_12m": 0.33
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 16.86,
+     "p25": 13.64,
+     "p75": 19.92
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.78,
+     "p25": 0.13,
+     "p75": 1.63
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.26,
+     "p25": 0.09,
+     "p75": 0.47
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.88
+    },
+    "cre_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 33388536,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 20782137,
+    "ACCT_025B1": 20782137,
+    "ACCT_041B": 88187,
+    "ACCT_083": 2246,
+    "ACCT_400T1": 0,
+    "ACCT_550": 35817,
+    "ACCT_551": 20896,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 3582761,
+    "ACCT_998": 1071,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 51304,
+    "ACCT_NW0010": 33439840,
+    "ACCT_RL0047": 8394679,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "66252",
+   "name": "QUESTA",
+   "city": "Questa",
+   "peer_group": 3,
+   "peer_group_label": "$10 million to $50 million",
+   "measures": {
+    "total_assets": 29932893,
+    "total_loans": 17320904,
+    "net_worth_ratio": 21.08,
+    "delinquency": 2.26,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 2186,
+    "net_charge_offs_12m": 0.26
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 13.71,
+     "p25": 12.3,
+     "p75": 17.16
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.53,
+     "p25": 0.13,
+     "p75": 0.8
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.33,
+     "p25": 0.09,
+     "p75": 0.47
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.88
+    },
+    "cre_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 29932893,
+    "ACCT_010A": 29123781,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 17320904,
+    "ACCT_025B1": 17320904,
+    "ACCT_041B": 390932,
+    "ACCT_083": 2186,
+    "ACCT_400T1": 0,
+    "ACCT_550": 0,
+    "ACCT_551": 0,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 6140028,
+    "ACCT_998": 2108,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 29932893,
+    "ACCT_RL0047": 5557636,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "62637",
+   "name": "JEMEZ VALLEY",
+   "city": "JEMEZ SPRINGS",
+   "peer_group": 3,
+   "peer_group_label": "$10 million to $50 million",
+   "measures": {
+    "total_assets": 28495794,
+    "total_loans": 10915901,
+    "net_worth_ratio": 12.3,
+    "delinquency": 1.63,
+    "commercial_share": 0.88,
+    "cre_reset_5y": 0.0,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 1864,
+    "net_charge_offs_12m": 1.81
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 16.86,
+     "p25": 13.64,
+     "p75": 19.92
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.53,
+     "p25": 0.13,
+     "p75": 0.8
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.26,
+     "p25": 0.09,
+     "p75": 0.33
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.51
+    },
+    "cre_reset_5y": {
+     "n_others": 3,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 28495794,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 10915901,
+    "ACCT_025B1": 10915901,
+    "ACCT_041B": 177907,
+    "ACCT_083": 1864,
+    "ACCT_400T1": 249374,
+    "ACCT_550": 112177,
+    "ACCT_551": 2075,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 145571,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 145571,
+    "ACCT_997": 3505170,
+    "ACCT_998": 1230,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 28495794,
+    "ACCT_RL0047": 5282566,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "66097",
+   "name": "CUBA",
+   "city": "CUBA",
+   "peer_group": 3,
+   "peer_group_label": "$10 million to $50 million",
+   "measures": {
+    "total_assets": 23740822,
+    "total_loans": 6923668,
+    "net_worth_ratio": 17.16,
+    "delinquency": 0.13,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 1456,
+    "net_charge_offs_12m": 0.33
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 13.71,
+     "p25": 12.3,
+     "p75": 19.92
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.78,
+     "p25": 0.42,
+     "p75": 1.63
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.26,
+     "p25": 0.09,
+     "p75": 0.47
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.88
+    },
+    "cre_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 23740822,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 6923668,
+    "ACCT_025B1": 6923668,
+    "ACCT_041B": 8749,
+    "ACCT_083": 1456,
+    "ACCT_400T1": 0,
+    "ACCT_550": 0,
+    "ACCT_551": 0,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 4074062,
+    "ACCT_998": 1716,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 23740822,
+    "ACCT_RL0047": 3108105,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "66185",
+   "name": "HIGH DESERT COMMUNITY",
+   "city": "Aztec",
+   "peer_group": 3,
+   "peer_group_label": "$10 million to $50 million",
+   "measures": {
+    "total_assets": 16828097,
+    "total_loans": 9287500,
+    "net_worth_ratio": 13.64,
+    "delinquency": 1.65,
+    "commercial_share": 0.51,
+    "cre_reset_5y": 0.0,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 1989,
+    "net_charge_offs_12m": 2.09
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 16.86,
+     "p25": 12.3,
+     "p75": 19.92
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.53,
+     "p25": 0.13,
+     "p75": 0.8
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.26,
+     "p25": 0.09,
+     "p75": 0.33
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.88
+    },
+    "cre_reset_5y": {
+     "n_others": 3,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 6,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 16828097,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 9287500,
+    "ACCT_025B1": 9287499,
+    "ACCT_041B": 153273,
+    "ACCT_083": 1989,
+    "ACCT_400T1": 86143,
+    "ACCT_550": 39042,
+    "ACCT_551": 32774,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 86143,
+    "ACCT_718A5": 86144,
+    "ACCT_997": 2305046,
+    "ACCT_998": 1364,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 74169,
+    "ACCT_NW0010": 16902266,
+    "ACCT_RL0047": 2993863,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "16754",
+   "name": "FOUR CORNERS",
+   "city": "Kirtland",
+   "peer_group": 3,
+   "peer_group_label": "$10 million to $50 million",
+   "measures": {
+    "total_assets": 14496707,
+    "total_loans": 9887572,
+    "net_worth_ratio": 21.63,
+    "delinquency": 0.78,
+    "commercial_share": 6.4,
+    "cre_reset_5y": 0.0,
+    "home_reset_5y": null,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 5691,
+    "net_charge_offs_12m": -0.02
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 13.71,
+     "p25": 12.3,
+     "p75": 17.16
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.53,
+     "p25": 0.13,
+     "p75": 1.63
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.33,
+     "p25": 0.16,
+     "p75": 0.47
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.51
+    },
+    "cre_reset_5y": {
+     "n_others": 3,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 7,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 14496707,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 9887572,
+    "ACCT_025B1": 9887571,
+    "ACCT_041B": 76802,
+    "ACCT_083": 5691,
+    "ACCT_400T1": 927422,
+    "ACCT_550": 19639,
+    "ACCT_551": 18578,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 927422,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 927422,
+    "ACCT_997": 3142880,
+    "ACCT_998": 2163,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 31563,
+    "ACCT_NW0010": 14528270,
+    "ACCT_RL0047": 0,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "7027",
+   "name": "INTERNATIONALITES",
+   "city": "CARLSBAD",
+   "peer_group": 3,
+   "peer_group_label": "$10 million to $50 million",
+   "measures": {
+    "total_assets": 12131353,
+    "total_loans": 8372285,
+    "net_worth_ratio": 16.86,
+    "delinquency": 0.53,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": null,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 1204,
+    "net_charge_offs_12m": -0.21
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 9,
+     "median": 13.71,
+     "p25": 12.3,
+     "p75": 19.92
+    },
+    "delinquency": {
+     "n_others": 9,
+     "median": 0.78,
+     "p25": 0.13,
+     "p75": 1.63
+    },
+    "net_charge_offs_12m": {
+     "n_others": 9,
+     "median": 0.33,
+     "p25": 0.16,
+     "p75": 0.47
+    },
+    "commercial_share": {
+     "n_others": 9,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.88
+    },
+    "cre_reset_5y": {
+     "n_others": 4,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 7,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 12131353,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 8372285,
+    "ACCT_025B1": 8372285,
+    "ACCT_041B": 44701,
+    "ACCT_083": 1204,
+    "ACCT_400T1": 0,
+    "ACCT_550": 0,
+    "ACCT_551": 633,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 2045615,
+    "ACCT_998": 1686,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 12131353,
+    "ACCT_RL0047": 0,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "10580",
+   "name": "U-1ST COMMUNITY",
+   "city": "Carlsbad",
+   "peer_group": 2,
+   "peer_group_label": "$2 million to $10 million",
+   "measures": {
+    "total_assets": 9829085,
+    "total_loans": 6023869,
+    "net_worth_ratio": 14.17,
+    "delinquency": 0.2,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": null,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 861,
+    "net_charge_offs_12m": 0.96
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 5,
+     "median": 18.37,
+     "p25": 15.25,
+     "p75": 19.64
+    },
+    "delinquency": {
+     "n_others": 5,
+     "median": 0.6,
+     "p25": 0.02,
+     "p75": 1.27
+    },
+    "net_charge_offs_12m": {
+     "n_others": 5,
+     "median": 0.56,
+     "p25": 0.2,
+     "p75": 0.62
+    },
+    "commercial_share": {
+     "n_others": 5,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    },
+    "cre_reset_5y": {
+     "n_others": 1,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 2,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 9829085,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 6023869,
+    "ACCT_025B1": 6023869,
+    "ACCT_041B": 11848,
+    "ACCT_083": 861,
+    "ACCT_400T1": 0,
+    "ACCT_550": 41235,
+    "ACCT_551": 16762,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 1392648,
+    "ACCT_998": 1417,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 9829085,
+    "ACCT_RL0047": 0,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "14758",
+   "name": "QUAY SCHOOLS",
+   "city": "Tucumcari",
+   "peer_group": 2,
+   "peer_group_label": "$2 million to $10 million",
+   "measures": {
+    "total_assets": 8217268,
+    "total_loans": 5690946,
+    "net_worth_ratio": 19.64,
+    "delinquency": 0.6,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": null,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 1141,
+    "net_charge_offs_12m": 0.62
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 5,
+     "median": 15.25,
+     "p25": 14.17,
+     "p75": 18.37
+    },
+    "delinquency": {
+     "n_others": 5,
+     "median": 0.2,
+     "p25": 0.02,
+     "p75": 1.27
+    },
+    "net_charge_offs_12m": {
+     "n_others": 5,
+     "median": 0.56,
+     "p25": 0.2,
+     "p75": 0.74
+    },
+    "commercial_share": {
+     "n_others": 5,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    },
+    "cre_reset_5y": {
+     "n_others": 1,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 2,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 8217268,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 5690946,
+    "ACCT_025B1": 5690946,
+    "ACCT_041B": 34422,
+    "ACCT_083": 1141,
+    "ACCT_400T1": 0,
+    "ACCT_550": 27244,
+    "ACCT_551": 5347,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 1613764,
+    "ACCT_998": 1964,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 8217268,
+    "ACCT_RL0047": 0,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "19567",
+   "name": "THE FLORIST",
+   "city": "ROSWELL",
+   "peer_group": 2,
+   "peer_group_label": "$2 million to $10 million",
+   "measures": {
+    "total_assets": 7253898,
+    "total_loans": 4259652,
+    "net_worth_ratio": 15.25,
+    "delinquency": 1.76,
+    "commercial_share": 0.89,
+    "cre_reset_5y": 0.0,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 681,
+    "net_charge_offs_12m": 0.56
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 5,
+     "median": 18.37,
+     "p25": 14.17,
+     "p75": 19.64
+    },
+    "delinquency": {
+     "n_others": 5,
+     "median": 0.2,
+     "p25": 0.02,
+     "p75": 0.6
+    },
+    "net_charge_offs_12m": {
+     "n_others": 5,
+     "median": 0.62,
+     "p25": 0.2,
+     "p75": 0.74
+    },
+    "commercial_share": {
+     "n_others": 5,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    },
+    "cre_reset_5y": {
+     "n_others": 0,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 1,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 7253898,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 4259652,
+    "ACCT_025B1": 4259652,
+    "ACCT_041B": 75154,
+    "ACCT_083": 681,
+    "ACCT_400T1": 64208,
+    "ACCT_550": 14599,
+    "ACCT_551": 15,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 64208,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 64208,
+    "ACCT_997": 1106323,
+    "ACCT_998": 1525,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 7253898,
+    "ACCT_RL0047": 1322447,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "61946",
+   "name": "RINCONES PRESBYTERIAN",
+   "city": "CHACON",
+   "peer_group": 2,
+   "peer_group_label": "$2 million to $10 million",
+   "measures": {
+    "total_assets": 6122119,
+    "total_loans": 4873703,
+    "net_worth_ratio": 9.73,
+    "delinquency": 1.27,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": 0.0,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 751,
+    "net_charge_offs_12m": 0.2
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 5,
+     "median": 18.37,
+     "p25": 15.25,
+     "p75": 19.64
+    },
+    "delinquency": {
+     "n_others": 5,
+     "median": 0.2,
+     "p25": 0.02,
+     "p75": 0.6
+    },
+    "net_charge_offs_12m": {
+     "n_others": 5,
+     "median": 0.62,
+     "p25": 0.56,
+     "p75": 0.74
+    },
+    "commercial_share": {
+     "n_others": 5,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    },
+    "cre_reset_5y": {
+     "n_others": 1,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 1,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 6122119,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 4873703,
+    "ACCT_025B1": 4873703,
+    "ACCT_041B": 61910,
+    "ACCT_083": 751,
+    "ACCT_400T1": 0,
+    "ACCT_550": 9551,
+    "ACCT_551": 9717,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 595894,
+    "ACCT_998": 973,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 6122119,
+    "ACCT_RL0047": 10330,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "61559",
+   "name": "DEMING SCHOOLS EMPLOYEES",
+   "city": "DEMING",
+   "peer_group": 2,
+   "peer_group_label": "$2 million to $10 million",
+   "measures": {
+    "total_assets": 5587219,
+    "total_loans": 2221490,
+    "net_worth_ratio": 23.14,
+    "delinquency": 0.02,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": null,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 853,
+    "net_charge_offs_12m": 0.74
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 5,
+     "median": 15.25,
+     "p25": 14.17,
+     "p75": 18.37
+    },
+    "delinquency": {
+     "n_others": 5,
+     "median": 0.6,
+     "p25": 0.2,
+     "p75": 1.27
+    },
+    "net_charge_offs_12m": {
+     "n_others": 5,
+     "median": 0.56,
+     "p25": 0.2,
+     "p75": 0.62
+    },
+    "commercial_share": {
+     "n_others": 5,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    },
+    "cre_reset_5y": {
+     "n_others": 1,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 2,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 5587219,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 2221490,
+    "ACCT_025B1": 2221490,
+    "ACCT_041B": 529,
+    "ACCT_083": 853,
+    "ACCT_400T1": 0,
+    "ACCT_550": 14355,
+    "ACCT_551": 679,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 1293057,
+    "ACCT_998": 2314,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 5587219,
+    "ACCT_RL0047": 0,
+    "ACCT_RL0050": 0
+   }
+  },
+  {
+   "cu_number": "13654",
+   "name": "MT TAYLOR",
+   "city": "MILAN",
+   "peer_group": 2,
+   "peer_group_label": "$2 million to $10 million",
+   "measures": {
+    "total_assets": 2093469,
+    "total_loans": 1152884,
+    "net_worth_ratio": 18.37,
+    "delinquency": 0.0,
+    "commercial_share": 0.0,
+    "cre_reset_5y": null,
+    "home_reset_5y": null,
+    "other_gov_guaranteed": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "sba": {
+     "balance": 0,
+     "guaranteed": 0
+    },
+    "members": 254,
+    "net_charge_offs_12m": 0.0
+   },
+   "peers": {
+    "net_worth_ratio": {
+     "n_others": 5,
+     "median": 15.25,
+     "p25": 14.17,
+     "p75": 19.64
+    },
+    "delinquency": {
+     "n_others": 5,
+     "median": 0.6,
+     "p25": 0.2,
+     "p75": 1.27
+    },
+    "net_charge_offs_12m": {
+     "n_others": 5,
+     "median": 0.62,
+     "p25": 0.56,
+     "p75": 0.74
+    },
+    "commercial_share": {
+     "n_others": 5,
+     "median": 0.0,
+     "p25": 0.0,
+     "p75": 0.0
+    },
+    "cre_reset_5y": {
+     "n_others": 1,
+     "median": null,
+     "p25": null,
+     "p75": null
+    },
+    "home_reset_5y": {
+     "n_others": 2,
+     "median": null,
+     "p25": null,
+     "p75": null
+    }
+   },
+   "not_reported": [],
+   "withheld": {},
+   "accounts": {
+    "ACCT_010": 2093469,
+    "ACCT_010A": 0,
+    "ACCT_010B": 0,
+    "ACCT_010C": 0,
+    "ACCT_025B": 1152884,
+    "ACCT_025B1": 1152884,
+    "ACCT_041B": 0,
+    "ACCT_083": 254,
+    "ACCT_400T1": 0,
+    "ACCT_550": 0,
+    "ACCT_551": 0,
+    "ACCT_691C1": 0,
+    "ACCT_691C2": 0,
+    "ACCT_691P1": 0,
+    "ACCT_691P2": 0,
+    "ACCT_718A3": 0,
+    "ACCT_718A4": 0,
+    "ACCT_718A5": 0,
+    "ACCT_997": 384592,
+    "ACCT_998": 1837,
+    "ACCT_CM0099": 0,
+    "ACCT_LC0047": 0,
+    "ACCT_NW0004": 0,
+    "ACCT_NW0010": 2093469,
+    "ACCT_RL0047": 0,
+    "ACCT_RL0050": 0
+   }
+  }
+ ]
+}

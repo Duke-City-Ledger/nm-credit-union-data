@@ -1,0 +1,457 @@
+[
+ {
+  "quarter": "2018-09",
+  "cu_number": "66185",
+  "name": "HIGH DESERT COMMUNITY",
+  "check": "swing",
+  "detail": "commercial_share 6.68 to 0.87 in a quarter (limit 3 points)"
+ },
+ {
+  "quarter": "2020-03",
+  "cu_number": "19567",
+  "name": "THE FLORIST",
+  "check": "swing",
+  "detail": "delinquency 0.18 to 9.94 in a quarter (limit 5 points)"
+ },
+ {
+  "quarter": "2020-06",
+  "cu_number": "16754",
+  "name": "FOUR CORNERS",
+  "check": "swing",
+  "detail": "commercial_share 0.0 to 6.04 in a quarter (limit 3 points)"
+ },
+ {
+  "quarter": "2020-06",
+  "cu_number": "19567",
+  "name": "THE FLORIST",
+  "check": "swing",
+  "detail": "delinquency 9.94 to 2.48 in a quarter (limit 5 points)"
+ },
+ {
+  "quarter": "2020-12",
+  "cu_number": "19567",
+  "name": "THE FLORIST",
+  "check": "swing",
+  "detail": "delinquency 0.83 to 9.02 in a quarter (limit 5 points)"
+ },
+ {
+  "quarter": "2021-06",
+  "cu_number": "19567",
+  "name": "THE FLORIST",
+  "check": "swing",
+  "detail": "delinquency 8.21 to 0.39 in a quarter (limit 5 points)"
+ },
+ {
+  "quarter": "2021-09",
+  "cu_number": "66142",
+  "name": "ANIMAS",
+  "check": "roster",
+  "detail": "not in New Mexico's list this quarter; stopped reporting after the last"
+ },
+ {
+  "quarter": "2022-03",
+  "cu_number": "16754",
+  "name": "FOUR CORNERS",
+  "check": "swing",
+  "detail": "commercial_share 2.12 to 5.77 in a quarter (limit 3 points)"
+ },
+ {
+  "quarter": "2022-03",
+  "cu_number": "62841",
+  "name": "RAILROAD EMPLOYEES",
+  "check": "part over total",
+  "detail": "ACCT_CM0099 930,724 is more than ACCT_718A3 + ACCT_718A4 174,757"
+ },
+ {
+  "quarter": "2022-03",
+  "cu_number": "62841",
+  "name": "RAILROAD EMPLOYEES",
+  "check": "impossible",
+  "detail": "cre_reset_5y is 532.58%; withheld from the page"
+ },
+ {
+  "quarter": "2022-06",
+  "cu_number": "62573",
+  "name": "RIO GRANDE",
+  "check": "swing",
+  "detail": "cre_reset_5y 38.14 to 0.0 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2022-06",
+  "cu_number": "62841",
+  "name": "RAILROAD EMPLOYEES",
+  "check": "part over total",
+  "detail": "ACCT_CM0099 764,420 is more than ACCT_718A3 + ACCT_718A4 174,135"
+ },
+ {
+  "quarter": "2022-06",
+  "cu_number": "62841",
+  "name": "RAILROAD EMPLOYEES",
+  "check": "impossible",
+  "detail": "cre_reset_5y is 438.98%; withheld from the page"
+ },
+ {
+  "quarter": "2022-09",
+  "cu_number": "11316",
+  "name": "SANDIA AREA",
+  "check": "swing",
+  "detail": "cre_reset_5y 10.5 to 35.93 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2022-09",
+  "cu_number": "62637",
+  "name": "JEMEZ VALLEY",
+  "check": "swing",
+  "detail": "home_reset_5y 95.46 to 0.0 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2022-09",
+  "cu_number": "62841",
+  "name": "RAILROAD EMPLOYEES",
+  "check": "part over total",
+  "detail": "ACCT_CM0099 209,918 is more than ACCT_718A3 + ACCT_718A4 173,558"
+ },
+ {
+  "quarter": "2022-09",
+  "cu_number": "62841",
+  "name": "RAILROAD EMPLOYEES",
+  "check": "impossible",
+  "detail": "cre_reset_5y is 120.95%; withheld from the page"
+ },
+ {
+  "quarter": "2022-12",
+  "cu_number": "10580",
+  "name": "U-1ST COMMUNITY",
+  "check": "swing",
+  "detail": "net_charge_offs_12m 0.04 to 3.79 in a quarter (limit 2 points)"
+ },
+ {
+  "quarter": "2022-12",
+  "cu_number": "62841",
+  "name": "RAILROAD EMPLOYEES",
+  "check": "part over total",
+  "detail": "ACCT_CM0099 241,224 is more than ACCT_718A3 + ACCT_718A4 172,657"
+ },
+ {
+  "quarter": "2022-12",
+  "cu_number": "62841",
+  "name": "RAILROAD EMPLOYEES",
+  "check": "impossible",
+  "detail": "cre_reset_5y is 139.71%; withheld from the page"
+ },
+ {
+  "quarter": "2023-03",
+  "cu_number": "7999",
+  "name": "TELCO ROSWELL NEW MEXICO",
+  "check": "swing",
+  "detail": "delinquency 5.55 to 0.46 in a quarter (limit 5 points)"
+ },
+ {
+  "quarter": "2023-03",
+  "cu_number": "62637",
+  "name": "JEMEZ VALLEY",
+  "check": "swing",
+  "detail": "cre_reset_5y 0.0 to 100.0 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2023-06",
+  "cu_number": "10580",
+  "name": "U-1ST COMMUNITY",
+  "check": "swing",
+  "detail": "net_charge_offs_12m 3.21 to 1.13 in a quarter (limit 2 points)"
+ },
+ {
+  "quarter": "2023-06",
+  "cu_number": "62637",
+  "name": "JEMEZ VALLEY",
+  "check": "swing",
+  "detail": "home_reset_5y 0.0 to 94.65 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2023-06",
+  "cu_number": "68244",
+  "name": "FIRST FINANCIAL",
+  "check": "swing",
+  "detail": "home_reset_5y 0.7 to 45.54 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2023-09",
+  "cu_number": "62637",
+  "name": "JEMEZ VALLEY",
+  "check": "swing",
+  "detail": "home_reset_5y 94.65 to 0.0 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2023-09",
+  "cu_number": "68244",
+  "name": "FIRST FINANCIAL",
+  "check": "swing",
+  "detail": "home_reset_5y 45.54 to 0.7 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2023-12",
+  "cu_number": "10580",
+  "name": "U-1ST COMMUNITY",
+  "check": "swing",
+  "detail": "net_charge_offs_12m 2.81 to -0.84 in a quarter (limit 2 points)"
+ },
+ {
+  "quarter": "2024-03",
+  "cu_number": "61946",
+  "name": "RINCONES PRESBYTERIAN",
+  "check": "swing",
+  "detail": "delinquency 5.85 to 0.04 in a quarter (limit 5 points)"
+ },
+ {
+  "quarter": "2024-06",
+  "cu_number": "7999",
+  "name": "TELCO ROSWELL NEW MEXICO",
+  "check": "swing",
+  "detail": "delinquency 0.46 to 6.44 in a quarter (limit 5 points)"
+ },
+ {
+  "quarter": "2024-06",
+  "cu_number": "62637",
+  "name": "JEMEZ VALLEY",
+  "check": "swing",
+  "detail": "home_reset_5y 0.0 to 96.77 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2024-06",
+  "cu_number": "65513",
+  "name": "STATE EMPLOYEES",
+  "check": "swing",
+  "detail": "cre_reset_5y 0.0 to 97.56 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2024-06",
+  "cu_number": "68244",
+  "name": "FIRST FINANCIAL",
+  "check": "swing",
+  "detail": "home_reset_5y 0.74 to 45.49 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2024-09",
+  "cu_number": "948",
+  "name": "NUSENDA",
+  "check": "swing",
+  "detail": "cre_reset_5y 73.49 to 0.0 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2024-09",
+  "cu_number": "948",
+  "name": "NUSENDA",
+  "check": "swing",
+  "detail": "home_reset_5y 26.95 to 0.0 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2024-09",
+  "cu_number": "68244",
+  "name": "FIRST FINANCIAL",
+  "check": "swing",
+  "detail": "home_reset_5y 45.49 to 0.98 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2024-12",
+  "cu_number": "948",
+  "name": "NUSENDA",
+  "check": "swing",
+  "detail": "cre_reset_5y 0.0 to 72.29 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2024-12",
+  "cu_number": "948",
+  "name": "NUSENDA",
+  "check": "swing",
+  "detail": "home_reset_5y 0.0 to 28.41 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2024-12",
+  "cu_number": "62637",
+  "name": "JEMEZ VALLEY",
+  "check": "swing",
+  "detail": "home_reset_5y 94.62 to 0.0 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2024-12",
+  "cu_number": "66097",
+  "name": "CUBA",
+  "check": "swing",
+  "detail": "home_reset_5y 0.0 to 100.0 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2025-03",
+  "cu_number": "7999",
+  "name": "TELCO ROSWELL NEW MEXICO",
+  "check": "roster",
+  "detail": "not in New Mexico's list this quarter; stopped reporting after the last"
+ },
+ {
+  "quarter": "2025-03",
+  "cu_number": "948",
+  "name": "NUSENDA",
+  "check": "swing",
+  "detail": "home_reset_5y 28.41 to 0.39 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2025-03",
+  "cu_number": "1838",
+  "name": "FORT BAYARD",
+  "check": "swing",
+  "detail": "net_worth_ratio 7.14 to 2.4 in a quarter (limit 3 points)"
+ },
+ {
+  "quarter": "2025-03",
+  "cu_number": "62637",
+  "name": "JEMEZ VALLEY",
+  "check": "swing",
+  "detail": "cre_reset_5y 100.0 to 0.0 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2025-03",
+  "cu_number": "66097",
+  "name": "CUBA",
+  "check": "swing",
+  "detail": "home_reset_5y 100.0 to 0.0 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2025-06",
+  "cu_number": "1838",
+  "name": "FORT BAYARD",
+  "check": "roster",
+  "detail": "not in New Mexico's list this quarter; stopped reporting after the last"
+ },
+ {
+  "quarter": "2025-06",
+  "cu_number": "948",
+  "name": "NUSENDA",
+  "check": "swing",
+  "detail": "home_reset_5y 0.39 to 30.78 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2025-09",
+  "cu_number": "964",
+  "name": "SOUTHWEST",
+  "check": "roster",
+  "detail": "not in New Mexico's list this quarter; stopped reporting after the last"
+ },
+ {
+  "quarter": "2025-09",
+  "cu_number": "65513",
+  "name": "STATE EMPLOYEES",
+  "check": "swing",
+  "detail": "home_reset_5y 23.82 to 60.45 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2025-12",
+  "cu_number": "16754",
+  "name": "FOUR CORNERS",
+  "check": "swing",
+  "detail": "cre_reset_5y 0.0 to 100.0 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2025-12",
+  "cu_number": "62841",
+  "name": "RAILROAD EMPLOYEES",
+  "check": "swing",
+  "detail": "home_reset_5y 27.82 to 1.71 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2026-03",
+  "cu_number": "16754",
+  "name": "FOUR CORNERS",
+  "check": "swing",
+  "detail": "cre_reset_5y 100.0 to 0.0 in a quarter (limit 25 points)"
+ },
+ {
+  "quarter": "2026-03",
+  "cu_number": "60467",
+  "name": "ZIA",
+  "check": "swing",
+  "detail": "net_worth_ratio 8.12 to 11.55 in a quarter (limit 3 points)"
+ },
+ {
+  "quarter": "2026-06",
+  "cu_number": "4805",
+  "name": "NORTHERN NEW MEXICO SCHOOL EMPLOYEE",
+  "check": "zero reset",
+  "detail": "ACCT_RL0050 is 0 with ACCT_RL0047 at 4,912,557"
+ },
+ {
+  "quarter": "2026-06",
+  "cu_number": "5851",
+  "name": "SUNWARD",
+  "check": "zero reset",
+  "detail": "ACCT_CM0099 is 0 with ACCT_718A3 + ACCT_718A4 at 790,934,171"
+ },
+ {
+  "quarter": "2026-06",
+  "cu_number": "8299",
+  "name": "ESTACADO",
+  "check": "zero reset",
+  "detail": "ACCT_RL0050 is 0 with ACCT_RL0047 at 1,674,303"
+ },
+ {
+  "quarter": "2026-06",
+  "cu_number": "8475",
+  "name": "OTERO",
+  "check": "zero reset",
+  "detail": "ACCT_CM0099 is 0 with ACCT_718A3 + ACCT_718A4 at 5,805,050"
+ },
+ {
+  "quarter": "2026-06",
+  "cu_number": "9370",
+  "name": "EVERYONE'S",
+  "check": "zero reset",
+  "detail": "ACCT_CM0099 is 0 with ACCT_718A3 + ACCT_718A4 at 4,218,732"
+ },
+ {
+  "quarter": "2026-06",
+  "cu_number": "19567",
+  "name": "THE FLORIST",
+  "check": "zero reset",
+  "detail": "ACCT_RL0050 is 0 with ACCT_RL0047 at 1,161,196"
+ },
+ {
+  "quarter": "2026-06",
+  "cu_number": "61165",
+  "name": "LOS ALAMOS SCHOOLS",
+  "check": "zero reset",
+  "detail": "ACCT_RL0050 is 0 with ACCT_RL0047 at 9,203,744"
+ },
+ {
+  "quarter": "2026-06",
+  "cu_number": "62637",
+  "name": "JEMEZ VALLEY",
+  "check": "zero reset",
+  "detail": "ACCT_RL0050 is 0 with ACCT_RL0047 at 5,377,561"
+ },
+ {
+  "quarter": "2026-06",
+  "cu_number": "62783",
+  "name": "ARTESIA",
+  "check": "zero reset",
+  "detail": "ACCT_RL0050 is 0 with ACCT_RL0047 at 36,520,418"
+ },
+ {
+  "quarter": "2026-06",
+  "cu_number": "64759",
+  "name": "DEL NORTE",
+  "check": "zero reset",
+  "detail": "ACCT_CM0099 is 0 with ACCT_718A3 + ACCT_718A4 at 16,692,157"
+ },
+ {
+  "quarter": "2026-06",
+  "cu_number": "66097",
+  "name": "CUBA",
+  "check": "zero reset",
+  "detail": "ACCT_RL0050 is 0 with ACCT_RL0047 at 2,935,166"
+ },
+ {
+  "quarter": "2026-06",
+  "cu_number": "68244",
+  "name": "FIRST FINANCIAL",
+  "check": "zero reset",
+  "detail": "ACCT_CM0099 is 0 with ACCT_718A3 + ACCT_718A4 at 36,230,695"
+ }
+]

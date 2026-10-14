@@ -187,7 +187,7 @@
         }
       ]
     },
-    "ACCT_997": {
+    "ACCT_025B1": {
       "quarters": [
         "2017-12",
         "2018-03",
@@ -226,7 +226,7 @@
         "2026-06"
       ],
       "tables": {
-        "fs220A.txt": [
+        "fs220L.txt": [
           "2017-12",
           "2018-03",
           "2018-12",
@@ -234,7 +234,7 @@
           "2019-06",
           "2019-09"
         ],
-        "FS220A.txt": [
+        "FS220L.txt": [
           "2018-06",
           "2018-09",
           "2019-12",
@@ -268,7 +268,7 @@
       },
       "descriptions": [
         {
-          "text": "Total Net Worth | Sum of Undivided Earnings, Regular Reserves, Appropriation for Non-Conforming Investments, Other Reserves, Uninsured Secondary Capital, Net Income.",
+          "text": "Total Amount of Loans & Leases on Loan Schedule | Total Amount of Loans & Leases on Loan Schedule",
           "from": "2017-12",
           "to": "2026-06",
           "inDictionary": true,
@@ -358,6 +358,95 @@
       "descriptions": [
         {
           "text": "Net Worth Ratio | Net Worth divided by Total Assets",
+          "from": "2017-12",
+          "to": "2026-06",
+          "inDictionary": true,
+          "inData": true
+        }
+      ]
+    },
+    "ACCT_997": {
+      "quarters": [
+        "2017-12",
+        "2018-03",
+        "2018-06",
+        "2018-09",
+        "2018-12",
+        "2019-03",
+        "2019-06",
+        "2019-09",
+        "2019-12",
+        "2020-03",
+        "2020-06",
+        "2020-09",
+        "2020-12",
+        "2021-03",
+        "2021-06",
+        "2021-09",
+        "2021-12",
+        "2022-03",
+        "2022-06",
+        "2022-09",
+        "2022-12",
+        "2023-03",
+        "2023-06",
+        "2023-09",
+        "2023-12",
+        "2024-03",
+        "2024-06",
+        "2024-09",
+        "2024-12",
+        "2025-03",
+        "2025-06",
+        "2025-09",
+        "2025-12",
+        "2026-03",
+        "2026-06"
+      ],
+      "tables": {
+        "fs220A.txt": [
+          "2017-12",
+          "2018-03",
+          "2018-12",
+          "2019-03",
+          "2019-06",
+          "2019-09"
+        ],
+        "FS220A.txt": [
+          "2018-06",
+          "2018-09",
+          "2019-12",
+          "2020-03",
+          "2020-06",
+          "2020-09",
+          "2020-12",
+          "2021-03",
+          "2021-06",
+          "2021-09",
+          "2021-12",
+          "2022-03",
+          "2022-06",
+          "2022-09",
+          "2022-12",
+          "2023-03",
+          "2023-06",
+          "2023-09",
+          "2023-12",
+          "2024-03",
+          "2024-06",
+          "2024-09",
+          "2024-12",
+          "2025-03",
+          "2025-06",
+          "2025-09",
+          "2025-12",
+          "2026-03",
+          "2026-06"
+        ]
+      },
+      "descriptions": [
+        {
+          "text": "Total Net Worth | Sum of Undivided Earnings, Regular Reserves, Appropriation for Non-Conforming Investments, Other Reserves, Uninsured Secondary Capital, Net Income.",
           "from": "2017-12",
           "to": "2026-06",
           "inDictionary": true,
@@ -721,6 +810,59 @@
         }
       ]
     },
+    "ACCT_CM0099": {
+      "quarters": [
+        "2022-03",
+        "2022-06",
+        "2022-09",
+        "2022-12",
+        "2023-03",
+        "2023-06",
+        "2023-09",
+        "2023-12",
+        "2024-03",
+        "2024-06",
+        "2024-09",
+        "2024-12",
+        "2025-03",
+        "2025-06",
+        "2025-09",
+        "2025-12",
+        "2026-03",
+        "2026-06"
+      ],
+      "tables": {
+        "FS220P.txt": [
+          "2022-03",
+          "2022-06",
+          "2022-09",
+          "2022-12",
+          "2023-03",
+          "2023-06",
+          "2023-09",
+          "2023-12",
+          "2024-03",
+          "2024-06",
+          "2024-09",
+          "2024-12",
+          "2025-03",
+          "2025-06",
+          "2025-09",
+          "2025-12",
+          "2026-03",
+          "2026-06"
+        ]
+      },
+      "descriptions": [
+        {
+          "text": "Amount of real estate loans included in Accounts 718A3 and 718A4 above that contractually refinance, reprice, or mature within the next 5 years. | Amount of real estate loans included in Accounts 718A3 and 718A4 above that contractually refinance, reprice, or mature within the next 5 years.",
+          "from": "2022-03",
+          "to": "2026-06",
+          "inDictionary": true,
+          "inData": true
+        }
+      ]
+    },
     "ACCT_718A3": {
       "quarters": [
         "2017-12",
@@ -899,8 +1041,25 @@
         }
       ]
     },
-    "ACCT_CM0099": {
+    "ACCT_718A5": {
       "quarters": [
+        "2017-12",
+        "2018-03",
+        "2018-06",
+        "2018-09",
+        "2018-12",
+        "2019-03",
+        "2019-06",
+        "2019-09",
+        "2019-12",
+        "2020-03",
+        "2020-06",
+        "2020-09",
+        "2020-12",
+        "2021-03",
+        "2021-06",
+        "2021-09",
+        "2021-12",
         "2022-03",
         "2022-06",
         "2022-09",
@@ -921,7 +1080,26 @@
         "2026-06"
       ],
       "tables": {
-        "FS220P.txt": [
+        "fs220L.txt": [
+          "2017-12",
+          "2018-03",
+          "2018-12",
+          "2019-03",
+          "2019-06",
+          "2019-09"
+        ],
+        "FS220L.txt": [
+          "2018-06",
+          "2018-09",
+          "2019-12",
+          "2020-03",
+          "2020-06",
+          "2020-09",
+          "2020-12",
+          "2021-03",
+          "2021-06",
+          "2021-09",
+          "2021-12",
           "2022-03",
           "2022-06",
           "2022-09",
@@ -944,7 +1122,60 @@
       },
       "descriptions": [
         {
-          "text": "Amount of real estate loans included in Accounts 718A3 and 718A4 above that contractually refinance, reprice, or mature within the next 5 years. | Amount of real estate loans included in Accounts 718A3 and 718A4 above that contractually refinance, reprice, or mature within the next 5 years.",
+          "text": "Amount of Commercial Loans/Lines of Credit Real Estate Secured | Amount of Commercial Loans/Lines of Credit Real Estate Secured",
+          "from": "2017-12",
+          "to": "2026-06",
+          "inDictionary": true,
+          "inData": true
+        }
+      ]
+    },
+    "ACCT_RL0050": {
+      "quarters": [
+        "2022-03",
+        "2022-06",
+        "2022-09",
+        "2022-12",
+        "2023-03",
+        "2023-06",
+        "2023-09",
+        "2023-12",
+        "2024-03",
+        "2024-06",
+        "2024-09",
+        "2024-12",
+        "2025-03",
+        "2025-06",
+        "2025-09",
+        "2025-12",
+        "2026-03",
+        "2026-06"
+      ],
+      "tables": {
+        "FS220R.txt": [
+          "2022-03",
+          "2022-06",
+          "2022-09",
+          "2022-12",
+          "2023-03",
+          "2023-06",
+          "2023-09",
+          "2023-12",
+          "2024-03",
+          "2024-06",
+          "2024-09",
+          "2024-12",
+          "2025-03",
+          "2025-06",
+          "2025-09",
+          "2025-12",
+          "2026-03",
+          "2026-06"
+        ]
+      },
+      "descriptions": [
+        {
+          "text": "Real Estate Loans reported in Account RL0047 that contractually refinance, reprice or mature within the next 5 years | Real Estate Loans reported in Account RL0047 that contractually refinance, reprice or mature within the next 5 years",
           "from": "2022-03",
           "to": "2026-06",
           "inDictionary": true,
@@ -998,59 +1229,6 @@
       "descriptions": [
         {
           "text": "Total 1- to 4-Family Residential Property and All Other Consumer Real Estate Loans/Lines of Credit - Amount of Loans Outstanding | Total 1- to 4-Family Residential Property and All Other Consumer Real Estate Loans/Lines of Credit - Amount of Loans Outstanding",
-          "from": "2022-03",
-          "to": "2026-06",
-          "inDictionary": true,
-          "inData": true
-        }
-      ]
-    },
-    "ACCT_RL0050": {
-      "quarters": [
-        "2022-03",
-        "2022-06",
-        "2022-09",
-        "2022-12",
-        "2023-03",
-        "2023-06",
-        "2023-09",
-        "2023-12",
-        "2024-03",
-        "2024-06",
-        "2024-09",
-        "2024-12",
-        "2025-03",
-        "2025-06",
-        "2025-09",
-        "2025-12",
-        "2026-03",
-        "2026-06"
-      ],
-      "tables": {
-        "FS220R.txt": [
-          "2022-03",
-          "2022-06",
-          "2022-09",
-          "2022-12",
-          "2023-03",
-          "2023-06",
-          "2023-09",
-          "2023-12",
-          "2024-03",
-          "2024-06",
-          "2024-09",
-          "2024-12",
-          "2025-03",
-          "2025-06",
-          "2025-09",
-          "2025-12",
-          "2026-03",
-          "2026-06"
-        ]
-      },
-      "descriptions": [
-        {
-          "text": "Real Estate Loans reported in Account RL0047 that contractually refinance, reprice or mature within the next 5 years | Real Estate Loans reported in Account RL0047 that contractually refinance, reprice or mature within the next 5 years",
           "from": "2022-03",
           "to": "2026-06",
           "inDictionary": true,
@@ -1442,95 +1620,6 @@
         }
       ]
     },
-    "ACCT_712": {
-      "quarters": [
-        "2017-12",
-        "2018-03",
-        "2018-06",
-        "2018-09",
-        "2018-12",
-        "2019-03",
-        "2019-06",
-        "2019-09",
-        "2019-12",
-        "2020-03",
-        "2020-06",
-        "2020-09",
-        "2020-12",
-        "2021-03",
-        "2021-06",
-        "2021-09",
-        "2021-12",
-        "2022-03",
-        "2022-06",
-        "2022-09",
-        "2022-12",
-        "2023-03",
-        "2023-06",
-        "2023-09",
-        "2023-12",
-        "2024-03",
-        "2024-06",
-        "2024-09",
-        "2024-12",
-        "2025-03",
-        "2025-06",
-        "2025-09",
-        "2025-12",
-        "2026-03",
-        "2026-06"
-      ],
-      "tables": {
-        "fs220.txt": [
-          "2017-12",
-          "2018-03",
-          "2018-12",
-          "2019-03",
-          "2019-06",
-          "2019-09"
-        ],
-        "FS220.txt": [
-          "2018-06",
-          "2018-09",
-          "2019-12",
-          "2020-03",
-          "2020-06",
-          "2020-09",
-          "2020-12",
-          "2021-03",
-          "2021-06",
-          "2021-09",
-          "2021-12",
-          "2022-03",
-          "2022-06",
-          "2022-09",
-          "2022-12",
-          "2023-03",
-          "2023-06",
-          "2023-09",
-          "2023-12",
-          "2024-03",
-          "2024-06",
-          "2024-09",
-          "2024-12",
-          "2025-03",
-          "2025-06",
-          "2025-09",
-          "2025-12",
-          "2026-03",
-          "2026-06"
-        ]
-      },
-      "descriptions": [
-        {
-          "text": "Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f. | Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f.",
-          "from": "2017-12",
-          "to": "2026-06",
-          "inDictionary": true,
-          "inData": true
-        }
-      ]
-    },
     "ACCT_083": {
       "quarters": [
         "2017-12",
@@ -1620,7 +1709,7 @@
         }
       ]
     },
-    "ACCT_025B1": {
+    "ACCT_712": {
       "quarters": [
         "2017-12",
         "2018-03",
@@ -1659,7 +1748,7 @@
         "2026-06"
       ],
       "tables": {
-        "fs220L.txt": [
+        "fs220.txt": [
           "2017-12",
           "2018-03",
           "2018-12",
@@ -1667,7 +1756,7 @@
           "2019-06",
           "2019-09"
         ],
-        "FS220L.txt": [
+        "FS220.txt": [
           "2018-06",
           "2018-09",
           "2019-12",
@@ -1701,7 +1790,7 @@
       },
       "descriptions": [
         {
-          "text": "Total Amount of Loans & Leases on Loan Schedule | Total Amount of Loans & Leases on Loan Schedule",
+          "text": "Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f. | Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f.",
           "from": "2017-12",
           "to": "2026-06",
           "inDictionary": true,
@@ -1709,7 +1798,7 @@
         }
       ]
     },
-    "ACCT_718A5": {
+    "ACCT_010A": {
       "quarters": [
         "2017-12",
         "2018-03",
@@ -1748,7 +1837,7 @@
         "2026-06"
       ],
       "tables": {
-        "fs220L.txt": [
+        "fs220A.txt": [
           "2017-12",
           "2018-03",
           "2018-12",
@@ -1756,7 +1845,7 @@
           "2019-06",
           "2019-09"
         ],
-        "FS220L.txt": [
+        "FS220A.txt": [
           "2018-06",
           "2018-09",
           "2019-12",
@@ -1790,8 +1879,365 @@
       },
       "descriptions": [
         {
-          "text": "Amount of Commercial Loans/Lines of Credit Real Estate Secured | Amount of Commercial Loans/Lines of Credit Real Estate Secured",
+          "text": "Average of Daily Assets over the calendar quarter | Average Daily Assets over the calendar quarter",
           "from": "2017-12",
+          "to": "2026-06",
+          "inDictionary": true,
+          "inData": true
+        }
+      ]
+    },
+    "ACCT_010B": {
+      "quarters": [
+        "2017-12",
+        "2018-03",
+        "2018-06",
+        "2018-09",
+        "2018-12",
+        "2019-03",
+        "2019-06",
+        "2019-09",
+        "2019-12",
+        "2020-03",
+        "2020-06",
+        "2020-09",
+        "2020-12",
+        "2021-03",
+        "2021-06",
+        "2021-09",
+        "2021-12",
+        "2022-03",
+        "2022-06",
+        "2022-09",
+        "2022-12",
+        "2023-03",
+        "2023-06",
+        "2023-09",
+        "2023-12",
+        "2024-03",
+        "2024-06",
+        "2024-09",
+        "2024-12",
+        "2025-03",
+        "2025-06",
+        "2025-09",
+        "2025-12",
+        "2026-03",
+        "2026-06"
+      ],
+      "tables": {
+        "fs220A.txt": [
+          "2017-12",
+          "2018-03",
+          "2018-12",
+          "2019-03",
+          "2019-06",
+          "2019-09"
+        ],
+        "FS220A.txt": [
+          "2018-06",
+          "2018-09",
+          "2019-12",
+          "2020-03",
+          "2020-06",
+          "2020-09",
+          "2020-12",
+          "2021-03",
+          "2021-06",
+          "2021-09",
+          "2021-12",
+          "2022-03",
+          "2022-06",
+          "2022-09",
+          "2022-12",
+          "2023-03",
+          "2023-06",
+          "2023-09",
+          "2023-12",
+          "2024-03",
+          "2024-06",
+          "2024-09",
+          "2024-12",
+          "2025-03",
+          "2025-06",
+          "2025-09",
+          "2025-12",
+          "2026-03",
+          "2026-06"
+        ]
+      },
+      "descriptions": [
+        {
+          "text": "Average of the three month-end balances over the calendar quarter | Average of the three month end balances over the calendar quarter",
+          "from": "2017-12",
+          "to": "2026-06",
+          "inDictionary": true,
+          "inData": true
+        }
+      ]
+    },
+    "ACCT_010C": {
+      "quarters": [
+        "2017-12",
+        "2018-03",
+        "2018-06",
+        "2018-09",
+        "2018-12",
+        "2019-03",
+        "2019-06",
+        "2019-09",
+        "2019-12",
+        "2020-03",
+        "2020-06",
+        "2020-09",
+        "2020-12",
+        "2021-03",
+        "2021-06",
+        "2021-09",
+        "2021-12",
+        "2022-03",
+        "2022-06",
+        "2022-09",
+        "2022-12",
+        "2023-03",
+        "2023-06",
+        "2023-09",
+        "2023-12",
+        "2024-03",
+        "2024-06",
+        "2024-09",
+        "2024-12",
+        "2025-03",
+        "2025-06",
+        "2025-09",
+        "2025-12",
+        "2026-03",
+        "2026-06"
+      ],
+      "tables": {
+        "fs220A.txt": [
+          "2017-12",
+          "2018-03",
+          "2018-12",
+          "2019-03",
+          "2019-06",
+          "2019-09"
+        ],
+        "FS220A.txt": [
+          "2018-06",
+          "2018-09",
+          "2019-12",
+          "2020-03",
+          "2020-06",
+          "2020-09",
+          "2020-12",
+          "2021-03",
+          "2021-06",
+          "2021-09",
+          "2021-12",
+          "2022-03",
+          "2022-06",
+          "2022-09",
+          "2022-12",
+          "2023-03",
+          "2023-06",
+          "2023-09",
+          "2023-12",
+          "2024-03",
+          "2024-06",
+          "2024-09",
+          "2024-12",
+          "2025-03",
+          "2025-06",
+          "2025-09",
+          "2025-12",
+          "2026-03",
+          "2026-06"
+        ]
+      },
+      "descriptions": [
+        {
+          "text": "The average of the current and three preceding quarter-end balances | Average of previous four quarter-end balances",
+          "from": "2017-12",
+          "to": "2026-06",
+          "inDictionary": true,
+          "inData": true
+        }
+      ]
+    },
+    "ACCT_LC0047": {
+      "quarters": [
+        "2020-06",
+        "2020-09",
+        "2020-12",
+        "2021-03",
+        "2021-06",
+        "2021-09",
+        "2021-12",
+        "2022-03",
+        "2022-06",
+        "2022-09",
+        "2022-12",
+        "2023-03",
+        "2023-06",
+        "2023-09",
+        "2023-12",
+        "2024-03",
+        "2024-06",
+        "2024-09",
+        "2024-12",
+        "2025-03",
+        "2025-06",
+        "2025-09",
+        "2025-12",
+        "2026-03",
+        "2026-06"
+      ],
+      "tables": {
+        "FS220N.txt": [
+          "2020-06",
+          "2020-09",
+          "2020-12",
+          "2021-03",
+          "2021-06",
+          "2021-09",
+          "2021-12",
+          "2022-03",
+          "2022-06",
+          "2022-09",
+          "2022-12",
+          "2023-03",
+          "2023-06",
+          "2023-09",
+          "2023-12",
+          "2024-03",
+          "2024-06",
+          "2024-09",
+          "2024-12",
+          "2025-03",
+          "2025-06",
+          "2025-09",
+          "2025-12",
+          "2026-03",
+          "2026-06"
+        ]
+      },
+      "descriptions": [
+        {
+          "text": "Small Business Administration Paycheck Protection Program loans | Small Business Administration Paycheck Protection Program loans pledged as collateral to the Federal Reserve Bank PPP Liquidity Facility",
+          "from": "2020-06",
+          "to": "2026-06",
+          "inDictionary": true,
+          "inData": true
+        }
+      ]
+    },
+    "ACCT_NW0004": {
+      "quarters": [
+        "2023-03",
+        "2023-06",
+        "2023-09",
+        "2023-12",
+        "2024-03",
+        "2024-06",
+        "2024-09",
+        "2024-12",
+        "2025-03",
+        "2025-06",
+        "2025-09",
+        "2025-12",
+        "2026-03",
+        "2026-06"
+      ],
+      "tables": {
+        "FS220R.txt": [
+          "2023-03",
+          "2023-06",
+          "2023-09",
+          "2023-12",
+          "2024-03",
+          "2024-06",
+          "2024-09",
+          "2024-12",
+          "2025-03",
+          "2025-06",
+          "2025-09",
+          "2025-12",
+          "2026-03",
+          "2026-06"
+        ]
+      },
+      "descriptions": [
+        {
+          "text": "CECL Transition Provision (as determined under 702.703(c)) | CECL Transition Provision (as determined under 702.703(c))",
+          "from": "2023-03",
+          "to": "2026-06",
+          "inDictionary": true,
+          "inData": true
+        }
+      ]
+    },
+    "ACCT_NW0010": {
+      "quarters": [
+        "2020-06",
+        "2020-09",
+        "2020-12",
+        "2021-03",
+        "2021-06",
+        "2021-09",
+        "2021-12",
+        "2022-03",
+        "2022-06",
+        "2022-09",
+        "2022-12",
+        "2023-03",
+        "2023-06",
+        "2023-09",
+        "2023-12",
+        "2024-03",
+        "2024-06",
+        "2024-09",
+        "2024-12",
+        "2025-03",
+        "2025-06",
+        "2025-09",
+        "2025-12",
+        "2026-03",
+        "2026-06"
+      ],
+      "tables": {
+        "FS220N.txt": [
+          "2020-06",
+          "2020-09",
+          "2020-12",
+          "2021-03",
+          "2021-06",
+          "2021-09",
+          "2021-12",
+          "2022-03",
+          "2022-06",
+          "2022-09",
+          "2022-12",
+          "2023-03",
+          "2023-06",
+          "2023-09",
+          "2023-12",
+          "2024-03",
+          "2024-06",
+          "2024-09",
+          "2024-12",
+          "2025-03",
+          "2025-06",
+          "2025-09",
+          "2025-12",
+          "2026-03",
+          "2026-06"
+        ]
+      },
+      "descriptions": [
+        {
+          "text": "Total Assets excluding SBA PPP loans pledged as collateral to the FRB PPP Liquidity Facility | Total Assets excluding SBA PPP loans pledged as collateral to the FRB PPP Liquidity Facility",
+          "from": "2020-06",
           "to": "2026-06",
           "inDictionary": true,
           "inData": true
