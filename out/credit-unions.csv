@@ -1610,7 +1610,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,5851,SANDIA LABORATORY,sba,balance,0
 2018-12,5851,SANDIA LABORATORY,sba,guaranteed,0
 2018-12,5851,SANDIA LABORATORY,members,,101112
-2018-12,5851,SANDIA LABORATORY,net_charge_offs_12m,,
+2018-12,5851,SANDIA LABORATORY,net_charge_offs_12m,,0.14
 2018-12,948,NUSENDA,total_assets,,2268469950
 2018-12,948,NUSENDA,total_loans,,1829018978
 2018-12,948,NUSENDA,net_worth_ratio,,11.16
@@ -1623,7 +1623,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,948,NUSENDA,sba,balance,0
 2018-12,948,NUSENDA,sba,guaranteed,0
 2018-12,948,NUSENDA,members,,198538
-2018-12,948,NUSENDA,net_charge_offs_12m,,
+2018-12,948,NUSENDA,net_charge_offs_12m,,0.56
 2018-12,808,U.S. EAGLE,total_assets,,1036504440
 2018-12,808,U.S. EAGLE,total_loans,,754742624
 2018-12,808,U.S. EAGLE,net_worth_ratio,,10.69
@@ -1636,7 +1636,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,808,U.S. EAGLE,sba,balance,0
 2018-12,808,U.S. EAGLE,sba,guaranteed,0
 2018-12,808,U.S. EAGLE,members,,77378
-2018-12,808,U.S. EAGLE,net_charge_offs_12m,,
+2018-12,808,U.S. EAGLE,net_charge_offs_12m,,0.71
 2018-12,12199,KIRTLAND,total_assets,,789504944
 2018-12,12199,KIRTLAND,total_loans,,529747175
 2018-12,12199,KIRTLAND,net_worth_ratio,,14.03
@@ -1649,7 +1649,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,12199,KIRTLAND,sba,balance,0
 2018-12,12199,KIRTLAND,sba,guaranteed,0
 2018-12,12199,KIRTLAND,members,,48317
-2018-12,12199,KIRTLAND,net_charge_offs_12m,,
+2018-12,12199,KIRTLAND,net_charge_offs_12m,,0.57
 2018-12,11316,SANDIA AREA,total_assets,,693136527
 2018-12,11316,SANDIA AREA,total_loans,,639194706
 2018-12,11316,SANDIA AREA,net_worth_ratio,,11.84
@@ -1662,7 +1662,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,11316,SANDIA AREA,sba,balance,0
 2018-12,11316,SANDIA AREA,sba,guaranteed,0
 2018-12,11316,SANDIA AREA,members,,82265
-2018-12,11316,SANDIA AREA,net_charge_offs_12m,,
+2018-12,11316,SANDIA AREA,net_charge_offs_12m,,0.19
 2018-12,64759,DEL NORTE,total_assets,,636497372
 2018-12,64759,DEL NORTE,total_loans,,495600430
 2018-12,64759,DEL NORTE,net_worth_ratio,,11.37
@@ -1675,7 +1675,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,64759,DEL NORTE,sba,balance,0
 2018-12,64759,DEL NORTE,sba,guaranteed,0
 2018-12,64759,DEL NORTE,members,,51508
-2018-12,64759,DEL NORTE,net_charge_offs_12m,,
+2018-12,64759,DEL NORTE,net_charge_offs_12m,,0.47
 2018-12,65513,STATE EMPLOYEES,total_assets,,569598930
 2018-12,65513,STATE EMPLOYEES,total_loans,,491531712
 2018-12,65513,STATE EMPLOYEES,net_worth_ratio,,12.04
@@ -1688,7 +1688,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,65513,STATE EMPLOYEES,sba,balance,0
 2018-12,65513,STATE EMPLOYEES,sba,guaranteed,0
 2018-12,65513,STATE EMPLOYEES,members,,45841
-2018-12,65513,STATE EMPLOYEES,net_charge_offs_12m,,
+2018-12,65513,STATE EMPLOYEES,net_charge_offs_12m,,0.39
 2018-12,68244,FIRST FINANCIAL,total_assets,,543612310
 2018-12,68244,FIRST FINANCIAL,total_loans,,441448028
 2018-12,68244,FIRST FINANCIAL,net_worth_ratio,,8.16
@@ -1701,7 +1701,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,68244,FIRST FINANCIAL,sba,balance,0
 2018-12,68244,FIRST FINANCIAL,sba,guaranteed,0
 2018-12,68244,FIRST FINANCIAL,members,,77561
-2018-12,68244,FIRST FINANCIAL,net_charge_offs_12m,,
+2018-12,68244,FIRST FINANCIAL,net_charge_offs_12m,,0.75
 2018-12,62573,RIO GRANDE,total_assets,,326745450
 2018-12,62573,RIO GRANDE,total_loans,,254492046
 2018-12,62573,RIO GRANDE,net_worth_ratio,,15.57
@@ -1714,7 +1714,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,62573,RIO GRANDE,sba,balance,0
 2018-12,62573,RIO GRANDE,sba,guaranteed,0
 2018-12,62573,RIO GRANDE,members,,32257
-2018-12,62573,RIO GRANDE,net_charge_offs_12m,,
+2018-12,62573,RIO GRANDE,net_charge_offs_12m,,1.07
 2018-12,8475,OTERO,total_assets,,324349372
 2018-12,8475,OTERO,total_loans,,169683229
 2018-12,8475,OTERO,net_worth_ratio,,14.34
@@ -1727,7 +1727,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,8475,OTERO,sba,balance,0
 2018-12,8475,OTERO,sba,guaranteed,0
 2018-12,8475,OTERO,members,,33131
-2018-12,8475,OTERO,net_charge_offs_12m,,
+2018-12,8475,OTERO,net_charge_offs_12m,,0.32
 2018-12,7960,WHITE SANDS,total_assets,,307924247
 2018-12,7960,WHITE SANDS,total_loans,,201682753
 2018-12,7960,WHITE SANDS,net_worth_ratio,,9.18
@@ -1740,7 +1740,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,7960,WHITE SANDS,sba,balance,0
 2018-12,7960,WHITE SANDS,sba,guaranteed,0
 2018-12,7960,WHITE SANDS,members,,33782
-2018-12,7960,WHITE SANDS,net_charge_offs_12m,,
+2018-12,7960,WHITE SANDS,net_charge_offs_12m,,0.46
 2018-12,66149,GUADALUPE,total_assets,,166953583
 2018-12,66149,GUADALUPE,total_loans,,129686776
 2018-12,66149,GUADALUPE,net_worth_ratio,,13.12
@@ -1753,7 +1753,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,66149,GUADALUPE,sba,balance,0
 2018-12,66149,GUADALUPE,sba,guaranteed,0
 2018-12,66149,GUADALUPE,members,,20203
-2018-12,66149,GUADALUPE,net_charge_offs_12m,,
+2018-12,66149,GUADALUPE,net_charge_offs_12m,,0.55
 2018-12,60467,ZIA,total_assets,,142278458
 2018-12,60467,ZIA,total_loans,,114915261
 2018-12,60467,ZIA,net_worth_ratio,,8.48
@@ -1766,7 +1766,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,60467,ZIA,sba,balance,0
 2018-12,60467,ZIA,sba,guaranteed,0
 2018-12,60467,ZIA,members,,11416
-2018-12,60467,ZIA,net_charge_offs_12m,,
+2018-12,60467,ZIA,net_charge_offs_12m,,0.34
 2018-12,66142,ANIMAS,total_assets,,131766053
 2018-12,66142,ANIMAS,total_loans,,80804871
 2018-12,66142,ANIMAS,net_worth_ratio,,9.56
@@ -1779,7 +1779,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,66142,ANIMAS,sba,balance,156651
 2018-12,66142,ANIMAS,sba,guaranteed,156651
 2018-12,66142,ANIMAS,members,,13749
-2018-12,66142,ANIMAS,net_charge_offs_12m,,
+2018-12,66142,ANIMAS,net_charge_offs_12m,,0.91
 2018-12,62783,ARTESIA,total_assets,,105236085
 2018-12,62783,ARTESIA,total_loans,,77389357
 2018-12,62783,ARTESIA,net_worth_ratio,,14.84
@@ -1792,7 +1792,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,62783,ARTESIA,sba,balance,0
 2018-12,62783,ARTESIA,sba,guaranteed,0
 2018-12,62783,ARTESIA,members,,7520
-2018-12,62783,ARTESIA,net_charge_offs_12m,,
+2018-12,62783,ARTESIA,net_charge_offs_12m,,0.14
 2018-12,7822,CANNON,total_assets,,66503543
 2018-12,7822,CANNON,total_loans,,33897690
 2018-12,7822,CANNON,net_worth_ratio,,8.33
@@ -1805,7 +1805,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,7822,CANNON,sba,balance,0
 2018-12,7822,CANNON,sba,guaranteed,0
 2018-12,7822,CANNON,members,,7439
-2018-12,7822,CANNON,net_charge_offs_12m,,
+2018-12,7822,CANNON,net_charge_offs_12m,,1.07
 2018-12,8299,ESTACADO,total_assets,,65200748
 2018-12,8299,ESTACADO,total_loans,,38659473
 2018-12,8299,ESTACADO,net_worth_ratio,,11.32
@@ -1818,7 +1818,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,8299,ESTACADO,sba,balance,0
 2018-12,8299,ESTACADO,sba,guaranteed,0
 2018-12,8299,ESTACADO,members,,7419
-2018-12,8299,ESTACADO,net_charge_offs_12m,,
+2018-12,8299,ESTACADO,net_charge_offs_12m,,0.82
 2018-12,964,SOUTHWEST,total_assets,,62026030
 2018-12,964,SOUTHWEST,total_loans,,35849752
 2018-12,964,SOUTHWEST,net_worth_ratio,,8.13
@@ -1831,7 +1831,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,964,SOUTHWEST,sba,balance,0
 2018-12,964,SOUTHWEST,sba,guaranteed,0
 2018-12,964,SOUTHWEST,members,,5005
-2018-12,964,SOUTHWEST,net_charge_offs_12m,,
+2018-12,964,SOUTHWEST,net_charge_offs_12m,,0.16
 2018-12,9566,EDDY,total_assets,,49103799
 2018-12,9566,EDDY,total_loans,,29139881
 2018-12,9566,EDDY,net_worth_ratio,,15.26
@@ -1844,7 +1844,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,9566,EDDY,sba,balance,0
 2018-12,9566,EDDY,sba,guaranteed,0
 2018-12,9566,EDDY,members,,5053
-2018-12,9566,EDDY,net_charge_offs_12m,,
+2018-12,9566,EDDY,net_charge_offs_12m,,-0.01
 2018-12,66117,LOCO,total_assets,,48049840
 2018-12,66117,LOCO,total_loans,,22482090
 2018-12,66117,LOCO,net_worth_ratio,,15.88
@@ -1857,7 +1857,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,66117,LOCO,sba,balance,0
 2018-12,66117,LOCO,sba,guaranteed,0
 2018-12,66117,LOCO,members,,5174
-2018-12,66117,LOCO,net_charge_offs_12m,,
+2018-12,66117,LOCO,net_charge_offs_12m,,2.21
 2018-12,62452,FINANCIAL SECURITY,total_assets,,46605632
 2018-12,62452,FINANCIAL SECURITY,total_loans,,29208026
 2018-12,62452,FINANCIAL SECURITY,net_worth_ratio,,12.57
@@ -1870,7 +1870,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,62452,FINANCIAL SECURITY,sba,balance,0
 2018-12,62452,FINANCIAL SECURITY,sba,guaranteed,0
 2018-12,62452,FINANCIAL SECURITY,members,,4552
-2018-12,62452,FINANCIAL SECURITY,net_charge_offs_12m,,
+2018-12,62452,FINANCIAL SECURITY,net_charge_offs_12m,,0.53
 2018-12,62841,BELEN RAILWAY EMPLOYEES,total_assets,,33178365
 2018-12,62841,BELEN RAILWAY EMPLOYEES,total_loans,,22091489
 2018-12,62841,BELEN RAILWAY EMPLOYEES,net_worth_ratio,,14.05
@@ -1883,7 +1883,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,62841,BELEN RAILWAY EMPLOYEES,sba,balance,0
 2018-12,62841,BELEN RAILWAY EMPLOYEES,sba,guaranteed,0
 2018-12,62841,BELEN RAILWAY EMPLOYEES,members,,2259
-2018-12,62841,BELEN RAILWAY EMPLOYEES,net_charge_offs_12m,,
+2018-12,62841,BELEN RAILWAY EMPLOYEES,net_charge_offs_12m,,0.37
 2018-12,9370,EVERYONE'S,total_assets,,30031959
 2018-12,9370,EVERYONE'S,total_loans,,14101076
 2018-12,9370,EVERYONE'S,net_worth_ratio,,15.38
@@ -1896,7 +1896,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,9370,EVERYONE'S,sba,balance,0
 2018-12,9370,EVERYONE'S,sba,guaranteed,0
 2018-12,9370,EVERYONE'S,members,,4674
-2018-12,9370,EVERYONE'S,net_charge_offs_12m,,
+2018-12,9370,EVERYONE'S,net_charge_offs_12m,,0.36
 2018-12,66143,CHAVES COUNTY SCHOOL EMPLOYEES,total_assets,,27482242
 2018-12,66143,CHAVES COUNTY SCHOOL EMPLOYEES,total_loans,,8924533
 2018-12,66143,CHAVES COUNTY SCHOOL EMPLOYEES,net_worth_ratio,,16.83
@@ -1909,7 +1909,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,66143,CHAVES COUNTY SCHOOL EMPLOYEES,sba,balance,0
 2018-12,66143,CHAVES COUNTY SCHOOL EMPLOYEES,sba,guaranteed,0
 2018-12,66143,CHAVES COUNTY SCHOOL EMPLOYEES,members,,2485
-2018-12,66143,CHAVES COUNTY SCHOOL EMPLOYEES,net_charge_offs_12m,,
+2018-12,66143,CHAVES COUNTY SCHOOL EMPLOYEES,net_charge_offs_12m,,0.01
 2018-12,9093,ROSWELL COMMUNITY,total_assets,,26379645
 2018-12,9093,ROSWELL COMMUNITY,total_loans,,16793055
 2018-12,9093,ROSWELL COMMUNITY,net_worth_ratio,,14.24
@@ -1922,7 +1922,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,9093,ROSWELL COMMUNITY,sba,balance,0
 2018-12,9093,ROSWELL COMMUNITY,sba,guaranteed,0
 2018-12,9093,ROSWELL COMMUNITY,members,,2132
-2018-12,9093,ROSWELL COMMUNITY,net_charge_offs_12m,,
+2018-12,9093,ROSWELL COMMUNITY,net_charge_offs_12m,,0.41
 2018-12,62637,JEMEZ VALLEY,total_assets,,24049859
 2018-12,62637,JEMEZ VALLEY,total_loans,,13107432
 2018-12,62637,JEMEZ VALLEY,net_worth_ratio,,13.93
@@ -1935,7 +1935,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,62637,JEMEZ VALLEY,sba,balance,0
 2018-12,62637,JEMEZ VALLEY,sba,guaranteed,0
 2018-12,62637,JEMEZ VALLEY,members,,1710
-2018-12,62637,JEMEZ VALLEY,net_charge_offs_12m,,
+2018-12,62637,JEMEZ VALLEY,net_charge_offs_12m,,0.34
 2018-12,4805,NORTHERN NEW MEXICO SCHOOL EMPLOYEE,total_assets,,22862691
 2018-12,4805,NORTHERN NEW MEXICO SCHOOL EMPLOYEE,total_loans,,9411116
 2018-12,4805,NORTHERN NEW MEXICO SCHOOL EMPLOYEE,net_worth_ratio,,8.32
@@ -1948,7 +1948,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,4805,NORTHERN NEW MEXICO SCHOOL EMPLOYEE,sba,balance,0
 2018-12,4805,NORTHERN NEW MEXICO SCHOOL EMPLOYEE,sba,guaranteed,0
 2018-12,4805,NORTHERN NEW MEXICO SCHOOL EMPLOYEE,members,,1794
-2018-12,4805,NORTHERN NEW MEXICO SCHOOL EMPLOYEE,net_charge_offs_12m,,
+2018-12,4805,NORTHERN NEW MEXICO SCHOOL EMPLOYEE,net_charge_offs_12m,,-0.03
 2018-12,16754,FOUR CORNERS,total_assets,,20199358
 2018-12,16754,FOUR CORNERS,total_loans,,7492690
 2018-12,16754,FOUR CORNERS,net_worth_ratio,,16.56
@@ -1961,7 +1961,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,16754,FOUR CORNERS,sba,balance,0
 2018-12,16754,FOUR CORNERS,sba,guaranteed,0
 2018-12,16754,FOUR CORNERS,members,,5508
-2018-12,16754,FOUR CORNERS,net_charge_offs_12m,,
+2018-12,16754,FOUR CORNERS,net_charge_offs_12m,,1.67
 2018-12,61165,LOS ALAMOS SCHOOLS,total_assets,,19645131
 2018-12,61165,LOS ALAMOS SCHOOLS,total_loans,,13002873
 2018-12,61165,LOS ALAMOS SCHOOLS,net_worth_ratio,,12.55
@@ -1974,7 +1974,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,61165,LOS ALAMOS SCHOOLS,sba,balance,0
 2018-12,61165,LOS ALAMOS SCHOOLS,sba,guaranteed,0
 2018-12,61165,LOS ALAMOS SCHOOLS,members,,1806
-2018-12,61165,LOS ALAMOS SCHOOLS,net_charge_offs_12m,,
+2018-12,61165,LOS ALAMOS SCHOOLS,net_charge_offs_12m,,0.13
 2018-12,66097,CUBA,total_assets,,15838758
 2018-12,66097,CUBA,total_loans,,7205052
 2018-12,66097,CUBA,net_worth_ratio,,14.92
@@ -1987,7 +1987,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,66097,CUBA,sba,balance,0
 2018-12,66097,CUBA,sba,guaranteed,0
 2018-12,66097,CUBA,members,,1854
-2018-12,66097,CUBA,net_charge_offs_12m,,
+2018-12,66097,CUBA,net_charge_offs_12m,,0.1
 2018-12,66185,HIGH DESERT COMMUNITY,total_assets,,15158195
 2018-12,66185,HIGH DESERT COMMUNITY,total_loans,,11135904
 2018-12,66185,HIGH DESERT COMMUNITY,net_worth_ratio,,10.4
@@ -2000,7 +2000,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,66185,HIGH DESERT COMMUNITY,sba,balance,0
 2018-12,66185,HIGH DESERT COMMUNITY,sba,guaranteed,0
 2018-12,66185,HIGH DESERT COMMUNITY,members,,2043
-2018-12,66185,HIGH DESERT COMMUNITY,net_charge_offs_12m,,
+2018-12,66185,HIGH DESERT COMMUNITY,net_charge_offs_12m,,0.34
 2018-12,7027,INTERNATIONALITES,total_assets,,11447337
 2018-12,7027,INTERNATIONALITES,total_loans,,5294994
 2018-12,7027,INTERNATIONALITES,net_worth_ratio,,15.5
@@ -2013,7 +2013,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,7027,INTERNATIONALITES,sba,balance,0
 2018-12,7027,INTERNATIONALITES,sba,guaranteed,0
 2018-12,7027,INTERNATIONALITES,members,,1082
-2018-12,7027,INTERNATIONALITES,net_charge_offs_12m,,
+2018-12,7027,INTERNATIONALITES,net_charge_offs_12m,,0.2
 2018-12,19567,THE FLORIST,total_assets,,10544983
 2018-12,19567,THE FLORIST,total_loans,,7276758
 2018-12,19567,THE FLORIST,net_worth_ratio,,9.73
@@ -2026,7 +2026,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,19567,THE FLORIST,sba,balance,0
 2018-12,19567,THE FLORIST,sba,guaranteed,0
 2018-12,19567,THE FLORIST,members,,836
-2018-12,19567,THE FLORIST,net_charge_offs_12m,,
+2018-12,19567,THE FLORIST,net_charge_offs_12m,,0.34
 2018-12,66252,QUESTA,total_assets,,9856716
 2018-12,66252,QUESTA,total_loans,,6422512
 2018-12,66252,QUESTA,net_worth_ratio,,25.06
@@ -2039,7 +2039,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,66252,QUESTA,sba,balance,0
 2018-12,66252,QUESTA,sba,guaranteed,0
 2018-12,66252,QUESTA,members,,1349
-2018-12,66252,QUESTA,net_charge_offs_12m,,
+2018-12,66252,QUESTA,net_charge_offs_12m,,0.02
 2018-12,10580,U-1ST COMMUNITY,total_assets,,7974116
 2018-12,10580,U-1ST COMMUNITY,total_loans,,4172847
 2018-12,10580,U-1ST COMMUNITY,net_worth_ratio,,13.76
@@ -2052,7 +2052,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,10580,U-1ST COMMUNITY,sba,balance,0
 2018-12,10580,U-1ST COMMUNITY,sba,guaranteed,0
 2018-12,10580,U-1ST COMMUNITY,members,,993
-2018-12,10580,U-1ST COMMUNITY,net_charge_offs_12m,,
+2018-12,10580,U-1ST COMMUNITY,net_charge_offs_12m,,0.05
 2018-12,7999,TELCO ROSWELL NEW MEXICO,total_assets,,7255886
 2018-12,7999,TELCO ROSWELL NEW MEXICO,total_loans,,4867025
 2018-12,7999,TELCO ROSWELL NEW MEXICO,net_worth_ratio,,24.37
@@ -2065,7 +2065,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,7999,TELCO ROSWELL NEW MEXICO,sba,balance,0
 2018-12,7999,TELCO ROSWELL NEW MEXICO,sba,guaranteed,0
 2018-12,7999,TELCO ROSWELL NEW MEXICO,members,,1118
-2018-12,7999,TELCO ROSWELL NEW MEXICO,net_charge_offs_12m,,
+2018-12,7999,TELCO ROSWELL NEW MEXICO,net_charge_offs_12m,,0.05
 2018-12,14758,QUAY SCHOOLS,total_assets,,6449216
 2018-12,14758,QUAY SCHOOLS,total_loans,,4214924
 2018-12,14758,QUAY SCHOOLS,net_worth_ratio,,19.24
@@ -2078,7 +2078,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,14758,QUAY SCHOOLS,sba,balance,0
 2018-12,14758,QUAY SCHOOLS,sba,guaranteed,0
 2018-12,14758,QUAY SCHOOLS,members,,1067
-2018-12,14758,QUAY SCHOOLS,net_charge_offs_12m,,
+2018-12,14758,QUAY SCHOOLS,net_charge_offs_12m,,1.19
 2018-12,61559,DEMING SCHOOLS EMPLOYEES,total_assets,,5252230
 2018-12,61559,DEMING SCHOOLS EMPLOYEES,total_loans,,2507607
 2018-12,61559,DEMING SCHOOLS EMPLOYEES,net_worth_ratio,,19.15
@@ -2091,7 +2091,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,61559,DEMING SCHOOLS EMPLOYEES,sba,balance,0
 2018-12,61559,DEMING SCHOOLS EMPLOYEES,sba,guaranteed,0
 2018-12,61559,DEMING SCHOOLS EMPLOYEES,members,,772
-2018-12,61559,DEMING SCHOOLS EMPLOYEES,net_charge_offs_12m,,
+2018-12,61559,DEMING SCHOOLS EMPLOYEES,net_charge_offs_12m,,0.35
 2018-12,1838,FORT BAYARD,total_assets,,4510699
 2018-12,1838,FORT BAYARD,total_loans,,2571997
 2018-12,1838,FORT BAYARD,net_worth_ratio,,18.93
@@ -2104,7 +2104,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,1838,FORT BAYARD,sba,balance,0
 2018-12,1838,FORT BAYARD,sba,guaranteed,0
 2018-12,1838,FORT BAYARD,members,,1227
-2018-12,1838,FORT BAYARD,net_charge_offs_12m,,
+2018-12,1838,FORT BAYARD,net_charge_offs_12m,,0.28
 2018-12,61946,RINCONES PRESBYTERIAN,total_assets,,4134280
 2018-12,61946,RINCONES PRESBYTERIAN,total_loans,,3218682
 2018-12,61946,RINCONES PRESBYTERIAN,net_worth_ratio,,11.12
@@ -2117,7 +2117,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,61946,RINCONES PRESBYTERIAN,sba,balance,0
 2018-12,61946,RINCONES PRESBYTERIAN,sba,guaranteed,0
 2018-12,61946,RINCONES PRESBYTERIAN,members,,770
-2018-12,61946,RINCONES PRESBYTERIAN,net_charge_offs_12m,,
+2018-12,61946,RINCONES PRESBYTERIAN,net_charge_offs_12m,,0.04
 2018-12,13654,MT TAYLOR,total_assets,,2103749
 2018-12,13654,MT TAYLOR,total_loans,,658515
 2018-12,13654,MT TAYLOR,net_worth_ratio,,17.35
@@ -2130,7 +2130,7 @@ quarter,cu_number,name,measure,part,value
 2018-12,13654,MT TAYLOR,sba,balance,0
 2018-12,13654,MT TAYLOR,sba,guaranteed,0
 2018-12,13654,MT TAYLOR,members,,369
-2018-12,13654,MT TAYLOR,net_charge_offs_12m,,
+2018-12,13654,MT TAYLOR,net_charge_offs_12m,,0.17
 2019-03,5851,SANDIA LABORATORY,total_assets,,2599023439
 2019-03,5851,SANDIA LABORATORY,total_loans,,1367901127
 2019-03,5851,SANDIA LABORATORY,net_worth_ratio,,11.72

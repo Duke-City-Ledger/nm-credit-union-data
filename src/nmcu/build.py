@@ -11,8 +11,8 @@ from __future__ import annotations
 
 import csv
 import json
-import statistics
 import sys
+from decimal import Decimal
 from datetime import date
 from pathlib import Path
 
@@ -26,13 +26,15 @@ from .measures import (
     check_against_dictionary,
     load_dictionary,
     net_charge_offs_12m,
-    round2,
 )
 from .read import read_quarter
 
 CACHE = ROOT / ".cache"
 OUT = ROOT / "out"
 FIRST = "2018-03"
+# Read for calculation history only, never published: lets 2018-12 have a 12-month
+# charge-off figure (it needs the December a year earlier).
+HISTORY_ONLY = "2017-12"
 URL = "https://ncua.gov/files/publications/analysis/call-report-data-{}.zip"
 PACKAGE_PIN = "bnovarini/ncua-data-analysis@a9fcbe50a8e4f6c7cc7599dd74c42b7fa205473d"
 PEER_MINIMUM = 5
@@ -59,13 +61,26 @@ def quarters_available(offline: bool) -> dict[str, str]:
     return {q: URL.format(q) for q in cached if q >= FIRST}
 
 
+def quantile(values: list[float], p: str) -> float:
+    """Linear interpolation between order statistics (the "inclusive" method, numpy's
+    default), in decimal so a value that lands on a half rounds up as printed."""
+    xs = sorted(Decimal(repr(v)) for v in values)
+    pos = (len(xs) - 1) * Decimal(p)
+    lo = int(pos)
+    hi = min(lo + 1, len(xs) - 1)
+    exact = xs[lo] + (xs[hi] - xs[lo]) * (pos - lo)
+    return float(exact.quantize(Decimal("0.01"), rounding="ROUND_HALF_UP"))
+
+
 def peers(cu, cus: list, measure: str) -> dict:
+    out = {"n_others": 0, "median": None, "p25": None, "p75": None}
+    if cu.peer_group is None:
+        return out
     others = [c.measures[measure] for c in cus
               if c is not cu and c.peer_group == cu.peer_group and c.measures.get(measure) is not None]
-    out = {"n_others": len(others), "median": None, "p25": None, "p75": None}
+    out["n_others"] = len(others)
     if len(others) >= PEER_MINIMUM:
-        p25, med, p75 = statistics.quantiles(others, n=4, method="inclusive")
-        out.update(median=round2(med), p25=round2(p25), p75=round2(p75))
+        out.update(median=quantile(others, "0.5"), p25=quantile(others, "0.25"), p75=quantile(others, "0.75"))
     return out
 
 
@@ -80,9 +95,13 @@ def build(offline: bool = False, through: str | None = None) -> dict:
     if through:
         urls = {q: u for q, u in urls.items() if q <= through}
     zips = package_download.download(urls, CACHE)
+    history_zip = package_download.download({HISTORY_ONLY: URL.format(HISTORY_ONLY)}, CACHE)[0]
 
     history: dict[str, dict[str, dict]] = {}  # cu_number -> quarter -> accounts
     quarters = []
+    early = read_quarter(history_zip, HISTORY_ONLY, accounts & set(checks.CHARGE_OFF_ACCOUNTS))
+    for cu in early.credit_unions.values():
+        history.setdefault(cu.cu_number, {})[HISTORY_ONLY] = cu.accounts
     for (q, url), z in zip(urls.items(), zips):
         print(q, end=" ", file=sys.stderr, flush=True)
         quarter = read_quarter(z, q, accounts)
@@ -97,6 +116,8 @@ def build(offline: bool = False, through: str | None = None) -> dict:
     previous = None
     OUT.mkdir(exist_ok=True)
     (OUT / "quarters").mkdir(exist_ok=True)
+    for old in (OUT / "quarters").glob("*.json"):  # a shorter build leaves nothing stale
+        old.unlink()
     rows = []
     for quarter in quarters:
         q = quarter.quarter

@@ -40,7 +40,8 @@ ours: the package stores only non-zero values, and here an account a quarter doe
 - Null means not available (the account didn't exist that quarter) or not reported. 0 means the credit union
   reported 0.
 - Percents are rounded to two decimals, halves up, as NCUA's Financial Performance Report shows them.
-- Net charge-offs are NCUA's 12-month figure, not year-to-date annualized, so they start in 2019-03.
+- Net charge-offs are NCUA's 12-month figure, not year-to-date annualized. They need the December and the
+  quarter a year earlier, so 2018-03 to 2018-09 are null; 2018-12 uses 2017-12, read for that and not published.
 - A share the filing makes impossible (over 100%) is withheld, with the reason in `withheld`, and flagged.
 - Figures are as each quarter's zip has them today. NCUA can revise past quarters.
 

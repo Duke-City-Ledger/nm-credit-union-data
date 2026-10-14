@@ -162,7 +162,7 @@
      "n_others": 7,
      "median": 0.41,
      "p25": 0.23,
-     "p75": 0.52
+     "p75": 0.53
     },
     "commercial_share": {
      "n_others": 7,
@@ -243,7 +243,7 @@
     "net_worth_ratio": {
      "n_others": 7,
      "median": 11.74,
-     "p25": 11.52,
+     "p25": 11.53,
      "p75": 11.96
     },
     "delinquency": {
@@ -713,7 +713,7 @@
     "net_worth_ratio": {
      "n_others": 7,
      "median": 11.74,
-     "p25": 11.52,
+     "p25": 11.53,
      "p75": 11.96
     },
     "delinquency": {
@@ -1283,7 +1283,7 @@
     "delinquency": {
      "n_others": 6,
      "median": 0.61,
-     "p25": 0.22,
+     "p25": 0.23,
      "p75": 0.88
     },
     "net_charge_offs_12m": {
@@ -1934,14 +1934,14 @@
    "peers": {
     "net_worth_ratio": {
      "n_others": 12,
-     "median": 15.09,
+     "median": 15.1,
      "p25": 13.52,
      "p75": 16.77
     },
     "delinquency": {
      "n_others": 12,
      "median": 0.3,
-     "p25": 0.22,
+     "p25": 0.23,
      "p75": 0.94
     },
     "net_charge_offs_12m": {
@@ -2028,14 +2028,14 @@
    "peers": {
     "net_worth_ratio": {
      "n_others": 12,
-     "median": 15.09,
+     "median": 15.1,
      "p25": 13.19,
      "p75": 16.77
     },
     "delinquency": {
      "n_others": 12,
      "median": 0.3,
-     "p25": 0.22,
+     "p25": 0.23,
      "p75": 1.12
     },
     "net_charge_offs_12m": {
@@ -2048,7 +2048,7 @@
      "n_others": 12,
      "median": 0.0,
      "p25": 0.0,
-     "p75": 0.46
+     "p75": 0.47
     },
     "cre_reset_5y": {
      "n_others": 0,
@@ -2128,7 +2128,7 @@
     },
     "delinquency": {
      "n_others": 12,
-     "median": 0.33,
+     "median": 0.34,
      "p25": 0.26,
      "p75": 1.12
     },
@@ -2216,14 +2216,14 @@
    "peers": {
     "net_worth_ratio": {
      "n_others": 12,
-     "median": 15.09,
+     "median": 15.1,
      "p25": 13.19,
      "p75": 16.77
     },
     "delinquency": {
      "n_others": 12,
-     "median": 0.33,
-     "p25": 0.22,
+     "median": 0.34,
+     "p25": 0.23,
      "p75": 1.12
     },
     "net_charge_offs_12m": {
@@ -2316,7 +2316,7 @@
     },
     "delinquency": {
      "n_others": 12,
-     "median": 0.33,
+     "median": 0.34,
      "p25": 0.26,
      "p75": 1.12
     },
@@ -2411,7 +2411,7 @@
     "delinquency": {
      "n_others": 12,
      "median": 0.3,
-     "p25": 0.22,
+     "p25": 0.23,
      "p75": 0.94
     },
     "net_charge_offs_12m": {
@@ -2498,14 +2498,14 @@
    "peers": {
     "net_worth_ratio": {
      "n_others": 12,
-     "median": 15.09,
+     "median": 15.1,
      "p25": 13.52,
      "p75": 16.77
     },
     "delinquency": {
      "n_others": 12,
-     "median": 0.33,
-     "p25": 0.22,
+     "median": 0.34,
+     "p25": 0.23,
      "p75": 1.12
     },
     "net_charge_offs_12m": {
@@ -2592,13 +2592,13 @@
    "peers": {
     "net_worth_ratio": {
      "n_others": 12,
-     "median": 15.09,
-     "p25": 13.5,
+     "median": 15.1,
+     "p25": 13.51,
      "p75": 16.77
     },
     "delinquency": {
      "n_others": 12,
-     "median": 0.33,
+     "median": 0.34,
      "p25": 0.26,
      "p75": 1.12
     },
@@ -2693,7 +2693,7 @@
     "delinquency": {
      "n_others": 12,
      "median": 0.3,
-     "p25": 0.22,
+     "p25": 0.23,
      "p75": 1.12
     },
     "net_charge_offs_12m": {
@@ -2787,7 +2787,7 @@
     "delinquency": {
      "n_others": 12,
      "median": 0.3,
-     "p25": 0.22,
+     "p25": 0.23,
      "p75": 0.94
     },
     "net_charge_offs_12m": {
@@ -2874,14 +2874,14 @@
    "peers": {
     "net_worth_ratio": {
      "n_others": 12,
-     "median": 15.09,
+     "median": 15.1,
      "p25": 13.52,
      "p75": 16.77
     },
     "delinquency": {
      "n_others": 12,
      "median": 0.3,
-     "p25": 0.22,
+     "p25": 0.23,
      "p75": 1.03
     },
     "net_charge_offs_12m": {
@@ -2974,7 +2974,7 @@
     },
     "delinquency": {
      "n_others": 12,
-     "median": 0.33,
+     "median": 0.34,
      "p25": 0.25,
      "p75": 1.12
     },
@@ -3069,7 +3069,7 @@
     "delinquency": {
      "n_others": 12,
      "median": 0.31,
-     "p25": 0.22,
+     "p25": 0.23,
      "p75": 1.12
     },
     "net_charge_offs_12m": {

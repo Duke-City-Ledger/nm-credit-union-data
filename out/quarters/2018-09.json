@@ -3351,7 +3351,7 @@
     "delinquency": {
      "n_others": 7,
      "median": 1.45,
-     "p25": 0.54,
+     "p25": 0.55,
      "p75": 1.79
     },
     "net_charge_offs_12m": {

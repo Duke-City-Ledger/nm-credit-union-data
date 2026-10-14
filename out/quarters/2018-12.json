@@ -49,7 +49,7 @@
      "guaranteed": 0
     },
     "members": 101112,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.14
    },
    "peers": {
     "net_worth_ratio": {
@@ -65,10 +65,10 @@
      "p75": 0.69
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.56,
+     "p25": 0.43,
+     "p75": 0.64
     },
     "commercial_share": {
      "n_others": 7,
@@ -143,7 +143,7 @@
      "guaranteed": 0
     },
     "members": 198538,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.56
    },
    "peers": {
     "net_worth_ratio": {
@@ -159,10 +159,10 @@
      "p75": 0.69
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.47,
+     "p25": 0.29,
+     "p75": 0.64
     },
     "commercial_share": {
      "n_others": 7,
@@ -237,7 +237,7 @@
      "guaranteed": 0
     },
     "members": 77378,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.71
    },
    "peers": {
     "net_worth_ratio": {
@@ -253,10 +253,10 @@
      "p75": 0.55
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.47,
+     "p25": 0.29,
+     "p75": 0.57
     },
     "commercial_share": {
      "n_others": 7,
@@ -331,7 +331,7 @@
      "guaranteed": 0
     },
     "members": 48317,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.57
    },
    "peers": {
     "net_worth_ratio": {
@@ -347,10 +347,10 @@
      "p75": 0.69
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.47,
+     "p25": 0.29,
+     "p75": 0.64
     },
     "commercial_share": {
      "n_others": 7,
@@ -425,7 +425,7 @@
      "guaranteed": 0
     },
     "members": 82265,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.19
    },
    "peers": {
     "net_worth_ratio": {
@@ -441,10 +441,10 @@
      "p75": 0.69
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.56,
+     "p25": 0.43,
+     "p75": 0.64
     },
     "commercial_share": {
      "n_others": 7,
@@ -519,7 +519,7 @@
      "guaranteed": 0
     },
     "members": 51508,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.47
    },
    "peers": {
     "net_worth_ratio": {
@@ -535,10 +535,10 @@
      "p75": 0.69
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.56,
+     "p25": 0.29,
+     "p75": 0.64
     },
     "commercial_share": {
      "n_others": 7,
@@ -613,7 +613,7 @@
      "guaranteed": 0
     },
     "members": 45841,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.39
    },
    "peers": {
     "net_worth_ratio": {
@@ -629,10 +629,10 @@
      "p75": 0.69
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.56,
+     "p25": 0.33,
+     "p75": 0.64
     },
     "commercial_share": {
      "n_others": 7,
@@ -707,7 +707,7 @@
      "guaranteed": 0
     },
     "members": 77561,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.75
    },
    "peers": {
     "net_worth_ratio": {
@@ -723,10 +723,10 @@
      "p75": 0.55
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.47,
+     "p25": 0.29,
+     "p75": 0.57
     },
     "commercial_share": {
      "n_others": 7,
@@ -801,14 +801,14 @@
      "guaranteed": 0
     },
     "members": 32257,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 1.07
    },
    "peers": {
     "net_worth_ratio": {
      "n_others": 6,
      "median": 11.34,
      "p25": 9.28,
-     "p75": 14.03
+     "p75": 14.04
     },
     "delinquency": {
      "n_others": 6,
@@ -817,10 +817,10 @@
      "p75": 1.04
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 6,
+     "median": 0.4,
+     "p25": 0.33,
+     "p75": 0.53
     },
     "commercial_share": {
      "n_others": 6,
@@ -895,7 +895,7 @@
      "guaranteed": 0
     },
     "members": 33131,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.32
    },
    "peers": {
     "net_worth_ratio": {
@@ -911,16 +911,16 @@
      "p75": 1.1
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 6,
+     "median": 0.51,
+     "p25": 0.37,
+     "p75": 0.82
     },
     "commercial_share": {
      "n_others": 6,
      "median": 0.05,
      "p25": 0.0,
-     "p75": 0.67
+     "p75": 0.68
     },
     "cre_reset_5y": {
      "n_others": 0,
@@ -989,7 +989,7 @@
      "guaranteed": 0
     },
     "members": 33782,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.46
    },
    "peers": {
     "net_worth_ratio": {
@@ -1005,16 +1005,16 @@
      "p75": 1.1
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 6,
+     "median": 0.45,
+     "p25": 0.33,
+     "p75": 0.82
     },
     "commercial_share": {
      "n_others": 6,
      "median": 0.05,
      "p25": 0.0,
-     "p75": 0.67
+     "p75": 0.68
     },
     "cre_reset_5y": {
      "n_others": 0,
@@ -1083,7 +1083,7 @@
      "guaranteed": 0
     },
     "members": 20203,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.55
    },
    "peers": {
     "net_worth_ratio": {
@@ -1099,16 +1099,16 @@
      "p75": 0.86
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 6,
+     "median": 0.4,
+     "p25": 0.33,
+     "p75": 0.8
     },
     "commercial_share": {
      "n_others": 6,
      "median": 0.05,
      "p25": 0.0,
-     "p75": 0.67
+     "p75": 0.68
     },
     "cre_reset_5y": {
      "n_others": 0,
@@ -1177,7 +1177,7 @@
      "guaranteed": 0
     },
     "members": 11416,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.34
    },
    "peers": {
     "net_worth_ratio": {
@@ -1193,16 +1193,16 @@
      "p75": 1.1
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 6,
+     "median": 0.51,
+     "p25": 0.36,
+     "p75": 0.82
     },
     "commercial_share": {
      "n_others": 6,
      "median": 0.05,
      "p25": 0.0,
-     "p75": 0.67
+     "p75": 0.68
     },
     "cre_reset_5y": {
      "n_others": 0,
@@ -1271,7 +1271,7 @@
      "guaranteed": 156651
     },
     "members": 13749,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.91
    },
    "peers": {
     "net_worth_ratio": {
@@ -1287,10 +1287,10 @@
      "p75": 1.1
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 6,
+     "median": 0.4,
+     "p25": 0.33,
+     "p75": 0.53
     },
     "commercial_share": {
      "n_others": 6,
@@ -1365,14 +1365,14 @@
      "guaranteed": 0
     },
     "members": 7520,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.14
    },
    "peers": {
     "net_worth_ratio": {
      "n_others": 6,
      "median": 11.34,
      "p25": 9.28,
-     "p75": 14.03
+     "p75": 14.04
     },
     "delinquency": {
      "n_others": 6,
@@ -1381,10 +1381,10 @@
      "p75": 0.86
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 6,
+     "median": 0.51,
+     "p25": 0.37,
+     "p75": 0.82
     },
     "commercial_share": {
      "n_others": 6,
@@ -1459,7 +1459,7 @@
      "guaranteed": 0
     },
     "members": 7439,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 1.07
    },
    "peers": {
     "net_worth_ratio": {
@@ -1475,7 +1475,7 @@
      "p75": null
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
+     "n_others": 2,
      "median": null,
      "p25": null,
      "p75": null
@@ -1553,7 +1553,7 @@
      "guaranteed": 0
     },
     "members": 7419,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.82
    },
    "peers": {
     "net_worth_ratio": {
@@ -1569,7 +1569,7 @@
      "p75": null
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
+     "n_others": 2,
      "median": null,
      "p25": null,
      "p75": null
@@ -1647,7 +1647,7 @@
      "guaranteed": 0
     },
     "members": 5005,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.16
    },
    "peers": {
     "net_worth_ratio": {
@@ -1663,7 +1663,7 @@
      "p75": null
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
+     "n_others": 2,
      "median": null,
      "p25": null,
      "p75": null
@@ -1741,7 +1741,7 @@
      "guaranteed": 0
     },
     "members": 5053,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": -0.01
    },
    "peers": {
     "net_worth_ratio": {
@@ -1757,10 +1757,10 @@
      "p75": 1.12
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.15,
+     "p75": 0.4
     },
     "commercial_share": {
      "n_others": 14,
@@ -1835,7 +1835,7 @@
      "guaranteed": 0
     },
     "members": 5174,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 2.21
    },
    "peers": {
     "net_worth_ratio": {
@@ -1851,10 +1851,10 @@
      "p75": 1.08
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.11,
+     "p75": 0.37
     },
     "commercial_share": {
      "n_others": 14,
@@ -1929,7 +1929,7 @@
      "guaranteed": 0
     },
     "members": 4552,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.53
    },
    "peers": {
     "net_worth_ratio": {
@@ -1945,10 +1945,10 @@
      "p75": 1.12
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.11,
+     "p75": 0.37
     },
     "commercial_share": {
      "n_others": 14,
@@ -2023,7 +2023,7 @@
      "guaranteed": 0
     },
     "members": 2259,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.37
    },
    "peers": {
     "net_worth_ratio": {
@@ -2039,10 +2039,10 @@
      "p75": 1.11
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.11,
+     "p75": 0.4
     },
     "commercial_share": {
      "n_others": 14,
@@ -2117,7 +2117,7 @@
      "guaranteed": 0
     },
     "members": 4674,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.36
    },
    "peers": {
     "net_worth_ratio": {
@@ -2133,10 +2133,10 @@
      "p75": 1.12
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.11,
+     "p75": 0.4
     },
     "commercial_share": {
      "n_others": 14,
@@ -2211,7 +2211,7 @@
      "guaranteed": 0
     },
     "members": 2485,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.01
    },
    "peers": {
     "net_worth_ratio": {
@@ -2227,10 +2227,10 @@
      "p75": 1.12
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.15,
+     "p75": 0.4
     },
     "commercial_share": {
      "n_others": 14,
@@ -2305,7 +2305,7 @@
      "guaranteed": 0
     },
     "members": 2132,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.41
    },
    "peers": {
     "net_worth_ratio": {
@@ -2321,10 +2321,10 @@
      "p75": 1.12
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.11,
+     "p75": 0.37
     },
     "commercial_share": {
      "n_others": 14,
@@ -2399,7 +2399,7 @@
      "guaranteed": 0
     },
     "members": 1710,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.34
    },
    "peers": {
     "net_worth_ratio": {
@@ -2415,10 +2415,10 @@
      "p75": 1.08
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.11,
+     "p75": 0.4
     },
     "commercial_share": {
      "n_others": 14,
@@ -2493,7 +2493,7 @@
      "guaranteed": 0
     },
     "members": 1794,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": -0.03
    },
    "peers": {
     "net_worth_ratio": {
@@ -2509,10 +2509,10 @@
      "p75": 1.12
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.15,
+     "p75": 0.4
     },
     "commercial_share": {
      "n_others": 14,
@@ -2587,7 +2587,7 @@
      "guaranteed": 0
     },
     "members": 5508,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 1.67
    },
    "peers": {
     "net_worth_ratio": {
@@ -2603,10 +2603,10 @@
      "p75": 1.12
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.11,
+     "p75": 0.37
     },
     "commercial_share": {
      "n_others": 14,
@@ -2681,7 +2681,7 @@
      "guaranteed": 0
     },
     "members": 1806,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.13
    },
    "peers": {
     "net_worth_ratio": {
@@ -2697,10 +2697,10 @@
      "p75": 1.12
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.13,
+     "p75": 0.4
     },
     "commercial_share": {
      "n_others": 14,
@@ -2775,7 +2775,7 @@
      "guaranteed": 0
     },
     "members": 1854,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.1
    },
    "peers": {
     "net_worth_ratio": {
@@ -2791,10 +2791,10 @@
      "p75": 1.08
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.15,
+     "p75": 0.4
     },
     "commercial_share": {
      "n_others": 14,
@@ -2869,7 +2869,7 @@
      "guaranteed": 0
     },
     "members": 2043,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.34
    },
    "peers": {
     "net_worth_ratio": {
@@ -2885,10 +2885,10 @@
      "p75": 1.08
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.11,
+     "p75": 0.4
     },
     "commercial_share": {
      "n_others": 14,
@@ -2963,7 +2963,7 @@
      "guaranteed": 0
     },
     "members": 1082,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.2
    },
    "peers": {
     "net_worth_ratio": {
@@ -2979,10 +2979,10 @@
      "p75": 1.12
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.11,
+     "p75": 0.4
     },
     "commercial_share": {
      "n_others": 14,
@@ -3057,7 +3057,7 @@
      "guaranteed": 0
     },
     "members": 836,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.34
    },
    "peers": {
     "net_worth_ratio": {
@@ -3073,10 +3073,10 @@
      "p75": 1.12
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 14,
+     "median": 0.34,
+     "p25": 0.11,
+     "p75": 0.4
     },
     "commercial_share": {
      "n_others": 14,
@@ -3151,7 +3151,7 @@
      "guaranteed": 0
     },
     "members": 1349,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.02
    },
    "peers": {
     "net_worth_ratio": {
@@ -3167,10 +3167,10 @@
      "p75": 1.72
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.17,
+     "p25": 0.05,
+     "p75": 0.32
     },
     "commercial_share": {
      "n_others": 7,
@@ -3245,7 +3245,7 @@
      "guaranteed": 0
     },
     "members": 993,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.05
    },
    "peers": {
     "net_worth_ratio": {
@@ -3261,10 +3261,10 @@
      "p75": 1.72
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.17,
+     "p25": 0.05,
+     "p75": 0.32
     },
     "commercial_share": {
      "n_others": 7,
@@ -3339,7 +3339,7 @@
      "guaranteed": 0
     },
     "members": 1118,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.05
    },
    "peers": {
     "net_worth_ratio": {
@@ -3355,10 +3355,10 @@
      "p75": 1.72
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.17,
+     "p25": 0.05,
+     "p75": 0.32
     },
     "commercial_share": {
      "n_others": 7,
@@ -3433,7 +3433,7 @@
      "guaranteed": 0
     },
     "members": 1067,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 1.19
    },
    "peers": {
     "net_worth_ratio": {
@@ -3449,10 +3449,10 @@
      "p75": 1.72
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.05,
+     "p25": 0.05,
+     "p75": 0.23
     },
     "commercial_share": {
      "n_others": 7,
@@ -3527,7 +3527,7 @@
      "guaranteed": 0
     },
     "members": 772,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.35
    },
    "peers": {
     "net_worth_ratio": {
@@ -3543,10 +3543,10 @@
      "p75": 1.71
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.05,
+     "p25": 0.05,
+     "p75": 0.23
     },
     "commercial_share": {
      "n_others": 7,
@@ -3621,7 +3621,7 @@
      "guaranteed": 0
     },
     "members": 1227,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.28
    },
    "peers": {
     "net_worth_ratio": {
@@ -3637,10 +3637,10 @@
      "p75": 1.72
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.05,
+     "p25": 0.05,
+     "p75": 0.26
     },
     "commercial_share": {
      "n_others": 7,
@@ -3715,7 +3715,7 @@
      "guaranteed": 0
     },
     "members": 770,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.04
    },
    "peers": {
     "net_worth_ratio": {
@@ -3731,10 +3731,10 @@
      "p75": 1.6
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.17,
+     "p25": 0.05,
+     "p75": 0.32
     },
     "commercial_share": {
      "n_others": 7,
@@ -3809,7 +3809,7 @@
      "guaranteed": 0
     },
     "members": 369,
-    "net_charge_offs_12m": null
+    "net_charge_offs_12m": 0.17
    },
    "peers": {
     "net_worth_ratio": {
@@ -3825,10 +3825,10 @@
      "p75": 1.6
     },
     "net_charge_offs_12m": {
-     "n_others": 0,
-     "median": null,
-     "p25": null,
-     "p75": null
+     "n_others": 7,
+     "median": 0.05,
+     "p25": 0.05,
+     "p75": 0.32
     },
     "commercial_share": {
      "n_others": 7,

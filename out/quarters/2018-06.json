@@ -250,7 +250,7 @@
      "n_others": 7,
      "median": 0.41,
      "p25": 0.35,
-     "p75": 0.46
+     "p75": 0.47
     },
     "net_charge_offs_12m": {
      "n_others": 0,
@@ -626,7 +626,7 @@
      "n_others": 7,
      "median": 0.41,
      "p25": 0.35,
-     "p75": 0.46
+     "p75": 0.47
     },
     "net_charge_offs_12m": {
      "n_others": 0,
@@ -994,7 +994,7 @@
    "peers": {
     "net_worth_ratio": {
      "n_others": 6,
-     "median": 13.11,
+     "median": 13.12,
      "p25": 9.91,
      "p75": 14.44
     },
@@ -1182,7 +1182,7 @@
    "peers": {
     "net_worth_ratio": {
      "n_others": 6,
-     "median": 13.11,
+     "median": 13.12,
      "p25": 9.91,
      "p75": 14.44
     },
@@ -1276,7 +1276,7 @@
    "peers": {
     "net_worth_ratio": {
      "n_others": 6,
-     "median": 13.11,
+     "median": 13.12,
      "p25": 9.78,
      "p75": 14.44
     },
@@ -3540,7 +3540,7 @@
      "n_others": 7,
      "median": 0.92,
      "p25": 0.32,
-     "p75": 1.19
+     "p75": 1.2
     },
     "net_charge_offs_12m": {
      "n_others": 0,
@@ -3634,7 +3634,7 @@
      "n_others": 7,
      "median": 0.92,
      "p25": 0.32,
-     "p75": 1.19
+     "p75": 1.2
     },
     "net_charge_offs_12m": {
      "n_others": 0,

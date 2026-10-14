@@ -57,7 +57,7 @@
     "net_worth_ratio": {
      "n_others": 8,
      "median": 10.34,
-     "p25": 10.0,
+     "p25": 10.01,
      "p75": 11.19
     },
     "delinquency": {
@@ -256,7 +256,7 @@
     },
     "net_charge_offs_12m": {
      "n_others": 8,
-     "median": 0.16,
+     "median": 0.17,
      "p25": 0.12,
      "p75": 0.26
     },
@@ -1937,7 +1937,7 @@
     "net_worth_ratio": {
      "n_others": 12,
      "median": 12.62,
-     "p25": 11.7,
+     "p25": 11.71,
      "p75": 15.47
     },
     "delinquency": {
@@ -2031,7 +2031,7 @@
     "net_worth_ratio": {
      "n_others": 12,
      "median": 12.71,
-     "p25": 11.7,
+     "p25": 11.71,
      "p75": 15.47
     },
     "delinquency": {
@@ -2125,7 +2125,7 @@
     "net_worth_ratio": {
      "n_others": 12,
      "median": 12.35,
-     "p25": 11.7,
+     "p25": 11.71,
      "p75": 15.47
     },
     "delinquency": {
@@ -2219,7 +2219,7 @@
     "net_worth_ratio": {
      "n_others": 12,
      "median": 12.35,
-     "p25": 11.7,
+     "p25": 11.71,
      "p75": 14.47
     },
     "delinquency": {
@@ -2407,7 +2407,7 @@
     "net_worth_ratio": {
      "n_others": 12,
      "median": 12.71,
-     "p25": 11.7,
+     "p25": 11.71,
      "p75": 15.47
     },
     "delinquency": {
@@ -2689,7 +2689,7 @@
     "net_worth_ratio": {
      "n_others": 12,
      "median": 12.35,
-     "p25": 11.7,
+     "p25": 11.71,
      "p75": 15.47
     },
     "delinquency": {
@@ -2783,7 +2783,7 @@
     "net_worth_ratio": {
      "n_others": 12,
      "median": 12.35,
-     "p25": 11.7,
+     "p25": 11.71,
      "p75": 14.47
     },
     "delinquency": {
@@ -2877,7 +2877,7 @@
     "net_worth_ratio": {
      "n_others": 12,
      "median": 12.35,
-     "p25": 11.7,
+     "p25": 11.71,
      "p75": 14.47
     },
     "delinquency": {
@@ -2971,7 +2971,7 @@
     "net_worth_ratio": {
      "n_others": 12,
      "median": 12.35,
-     "p25": 11.7,
+     "p25": 11.71,
      "p75": 14.58
     },
     "delinquency": {

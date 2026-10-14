@@ -355,7 +355,7 @@
     "commercial_share": {
      "n_others": 7,
      "median": 10.89,
-     "p25": 9.5,
+     "p25": 9.51,
      "p75": 13.45
     },
     "cre_reset_5y": {
@@ -543,7 +543,7 @@
     "commercial_share": {
      "n_others": 7,
      "median": 10.89,
-     "p25": 9.5,
+     "p25": 9.51,
      "p75": 13.45
     },
     "cre_reset_5y": {
@@ -1096,7 +1096,7 @@
      "n_others": 6,
      "median": 0.39,
      "p25": 0.21,
-     "p75": 0.75
+     "p75": 0.76
     },
     "net_charge_offs_12m": {
      "n_others": 6,
@@ -3350,7 +3350,7 @@
     },
     "delinquency": {
      "n_others": 6,
-     "median": 1.73,
+     "median": 1.74,
      "p25": 0.51,
      "p75": 1.85
     },
@@ -3444,7 +3444,7 @@
     },
     "delinquency": {
      "n_others": 6,
-     "median": 1.73,
+     "median": 1.74,
      "p25": 0.51,
      "p75": 1.85
     },
@@ -3538,7 +3538,7 @@
     },
     "delinquency": {
      "n_others": 6,
-     "median": 1.73,
+     "median": 1.74,
      "p25": 0.51,
      "p75": 1.97
     },

@@ -560,7 +560,7 @@
     },
     "home_reset_5y": {
      "n_others": 8,
-     "median": 19.06,
+     "median": 19.07,
      "p25": 8.72,
      "p75": 26.32
     }
@@ -654,7 +654,7 @@
     },
     "home_reset_5y": {
      "n_others": 8,
-     "median": 19.06,
+     "median": 19.07,
      "p25": 12.44,
      "p75": 26.32
     }
@@ -748,7 +748,7 @@
     },
     "home_reset_5y": {
      "n_others": 8,
-     "median": 19.06,
+     "median": 19.07,
      "p25": 12.44,
      "p75": 26.32
     }
@@ -831,7 +831,7 @@
     "commercial_share": {
      "n_others": 8,
      "median": 13.35,
-     "p25": 6.15,
+     "p25": 6.16,
      "p75": 18.67
     },
     "cre_reset_5y": {
@@ -842,7 +842,7 @@
     },
     "home_reset_5y": {
      "n_others": 8,
-     "median": 19.06,
+     "median": 19.07,
      "p25": 11.62,
      "p75": 26.32
     }

@@ -23,7 +23,7 @@ quarter's build.
 | members | 0 | 229 | 4,803 | 253,495 | 299,021 | 0 | 0 |
 | net_worth_ratio (%) | 0 | 2.40 | 12.44 | 26.56 | 33.77 | 0 | 0 |
 | delinquency (%) | 0 | 0.00 | 0.49 | 5.94 | 9.94 | 79 | 0 |
-| net_charge_offs_12m (%) | 164 | -0.84 | 0.27 | 3.21 | 3.90 | 52 | 84 |
+| net_charge_offs_12m (%) | 123 | -0.84 | 0.27 | 3.21 | 3.90 | 52 | 84 |
 | commercial_share (%) | 0 | 0.00 | 0.00 | 22.55 | 26.33 | 825 | 0 |
 | cre_reset_5y (%) | 1,109 | 0.00 | 0.00 | 100 | 100 | 163 | 0 |
 | home_reset_5y (%) | 843 | 0.00 | 0.70 | 89.66 | 100 | 245 | 0 |
@@ -31,8 +31,8 @@ quarter's build.
 | sba, balance ($) | 0 | 0 | 0 | 19.4M | 32.9M | 1,268 | 0 |
 
 The nulls are all accounted for:
-- `net_charge_offs_12m`: null for 2018-03 to 2018-12 only (it needs the quarter a year earlier). From 2019-03
-  on, none.
+- `net_charge_offs_12m`: null for 2018-03 to 2018-09 only (it needs the quarter a year earlier; 2018-12 uses
+  the cached 2017-12 filing). From 2018-12 on, none.
 - `cre_reset_5y`, `home_reset_5y`: null before 2022-03, when the accounts didn't exist. From 2022-03 on, they're
   null 455 times for commercial real estate and 189 for home loans. All of those are a 0 denominator, meaning no
   such loans, except four Railroad Employees quarters in 2022, withheld because the filing gives over 100%.

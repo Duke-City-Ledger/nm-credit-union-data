@@ -152,7 +152,7 @@
      "n_others": 7,
      "median": 10.38,
      "p25": 10.11,
-     "p75": 10.84
+     "p75": 10.85
     },
     "delinquency": {
      "n_others": 7,
@@ -246,7 +246,7 @@
      "n_others": 7,
      "median": 10.51,
      "p25": 10.29,
-     "p75": 10.84
+     "p75": 10.85
     },
     "delinquency": {
      "n_others": 7,
@@ -528,7 +528,7 @@
      "n_others": 7,
      "median": 10.51,
      "p25": 10.21,
-     "p75": 10.84
+     "p75": 10.85
     },
     "delinquency": {
      "n_others": 7,
@@ -622,7 +622,7 @@
      "n_others": 7,
      "median": 10.51,
      "p25": 10.11,
-     "p75": 10.84
+     "p75": 10.85
     },
     "delinquency": {
      "n_others": 7,
@@ -716,7 +716,7 @@
      "n_others": 7,
      "median": 10.51,
      "p25": 10.29,
-     "p75": 10.84
+     "p75": 10.85
     },
     "delinquency": {
      "n_others": 7,
@@ -734,7 +734,7 @@
      "n_others": 7,
      "median": 9.74,
      "p25": 4.3,
-     "p75": 13.43
+     "p75": 13.44
     },
     "cre_reset_5y": {
      "n_others": 0,
@@ -1003,7 +1003,7 @@
     "delinquency": {
      "n_others": 6,
      "median": 0.72,
-     "p25": 0.33,
+     "p25": 0.34,
      "p75": 1.15
     },
     "net_charge_offs_12m": {
@@ -1098,7 +1098,7 @@
      "n_others": 6,
      "median": 0.42,
      "p25": 0.24,
-     "p75": 0.78
+     "p75": 0.79
     },
     "net_charge_offs_12m": {
      "n_others": 6,
@@ -1191,7 +1191,7 @@
     "delinquency": {
      "n_others": 6,
      "median": 0.72,
-     "p25": 0.33,
+     "p25": 0.34,
      "p75": 1.15
     },
     "net_charge_offs_12m": {
@@ -1380,7 +1380,7 @@
      "n_others": 6,
      "median": 0.42,
      "p25": 0.24,
-     "p75": 0.78
+     "p75": 0.79
     },
     "net_charge_offs_12m": {
      "n_others": 6,
@@ -2031,7 +2031,7 @@
     "net_worth_ratio": {
      "n_others": 11,
      "median": 13.79,
-     "p25": 12.0,
+     "p25": 12.01,
      "p75": 16.46
     },
     "delinquency": {
@@ -2044,7 +2044,7 @@
      "n_others": 11,
      "median": 0.09,
      "p25": 0.0,
-     "p75": 0.11
+     "p75": 0.12
     },
     "commercial_share": {
      "n_others": 11,
@@ -2125,7 +2125,7 @@
     "net_worth_ratio": {
      "n_others": 11,
      "median": 13.79,
-     "p25": 11.93,
+     "p25": 11.94,
      "p75": 16.46
     },
     "delinquency": {
@@ -2219,7 +2219,7 @@
     "net_worth_ratio": {
      "n_others": 11,
      "median": 13.38,
-     "p25": 11.93,
+     "p25": 11.94,
      "p75": 16.46
     },
     "delinquency": {
@@ -2313,7 +2313,7 @@
     "net_worth_ratio": {
      "n_others": 11,
      "median": 13.38,
-     "p25": 11.93,
+     "p25": 11.94,
      "p75": 15.39
     },
     "delinquency": {
@@ -2501,20 +2501,20 @@
     "net_worth_ratio": {
      "n_others": 11,
      "median": 13.79,
-     "p25": 11.93,
+     "p25": 11.94,
      "p75": 16.46
     },
     "delinquency": {
      "n_others": 11,
      "median": 0.22,
      "p25": 0.13,
-     "p75": 0.77
+     "p75": 0.78
     },
     "net_charge_offs_12m": {
      "n_others": 11,
      "median": 0.09,
      "p25": 0.0,
-     "p75": 0.11
+     "p75": 0.12
     },
     "commercial_share": {
      "n_others": 11,
@@ -2783,7 +2783,7 @@
     "net_worth_ratio": {
      "n_others": 11,
      "median": 13.38,
-     "p25": 11.93,
+     "p25": 11.94,
      "p75": 15.39
     },
     "delinquency": {
@@ -2796,7 +2796,7 @@
      "n_others": 11,
      "median": 0.09,
      "p25": 0.0,
-     "p75": 0.11
+     "p75": 0.12
     },
     "commercial_share": {
      "n_others": 11,
@@ -2877,14 +2877,14 @@
     "net_worth_ratio": {
      "n_others": 11,
      "median": 13.38,
-     "p25": 11.93,
+     "p25": 11.94,
      "p75": 16.46
     },
     "delinquency": {
      "n_others": 11,
      "median": 0.22,
      "p25": 0.13,
-     "p75": 0.77
+     "p75": 0.78
     },
     "net_charge_offs_12m": {
      "n_others": 11,
@@ -2971,7 +2971,7 @@
     "net_worth_ratio": {
      "n_others": 11,
      "median": 13.38,
-     "p25": 11.93,
+     "p25": 11.94,
      "p75": 15.39
     },
     "delinquency": {
@@ -3065,14 +3065,14 @@
     "net_worth_ratio": {
      "n_others": 11,
      "median": 13.38,
-     "p25": 11.93,
+     "p25": 11.94,
      "p75": 15.55
     },
     "delinquency": {
      "n_others": 11,
      "median": 0.22,
      "p25": 0.13,
-     "p75": 0.77
+     "p75": 0.78
     },
     "net_charge_offs_12m": {
      "n_others": 11,

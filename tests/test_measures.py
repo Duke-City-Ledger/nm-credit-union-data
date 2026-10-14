@@ -12,7 +12,7 @@ from pathlib import Path
 from types import SimpleNamespace
 
 from nmcu import checks
-from nmcu.build import peers
+from nmcu.build import peers, quantile
 from nmcu.measures import (
     ROOT,
     SIMPLE,
@@ -91,6 +91,16 @@ class Peers(unittest.TestCase):
         p = peers(small[0], small, "delinquency")
         self.assertEqual((p["n_others"], p["median"], p["p25"]), (4, None, None))
 
+    def test_quantiles_round_halves_up(self):
+        # 0.78 and 0.79: the median is 0.785 exactly, which floats would round down.
+        self.assertEqual(quantile([0.78, 0.79], "0.5"), 0.79)
+        self.assertEqual(quantile([1.0, 2.0, 3.0, 4.0, 5.0], "0.25"), 2.0)
+        self.assertEqual(quantile([1.0, 2.0, 3.0, 4.0], "0.25"), 1.75)
+
+    def test_unknown_peer_group_gets_no_comparison(self):
+        group = [cu(str(i), peer_group=None, delinquency=float(i)) for i in range(7)]
+        self.assertEqual(peers(group[0], group, "delinquency"), {"n_others": 0, "median": None, "p25": None, "p75": None})
+
     def test_other_peer_groups_and_missing_values_left_out(self):
         group = [cu(str(i), delinquency=float(i)) for i in range(6)]
         group.append(cu("x", peer_group=4, delinquency=99.0))
@@ -114,6 +124,21 @@ class Checks(unittest.TestCase):
         available = {a: "X" for a in all_accounts(d) if a not in ("ACCT_CM0099", "ACCT_RL0047", "ACCT_RL0050",
                                                                   "ACCT_LC0047", "ACCT_NW0004", "ACCT_NW0010")}
         checks.schema(d, "2019-03", available)
+        # A quarter after the history's last one still needs every ongoing account.
+        with self.assertRaises(checks.BuildError):
+            checks.schema(d, "2026-09", {})
+        checks.schema(d, "2026-09", {a: "X" for a in all_accounts(d) if a != "ACCT_712"})
+
+    def test_net_worth_check_skips_blank_formula_accounts(self):
+        a = {"ACCT_997": 100.0, "ACCT_998": 500.0, "ACCT_010": 1000.0, "ACCT_010A": 0, "ACCT_010B": 0,
+             "ACCT_010C": 0, "ACCT_LC0047": None, "ACCT_NW0004": None, "ACCT_NW0010": None,
+             "ACCT_025B": None, "ACCT_025B1": None, "ACCT_718A3": None, "ACCT_718A4": None, "ACCT_718A5": None,
+             "ACCT_CM0099": None, "ACCT_RL0047": None, "ACCT_RL0050": None, "ACCT_691P1": None,
+             "ACCT_691P2": None, "ACCT_691C1": None, "ACCT_691C2": None, "ACCT_041B": None}
+        c = SimpleNamespace(cu_number="1", name="1", accounts=a, measures={}, not_reported=[])
+        self.assertEqual([f["check"] for f in checks.filing("2019-03", c)], ["net worth"])  # 10% vs 5%
+        c.not_reported = ["ACCT_NW0010"]
+        self.assertEqual(checks.filing("2021-03", c), [])
 
 
 @unittest.skipUnless((CACHE / "call-report-data-2026-06.zip").exists(), "2026-06 zip not cached")

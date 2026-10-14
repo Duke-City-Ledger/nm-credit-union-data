@@ -43,6 +43,7 @@ IDENTITIES = [
 ]
 ZERO_RESET_FLOOR = 1_000_000
 ZERO_RESETS = [("ACCT_CM0099", ("ACCT_718A3", "ACCT_718A4")), ("ACCT_RL0050", ("ACCT_RL0047",))]
+CHARGE_OFF_ACCOUNTS = ("ACCT_550", "ACCT_551", "ACCT_025B")
 SHARES = ["delinquency", "commercial_share", "cre_reset_5y", "home_reset_5y"]
 PERCENTS = ["net_worth_ratio", "delinquency", "net_charge_offs_12m", "commercial_share", "cre_reset_5y", "home_reset_5y"]
 
@@ -57,12 +58,15 @@ def flag(quarter, cu, check, detail):
 
 
 def required_accounts(dictionary: dict, quarter: str) -> set[str]:
+    """Accounts the dictionary says this quarter has. An account still present in the last
+    quarter the history read is treated as ongoing, so a new quarter that drops it fails."""
+    entries = [a for m in dictionary["measures"] for a in m["accounts"] if a.get("quarters")]
+    newest = max(a["quarters"]["to"] for a in entries)
     out = set()
-    for m in dictionary["measures"]:
-        for a in m["accounts"]:
-            q = a.get("quarters")
-            if q and q["from"] <= quarter <= q["to"]:
-                out.add(a["account"])
+    for a in entries:
+        q = a["quarters"]
+        if q["from"] <= quarter and (quarter <= q["to"] or q["to"] == newest):
+            out.add(a["account"])
     return out
 
 
@@ -93,6 +97,11 @@ def filing(quarter: str, cu, previous_cu=None, latest: bool = False) -> list[dic
         if a[part] == 0 and total is not None and total > ZERO_RESET_FLOOR:
             out.append(flag(quarter, cu, "zero reset", f"{part} is 0 with {' + '.join(codes)} at {total:,.0f}"))
     den, how = net_worth_denominator(a)
+    # A blank in any account of the formula is already flagged "not reported"; don't guess.
+    formula = {"ACCT_997", "ACCT_998", "ACCT_010", "ACCT_010A", "ACCT_010B", "ACCT_010C", "ACCT_LC0047",
+               "ACCT_NW0004", "ACCT_NW0010"}
+    if formula & set(cu.not_reported):
+        den = None
     if a["ACCT_997"] is not None and a["ACCT_998"] is not None and den:
         mine = round2(100 * a["ACCT_997"] / den)
         if abs(mine - a["ACCT_998"] / 100) > 0.011:
@@ -113,7 +122,11 @@ def filing(quarter: str, cu, previous_cu=None, latest: bool = False) -> list[dic
 
 
 def net_worth_denominator(a) -> tuple[float | None, str]:
-    """998's denominator per the instructions (Schedule G, Section 4, p. 127)."""
+    """998's denominator per the instructions (Schedule G, Section 4, p. 127).
+
+    LC0047 and NW0010 start in 2020-06 and NW0004 in 2023-03; before then they are None
+    (not available) and count as 0 or fall back to 010, which is what the form did then.
+    The caller skips the check when one is blank in a quarter that has it."""
     for code in ("ACCT_010A", "ACCT_010B", "ACCT_010C"):
         if a.get(code):
             return a[code] - (a.get("ACCT_LC0047") or 0) + (a.get("ACCT_NW0004") or 0), f"{code} - LC0047 + NW0004"
@@ -134,6 +147,8 @@ def withhold(cu) -> None:
 def roster(quarter: str, now: dict, before: dict | None, uninsured: list[str]) -> list[dict]:
     out = [flag(quarter, None, "roster", f"credit union {n} is in New Mexico but not federally insured; left out")
            for n in uninsured]
+    out += [flag(quarter, c, "roster", "no NCUA peer group this quarter; no peer comparison")
+            for c in now.values() if c.peer_group is None]
     if before is None:
         return out
     for n in sorted(set(now) - set(before)):

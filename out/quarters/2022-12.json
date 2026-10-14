@@ -2887,7 +2887,7 @@
     },
     "delinquency": {
      "n_others": 10,
-     "median": 0.4,
+     "median": 0.41,
      "p25": 0.01,
      "p75": 1.02
     },

@@ -640,7 +640,7 @@
      "n_others": 7,
      "median": 10.99,
      "p25": 4.42,
-     "p75": 13.79
+     "p75": 13.8
     },
     "cre_reset_5y": {
      "n_others": 0,
@@ -722,7 +722,7 @@
      "n_others": 7,
      "median": 0.19,
      "p25": 0.16,
-     "p75": 0.33
+     "p75": 0.34
     },
     "net_charge_offs_12m": {
      "n_others": 7,
@@ -3253,7 +3253,7 @@
     "net_worth_ratio": {
      "n_others": 7,
      "median": 17.06,
-     "p25": 12.52,
+     "p25": 12.53,
      "p75": 18.68
     },
     "delinquency": {
@@ -3723,7 +3723,7 @@
     "net_worth_ratio": {
      "n_others": 7,
      "median": 17.06,
-     "p25": 12.52,
+     "p25": 12.53,
      "p75": 18.68
     },
     "delinquency": {
