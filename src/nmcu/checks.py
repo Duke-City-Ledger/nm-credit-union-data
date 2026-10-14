@@ -26,6 +26,8 @@ from __future__ import annotations
 
 from .measures import round2
 
+PEER_GROUP_CODES = range(1, 7)  # NCUA peer groups 1 to 6, by assets
+
 IDENTITY_TOLERANCE = 20
 ASSET_JUMP = 0.25
 SWINGS = {"net_worth_ratio": 3, "delinquency": 5, "net_charge_offs_12m": 2, "commercial_share": 3,
@@ -147,8 +149,8 @@ def withhold(cu) -> None:
 def roster(quarter: str, now: dict, before: dict | None, uninsured: list[str]) -> list[dict]:
     out = [flag(quarter, None, "roster", f"credit union {n} is in New Mexico but not federally insured; left out")
            for n in uninsured]
-    out += [flag(quarter, c, "roster", "no NCUA peer group this quarter; no peer comparison")
-            for c in now.values() if c.peer_group is None]
+    out += [flag(quarter, c, "roster", "no NCUA peer group (1 to 6) this quarter; no peer comparison")
+            for c in now.values() if c.peer_group not in PEER_GROUP_CODES]
     if before is None:
         return out
     for n in sorted(set(now) - set(before)):

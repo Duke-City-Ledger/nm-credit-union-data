@@ -74,7 +74,7 @@ def quantile(values: list[float], p: str) -> float:
 
 def peers(cu, cus: list, measure: str) -> dict:
     out = {"n_others": 0, "median": None, "p25": None, "p75": None}
-    if cu.peer_group is None:
+    if cu.peer_group not in PEER_GROUPS:  # missing or a code NCUA doesn't define
         return out
     others = [c.measures[measure] for c in cus
               if c is not cu and c.peer_group == cu.peer_group and c.measures.get(measure) is not None]
@@ -94,6 +94,8 @@ def build(offline: bool = False, through: str | None = None) -> dict:
     urls = quarters_available(offline)
     if through:
         urls = {q: u for q, u in urls.items() if q <= through}
+    if not urls:
+        raise checks.BuildError(f"no quarters from {FIRST} through {through or 'the latest'}; nothing written")
     zips = package_download.download(urls, CACHE)
     history_zip = package_download.download({HISTORY_ONLY: URL.format(HISTORY_ONLY)}, CACHE)[0]
 

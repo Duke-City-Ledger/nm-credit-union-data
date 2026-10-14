@@ -100,6 +100,8 @@ class Peers(unittest.TestCase):
     def test_unknown_peer_group_gets_no_comparison(self):
         group = [cu(str(i), peer_group=None, delinquency=float(i)) for i in range(7)]
         self.assertEqual(peers(group[0], group, "delinquency"), {"n_others": 0, "median": None, "p25": None, "p75": None})
+        group = [cu(str(i), peer_group=99, delinquency=float(i)) for i in range(7)]
+        self.assertIsNone(peers(group[0], group, "delinquency")["median"])
 
     def test_other_peer_groups_and_missing_values_left_out(self):
         group = [cu(str(i), delinquency=float(i)) for i in range(6)]
@@ -142,6 +144,15 @@ class Checks(unittest.TestCase):
 
 
 @unittest.skipUnless((CACHE / "call-report-data-2026-06.zip").exists(), "2026-06 zip not cached")
+class EmptyBuild(unittest.TestCase):
+    def test_no_quarters_stops_before_writing(self):
+        from nmcu import build as b
+        before = sorted(p.name for p in (b.OUT / "quarters").glob("*.json"))
+        with self.assertRaises(checks.BuildError):
+            b.build(offline=True, through="2017-12")
+        self.assertEqual(sorted(p.name for p in (b.OUT / "quarters").glob("*.json")), before)
+
+
 class Real2026(unittest.TestCase):
     """2026-06 figures. The FPR rows are NCUA's own published ratios (docs/research/fpr-2026-06/).
     The rest were worked from the raw zip by a separate, plain csv read (dictionary.json)."""

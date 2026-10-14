@@ -325,7 +325,7 @@
       "plain_words": "Loans written off as lost, less what was later recovered, over the past year.",
       "formula": "((ACCT_550 - ACCT_551)[q] + (ACCT_550 - ACCT_551)[prior December] - (ACCT_550 - ACCT_551)[q minus 4 quarters]) / ((ACCT_025B[q] + ACCT_025B[q minus 4 quarters]) / 2) * 100",
       "units": "percent",
-      "scaling": "550 and 551 are year-to-date and reset each January; the formula takes the last 12 months. In a December quarter it is the year's own figure. Needs the quarter a year earlier, so with data from 2018-03 it starts in 2019-03.",
+      "scaling": "550 and 551 are year-to-date and reset each January; the formula takes the last 12 months. In a December quarter it is the year's own figure. It needs the December and the quarter a year earlier, so 2018-03 to 2018-09 are null; 2018-12 uses the 2017-12 filing, read for that and not published.",
       "accounts": [
         {
           "account": "ACCT_550",
