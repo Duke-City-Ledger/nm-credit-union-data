@@ -159,6 +159,114 @@
           "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 126",
           "units": "whole dollars",
           "note": "Sum of 940, 668, 658, 602, NW0004, 925A and 1004."
+        },
+        {
+          "account": "ACCT_010A",
+          "role": "check",
+          "table": [
+            "FS220A.TXT"
+          ],
+          "quarters": {
+            "from": "2017-12",
+            "to": "2026-06",
+            "count": 35
+          },
+          "ncua_name": "Average of Daily Assets over the calendar quarter",
+          "ncua_description": "Average Daily Assets over the calendar quarter",
+          "form": "Schedule G, Section 3, Item 1",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 126",
+          "units": "whole dollars",
+          "note": "Optional asset election; 0 unless the credit union elected it. Used in place of NW0010 when reported."
+        },
+        {
+          "account": "ACCT_010B",
+          "role": "check",
+          "table": [
+            "FS220A.TXT"
+          ],
+          "quarters": {
+            "from": "2017-12",
+            "to": "2026-06",
+            "count": 35
+          },
+          "ncua_name": "Average of the three month-end balances over the calendar quarter",
+          "ncua_description": "Average of the three month end balances over the calendar quarter",
+          "form": "Schedule G, Section 3, Item 2",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 126",
+          "units": "whole dollars",
+          "note": "Optional asset election; 0 unless the credit union elected it. Used in place of NW0010 when reported."
+        },
+        {
+          "account": "ACCT_010C",
+          "role": "check",
+          "table": [
+            "FS220A.TXT"
+          ],
+          "quarters": {
+            "from": "2017-12",
+            "to": "2026-06",
+            "count": 35
+          },
+          "ncua_name": "The average of the current and three preceding quarter-end balances",
+          "ncua_description": "Average of previous four quarter-end balances",
+          "form": "Schedule G, Section 3, Item 3",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 126",
+          "units": "whole dollars",
+          "note": "Optional asset election; 0 unless the credit union elected it. Used in place of NW0010 when reported."
+        },
+        {
+          "account": "ACCT_NW0010",
+          "role": "check",
+          "table": [
+            "FS220N.TXT"
+          ],
+          "quarters": {
+            "from": "2020-06",
+            "to": "2026-06",
+            "count": 25
+          },
+          "ncua_name": "Total Assets excluding SBA PPP loans pledged as collateral to the FRB PPP Liquidity Facility",
+          "ncua_description": "Total Assets excluding SBA PPP loans pledged as collateral to the FRB PPP Liquidity Facility",
+          "form": "Schedule G, Section 3, Item 4",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 126",
+          "units": "whole dollars",
+          "note": "Total assets less LC0047 plus NW0004; the default denominator."
+        },
+        {
+          "account": "ACCT_LC0047",
+          "role": "check",
+          "table": [
+            "FS220N.TXT"
+          ],
+          "quarters": {
+            "from": "2020-06",
+            "to": "2026-06",
+            "count": 25
+          },
+          "ncua_name": "Small Business Administration Paycheck Protection Program loans",
+          "ncua_description": "Small Business Administration Paycheck Protection Program loans pledged as collateral to the Federal Reserve Bank PPP Liquidity Facility",
+          "form": "Schedule C, Section 4, Item 1e(i)",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 109",
+          "units": "whole dollars",
+          "note": "PPP loans pledged to the Fed's PPP facility; subtracted from an elected asset total."
+        },
+        {
+          "account": "ACCT_NW0004",
+          "role": "check",
+          "table": [
+            "FS220R.TXT"
+          ],
+          "quarters": {
+            "from": "2023-03",
+            "to": "2026-06",
+            "count": 14
+          },
+          "ncua_name": "CECL Transition Provision (as determined under 702.703(c))",
+          "ncua_description": "CECL Transition Provision (as determined under 702.703(c))",
+          "form": "Schedule G, Section 2, Item 5",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), p. 124",
+          "units": "whole dollars",
+          "note": "CECL transition provision; part of 997 and added to the asset total, 2023-03 on."
         }
       ],
       "fpr": {
@@ -166,7 +274,13 @@
         "guide": "FPR Ratio and Formula Guide v3.3, June 30, 2023 (https://ncua.gov/files/publications/analysis/fpr-ratio-formula-guide.pdf), pp. 4-5",
         "result": "Matched to two decimals for charters 808, 61559, 66143, 9566 and 62783, 2026-06 (docs/research/fpr-check.md, saved pages in docs/research/fpr-2026-06/)."
       },
-      "note": "Printed as filed. For the five hand-check charters NW0010 equals 010 in 2026-06, and 997 / 010 x 100, rounded to two decimals, equals 998 / 100 for all five. (An early note had 66143 and 9566 off by 0.01 point; that was our rounding, not NCUA's.)"
+      "note": "Printed as filed. 998 is NCUA's prompt corrective action ratio: from 2023 it includes the CECL transition provision (NW0004), which the FPR's separate 'excluding CECL Transition Provision' ratio leaves out. For the five hand-check charters, 997 / 010 x 100, rounded to two decimals, equals 998 / 100 in 2026-06. (An early note had 66143 and 9566 off by 0.01 point; that was our rounding, not NCUA's.)",
+      "checks": [
+        {
+          "rule": "round2(100 * ACCT_997 / D) == ACCT_998 / 100 within 0.01, where D is the first nonzero of ACCT_010A, ACCT_010B, ACCT_010C, less ACCT_LC0047 plus ACCT_NW0004; otherwise ACCT_NW0010; before ACCT_NW0010 exists, ACCT_010",
+          "why": "The instructions' formula for 998 (p. 127). It reproduces the filed ratio for all 1,359 New Mexico filings, 2018-03 to 2026-06 (113 with an election, 905 on NW0010, 341 on 010). A mismatch is flagged."
+        }
+      ]
     },
     {
       "id": "delinquency",
