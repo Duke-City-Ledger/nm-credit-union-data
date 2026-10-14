@@ -20,6 +20,7 @@ from ncua_data import download as package_download
 
 from . import checks
 from .measures import (
+    RATES,
     ROOT,
     SIMPLE,
     all_accounts,
@@ -128,6 +129,10 @@ def build(offline: bool = False, through: str | None = None) -> dict:
             for mid, (_, fn) in SIMPLE.items():
                 cu.measures[mid] = fn(cu.accounts)
             cu.measures["net_charge_offs_12m"] = net_charge_offs_12m(history[cu.cu_number], q)
+            for mid in RATES:
+                (code,), _ = SIMPLE[mid]
+                if cu.accounts[code] == 0:
+                    cu.notes[mid] = "Not offered or not reported"
         flags += checks.roster(q, quarter.credit_unions, previous.credit_unions if previous else None, quarter.uninsured)
         for cu in cus:
             before = previous.credit_unions.get(cu.cu_number) if previous else None
@@ -149,6 +154,8 @@ def build(offline: bool = False, through: str | None = None) -> dict:
                 "peers": {m: peers(cu, cus, m) for m in PEER_MEASURES},
                 "not_reported": sorted(cu.not_reported),
                 "withheld": cu.withheld,
+                "notes": cu.notes,
+                "sites": cu.sites,
                 "accounts": {k: (None if v is None else int(v) if float(v).is_integer() else v)
                              for k, v in sorted(cu.accounts.items())},
             })

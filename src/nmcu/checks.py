@@ -19,6 +19,10 @@ Flags (each says why in its `detail`):
   is over $1 million. It can be true (all long fixed-rate loans), and many small credit
   unions report it every quarter, so it's raised once, for the quarter the page shows.
 - assets moved more than 25% in a quarter (often a merger).
+- rate: an offered loan rate under 1% or over 30% (not 0, which means not offered). The
+  federal credit union usury ceiling is 18%, so a value past 30% is almost surely a typo.
+- yes/no: a profile answer that is neither 0 nor 1.
+- no sites: a credit union with no office in NCUA's branch file.
 - roster: a credit union joins or leaves New Mexico's list, or NCUA doesn't insure it.
 """
 
@@ -83,9 +87,23 @@ def _total(a, codes):
     return None if any(x is None for x in xs) else sum(xs)
 
 
+RATE_CODES = ("ACCT_521", "ACCT_522", "ACCT_523", "ACCT_524", "ACCT_563A")
+YES_NO_CODES = ("ACCT_879A4", "ACCT_879C1", "ACCT_879D1", "ACCT_879D9", "ACCT_PP0034")
+
+
 def filing(quarter: str, cu, previous_cu=None, latest: bool = False) -> list[dict]:
     a = cu.accounts
     out = []
+    for code in RATE_CODES:
+        v = a.get(code)
+        if v and not 100 <= v <= 3000:
+            out.append(flag(quarter, cu, "rate", f"{code} is {v / 100:.2f}%, outside 1% to 30%"))
+    for code in YES_NO_CODES:
+        v = a.get(code)
+        if v is not None and v not in (0, 1):
+            out.append(flag(quarter, cu, "yes/no", f"{code} is {v}, not 0 or 1"))
+    if hasattr(cu, "sites") and not cu.sites:
+        out.append(flag(quarter, cu, "no sites", "no office in NCUA's branch file"))
     for code, codes in IDENTITIES:
         total = _total(a, codes)
         if a[code] is not None and total is not None and abs(a[code] - total) > IDENTITY_TOLERANCE:
@@ -137,12 +155,20 @@ def net_worth_denominator(a) -> tuple[float | None, str]:
     return a.get("ACCT_010"), "010"
 
 
+RATE_MEASURES = ("rate_credit_card", "rate_new_auto", "rate_used_auto", "rate_mortgage", "rate_unsecured")
+
+
 def withhold(cu) -> None:
-    """Set impossible shares to None and say why, so the page never prints them."""
+    """Set impossible shares and implausible rates to None and say why, so the page never prints them."""
     for m in SHARES:
         v = cu.measures.get(m)
         if v is not None and not 0 <= v <= 100:
             cu.withheld[m] = f"{v}% from the filing, which can't be right"
+            cu.measures[m] = None
+    for m in RATE_MEASURES:
+        v = cu.measures.get(m)
+        if v is not None and not 1 <= v <= 30:
+            cu.withheld[m] = f"{v}% as filed, outside 1% to 30%, most likely a typo in the filing"
             cu.measures[m] = None
 
 

@@ -112,6 +112,21 @@ class Peers(unittest.TestCase):
 
 
 class Checks(unittest.TestCase):
+    def test_rate_zero_is_none_and_yes_no(self):
+        from nmcu.measures import _rate, _yes
+        self.assertIsNone(_rate(0.0))
+        self.assertIsNone(_rate(None))
+        self.assertEqual(_rate(664.0), 6.64)
+        self.assertEqual((_yes(1.0), _yes(0.0), _yes(None)), (True, False, None))
+
+    def test_implausible_rate_is_withheld(self):
+        c = cu("1", rate_unsecured=999.0, rate_new_auto=0.09, rate_used_auto=6.5)
+        checks.withhold(c)
+        self.assertIsNone(c.measures["rate_unsecured"])
+        self.assertIsNone(c.measures["rate_new_auto"])
+        self.assertEqual(c.measures["rate_used_auto"], 6.5)
+        self.assertEqual(set(c.withheld), {"rate_unsecured", "rate_new_auto"})
+
     def test_impossible_share_is_withheld(self):
         c = cu("1", cre_reset_5y=532.58, delinquency=1.0)
         checks.withhold(c)
@@ -210,6 +225,29 @@ class Real2026(unittest.TestCase):
                 self.assertEqual(self.m(n, "commercial_share"), comm)
                 self.assertEqual(self.m(n, "cre_reset_5y"), cre)
                 self.assertEqual(self.m(n, "home_reset_5y"), home)
+
+    def test_rates_and_services(self):
+        # Worked from the raw zip by a separate plain csv read (rates stored times 100).
+        hand = {  # charter: card, new car, used car, mortgage, personal; free checking, bilingual, credit builder, PAL, ATM
+            "948": (12.50, 6.64, 6.83, 6.35, 13.26, True, True, False, True, True),
+            "808": (18.00, 5.24, 5.24, 7.45, 10.90, True, True, True, True, True),
+            "62783": (9.90, 6.27, 6.68, 5.30, 10.77, False, True, False, False, False),
+            "61559": (None, 6.19, 9.21, None, 11.94, False, False, False, False, False),
+            "16754": (None, 2.05, 6.69, None, 22.68, True, True, False, True, True),
+        }
+        ids = ("rate_credit_card", "rate_new_auto", "rate_used_auto", "rate_mortgage", "rate_unsecured",
+               "free_checking", "bilingual", "credit_builder", "payday_alternative", "surcharge_free_atm")
+        for n, expected in hand.items():
+            with self.subTest(charter=n):
+                self.assertEqual(tuple(self.m(n, i) for i in ids), expected)
+
+    def test_sites(self):
+        sites = self.quarter.credit_unions["948"].sites
+        self.assertTrue(sites[0]["main_office"])
+        self.assertEqual(sites[0]["county"], "Bernalillo")
+        in_state = [s for q in self.quarter.credit_unions.values() for s in q.sites if s["state"] == "NM"]
+        self.assertEqual(len(in_state), 178)
+        self.assertEqual(len({s["county"] for s in in_state}), 26)
 
     def test_guarantees(self):
         self.assertEqual(self.m("808", "other_gov_guaranteed"), {"balance": 98396773, "guaranteed": 32343829})

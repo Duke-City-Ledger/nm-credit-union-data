@@ -33,6 +33,10 @@ class CreditUnion:
     measures: dict[str, object] = field(default_factory=dict)
     # Measures set to None because the filing gives an impossible value: id -> reason.
     withheld: dict[str, str] = field(default_factory=dict)
+    # Why a measure is None when the reason isn't a missing account: id -> words for the page.
+    notes: dict[str, str] = field(default_factory=dict)
+    # Its offices from NCUA's branch file, every state (the page filters to New Mexico).
+    sites: list[dict] = field(default_factory=list)
 
 
 @dataclass
@@ -108,6 +112,32 @@ def read_quarter(zip_path: Path, quarter: str, accounts: set[str]) -> Quarter:
                     cu.accounts[a] = v
                     if v is None:
                         cu.not_reported.append(a)
+
+    # NCUA's site list: every office, with county, hours and what it offers.
+    site_file = names.get("credit union branch information.txt")
+    if site_file:
+        with zipfile.ZipFile(zip_path) as z:
+            for r in _rows(z, site_file):
+                cu = roster.get(r["CU_NUMBER"])
+                if cu is None:
+                    continue
+                cu.sites.append({
+                    "name": r.get("SITENAME", ""),
+                    "type": r.get("SITETYPENAME", ""),
+                    "main_office": r.get("MAINOFFICE", "").lower() == "yes",
+                    "address": " ".join(x for x in (r.get("PHYSICALADDRESSLINE1", ""), r.get("PHYSICALADDRESSLINE2", "")) if x),
+                    "city": r.get("PHYSICALADDRESSCITY", ""),
+                    "state": r.get("PHYSICALADDRESSSTATECODE", ""),
+                    "zip": r.get("PHYSICALADDRESSPOSTALCODE", ""),
+                    "county": r.get("PHYSICALADDRESSCOUNTYNAME2", ""),
+                    "phone": r.get("PHONENUMBER", ""),
+                    "hours": r.get("HOURSOFOPERATION", ""),
+                    "member_services": r.get("MEMBERSERVICES") == "1",
+                    "atm": r.get("ATM") == "1",
+                    "drive_through": r.get("DRIVETHRU") == "1",
+                })
+        for cu in roster.values():
+            cu.sites.sort(key=lambda x: (not x["main_office"], x["state"] != STATE, x["county"], x["city"], x["name"]))
 
     for cu in roster.values():
         for a in accounts:

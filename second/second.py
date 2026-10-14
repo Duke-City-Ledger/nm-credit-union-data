@@ -14,6 +14,10 @@ PEERS = ('net_worth_ratio', 'delinquency', 'net_charge_offs_12m',
 SHARES = set(PEERS) - {'net_worth_ratio', 'net_charge_offs_12m'}
 DIRECT = {'total_assets': '010', 'total_loans': '025B', 'members': '083'}
 PARTS = {'other_gov_guaranteed': ('691P1', '691P2'), 'sba': ('691C1', '691C2')}
+RATES = {'rate_credit_card': '521', 'rate_new_auto': '523', 'rate_used_auto': '524',
+         'rate_mortgage': '563A', 'rate_unsecured': '522'}
+YES_NO = {'free_checking': '879A4', 'bilingual': '879C1', 'credit_builder': '879D1',
+          'payday_alternative': '879D9', 'surcharge_free_atm': 'PP0034'}
 
 
 def rounded(value, places='0.01'):
@@ -90,6 +94,20 @@ def calculate(measure, quarter, cu, history):
         return get(quarter, account)
     if measure in DIRECT:
         return current(DIRECT[measure])
+    if measure in RATES:
+        value = current(RATES[measure])
+        if value is None or value == 0:
+            return None
+        return value / D(100)
+    if measure in YES_NO:
+        value = current(YES_NO[measure])
+        if value is None:
+            return None
+        if value == 1:
+            return 'true'
+        if value == 0:
+            return 'false'
+        raise ValueError(f'Unexpected yes/no value: {quarter} {cu} {measure} {value}')
     if measure == 'net_worth_ratio':
         value = current('998')
         return None if value is None else value / 100
@@ -149,7 +167,11 @@ def main():
                 if measure in SHARES and value is not None and not 0 <= value <= 100:
                     withheld.append((q, cu, measure, value))
                     value = None
-                value = rounded(value, '0.01' if definition['units'] == 'percent' else '1')
+                if measure in RATES and value is not None and not 1 <= value <= 30:
+                    withheld.append((q, cu, measure, value))
+                    value = None
+                if definition['units'] != 'yes/no':
+                    value = rounded(value, '0.01' if definition['units'] == 'percent' else '1')
                 values[q, cu, measure] = value
                 output.append((q, cu, measure, '', value))
         for cu in sorted(rosters[q], key=int):

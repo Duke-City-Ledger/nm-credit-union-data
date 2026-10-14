@@ -44,6 +44,51 @@ meaning changed (a break in the series) or only the wording.
 - One description throughout:
   - 2017-12 to 2026-06: Total Net Worth | Sum of Undivided Earnings, Regular Reserves, Appropriation for Non-Conforming Investments, Other Reserves, Uninsured Secondary Capital, Net Income.
 
+## ACCT_010A
+
+- In 35 of 35 quarters.
+- Carried in `fs220A.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220A.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- One description throughout:
+  - 2017-12 to 2026-06: Average of Daily Assets over the calendar quarter | Average Daily Assets over the calendar quarter
+
+## ACCT_010B
+
+- In 35 of 35 quarters.
+- Carried in `fs220A.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220A.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- One description throughout:
+  - 2017-12 to 2026-06: Average of the three month-end balances over the calendar quarter | Average of the three month end balances over the calendar quarter
+
+## ACCT_010C
+
+- In 35 of 35 quarters.
+- Carried in `fs220A.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220A.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- One description throughout:
+  - 2017-12 to 2026-06: The average of the current and three preceding quarter-end balances | Average of previous four quarter-end balances
+
+## ACCT_NW0010
+
+- In 25 of 35 quarters; missing 2017-12 to 2020-03.
+- Carried in `FS220N.txt`: 2020-06 to 2026-06.
+- One description throughout:
+  - 2020-06 to 2026-06: Total Assets excluding SBA PPP loans pledged as collateral to the FRB PPP Liquidity Facility | Total Assets excluding SBA PPP loans pledged as collateral to the FRB PPP Liquidity Facility
+
+## ACCT_LC0047
+
+- In 25 of 35 quarters; missing 2017-12 to 2020-03.
+- Carried in `FS220N.txt`: 2020-06 to 2026-06.
+- One description throughout:
+  - 2020-06 to 2026-06: Small Business Administration Paycheck Protection Program loans | Small Business Administration Paycheck Protection Program loans pledged as collateral to the Federal Reserve Bank PPP Liquidity Facility
+
+## ACCT_NW0004
+
+- In 14 of 35 quarters; missing 2017-12 to 2022-12.
+- Carried in `FS220R.txt`: 2023-03 to 2026-06.
+- One description throughout:
+  - 2023-03 to 2026-06: CECL Transition Provision (as determined under 702.703(c)) | CECL Transition Provision (as determined under 702.703(c))
+
 ## ACCT_041B
 
 - In 35 of 35 quarters.
@@ -173,48 +218,91 @@ meaning changed (a break in the series) or only the wording.
 - One description throughout:
   - 2017-12 to 2026-06: Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f. | Amount of Real Estate Loans Outstanding that will contractually refinance, reprice or mature within the next 5 years and that are not reported in Sect 4, line 1.f. or 2.f.
 
-## ACCT_010A
+## ACCT_521
 
 - In 35 of 35 quarters.
-- Carried in `fs220A.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
-- Carried in `FS220A.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- Carried in `fs220.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
 - One description throughout:
-  - 2017-12 to 2026-06: Average of Daily Assets over the calendar quarter | Average Daily Assets over the calendar quarter
+  - 2017-12 to 2026-06: Interest Rate of Unsecured Credit Card Loans | Rate of Unsecured Credit Card Loans amount.
 
-## ACCT_010B
+## ACCT_522
 
 - In 35 of 35 quarters.
-- Carried in `fs220A.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
-- Carried in `FS220A.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- Carried in `fs220.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
 - One description throughout:
-  - 2017-12 to 2026-06: Average of the three month-end balances over the calendar quarter | Average of the three month end balances over the calendar quarter
+  - 2017-12 to 2026-06: Interest Rate of All Other Unsecured Loans/Lines of Credit | Rate of All Other Unsecured Loans (other than credit cards) amount.
 
-## ACCT_010C
+## ACCT_523
 
 - In 35 of 35 quarters.
-- Carried in `fs220A.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
-- Carried in `FS220A.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- Carried in `fs220.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
 - One description throughout:
-  - 2017-12 to 2026-06: The average of the current and three preceding quarter-end balances | Average of previous four quarter-end balances
+  - 2017-12 to 2026-06: Interest Rate of New Vehicle Loans | Rate of New Vehicle Loans amount.
 
-## ACCT_LC0047
+## ACCT_524
 
-- In 25 of 35 quarters; missing 2017-12 to 2020-03.
-- Carried in `FS220N.txt`: 2020-06 to 2026-06.
+- In 35 of 35 quarters.
+- Carried in `fs220.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
 - One description throughout:
-  - 2020-06 to 2026-06: Small Business Administration Paycheck Protection Program loans | Small Business Administration Paycheck Protection Program loans pledged as collateral to the Federal Reserve Bank PPP Liquidity Facility
+  - 2017-12 to 2026-06: Interest Rate of Used Vehicle Loans | Rate of Used Vehicle Loans amount.
 
-## ACCT_NW0004
+## ACCT_563A
 
-- In 14 of 35 quarters; missing 2017-12 to 2022-12.
-- Carried in `FS220R.txt`: 2023-03 to 2026-06.
+- In 35 of 35 quarters.
+- Carried in `fs220L.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220L.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
 - One description throughout:
-  - 2023-03 to 2026-06: CECL Transition Provision (as determined under 702.703(c)) | CECL Transition Provision (as determined under 702.703(c))
+  - 2017-12 to 2026-06: Interest Rate of Total Loans/Lines of Credit Secured by 1st Lien 1-4 Family Residential Properties | Interest Rate of Total Loans/Lines of Credit Secured by 1st Lien 1-4 Family Residential Properties
 
-## ACCT_NW0010
+## ACCT_879A4
 
-- In 25 of 35 quarters; missing 2017-12 to 2020-03.
-- Carried in `FS220N.txt`: 2020-06 to 2026-06.
+- In 35 of 35 quarters.
+- Carried in `fs220D.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220D.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
 - One description throughout:
-  - 2020-06 to 2026-06: Total Assets excluding SBA PPP loans pledged as collateral to the FRB PPP Liquidity Facility | Total Assets excluding SBA PPP loans pledged as collateral to the FRB PPP Liquidity Facility
+  - 2017-12 to 2026-06: No Cost Share Drafts | No Cost Share Drafts
+
+## ACCT_879C1
+
+- In 35 of 35 quarters.
+- Carried in `fs220D.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220D.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- One description throughout:
+  - 2017-12 to 2026-06: Bilingual Services | Bilingual Services
+
+## ACCT_879D1
+
+- In 35 of 35 quarters.
+- Carried in `fs220D.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220D.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- One description throughout:
+  - 2017-12 to 2026-06: Credit Builder | Credit Builder
+
+## ACCT_879D9
+
+- In 35 of 35 quarters.
+- Carried in `fs220D.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220D.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- **2 descriptions**:
+  - 2017-12 to 2019-12: Payday Alternative Loans (PAL loans) (FCU Only) | Payday Alternative Loans (PAL loans) (FCU Only)
+  - 2020-03 to 2026-06: Payday Alternative Loans (PAL loans) (FCU Only) | Payday Alternative Loans (PALs I) (FCU Only)
+
+## ACCT_PP0034
+
+- In 11 of 35 quarters; missing 2017-12 to 2023-09.
+- Carried in `FS220D.txt`: 2023-12 to 2026-06.
+- One description throughout:
+  - 2023-12 to 2026-06: Does the CU offer an ATM Network that is surcharge free? | Does the CU offer an ATM Network that is surcharge free?
+
+## ACCT_566
+
+- In 35 of 35 quarters.
+- Carried in `fs220C.txt`: 2017-12 to 2018-03, 2018-12 to 2019-09.
+- Carried in `FS220C.txt`: 2018-06 to 2018-09, 2019-12 to 2026-06.
+- One description throughout:
+  - 2017-12 to 2026-06: Number of credit union branches (include the main office if member services are conducted at that location) | Number of credit union branches (include the main office if member services are conducted at that location)
 

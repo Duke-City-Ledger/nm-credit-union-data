@@ -45,6 +45,19 @@ def _sum(*xs: float | None) -> float | None:
     return None if any(x is None for x in xs) else sum(xs)
 
 
+def _rate(x: float | None) -> float | None:
+    """A rate stored times 100. 0 means not offered or not reported, so it's None."""
+    if x is None or x == 0:
+        return None
+    return round2(x / 100)
+
+
+def _yes(x: float | None) -> bool | None:
+    if x is None:
+        return None
+    return x == 1
+
+
 def _dollars(x: float | None) -> int | None:
     return None if x is None else int(round(x))
 
@@ -74,7 +87,20 @@ SIMPLE: dict[str, tuple[tuple[str, ...], Callable[[Accounts], object]]] = {
         lambda a: {"balance": _dollars(a["ACCT_691C1"]), "guaranteed": _dollars(a["ACCT_691C2"])},
     ),
     "members": (("ACCT_083",), lambda a: _dollars(a["ACCT_083"])),
+    # Offered loan rates, stored times 100. 0 is "not offered or not reported", never 0%.
+    "rate_credit_card": (("ACCT_521",), lambda a: _rate(a["ACCT_521"])),
+    "rate_new_auto": (("ACCT_523",), lambda a: _rate(a["ACCT_523"])),
+    "rate_used_auto": (("ACCT_524",), lambda a: _rate(a["ACCT_524"])),
+    "rate_mortgage": (("ACCT_563A",), lambda a: _rate(a["ACCT_563A"])),
+    "rate_unsecured": (("ACCT_522",), lambda a: _rate(a["ACCT_522"])),
+    # Yes/no answers from the credit union's NCUA profile.
+    "free_checking": (("ACCT_879A4",), lambda a: _yes(a["ACCT_879A4"])),
+    "bilingual": (("ACCT_879C1",), lambda a: _yes(a["ACCT_879C1"])),
+    "credit_builder": (("ACCT_879D1",), lambda a: _yes(a["ACCT_879D1"])),
+    "payday_alternative": (("ACCT_879D9",), lambda a: _yes(a["ACCT_879D9"])),
+    "surcharge_free_atm": (("ACCT_PP0034",), lambda a: _yes(a["ACCT_PP0034"])),
 }
+RATES = ("rate_credit_card", "rate_new_auto", "rate_used_auto", "rate_mortgage", "rate_unsecured")
 NCO_ACCOUNTS = ("ACCT_550", "ACCT_551", "ACCT_025B")
 
 

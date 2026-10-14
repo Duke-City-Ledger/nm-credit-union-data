@@ -752,6 +752,350 @@
         "equivalent": null,
         "checked_instead": "A count. Raw zip, 2026-06: 808 98,817; 61559 872; 66143 2,418; 9566 5,035; 62783 9,911."
       }
+    },
+    {
+      "id": "rate_credit_card",
+      "label": "Credit card rate",
+      "plain_words": "What it charges on a credit card.",
+      "formula": "ACCT_521 / 100",
+      "units": "percent",
+      "scaling": "Stored as the percent times 100. A 0 means the product isn't offered or wasn't reported: null, printed \"Not offered or not reported,\" never 0%.",
+      "accounts": [
+        {
+          "account": "ACCT_521",
+          "role": "value",
+          "table": [
+            "FS220.TXT"
+          ],
+          "quarters": {
+            "from": "2017-12",
+            "to": "2026-06",
+            "count": 35
+          },
+          "ncua_name": "Interest Rate of Unsecured Credit Card Loans",
+          "ncua_description": "Rate of Unsecured Credit Card Loans amount.",
+          "form": "Schedule A, Section 1, Item 1, interest rate column",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), pp. 50, 51",
+          "units": "percent x 100",
+          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
+        }
+      ],
+      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
+      "fpr": {
+        "equivalent": null,
+        "checked_instead": "No FPR equivalent. One day's most common offered rate, self-reported. Checked by reading the raw zip for the hand-check credit unions and comparing with each credit union's own posted rates (a later date, so a plausibility check, not a match)."
+      },
+      "note": "0 for 14 of 37 in 2026-06: most of them don't offer cards."
+    },
+    {
+      "id": "rate_new_auto",
+      "label": "New car loan rate",
+      "plain_words": "What it charges on a new car loan.",
+      "formula": "ACCT_523 / 100",
+      "units": "percent",
+      "scaling": "Stored as the percent times 100. A 0 means the product isn't offered or wasn't reported: null, printed \"Not offered or not reported,\" never 0%.",
+      "accounts": [
+        {
+          "account": "ACCT_523",
+          "role": "value",
+          "table": [
+            "FS220.TXT"
+          ],
+          "quarters": {
+            "from": "2017-12",
+            "to": "2026-06",
+            "count": 35
+          },
+          "ncua_name": "Interest Rate of New Vehicle Loans",
+          "ncua_description": "Rate of New Vehicle Loans amount.",
+          "form": "Schedule A, Section 1, Item 5, interest rate column",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), pp. 50, 52",
+          "units": "percent x 100",
+          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
+        }
+      ],
+      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
+      "fpr": {
+        "equivalent": null,
+        "checked_instead": "No FPR equivalent. One day's most common offered rate, self-reported. Checked by reading the raw zip for the hand-check credit unions and comparing with each credit union's own posted rates (a later date, so a plausibility check, not a match)."
+      }
+    },
+    {
+      "id": "rate_used_auto",
+      "label": "Used car loan rate",
+      "plain_words": "What it charges on a used car loan.",
+      "formula": "ACCT_524 / 100",
+      "units": "percent",
+      "scaling": "Stored as the percent times 100. A 0 means the product isn't offered or wasn't reported: null, printed \"Not offered or not reported,\" never 0%.",
+      "accounts": [
+        {
+          "account": "ACCT_524",
+          "role": "value",
+          "table": [
+            "FS220.TXT"
+          ],
+          "quarters": {
+            "from": "2017-12",
+            "to": "2026-06",
+            "count": 35
+          },
+          "ncua_name": "Interest Rate of Used Vehicle Loans",
+          "ncua_description": "Rate of Used Vehicle Loans amount.",
+          "form": "Schedule A, Section 1, Item 6, interest rate column",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), pp. 50, 53",
+          "units": "percent x 100",
+          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
+        }
+      ],
+      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
+      "fpr": {
+        "equivalent": null,
+        "checked_instead": "No FPR equivalent. One day's most common offered rate, self-reported. Checked by reading the raw zip for the hand-check credit unions and comparing with each credit union's own posted rates (a later date, so a plausibility check, not a match)."
+      }
+    },
+    {
+      "id": "rate_mortgage",
+      "label": "Mortgage rate",
+      "plain_words": "What it charges on a first mortgage on a home.",
+      "formula": "ACCT_563A / 100",
+      "units": "percent",
+      "scaling": "Stored as the percent times 100. A 0 means the product isn't offered or wasn't reported: null, printed \"Not offered or not reported,\" never 0%.",
+      "accounts": [
+        {
+          "account": "ACCT_563A",
+          "role": "value",
+          "table": [
+            "FS220L.TXT"
+          ],
+          "quarters": {
+            "from": "2017-12",
+            "to": "2026-06",
+            "count": 35
+          },
+          "ncua_name": "Interest Rate of Total Loans/Lines of Credit Secured by 1st Lien 1-4 Family Residential Properties",
+          "ncua_description": "Interest Rate of Total Loans/Lines of Credit Secured by 1st Lien 1-4 Family Residential Properties",
+          "form": "Schedule A, Section 1, Item 9 (first lien, 1- to 4-family), interest rate column",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), pp. 50, 53",
+          "units": "percent x 100",
+          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
+        }
+      ],
+      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
+      "fpr": {
+        "equivalent": null,
+        "checked_instead": "No FPR equivalent. One day's most common offered rate, self-reported. Checked by reading the raw zip for the hand-check credit unions and comparing with each credit union's own posted rates (a later date, so a plausibility check, not a match)."
+      },
+      "note": "ACCT_563 (total first mortgage) is 0 for every credit union in every quarter checked; 563A carries the rate in every quarter from 2017-12."
+    },
+    {
+      "id": "rate_unsecured",
+      "label": "Personal loan rate",
+      "plain_words": "What it charges on an unsecured personal loan.",
+      "formula": "ACCT_522 / 100",
+      "units": "percent",
+      "scaling": "Stored as the percent times 100. A 0 means the product isn't offered or wasn't reported: null, printed \"Not offered or not reported,\" never 0%.",
+      "accounts": [
+        {
+          "account": "ACCT_522",
+          "role": "value",
+          "table": [
+            "FS220.TXT"
+          ],
+          "quarters": {
+            "from": "2017-12",
+            "to": "2026-06",
+            "count": 35
+          },
+          "ncua_name": "Interest Rate of All Other Unsecured Loans/Lines of Credit",
+          "ncua_description": "Rate of All Other Unsecured Loans (other than credit cards) amount.",
+          "form": "Schedule A, Section 1, Item 4 (all other unsecured), interest rate column",
+          "instructions": "Call Report Form 5300 Instructions, effective Sept. 30, 2025 (https://ncua.gov/files/publications/regulations/call-report-instructions-september-2025.pdf), pp. 50, 52",
+          "units": "percent x 100",
+          "note": "The instructions: \"Report loan interest rates being offered as of the reporting period for each loan category. Report the actual rate (report 6.5 for 6.5%). If more than one rate applies, report the most common rate in each loan category.\" The files store it times 100: 664 is 6.64%."
+        }
+      ],
+      "caveat": "The most common rate the credit union offered on the last day of the quarter, as it reported it. Not a quote, and not the rate a given borrower gets, which depends on credit and term.",
+      "fpr": {
+        "equivalent": null,
+        "checked_instead": "No FPR equivalent. One day's most common offered rate, self-reported. Checked by reading the raw zip for the hand-check credit unions and comparing with each credit union's own posted rates (a later date, so a plausibility check, not a match)."
+      }
+    },
+    {
+      "id": "free_checking",
+      "label": "Checking with no monthly fee",
+      "plain_words": "Offers a checking account with no monthly maintenance fee.",
+      "formula": "ACCT_879A4 == 1",
+      "units": "yes/no",
+      "scaling": "1 is yes, 0 is no, blank is not reported (null).",
+      "accounts": [
+        {
+          "account": "ACCT_879A4",
+          "role": "value",
+          "table": [
+            "FS220D.TXT"
+          ],
+          "quarters": {
+            "from": "2017-12",
+            "to": "2026-06",
+            "count": 35
+          },
+          "ncua_name": "No Cost Share Drafts",
+          "ncua_description": "No Cost Share Drafts",
+          "form": "Form 4501A (Profile), Credit Union Programs and Member Services, \"No Cost Share Drafts\"",
+          "instructions": "Credit Union Profile Form 4501A Instructions, December 2024 (https://ncua.gov/files/publications/regulations/credit-union-profile-form-instructions-4501A-december-2024.pdf), p. 48",
+          "units": "1 or 0"
+        }
+      ],
+      "caveat": "The credit union's own answer on its NCUA profile, as of the quarter. It says the service exists, not its terms.",
+      "fpr": {
+        "equivalent": null,
+        "checked_instead": "A yes/no answer, read off the raw zip for the hand-check credit unions."
+      },
+      "note": "The instructions: \"Share draft accounts with no monthly maintenance fee.\""
+    },
+    {
+      "id": "bilingual",
+      "label": "Service in other languages",
+      "plain_words": "Offers disclosures, information or service in a language other than English.",
+      "formula": "ACCT_879C1 == 1",
+      "units": "yes/no",
+      "scaling": "1 is yes, 0 is no, blank is not reported (null).",
+      "accounts": [
+        {
+          "account": "ACCT_879C1",
+          "role": "value",
+          "table": [
+            "FS220D.TXT"
+          ],
+          "quarters": {
+            "from": "2017-12",
+            "to": "2026-06",
+            "count": 35
+          },
+          "ncua_name": "Bilingual Services",
+          "ncua_description": "Bilingual Services",
+          "form": "Form 4501A (Profile), Credit Union Programs and Member Services, \"Bilingual Services\"",
+          "instructions": "Credit Union Profile Form 4501A Instructions, December 2024 (https://ncua.gov/files/publications/regulations/credit-union-profile-form-instructions-4501A-december-2024.pdf), p. 49",
+          "units": "1 or 0"
+        }
+      ],
+      "caveat": "The credit union's own answer on its NCUA profile, as of the quarter. It says the service exists, not its terms.",
+      "fpr": {
+        "equivalent": null,
+        "checked_instead": "A yes/no answer, read off the raw zip for the hand-check credit unions."
+      },
+      "note": "The instructions: \"Offer disclosures, information, and/or member services in additional languages other than English.\" Which languages isn't reported."
+    },
+    {
+      "id": "credit_builder",
+      "label": "Credit builder loans",
+      "plain_words": "Offers a loan meant to build credit.",
+      "formula": "ACCT_879D1 == 1",
+      "units": "yes/no",
+      "scaling": "1 is yes, 0 is no, blank is not reported (null).",
+      "accounts": [
+        {
+          "account": "ACCT_879D1",
+          "role": "value",
+          "table": [
+            "FS220D.TXT"
+          ],
+          "quarters": {
+            "from": "2017-12",
+            "to": "2026-06",
+            "count": 35
+          },
+          "ncua_name": "Credit Builder",
+          "ncua_description": "Credit Builder",
+          "form": "Form 4501A (Profile), Credit Union Programs and Member Services, \"Credit Builder\"",
+          "instructions": "Credit Union Profile Form 4501A Instructions, December 2024 (https://ncua.gov/files/publications/regulations/credit-union-profile-form-instructions-4501A-december-2024.pdf), p. 48",
+          "units": "1 or 0"
+        }
+      ],
+      "caveat": "The credit union's own answer on its NCUA profile, as of the quarter. It says the service exists, not its terms.",
+      "fpr": {
+        "equivalent": null,
+        "checked_instead": "A yes/no answer, read off the raw zip for the hand-check credit unions."
+      },
+      "note": "The instructions name it without defining it."
+    },
+    {
+      "id": "payday_alternative",
+      "label": "Payday alternative loans",
+      "plain_words": "Offers NCUA's small-dollar payday alternative loans (federal credit unions only).",
+      "formula": "ACCT_879D9 == 1",
+      "units": "yes/no",
+      "scaling": "1 is yes, 0 is no, blank is not reported (null).",
+      "accounts": [
+        {
+          "account": "ACCT_879D9",
+          "role": "value",
+          "table": [
+            "FS220D.TXT"
+          ],
+          "quarters": {
+            "from": "2017-12",
+            "to": "2026-06",
+            "count": 35
+          },
+          "ncua_name": "Payday Alternative Loans (PAL loans) (FCU Only)",
+          "ncua_description": "Payday Alternative Loans (PALs I) (FCU Only)",
+          "form": "Form 4501A (Profile), Credit Union Programs and Member Services, payday alternative loans",
+          "instructions": "Credit Union Profile Form 4501A Instructions, December 2024 (https://ncua.gov/files/publications/regulations/credit-union-profile-form-instructions-4501A-december-2024.pdf), p. 45",
+          "units": "1 or 0",
+          "wording_history": [
+            {
+              "from": "2017-12",
+              "to": "2019-12",
+              "text": "Payday Alternative Loans (PAL loans) (FCU Only) | Payday Alternative Loans (PAL loans) (FCU Only)"
+            },
+            {
+              "from": "2020-03",
+              "to": "2026-06",
+              "text": "Payday Alternative Loans (PAL loans) (FCU Only) | Payday Alternative Loans (PALs I) (FCU Only)"
+            }
+          ]
+        }
+      ],
+      "caveat": "The credit union's own answer on its NCUA profile, as of the quarter. It says the service exists, not its terms.",
+      "fpr": {
+        "equivalent": null,
+        "checked_instead": "A yes/no answer, read off the raw zip for the hand-check credit unions."
+      },
+      "note": "Federal credit unions only (12 CFR 701.21(c)(7)); a state-chartered credit union answers no or leaves it blank."
+    },
+    {
+      "id": "surcharge_free_atm",
+      "label": "Surcharge-free ATM network",
+      "plain_words": "Belongs to an ATM network members can use without a surcharge.",
+      "formula": "ACCT_PP0034 == 1",
+      "units": "yes/no",
+      "scaling": "1 is yes, 0 is no, blank is not reported (null).",
+      "accounts": [
+        {
+          "account": "ACCT_PP0034",
+          "role": "value",
+          "table": [
+            "FS220D.TXT"
+          ],
+          "quarters": {
+            "from": "2023-12",
+            "to": "2026-06",
+            "count": 11
+          },
+          "ncua_name": "Does the CU offer an ATM Network that is surcharge free?",
+          "ncua_description": "Does the CU offer an ATM Network that is surcharge free?",
+          "form": "Form 4501A (Profile), Credit Union Programs and Member Services, Item 3",
+          "instructions": "Credit Union Profile Form 4501A Instructions, December 2024 (https://ncua.gov/files/publications/regulations/credit-union-profile-form-instructions-4501A-december-2024.pdf), p. 49",
+          "units": "1 or 0"
+        }
+      ],
+      "caveat": "The credit union's own answer on its NCUA profile, as of the quarter. It says the service exists, not its terms.",
+      "fpr": {
+        "equivalent": null,
+        "checked_instead": "A yes/no answer, read off the raw zip for the hand-check credit unions."
+      },
+      "note": "Asked from 2023-12; null before. The network's name is in ACCT_PP0035, free text as reported."
     }
   ],
   "not_used": [
