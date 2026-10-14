@@ -1,0 +1,53 @@
+National Credit Union Administration
+Financial Performance Report - Key Ratios 5
+
+ 
+
+ 
+
+ 
+
+ 
+
+Quarterly, Ending Jun 2026
+Charter	Name	Street	City	State	ZipCode	Region
+808	U.S. EAGLE	P.O. Box 129	Albuquerque	NM	87103	3
+
+
+Line Item	Jun-2025	Sep-2025	Dec-2025	Mar-2026	Jun-2026	Peer Avg.
+CAPITAL ADEQUACY RATIOS
+Net Worth/Total Assets for Prompt Corrective Action6	9.09	9.25	8.53	8.11	7.80	11.34
+Net Worth + ALLL or ACL / Total Assets + ALLL or ACL	11.77	11.84	11.40	10.92	10.87	11.97
+Risk-Based Capital Ratio	15.68	15.62	14.70	14.31	14.24	14.99
+GAAP Equity / Total Assets	7.90	8.38	7.72	7.25	6.86	10.28
+Loss Coverage	69.31	73.48	80.00	62.52	56.86	12.39
+ASSET QUALITY RATIOS
+Delinquent Loans / Total Loans	6.64	7.26	7.08	6.63	6.91	0.83
+Delinquent Loans / Net Worth	51.79	56.62	61.06	58.35	64.06	5.78
+Rolling 12 Month Net Charge Offs / Average Loans2	0.93	1.01	0.99	1.16	0.96	0.58
+Delinquent Loans + Net Charge-Offs / Average Loans	7.44	8.17	8.05	7.79	7.90	1.43
+Other Non-Performing Assets / Total Assets	0.12	0.12	0.09	0.20	0.18	0.04
+MANAGEMENT RATIOS
+Net Worth Growth1	-26.51	-17.18	-20.08	-10.83	-16.20	7.98
+Share Growth1	2.28	-0.54	-0.37	9.59	2.72	6.15
+Loan Growth1	-4.72	-2.73	-0.57	-2.85	-2.43	5.70
+Asset Growth1	0.26	-1.46	-1.56	9.15	0.96	5.78
+Investment Growth1	32.69	11.69	-0.44	52.02	13.95	6.01
+Membership Growth1	2.25	2.61	2.57	5.16	2.32	2.68
+EARNINGS RATIOS
+Net Income / Average Assets (ROAA)1	-2.78	-1.81	-2.07	-0.91	-1.38	0.83
+Net Income - Extraordinary Gains(Losses) / Average Assets1	-2.85	-1.85	-2.07	-0.96	-1.36	0.77
+Non-Interest Expense / Average Assets1	4.14	4.26	4.77	4.71	5.09	3.40
+PLLL or Credit Loss Expense / Average Assets1	3.90	2.73	2.44	1.14	1.22	0.44
+LIQUIDITY
+Total Loans / Total Assets	71.00	72.11	73.54	71.39	72.30	71.10
+Cash + Short-Term Investments / Assets3	9.05	7.91	6.89	10.45	10.33	11.52
+SENSITIVITY TO MARKET RISK
+Est. NEV Tool Post Shock Ratio4	N/A, Assets>$500M	N/A, Assets>$500M	N/A, Assets>$500M	N/A, Assets>$500M	N/A, Assets>$500M	N/A
+Est. NEV Tool Post Shock Sensitivity4	N/A, Assets>$500M	N/A, Assets>$500M	N/A, Assets>$500M	N/A, Assets>$500M	N/A, Assets>$500M	N/A
+1 Exam date ratios are annualized.
+2 Exam Date Ratio is based on Net Charge Offs over the last 12 months.
+3 This ratio relies on maturity distribution of investments reported per 5300 instructions. Thus, the maturity distribution could be based on the repricing interval and not the actual maturity of the investment.
+4 Applicable for credit unions under $500 million.
+5 The FPR was recently reorganized resulting in some ratios being relocated but not deleted. The ratio you are looking for may be on the Historical Ratios tab.
+6 The net worth ratio is calculated according to NCUA regulations part 702. This ratio considers optional assets elections, SBA PPP loans pledged as collateral to the FRB PPP Lending Facility, and the CECL Transition Provision, as applicable. The calculation may be found on Schedule G of the Call Report, see Account 998.

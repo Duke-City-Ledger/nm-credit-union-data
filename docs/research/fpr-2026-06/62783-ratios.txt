@@ -1,0 +1,60 @@
+National Credit Union Administration
+Financial Performance Report - Historical Ratios 3
+
+ 
+
+ 
+
+ 
+
+ 
+
+Quarterly, Ending Jun 2026
+Charter	Name	Street	City	State	ZipCode	Region
+62783	ARTESIA	PO Box 406	Artesia	NM	88210	3
+
+
+Line Item	Jun-2025	Sep-2025	Dec-2025	Mar-2026	Jun-2026	Peer Avg.
+CAPITAL ADEQUACY
+Has the credit union adopted ASC topic 326 (CECL)?	Yes	Yes	Yes	Yes	Yes	N/A
+Effective date of adoption of ASC Topic 326 - Financial Instruments - Credit Losses (CECL)	01/01/2023	01/01/2023	01/01/2023	01/01/2023	01/01/2023	N/A
+Net Worth / Total Assets excluding CECL Transition Provision3	16.02	16.65	16.20	16.12	16.12	12.36
+Net Worth / PCA Opt. Total Assets (if applies)	N/A	N/A	N/A	N/A	N/A	N/A
+Net Worth/Total Assets excluding one time adjustment to undivided earnings for the adoption of ASC topic 326 (CECL)1	N/A	N/A	N/A	N/A	N/A	N/A
+Solvency Evaluation (Estimated)	119.16	120.04	119.39	119.37	119.34	113.82
+Classified Assets (Estimated) / Net Worth	4.88	4.98	4.91	4.79	4.70	4.80
+ASSET QUALITY
+Net Charge-Offs / Average Loans*	0.27	0.19	0.23	0.45	0.36	0.46
+Fair (Market) HTM Invest Value/Book Value HTM Invest.	0.00	0.00	0.00	0.00	0.00	98.15
+Accum Unreal G/L On AFS/Cost Of AFS	0.00	0.00	0.00	0.00	0.00	-4.92
+Delinquent Loans / Assets	0.38	0.43	0.27	0.56	0.72	0.55
+EARNINGS
+Gross Income/Average Assets*	6.22	6.28	6.16	6.02	6.02	6.02
+Yield on Average Loans	6.10	6.20	6.25	6.21	6.24	6.17
+Yield on Average Investments*	4.44	4.24	3.75	3.59	3.55	3.54
+Fee & Other Op.Income / Avg. Assets*	0.85	0.87	0.86	0.83	0.84	1.08
+Cost of Funds / Avg. Assets*	1.91	1.86	1.80	1.70	1.73	1.22
+Net Margin / Avg. Assets*	4.31	4.42	4.36	4.31	4.29	4.81
+Net Interest Margin/Avg. Assets*	3.46	3.55	3.50	3.48	3.45	3.73
+Non-Interest Expense / Gross Income	44.61	43.72	44.00	67.59	52.32	61.89
+Fixed Assets & Foreclosed & Repossessed Assets / Total Assets	1.60	1.69	1.59	1.54	1.51	2.48
+Net Operating Exp. /Avg. Assets*	2.01	1.97	1.94	3.32	2.39	3.18
+ASSET / LIABILITY MANAGEMENT
+Net Long-Term Assets / Total Assets	22.29	22.56	22.15	22.70	23.25	32.24
+Reg. Shares / Total Shares. & Borrowings	39.95	39.49	39.05	37.55	37.91	38.04
+Total Loans / Total Shares	88.77	88.86	84.21	82.17	79.94	71.55
+Total Shares, Dep. & Borrs / Earning Assets	89.40	88.76	88.97	88.83	88.69	93.90
+Reg Shares + Share Drafts / Total Shares & Borrs	55.56	53.68	54.02	52.90	52.45	58.03
+Borrowings / Total Shares & Net Worth	0.00	0.00	0.00	0.00	0.00	1.07
+PRODUCTIVITY
+Members / Potential Members	97.34	97.62	97.78	98.44	99.11	12.22
+Borrowers / Members	39.79	39.34	38.77	37.71	37.45	96.29
+Members / Full-Time Empl.	512.32	513.79	514.63	492.20	521.63	341.95
+Avg. Shares Per Member	$13,414	$13,247	$13,971	$14,239	$14,531	$14,479
+Avg. Loan Balance	$29,927	$29,926	$30,344	$31,027	$31,017	$19,659
+Salary And Benefits / Full-Time Empl.*	$123,915	$117,451	$116,808	$227,030	$162,125	$92,416
+* Annualization factor: March = 4; June = 2; September =4/3; December = 1 (or no annualizing)
+**Percentile Rankings and Peer Average Ratios are produced once a quarter after the data collection is complete. Subsequent corrections to data after this date are not reflected in the Percentile Rank or the Peer Average Ratios until the next cycle. Percentile Rankings show where the credit union stands in relation to its peers in key areas of performance. To arrive at the percentile ranking, all data for all credit unions in a peer group are arranged in order from highest (100) to lowest (0) value. The percentile ranking assigned to the credit union is a measure of the relative standing of that ratio in the entire range of ratios. A high or low ranking does not imply good or bad performance. However, when reviewed in relation to other available data, users may draw conclusions as to the importance of the percentile rank to the credit union's financial performance.
+1/ For periods after March 2020, Assets in the denominator excludes Small Business Administration Paycheck Protection Program loans pledged as collateral to the Federal Reserve Bank Paycheck Protection Program Lending Facility.
+2/ The FPR was recently reorganized resulting in some ratios being relocated but not deleted. The ratio you are looking for may be on the Key Ratios tab.
+3/ For periods after March 2020, Assets in the denominator excludes Small Business Administration Paycheck Protection Program loans pledged as collateral to the Federal Reserve Bank Paycheck Protection Program Lending Facility. For periods after December 2022, the CECL Transition Provision is not included in either Net Worth or Assets.

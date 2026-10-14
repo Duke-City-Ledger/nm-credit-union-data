@@ -1,0 +1,53 @@
+National Credit Union Administration
+Financial Performance Report - Key Ratios 5
+
+ 
+
+ 
+
+ 
+
+ 
+
+Quarterly, Ending Jun 2026
+Charter	Name	Street	City	State	ZipCode	Region
+9566	EDDY	901 W Pierce St.	Carlsbad	NM	88220-5268	3
+
+
+Line Item	Jun-2025	Sep-2025	Dec-2025	Mar-2026	Jun-2026	Peer Avg.
+CAPITAL ADEQUACY RATIOS
+Net Worth/Total Assets for Prompt Corrective Action6	18.12	18.58	18.38	18.11	18.34	13.79
+Net Worth + ALLL or ACL / Total Assets + ALLL or ACL	19.16	19.74	19.43	19.03	19.12	14.19
+Risk-Based Capital Ratio	N/A	N/A	N/A	N/A	N/A	N/A
+GAAP Equity / Total Assets	18.03	18.49	18.38	18.11	18.34	13.40
+Loss Coverage	10.02	13.44	18.14	10.28	9.42	9.74
+ASSET QUALITY RATIOS
+Delinquent Loans / Total Loans	0.00	0.09	0.43	0.05	0.00	0.95
+Delinquent Loans / Net Worth	0.00	0.33	1.60	0.18	0.01	4.22
+Rolling 12 Month Net Charge Offs / Average Loans2	0.55	0.50	0.08	0.39	0.92	0.47
+Delinquent Loans + Net Charge-Offs / Average Loans	0.55	0.59	0.52	0.44	0.92	1.42
+Other Non-Performing Assets / Total Assets	0.09	0.16	0.00	0.00	0.00	0.03
+MANAGEMENT RATIOS
+Net Worth Growth1	5.87	5.85	4.79	3.90	3.55	5.89
+Share Growth1	10.75	4.88	5.52	11.37	5.31	4.21
+Loan Growth1	14.46	9.13	5.09	8.13	15.83	0.19
+Asset Growth1	9.16	4.60	5.08	9.93	4.00	4.32
+Investment Growth1	-12.11	-18.16	-2.93	10.87	-48.18	11.62
+Membership Growth1	5.26	5.83	4.31	2.68	4.80	-0.06
+EARNINGS RATIOS
+Net Income / Average Assets (ROAA)1	1.06	1.06	0.97	0.71	0.00	0.76
+Net Income - Extraordinary Gains(Losses) / Average Assets1	1.06	1.06	0.97	0.71	1.10	0.75
+Non-Interest Expense / Average Assets1	4.37	4.46	4.69	5.39	4.97	3.75
+PLLL or Credit Loss Expense / Average Assets1	0.70	0.74	0.58	0.33	0.36	0.27
+LIQUIDITY
+Total Loans / Total Assets	71.02	71.54	69.27	68.97	73.29	52.55
+Cash + Short-Term Investments / Assets3	17.22	15.71	17.08	14.69	8.73	22.58
+SENSITIVITY TO MARKET RISK
+Est. NEV Tool Post Shock Ratio4	18.22	18.68	18.71	18.33	18.35	12.07
+Est. NEV Tool Post Shock Sensitivity4	-5.92	-5.86	-5.08	-5.85	-7.11	-20.12
+1 Exam date ratios are annualized.
+2 Exam Date Ratio is based on Net Charge Offs over the last 12 months.
+3 This ratio relies on maturity distribution of investments reported per 5300 instructions. Thus, the maturity distribution could be based on the repricing interval and not the actual maturity of the investment.
+4 Applicable for credit unions under $500 million.
+5 The FPR was recently reorganized resulting in some ratios being relocated but not deleted. The ratio you are looking for may be on the Historical Ratios tab.
+6 The net worth ratio is calculated according to NCUA regulations part 702. This ratio considers optional assets elections, SBA PPP loans pledged as collateral to the FRB PPP Lending Facility, and the CECL Transition Provision, as applicable. The calculation may be found on Schedule G of the Call Report, see Account 998.
