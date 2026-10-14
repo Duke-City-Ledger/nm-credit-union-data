@@ -1,0 +1,53 @@
+National Credit Union Administration
+Financial Performance Report - Key Ratios 5
+
+ 
+
+ 
+
+ 
+
+ 
+
+Quarterly, Ending Jun 2026
+Charter	Name	Street	City	State	ZipCode	Region
+66143	CHAVES COUNTY SCHOOL EMPLOYEES	1401 N Lea Ave	Roswell	NM	88201	3
+
+
+Line Item	Jun-2025	Sep-2025	Dec-2025	Mar-2026	Jun-2026	Peer Avg.
+CAPITAL ADEQUACY RATIOS
+Net Worth/Total Assets for Prompt Corrective Action6	19.92	20.83	21.22	20.55	20.88	15.08
+Net Worth + ALLL or ACL / Total Assets + ALLL or ACL	20.05	20.96	21.35	20.68	21.00	15.52
+Risk-Based Capital Ratio	N/A	N/A	N/A	N/A	N/A	N/A
+GAAP Equity / Total Assets	19.92	20.83	21.22	20.55	20.88	14.88
+Loss Coverage	0.12	0.13	0.23	0.11	0.09	9.31
+ASSET QUALITY RATIOS
+Delinquent Loans / Total Loans	0.00	0.02	0.00	0.00	0.00	1.16
+Delinquent Loans / Net Worth	0.00	0.02	0.00	0.00	0.00	4.40
+Rolling 12 Month Net Charge Offs / Average Loans2	0.09	0.09	0.08	0.05	0.00	0.47
+Delinquent Loans + Net Charge-Offs / Average Loans	0.09	0.10	0.08	0.05	0.00	1.60
+Other Non-Performing Assets / Total Assets	0.00	0.00	0.00	0.00	0.00	0.02
+MANAGEMENT RATIOS
+Net Worth Growth1	12.11	12.89	12.46	10.63	11.02	4.50
+Share Growth1	7.92	2.16	1.78	27.95	15.51	3.67
+Loan Growth1	3.54	1.84	3.74	-2.22	9.50	-3.04
+Asset Growth1	8.56	4.18	3.81	24.12	14.51	3.62
+Investment Growth1	10.04	4.48	3.57	34.93	15.92	12.86
+Membership Growth1	-0.58	-0.11	-0.21	-1.32	0.17	-1.56
+EARNINGS RATIOS
+Net Income / Average Assets (ROAA)1	2.33	2.49	2.39	2.19	2.26	0.65
+Net Income - Extraordinary Gains(Losses) / Average Assets1	2.33	2.49	2.39	2.19	2.26	0.64
+Non-Interest Expense / Average Assets1	1.91	1.95	2.00	2.00	1.99	3.78
+PLLL or Credit Loss Expense / Average Assets1	0.00	0.01	0.00	0.04	0.03	0.25
+LIQUIDITY
+Total Loans / Total Assets	29.38	29.59	30.09	28.22	29.38	49.03
+Cash + Short-Term Investments / Assets3	39.11	35.95	33.47	35.32	34.24	28.61
+SENSITIVITY TO MARKET RISK
+Est. NEV Tool Post Shock Ratio4	20.82	21.55	21.88	21.34	21.57	14.44
+Est. NEV Tool Post Shock Sensitivity4	-3.37	-4.37	-4.66	-3.94	-4.54	-12.62
+1 Exam date ratios are annualized.
+2 Exam Date Ratio is based on Net Charge Offs over the last 12 months.
+3 This ratio relies on maturity distribution of investments reported per 5300 instructions. Thus, the maturity distribution could be based on the repricing interval and not the actual maturity of the investment.
+4 Applicable for credit unions under $500 million.
+5 The FPR was recently reorganized resulting in some ratios being relocated but not deleted. The ratio you are looking for may be on the Historical Ratios tab.
+6 The net worth ratio is calculated according to NCUA regulations part 702. This ratio considers optional assets elections, SBA PPP loans pledged as collateral to the FRB PPP Lending Facility, and the CECL Transition Provision, as applicable. The calculation may be found on Schedule G of the Call Report, see Account 998.
