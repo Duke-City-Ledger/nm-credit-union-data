@@ -23,7 +23,7 @@ quarter's build.
 | members | 0 | 229 | 4,803 | 253,495 | 299,021 | 0 | 0 |
 | net_worth_ratio (%) | 0 | 2.40 | 12.44 | 26.56 | 33.77 | 0 | 0 |
 | delinquency (%) | 0 | 0.00 | 0.49 | 5.94 | 9.94 | 79 | 0 |
-| net_charge_offs_12m (%) | 123 | -0.84 | 0.27 | 3.21 | 3.90 | 52 | 84 |
+| net_charge_offs_12m (%) | 123 | -0.84 | 0.27 | 3.07 | 3.90 | 52 | 86 |
 | commercial_share (%) | 0 | 0.00 | 0.00 | 22.55 | 26.33 | 825 | 0 |
 | cre_reset_5y (%) | 1,109 | 0.00 | 0.00 | 100 | 100 | 163 | 0 |
 | home_reset_5y (%) | 843 | 0.00 | 0.70 | 89.66 | 100 | 245 | 0 |
@@ -47,7 +47,7 @@ The nulls are all accounted for:
   draw a band.
 - **The reset shares are bimodal**, piled at 0 and 100. Small balances flip between them. That's what the swing
   flags show (Jemez Valley, Cuba, Four Corners).
-- **Negative charge-offs (84)** are recoveries bigger than charge-offs over the year. That's allowed by the
+- **Negative charge-offs (86)** are recoveries bigger than charge-offs over the year. That's allowed by the
   definition (dictionary.json), and the page should say so where one shows.
 - **Net worth extremes.** At the top, Telco Roswell was at 30 to 34% in 2023-12 to 2024-12 before it left the
   roster in 2025-03. At the bottom, Fort Bayard was at 2.40% in 2025-03 and left after it; Southwest was at
