@@ -20,9 +20,11 @@ SECOND = ROOT / "second" / "out"
 
 
 def num(value):
-    """Exact, sign-keeping form: 2.50 and 2.5 agree; -0.0 and 0.00 don't."""
+    """Exact, sign-keeping form: 2.50 and 2.5 agree; -0.0 and 0.00 don't. Yes/no as true/false."""
     if value in ("", None):
         return None
+    if str(value).lower() in ("true", "false"):
+        return str(value).lower()
     return str(Decimal(str(value)).normalize())
 
 

@@ -39,9 +39,12 @@ def main() -> int:
         name, desc = h["descriptions"][-1]["text"].split(" | ", 1)
         if (a["ncua_name"], a["ncua_description"]) != (name, desc):
             errors.append(f"{measure}: {code} wording differs from AcctDesc.txt {h['descriptions'][-1]['to']}")
+        # The quarters an account is in the data files, which is what the build reads. NCUA's
+        # dictionary can list an account before its column ships (879D10: 2020-03 against 2021-12).
         q = a["quarters"]
-        if (q["from"], q["to"], q["count"]) != (h["quarters"][0], h["quarters"][-1], len(h["quarters"])):
-            errors.append(f"{measure}: {code} quarters differ from the history")
+        in_data = sorted({x for qs in h["tables"].values() for x in qs})
+        if not in_data or (q["from"], q["to"], q["count"]) != (in_data[0], in_data[-1], len(in_data)):
+            errors.append(f"{measure}: {code} quarters differ from the quarters it is in the data")
         recorded = [(w["from"], w["to"], w["text"]) for w in a.get("wording_history", [])]
         actual = [(w["from"], w["to"], w["text"]) for w in h["descriptions"]]
         if (len(actual) > 1 or recorded) and recorded != actual:

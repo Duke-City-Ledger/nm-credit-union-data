@@ -33,6 +33,10 @@ class CreditUnion:
     measures: dict[str, object] = field(default_factory=dict)
     # Measures set to None because the filing gives an impossible value: id -> reason.
     withheld: dict[str, str] = field(default_factory=dict)
+    # Why a measure is None when the reason isn't a missing account: id -> words for the page.
+    notes: dict[str, str] = field(default_factory=dict)
+    # Its offices from NCUA's branch file, every state (the page filters to New Mexico).
+    sites: list[dict] = field(default_factory=list)
 
 
 @dataclass
@@ -55,6 +59,10 @@ def _rows(z: zipfile.ZipFile, name: str):
     text = raw.decode("cp1252", errors="replace")
     for row in csv.DictReader(io.StringIO(text)):
         yield {k.strip().upper(): (v if v is None else v.strip()) for k, v in row.items() if k}
+
+
+def _flag(text: str | None) -> bool | None:
+    return {"1": True, "0": False}.get(text)
 
 
 def _number(text: str | None) -> float | None:
@@ -108,6 +116,35 @@ def read_quarter(zip_path: Path, quarter: str, accounts: set[str]) -> Quarter:
                     cu.accounts[a] = v
                     if v is None:
                         cu.not_reported.append(a)
+
+    # NCUA's site list: every office, with county, hours and what it offers.
+    site_file = names.get("credit union branch information.txt")
+    if site_file:
+        with zipfile.ZipFile(zip_path) as z:
+            for r in _rows(z, site_file):
+                cu = roster.get(r["CU_NUMBER"])
+                if cu is None:
+                    continue
+                cu.sites.append({
+                    "name": r.get("SITENAME", ""),
+                    "type": r.get("SITETYPENAME", ""),
+                    "main_office": r.get("MAINOFFICE", "").lower() == "yes",
+                    "address": " ".join(x for x in (r.get("PHYSICALADDRESSLINE1", ""), r.get("PHYSICALADDRESSLINE2", "")) if x),
+                    "city": r.get("PHYSICALADDRESSCITY", ""),
+                    "state": r.get("PHYSICALADDRESSSTATECODE", ""),
+                    "zip": r.get("PHYSICALADDRESSPOSTALCODE", ""),
+                    # NCUA renamed the column in 2025-03.
+                    "county": r.get("PHYSICALADDRESSCOUNTYNAME2") or r.get("PHYSICALADDRESSCOUNTYNAME") or None,
+                    "phone": r.get("PHONENUMBER") or None,
+                    # Hours and the three services are in the file from 2020-12 only. A column the
+                    # file lacks, or a value other than 0 or 1, is None (not reported), never "no".
+                    "hours": r.get("HOURSOFOPERATION") or None,
+                    "member_services": _flag(r.get("MEMBERSERVICES")),
+                    "atm": _flag(r.get("ATM")),
+                    "drive_through": _flag(r.get("DRIVETHRU")),
+                })
+        for cu in roster.values():
+            cu.sites.sort(key=lambda x: (not x["main_office"], x["state"] != STATE, x["county"] or "", x["city"], x["name"]))
 
     for cu in roster.values():
         for a in accounts:

@@ -20,6 +20,7 @@ from ncua_data import download as package_download
 
 from . import checks
 from .measures import (
+    RATES,
     ROOT,
     SIMPLE,
     all_accounts,
@@ -128,12 +129,19 @@ def build(offline: bool = False, through: str | None = None) -> dict:
             for mid, (_, fn) in SIMPLE.items():
                 cu.measures[mid] = fn(cu.accounts)
             cu.measures["net_charge_offs_12m"] = net_charge_offs_12m(history[cu.cu_number], q)
+            for mid in RATES:
+                (code,), _ = SIMPLE[mid]
+                if cu.accounts[code] == 0:
+                    # A 0 rate comes with no loans of that kind outstanding (2019-06, 2021-06,
+                    # 2026-06 checked): the instructions ask for loans that have a balance.
+                    cu.notes[mid] = "No rate reported: none of these loans on its books"
         flags += checks.roster(q, quarter.credit_unions, previous.credit_unions if previous else None, quarter.uninsured)
         for cu in cus:
             before = previous.credit_unions.get(cu.cu_number) if previous else None
             flags += checks.filing(q, cu, before, latest=quarter is quarters[-1])
-            if cu.not_reported:
-                flags.append(checks.flag(q, cu, "not reported", f"blank in the filing: {', '.join(sorted(cu.not_reported))}"))
+            blanks = sorted(set(cu.not_reported) - checks.BLANK_EXPECTED)
+            if blanks:
+                flags.append(checks.flag(q, cu, "not reported", f"blank in the filing: {', '.join(blanks)}"))
         for cu in cus:
             checks.withhold(cu)
 
@@ -149,15 +157,18 @@ def build(offline: bool = False, through: str | None = None) -> dict:
                 "peers": {m: peers(cu, cus, m) for m in PEER_MEASURES},
                 "not_reported": sorted(cu.not_reported),
                 "withheld": cu.withheld,
+                "notes": cu.notes,
+                "sites": cu.sites,
                 "accounts": {k: (None if v is None else int(v) if float(v).is_integer() else v)
                              for k, v in sorted(cu.accounts.items())},
             })
             for mid, v in cu.measures.items():
+                why = cu.withheld.get(mid) or cu.notes.get(mid) or ""
                 if isinstance(v, dict):
                     for part, x in v.items():
-                        rows.append([q, cu.cu_number, cu.name, mid, part, x])
+                        rows.append([q, cu.cu_number, cu.name, mid, part, x, why])
                 else:
-                    rows.append([q, cu.cu_number, cu.name, mid, "", v])
+                    rows.append([q, cu.cu_number, cu.name, mid, "", v, why])
         doc = {
             "quarter": q,
             "source": quarter.url,
@@ -171,8 +182,10 @@ def build(offline: bool = False, through: str | None = None) -> dict:
 
     with open(OUT / "credit-unions.csv", "w", newline="") as fh:
         w = csv.writer(fh)
-        w.writerow(["quarter", "cu_number", "name", "measure", "part", "value"])
-        w.writerows([[*r[:5], "" if r[5] is None else r[5]] for r in rows])
+        w.writerow(["quarter", "cu_number", "name", "measure", "part", "value", "note"])
+        # true/false as in the JSON, not Python's True/False.
+        cell = lambda v: "" if v is None else str(v).lower() if isinstance(v, bool) else v
+        w.writerows([[*r[:5], cell(r[5]), r[6]] for r in rows])
     (OUT / "flags.json").write_text(json.dumps(flags, indent=1) + "\n")
     manifest = {
         "built": date.today().isoformat(),

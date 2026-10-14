@@ -1,5 +1,5 @@
 {
- "built": "2026-10-13",
+ "built": "2026-10-14",
  "credit": "Duke City Ledger, from NCUA call reports",
  "quarters": [
   "2018-03",
@@ -41,7 +41,7 @@
  "credit_unions_latest": 37,
  "package": "bnovarini/ncua-data-analysis@a9fcbe50a8e4f6c7cc7599dd74c42b7fa205473d",
  "dictionary_checked": "2026-10-13",
- "flags": 65,
+ "flags": 73,
  "peer_minimum": 5,
  "rules": {
   "missing_account": "An account a quarter doesn't have is not available: null, drawn as a gap, never 0.",

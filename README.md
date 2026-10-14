@@ -9,9 +9,11 @@ Credit for the data: "Duke City Ledger, from NCUA call reports." NCUA's own data
 
 `out/` (committed; this is what the site installs):
 
-- `quarters/YYYY-MM.json`: for each New Mexico credit union that quarter, its accounts as filed, its measures, and
-  how it compares with the other New Mexico credit unions in its NCUA peer group (median and middle half, itself
-  left out, shown only when there are at least five others).
+- `quarters/YYYY-MM.json`: for each New Mexico credit union that quarter, its accounts as filed, its measures
+  (safety and lending figures, the loan rates it offered, and yes/no services such as checking with no monthly fee), how it
+  compares with the other New Mexico credit unions in its NCUA peer group (median and middle half, itself left
+  out, shown only when there are at least five others), and its offices from NCUA's branch file (county, hours,
+  ATM, drive-through).
 - `credit-unions.csv`: every figure, one row each.
 - `flags.json`: what the automated checks found, for a person to read before a quarter is released.
 - `manifest.json`: the quarters, the package pin, and the dictionary's check date.
@@ -44,7 +46,11 @@ ours: the package stores only non-zero values, and here an account a quarter doe
 - Percents are rounded to two decimals, halves up, as NCUA's Financial Performance Report shows them.
 - Net charge-offs are NCUA's 12-month figure, not year-to-date annualized. They need the December and the
   quarter a year earlier, so 2018-03 to 2018-09 are null; 2018-12 uses 2017-12, read for that and not published.
-- A share the filing makes impossible (over 100%) is withheld, with the reason in `withheld`, and flagged.
+- A share the filing makes impossible (over 100%), or a loan rate outside 1% to 30%, is withheld, with the reason
+  in `withheld`, and flagged.
+- Loan rates are the most common rate each credit union offered on the quarter's last day, as it reported it: not
+  a quote. A reported 0 (none of those loans on its books) is null, with the reason in `notes`. Savings rates and fees aren't in
+  NCUA's public data (`docs/research/consumer-data-in-call-reports.md`).
 - Figures are as each quarter's zip has them today. NCUA can revise past quarters.
 
 ## Research

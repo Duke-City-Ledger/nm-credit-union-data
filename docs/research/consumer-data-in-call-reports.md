@@ -12,19 +12,21 @@ last day of the quarter, self-reported. The files store it times 100 (`664` is 6
 
 | Product | Account | Table | Non-zero, 2026-06 | New Mexico, 2026-06 |
 |---|---|---|---|---|
-| Credit card | `ACCT_521` | FS220 | 2,821 | 23 of 37 (0 means no cards offered) |
+| Credit card | `ACCT_521` | FS220 | 2,821 | 23 of 37 (the other 14 report 0: no card loans on their books) |
 | New vehicle | `ACCT_523` | FS220 | 4,137 | 37 of 37, median 5.74% |
 | Used vehicle | `ACCT_524` | FS220 | 4,178 | 37 of 37 |
-| First-lien 1-4 family (mortgage) | `ACCT_563A` | FS220L | 3,214 | 25 of 37; account from 2022-03 |
-| Junior lien (home equity) | `ACCT_562A` | FS220L | 3,016 | from 2022-03 |
+| First-lien 1-4 family (mortgage) | `ACCT_563A` | FS220L | 3,214 | 25 of 37; every quarter from 2017-12 |
+| Junior lien (home equity) | `ACCT_562A` | FS220L | 3,016 | not checked |
 | Other unsecured | `ACCT_522` | FS220 | 4,263 | 37 of 37 |
 
-`ACCT_563` (total first mortgage) is zero for everyone from 2022; `563A` replaced it. Before 2022 a mortgage rate
-needs the older account (not checked yet).
+`ACCT_563` (total first mortgage) is zero for every credit union in every quarter checked, 2017-12 on; `563A`
+carries the rate throughout (3,804 non-zero in 2019-06). Corrected 2026-10-14: an earlier version said `563A`
+started in 2022.
 
 Caveats a reader needs: one day's rate, the most common one, not the rate a given borrower gets (that depends
-on credit score and term); self-reported and not audited by NCUA. A 0 means the product isn't offered or wasn't
-reported, never a 0% rate, and must print as "not offered/not reported," never 0%.
+on credit score and term); self-reported and not audited by NCUA. A 0 comes with no loans of that kind on the
+books (checked for every New Mexico filing, 2017-12 to 2026-06), never a 0% rate: the page prints "No rate
+reported: none of these loans on its books," never 0%.
 
 ## Savings, checking and certificate rates: no
 
