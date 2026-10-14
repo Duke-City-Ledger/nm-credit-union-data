@@ -69,7 +69,7 @@ def quantile(values: list[float], p: str) -> float:
     lo = int(pos)
     hi = min(lo + 1, len(xs) - 1)
     exact = xs[lo] + (xs[hi] - xs[lo]) * (pos - lo)
-    return float(exact.quantize(Decimal("0.01"), rounding="ROUND_HALF_UP"))
+    return float(exact.quantize(Decimal("0.01"), rounding="ROUND_HALF_UP")) + 0.0
 
 
 def peers(cu, cus: list, measure: str) -> dict:

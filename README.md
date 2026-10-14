@@ -29,6 +29,8 @@ uv run scripts/check_dictionary.py               # dictionary against the accoun
 uv run scripts/account_history.py                # rereads every quarter's AcctDesc.txt
 uv run ncua-data --data .cache/package ingest && uv run scripts/crosscheck_package.py
                                                  # our reading against the package's, eight accounts
+(cd second && python3 second.py) && uv run scripts/compare_second.py
+                                                 # the engine against the blind second calculation
 ```
 
 Zips are cached in `.cache/` (gitignored). Downloading and the quarter list come from
@@ -49,4 +51,9 @@ ours: the package stores only non-zero values, and here an account a quarter doe
 
 `docs/research/` holds the evidence for the dictionary. `docs/account-history.md` tracks every account through
 every quarter. `docs/profile.md` profiles the output. `docs/package-crosscheck.md` compares our reading with the
-package's.
+package's. `docs/second-calculation.md` compares the engine with `second/`, an independent calculation written
+blind by a different model (OpenAI's Codex) from the spec, the dictionary and NCUA's documents only. Its brief is
+`second/TASK.md` and its judgment calls are `second/NOTES.md`. The one place the two differ by design: `second/`
+keeps a credit union's filings from before it moved its headquarters into New Mexico, so its first year's
+12-month charge-offs exist, where the engine reads New Mexico filings only. No credit union moved in from 2018
+to 2026; if one does, the comparison flags it.

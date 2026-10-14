@@ -31,7 +31,8 @@ def all_accounts(dictionary: dict) -> set[str]:
 
 def round2(x: float) -> float:
     """Two decimals, halves rounded up, as NCUA rounds (Python's round() goes to even)."""
-    return float(Decimal(repr(x)).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
+    out = float(Decimal(repr(x)).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
+    return out + 0.0  # -0.0 (a tiny negative rounded away) becomes 0.0
 
 
 def _pct(num: float | None, den: float | None) -> float | None:
