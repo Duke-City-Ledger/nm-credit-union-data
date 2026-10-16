@@ -35,6 +35,11 @@ uv run ncua-data --data .cache/package ingest && uv run scripts/crosscheck_packa
                                                  # the engine against the blind second calculation
 ```
 
+Each Monday, `.github/workflows/quarterly.yml` checks NCUA for the next quarter. When it's out, the workflow builds
+it, runs the tests and the dictionary check, and opens a pull request listing that quarter's flags and any credit
+union that stopped reporting. A person reads the flags, merges, and tags a release. If a check fails, the run fails
+and no pull request opens. Run it by hand from the Actions tab.
+
 Zips are cached in `.cache/` (gitignored). Downloading and the quarter list come from
 [bnovarini/ncua-data-analysis](https://github.com/bnovarini/ncua-data-analysis), pinned to one commit. Reading is
 ours: the package stores only non-zero values, and here an account a quarter doesn't have stays null, never 0.

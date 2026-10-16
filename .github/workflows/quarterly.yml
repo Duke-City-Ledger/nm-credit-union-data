@@ -1,0 +1,93 @@
+# Each Monday, look for a new NCUA quarter. When one is out, build it, run the checks and open a pull request
+# listing that quarter's flags. A person reads the flags, merges, then tags a release for the site to pin.
+name: Quarterly update
+
+on:
+  schedule:
+    - cron: '17 15 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: quarterly
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Is a new quarter out?
+        id: next
+        run: |
+          latest=$(jq -r '.quarters[-1]' out/manifest.json)
+          next=$(date -u -d "${latest}-01 +3 months" +%Y-%m)
+          echo "quarter=$next" >> "$GITHUB_OUTPUT"
+          url="https://ncua.gov/files/publications/analysis/call-report-data-${next}.zip"
+          code=$(curl -s -o /dev/null -w '%{http_code}' -I -L "$url")
+          echo "$url: $code"
+          if [ "$code" != "200" ]; then
+            echo "Not out yet."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          elif git ls-remote --exit-code --heads origin "quarter-$next" >/dev/null; then
+            echo "A pull request branch for $next already exists."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - if: steps.next.outputs.ready == 'true'
+        uses: astral-sh/setup-uv@v6
+
+      - if: steps.next.outputs.ready == 'true'
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: ncua-zips-${{ steps.next.outputs.quarter }}
+          restore-keys: ncua-zips-
+
+      - name: Build and check
+        if: steps.next.outputs.ready == 'true'
+        run: |
+          uv run nmcu build
+          test "$(jq -r '.quarters[-1]' out/manifest.json)" = "${{ steps.next.outputs.quarter }}"
+          uv run python -m unittest discover -s tests
+          uv run scripts/account_history.py --to "${{ steps.next.outputs.quarter }}"
+          uv run scripts/check_dictionary.py
+
+      - name: Open the pull request
+        if: steps.next.outputs.ready == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          Q: ${{ steps.next.outputs.quarter }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898949+github-actions[bot]@users.noreply.github.com'
+          git switch -c "quarter-$Q"
+          git add out data/account-history.json docs/account-history.md
+          git commit -m "Quarter $Q from NCUA's call report data"
+          git push -u origin "quarter-$Q"
+          {
+            echo "NCUA's $Q call report data is out. Built and checked: unit tests, account history, dictionary."
+            echo
+            echo "Read every flag below before merging. Then tag a release so the site can pin it."
+            echo
+            echo "| Credit union | Check | Detail |"
+            echo "| --- | --- | --- |"
+            jq -r --arg q "$Q" '.[] | select(.quarter == $q) | "| \(.name) | \(.check) | \(.detail) |"' out/flags.json
+            echo
+            gone=$(jq -r --slurpfile new "out/quarters/$Q.json" --arg q "$Q" -n '
+              ($new[0].credit_unions | map(.cu_number)) as $now
+              | input.credit_unions | map(select(.cu_number as $n | $now | index($n) | not)) | .[].name' \
+              "out/quarters/$(jq -r '.quarters[-2]' out/manifest.json).json")
+            if [ -n "$gone" ]; then
+              echo "**Stopped reporting this quarter** (find the reason in NCUA's merger and liquidation notices before the site says why):"
+              echo "$gone" | sed 's/^/- /'
+            fi
+          } > body.md
+          gh pr create --title "Quarter $Q" --body-file body.md
