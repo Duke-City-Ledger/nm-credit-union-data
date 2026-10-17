@@ -1,5 +1,7 @@
 # Each Monday, look for a new NCUA quarter. When one is out, build it, run the checks and open a pull request
 # listing that quarter's flags. A person reads the flags, merges, then tags a release for the site to pin.
+# The build runs with read-only rights; only the publish job, which runs no project code, can push.
+# Actions are pinned to commit SHAs (the tag each was cut from is in the comment).
 name: Quarterly update
 
 on:
@@ -8,22 +10,29 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
-  pull-requests: write
+  contents: read
 
 concurrency:
   group: quarterly
   cancel-in-progress: false
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    permissions:
+      contents: read
+      pull-requests: read
+    outputs:
+      ready: ${{ steps.next.outputs.ready }}
+      quarter: ${{ steps.next.outputs.quarter }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Is a new quarter out?
         id: next
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           latest=$(jq -r '.quarters[-1]' out/manifest.json)
           next=$(date -u -d "${latest}-01 +3 months" +%Y-%m)
@@ -31,21 +40,23 @@ jobs:
           url="https://ncua.gov/files/publications/analysis/call-report-data-${next}.zip"
           code=$(curl -s -o /dev/null -w '%{http_code}' -I -L "$url")
           echo "$url: $code"
+          open=$(gh pr list --head "quarter-$next" --state open --json number -q 'length')
           if [ "$code" != "200" ]; then
             echo "Not out yet."
             echo "ready=false" >> "$GITHUB_OUTPUT"
-          elif git ls-remote --exit-code --heads origin "quarter-$next" >/dev/null; then
-            echo "A pull request branch for $next already exists."
+          elif [ "$open" != "0" ]; then
+            echo "A pull request for $next is already open."
             echo "ready=false" >> "$GITHUB_OUTPUT"
           else
+            # A branch left by a run that failed before its pull request opened is rebuilt, not skipped.
             echo "ready=true" >> "$GITHUB_OUTPUT"
           fi
 
       - if: steps.next.outputs.ready == 'true'
-        uses: astral-sh/setup-uv@v6
+        uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
 
       - if: steps.next.outputs.ready == 'true'
-        uses: actions/cache@v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: .cache
           key: ncua-zips-${{ steps.next.outputs.quarter }}
@@ -53,25 +64,22 @@ jobs:
 
       - name: Build and check
         if: steps.next.outputs.ready == 'true'
-        run: |
-          uv run nmcu build
-          test "$(jq -r '.quarters[-1]' out/manifest.json)" = "${{ steps.next.outputs.quarter }}"
-          uv run python -m unittest discover -s tests
-          uv run scripts/account_history.py --to "${{ steps.next.outputs.quarter }}"
-          uv run scripts/check_dictionary.py
-
-      - name: Open the pull request
-        if: steps.next.outputs.ready == 'true'
         env:
-          GH_TOKEN: ${{ github.token }}
           Q: ${{ steps.next.outputs.quarter }}
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898949+github-actions[bot]@users.noreply.github.com'
-          git switch -c "quarter-$Q"
-          git add out data/account-history.json docs/account-history.md
-          git commit -m "Quarter $Q from NCUA's call report data"
-          git push -u origin "quarter-$Q"
+          # Build through the next quarter only, so a run never jumps two quarters at once; a later
+          # Monday picks up the one after.
+          uv run nmcu build --through "$Q"
+          test "$(jq -r '.quarters[-1]' out/manifest.json)" = "$Q"
+          uv run python -m unittest discover -s tests
+          uv run scripts/account_history.py --to "$Q"
+          uv run scripts/check_dictionary.py --sync-quarters
+
+      - name: Write the pull request body
+        if: steps.next.outputs.ready == 'true'
+        env:
+          Q: ${{ steps.next.outputs.quarter }}
+        run: |
           {
             echo "NCUA's $Q call report data is out. Built and checked: unit tests, account history, dictionary."
             echo
@@ -81,7 +89,7 @@ jobs:
             echo "| --- | --- | --- |"
             jq -r --arg q "$Q" '.[] | select(.quarter == $q) | "| \(.name) | \(.check) | \(.detail) |"' out/flags.json
             echo
-            gone=$(jq -r --slurpfile new "out/quarters/$Q.json" --arg q "$Q" -n '
+            gone=$(jq -r --slurpfile new "out/quarters/$Q.json" -n '
               ($new[0].credit_unions | map(.cu_number)) as $now
               | input.credit_unions | map(select(.cu_number as $n | $now | index($n) | not)) | .[].name' \
               "out/quarters/$(jq -r '.quarters[-2]' out/manifest.json).json")
@@ -89,5 +97,49 @@ jobs:
               echo "**Stopped reporting this quarter** (find the reason in NCUA's merger and liquidation notices before the site says why):"
               echo "$gone" | sed 's/^/- /'
             fi
-          } > body.md
-          gh pr create --title "Quarter $Q" --body-file body.md
+          } > "$RUNNER_TEMP/body.md"
+          # Only the build's own outputs travel to the publish job; nothing else under out/ can.
+          mkdir -p "$RUNNER_TEMP/publish"
+          cp --parents out/manifest.json out/flags.json out/credit-unions.csv out/quarters/*.json \
+            data/account-history.json data/dictionary.json docs/account-history.md "$RUNNER_TEMP/publish/"
+          cp "$RUNNER_TEMP/body.md" "$RUNNER_TEMP/publish/"
+
+      - if: steps.next.outputs.ready == 'true'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: quarter
+          path: ${{ runner.temp }}/publish
+          retention-days: 7
+
+  publish:
+    needs: build
+    if: needs.build.outputs.ready == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: quarter
+          path: ${{ runner.temp }}/publish
+
+      - name: Open the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          Q: ${{ needs.build.outputs.quarter }}
+        run: |
+          src="$RUNNER_TEMP/publish"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898949+github-actions[bot]@users.noreply.github.com'
+          git switch -c "quarter-$Q"
+          cp -r "$src/out" "$src/data" "$src/docs" .
+          git add out/manifest.json out/flags.json out/credit-unions.csv out/quarters \
+            data/account-history.json data/dictionary.json docs/account-history.md
+          git commit -m "Quarter $Q from NCUA's call report data"
+          # Replaces a branch a failed run left behind; an open pull request already stopped the build job.
+          git push --force -u origin "quarter-$Q"
+          gh pr create --title "Quarter $Q" --body-file "$src/body.md"

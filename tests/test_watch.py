@@ -92,6 +92,28 @@ class Signals(unittest.TestCase):
         del data["2025-06"]
         self.assertNotIn("members shrinking", {s["signal"] for s in watch.signals(data, QS, QS[-1], "1")})
 
+    def test_gap_in_files_is_not_consecutive(self):
+        # A quarter file missing from the middle must not let five calendar quarters read as four in a row.
+        data = build(members=[1000, 950, 900, 880, 850])
+        del data["2025-09"]
+        qs = [q for q in QS if q in data]
+        self.assertNotIn("members shrinking", {s["signal"] for s in watch.signals(data, qs, qs[-1], "1")})
+
+    def test_short_history_keeps_current_value(self):
+        # The first quarter a credit union appears still gets the level check.
+        data = {"2026-03": build(net_worth_ratio=[7.5] * 5)["2026-03"]}
+        self.assertIn("net worth ratio near 7%", {s["signal"] for s in watch.signals(data, ["2026-03"], "2026-03", "1")})
+
+    def test_shift_by_calendar(self):
+        self.assertEqual(watch.shift("2026-03", -1), "2025-12")
+        self.assertEqual(watch.shift("2025-12", 1), "2026-03")
+        self.assertEqual(watch.shift("2026-06", -4), "2025-06")
+
+    def test_json_inside_repo_refused(self):
+        root = Path(__file__).resolve().parent.parent
+        self.assertTrue(watch.inside(root / "out" / "leads.json", root))
+        self.assertFalse(watch.inside(Path("/tmp/leads.json"), root))
+
     def test_small_credit_union_marked(self):
         data = build(total_assets=[9e6] * 5, net_worth_ratio=[7.5] * 5)
         items = watch.watch(data, QS, QS[-1])

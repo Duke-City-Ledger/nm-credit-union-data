@@ -4,7 +4,7 @@ Reads out/quarters/*.json and prints a Markdown section. With --json PATH it als
 The list is never committed to this public repo: the desk runs it and keeps the output private.
 Never printed on the public site. Wording is neutral: figures and quarters, no grades.
 
-Run: uv run scripts/watch.py [--quarter YYYY-MM] [--all]
+Run: uv run scripts/watch.py [--quarter YYYY-MM] [--backtest] [--json PATH outside the repo]
 """
 
 from __future__ import annotations
@@ -55,15 +55,20 @@ def load(qdir: Path = QDIR) -> dict[str, dict[str, dict]]:
     return out
 
 
+def shift(q: str, k: int) -> str:
+    """The quarter k quarters after q (before, when k is negative), by the calendar."""
+    y, m = map(int, q.split("-"))
+    i = y * 4 + (m // 3 - 1) + k
+    return f"{i // 4}-{(i % 4 + 1) * 3:02d}"
+
+
 def series(data: dict, quarters: list[str], q: str, cu: str, measure: str, n: int) -> list:
-    """The last n+1 values of a measure ending at q (oldest first). None where missing or the
-    credit union or quarter is absent. Needs n+1 consecutive quarters in the list."""
-    i = quarters.index(q)
-    if i < n:
-        return [None] * (n + 1)
+    """The values of a measure for the n+1 calendar quarters ending at q (oldest first). None where the
+    quarter has no file, the credit union didn't report, or the measure is missing, so a gap in the data
+    never reads as consecutive quarters, and the current value stands even when the history is short."""
     vals = []
-    for k in quarters[i - n : i + 1]:
-        rec = data.get(k, {}).get(cu)
+    for k in range(-n, 1):
+        rec = data.get(shift(q, k), {}).get(cu)
         v = rec["measures"].get(measure) if rec else None
         vals.append(v if isinstance(v, (int, float)) and not isinstance(v, bool) else None)
     return vals
@@ -103,13 +108,13 @@ def signals(data: dict, quarters: list[str], q: str, cu: str) -> list[dict]:
         if line - near <= now <= line + near and now >= T["nwr_floor"]:
             add("net worth ratio near 7%", f"Net worth ratio is {pct(now)} in {qlabel(q)}, within 1 point of the 7% level NCUA calls well capitalized.")
         if nw[0] is not None and nw[0] - now >= T["nwr_drop"] and now < T["nwr_drop_below"]:
-            add("net worth ratio down", f"Net worth ratio fell from {pct(nw[0])} in {qlabel(quarters[quarters.index(q) - 4])} to {pct(now)} in {qlabel(q)}, down {nw[0] - now:.2f} points over four quarters.")
+            add("net worth ratio down", f"Net worth ratio fell from {pct(nw[0])} in {qlabel(shift(q, -4))} to {pct(now)} in {qlabel(q)}, down {nw[0] - now:.2f} points over four quarters.")
 
     # Delinquency
     dq = series(data, quarters, q, cu, "delinquency", T["delq_rise_quarters"])
     if has_all(dq) and all(b > a for a, b in zip(dq, dq[1:])) and dq[-1] - dq[0] >= T["delq_rise_total"]:
         n = T["delq_rise_quarters"]
-        add("late loans rising", f"Loans 60 or more days late rose {n} quarters in a row, from {pct(dq[0])} in {qlabel(quarters[quarters.index(q) - n])} to {pct(dq[-1])} in {qlabel(q)}.")
+        add("late loans rising", f"Loans 60 or more days late rose {n} quarters in a row, from {pct(dq[0])} in {qlabel(shift(q, -n))} to {pct(dq[-1])} in {qlabel(q)}.")
     if dq[-1] is not None:
         med = (rec.get("peers") or {}).get("delinquency", {}).get("median")
         if med is not None and med > 0 and dq[-1] >= T["delq_peer_multiple"] * med and dq[-1] >= T["delq_peer_floor"]:
@@ -122,23 +127,23 @@ def signals(data: dict, quarters: list[str], q: str, cu: str) -> list[dict]:
         if med is not None and med > 0 and nc[-1] >= T["nco_peer_multiple"] * med and nc[-1] >= T["nco_peer_floor"]:
             add("charge-offs above peers", f"Loans written off, net of recoveries, over 12 months were {pct(nc[-1])} of loans in {qlabel(q)}, {nc[-1] / med:.1f} times the {pct(med)} peer-group median.")
         elif nc[0] is not None and nc[-1] - nc[0] >= T["nco_yoy_rise"] and nc[-1] >= T["nco_yoy_floor"]:
-            add("charge-offs up", f"Loans written off, net of recoveries, over 12 months rose from {pct(nc[0])} in {qlabel(quarters[quarters.index(q) - 4])} to {pct(nc[-1])} in {qlabel(q)}.")
+            add("charge-offs up", f"Loans written off, net of recoveries, over 12 months rose from {pct(nc[0])} in {qlabel(shift(q, -4))} to {pct(nc[-1])} in {qlabel(q)}.")
 
     # Loan mix
     cs = series(data, quarters, q, cu, "commercial_share", 4)
     if cs[0] is not None and cs[-1] is not None and cs[-1] - cs[0] >= T["commercial_rise"]:
-        add("business loans growing fast", f"Business loans rose from {pct(cs[0])} of all loans in {qlabel(quarters[quarters.index(q) - 4])} to {pct(cs[-1])} in {qlabel(q)}.")
+        add("business loans growing fast", f"Business loans rose from {pct(cs[0])} of all loans in {qlabel(shift(q, -4))} to {pct(cs[-1])} in {qlabel(q)}.")
     for key, label in (("cre_reset_5y", "commercial real estate"), ("home_reset_5y", "home")):
         rs = series(data, quarters, q, cu, key, 4)
         if rs[0] is not None and rs[-1] is not None and rs[-1] >= T["reset_level"] and rs[-1] - rs[0] >= T["reset_rise"]:
-            add(f"{label} loans resetting soon", f"{pct(rs[-1])} of its {label} loans can change rate or come due within five years in {qlabel(q)}, up from {pct(rs[0])} in {qlabel(quarters[quarters.index(q) - 4])}.")
+            add(f"{label} loans resetting soon", f"{pct(rs[-1])} of its {label} loans can change rate or come due within five years in {qlabel(q)}, up from {pct(rs[0])} in {qlabel(shift(q, -4))}.")
 
     # Shrinking
     n = T["decline_quarters"]
     for key, label, fmt in (("members", "Members", lambda v: f"{v:,.0f}"), ("total_assets", "Total assets", money)):
         s = series(data, quarters, q, cu, key, n)
         if has_all(s) and all(b < a for a, b in zip(s, s[1:])) and s[0] > 0 and (s[0] - s[-1]) / s[0] * 100 >= T["decline_total"]:
-            add(f"{label.lower()} shrinking", f"{label} fell {n} quarters in a row, from {fmt(s[0])} in {qlabel(quarters[quarters.index(q) - n])} to {fmt(s[-1])} in {qlabel(q)}, down {(s[0] - s[-1]) / s[0] * 100:.0f}%.")
+            add(f"{label.lower()} shrinking", f"{label} fell {n} quarters in a row, from {fmt(s[0])} in {qlabel(shift(q, -n))} to {fmt(s[-1])} in {qlabel(q)}, down {(s[0] - s[-1]) / s[0] * 100:.0f}%.")
     return out
 
 
@@ -198,6 +203,11 @@ def backtest(root: Path, data: dict, quarters: list[str]) -> int:
     return 0
 
 
+def inside(path: Path, root: Path) -> bool:
+    """True when path would land in the repository, where it could be committed to this public repo."""
+    return path.resolve().is_relative_to(root.resolve())
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--quarter")
@@ -214,6 +224,9 @@ def main(argv=None) -> int:
     if q not in data:
         print(f"No such quarter: {q}", file=sys.stderr)
         return 1
+    if a.json and inside(a.json, a.root):
+        print(f"{a.json} is inside the repository; the list stays private, so write it somewhere outside {a.root}", file=sys.stderr)
+        return 2
     items = watch(data, quarters, q)
     if a.json:
         a.json.write_text(json.dumps({"quarter": q, "items": items}, indent=2) + "\n")
