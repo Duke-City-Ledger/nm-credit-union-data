@@ -4,9 +4,10 @@ Fails if NCUA's wording or an account's quarters in the dictionary don't match w
 account history read from the zips, or if a formula names an account the dictionary doesn't
 list. Run after scripts/account-history.mjs: uv run scripts/check_dictionary.py
 
---sync-quarters first moves an account's quarters forward when the only change is that it is in newer
-quarters' data (same first quarter, no gap), the routine case when a new NCUA quarter is built, and
-rewrites data/dictionary.json. Anything else still fails.
+--sync-quarters first moves an account's quarters (and its current wording's end date) forward when the
+only change is that it is in newer, back-to-back quarters' data with the same first quarter and wording,
+the routine case when a new NCUA quarter is built, and rewrites data/dictionary.json. A gap, a new
+first quarter or new wording is not synced, so the check below still reports it.
 """
 
 import json
@@ -32,13 +33,35 @@ def sync_quarters(dictionary: dict, history: dict) -> int:
     return changed
 
 
+def next_quarter(q: str) -> str:
+    y, m = map(int, q.split("-"))
+    return f"{y + 1}-03" if m == 12 else f"{y}-{m + 3:02d}"
+
+
 def extend(a: dict, history: dict) -> int:
+    """Move one entry's quarters forward when its account is in newer, back-to-back quarters with the same
+    first quarter and the same wording. Anything else is left for the check to report."""
     if "see" in a or a["account"] not in history:
         return 0
-    q, in_data = a["quarters"], in_data_quarters(history[a["account"]])
+    h = history[a["account"]]
+    q, in_data = a["quarters"], in_data_quarters(h)
     newer = [x for x in in_data if x > q["to"]]
-    if not newer or not in_data or in_data[0] != q["from"] or len(in_data) != q["count"] + len(newer):
+    if not newer or in_data[0] != q["from"] or len(in_data) != q["count"] + len(newer):
         return 0
+    chain = [q["to"]] + newer
+    if any(next_quarter(x) != y for x, y in zip(chain, chain[1:])):
+        return 0
+    descs = h["descriptions"]
+    name, desc = descs[-1]["text"].split(" | ", 1)
+    if (a.get("ncua_name"), a.get("ncua_description")) != (name, desc):
+        return 0
+    recorded = a.get("wording_history", [])
+    if recorded:
+        same_before = [(w["from"], w["to"], w["text"]) for w in recorded[:-1]] == [(w["from"], w["to"], w["text"]) for w in descs[:-1]]
+        last_same = (recorded[-1]["from"], recorded[-1]["text"]) == (descs[-1]["from"], descs[-1]["text"])
+        if len(recorded) != len(descs) or not same_before or not last_same:
+            return 0
+        recorded[-1]["to"] = descs[-1]["to"]
     q["to"], q["count"] = in_data[-1], len(in_data)
     return 1
 

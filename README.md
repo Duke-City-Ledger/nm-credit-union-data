@@ -37,10 +37,11 @@ uv run ncua-data --data .cache/package ingest && uv run scripts/crosscheck_packa
 
 Each Monday, `.github/workflows/quarterly.yml` checks NCUA for the next quarter. When it's out, the workflow builds
 through that quarter, runs the tests, moves each account's dictionary quarters forward
-(`check_dictionary.py --sync-quarters`, which still fails on any other change), and opens a pull request listing that
+and their current wording's end date (`check_dictionary.py --sync-quarters`; a gap, a new first quarter or new
+wording is left for the check to fail on), and opens a pull request listing that
 quarter's flags and any credit union that stopped reporting. A person reads the flags, merges, and tags a release.
 If a check fails, the run fails and no pull request opens; the next run tries again, even if a branch was left
-behind. When NCUA is two quarters ahead, each Monday adds one. The build runs with read-only rights and a separate
+behind. When NCUA is two quarters ahead, the next one is built the Monday after the first pull request merges. The build runs with read-only rights and a separate
 job pushes. Run it by hand from the Actions tab. It needs Settings, Actions, General, "Allow GitHub Actions to create
 and approve pull requests" switched on.
 
@@ -66,7 +67,7 @@ ours: the package stores only non-zero values, and here an account a quarter doe
 
 `uv run scripts/watch.py [--quarter YYYY-MM]` reads `out/quarters/` and prints a short list of credit unions whose
 figures moved in a way worth a reporter's time (`--json <path>` also writes them as JSON, and refuses a path inside
-this repository). The list itself is never
+this repository or the data root). The list itself is never
 committed here or put in a pull request: the Ledger's desk runs it and keeps it private. These are leads, not findings: never print them on a public page, and
 check every one against the filing and the credit union before it becomes a story. A credit union under $10 million in
 assets is still listed and marked "small credit union", because one loan can move its figures.

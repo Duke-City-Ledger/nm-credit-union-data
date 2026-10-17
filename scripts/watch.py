@@ -224,8 +224,8 @@ def main(argv=None) -> int:
     if q not in data:
         print(f"No such quarter: {q}", file=sys.stderr)
         return 1
-    if a.json and inside(a.json, a.root):
-        print(f"{a.json} is inside the repository; the list stays private, so write it somewhere outside {a.root}", file=sys.stderr)
+    if a.json and (inside(a.json, a.root) or inside(a.json, ROOT)):
+        print(f"{a.json} is inside the repository or the data root; the list stays private, so write it somewhere else", file=sys.stderr)
         return 2
     items = watch(data, quarters, q)
     if a.json:
