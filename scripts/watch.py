@@ -93,6 +93,11 @@ def money(v: float) -> str:
     return f"${v / 1e6:.1f} million"
 
 
+def versus(v: float, med: float) -> str:
+    """How a figure compares with its peer median, without dividing by a 0% median."""
+    return f"{v / med:.1f} times the {pct(med)}" if med > 0 else f"against a {pct(med)}"
+
+
 def signals(data: dict, quarters: list[str], q: str, cu: str) -> list[dict]:
     rec = data[q][cu]
     out = []
@@ -117,15 +122,15 @@ def signals(data: dict, quarters: list[str], q: str, cu: str) -> list[dict]:
         add("late loans rising", f"Loans 60 or more days late rose {n} quarters in a row, from {pct(dq[0])} in {qlabel(shift(q, -n))} to {pct(dq[-1])} in {qlabel(q)}.")
     if dq[-1] is not None:
         med = (rec.get("peers") or {}).get("delinquency", {}).get("median")
-        if med is not None and med > 0 and dq[-1] >= T["delq_peer_multiple"] * med and dq[-1] >= T["delq_peer_floor"]:
-            add("late loans above peers", f"Loans 60 or more days late were {pct(dq[-1])} in {qlabel(q)}, {dq[-1] / med:.1f} times the {pct(med)} median of its peer group.")
+        if med is not None and dq[-1] >= T["delq_peer_multiple"] * med and dq[-1] >= T["delq_peer_floor"]:
+            add("late loans above peers", f"Loans 60 or more days late were {pct(dq[-1])} in {qlabel(q)}, {versus(dq[-1], med)} median of its peer group.")
 
     # Net charge-offs
     nc = series(data, quarters, q, cu, "net_charge_offs_12m", 4)
     if nc[-1] is not None:
         med = (rec.get("peers") or {}).get("net_charge_offs_12m", {}).get("median")
-        if med is not None and med > 0 and nc[-1] >= T["nco_peer_multiple"] * med and nc[-1] >= T["nco_peer_floor"]:
-            add("charge-offs above peers", f"Loans written off, net of recoveries, over 12 months were {pct(nc[-1])} of loans in {qlabel(q)}, {nc[-1] / med:.1f} times the {pct(med)} peer-group median.")
+        if med is not None and nc[-1] >= T["nco_peer_multiple"] * med and nc[-1] >= T["nco_peer_floor"]:
+            add("charge-offs above peers", f"Loans written off, net of recoveries, over 12 months were {pct(nc[-1])} of loans in {qlabel(q)}, {versus(nc[-1], med)} peer-group median.")
         elif nc[0] is not None and nc[-1] - nc[0] >= T["nco_yoy_rise"] and nc[-1] >= T["nco_yoy_floor"]:
             add("charge-offs up", f"Loans written off, net of recoveries, over 12 months rose from {pct(nc[0])} in {qlabel(shift(q, -4))} to {pct(nc[-1])} in {qlabel(q)}.")
 

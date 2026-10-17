@@ -114,6 +114,12 @@ class Signals(unittest.TestCase):
         self.assertTrue(watch.inside(root / "out" / "leads.json", root))
         self.assertFalse(watch.inside(Path("/tmp/leads.json"), root))
 
+    def test_zero_peer_median_still_flags(self):
+        data = build(net_charge_offs_12m=[0.4, 0.4, 0.4, 0.4, 1.62], peer_net_charge_offs_12m=[0.0] * 5)
+        found = {s["signal"]: s["detail"] for s in watch.signals(data, QS, QS[-1], "1")}
+        self.assertIn("charge-offs above peers", found)
+        self.assertIn("against a 0% peer-group median", found["charge-offs above peers"])
+
     def test_small_credit_union_marked(self):
         data = build(total_assets=[9e6] * 5, net_worth_ratio=[7.5] * 5)
         items = watch.watch(data, QS, QS[-1])
